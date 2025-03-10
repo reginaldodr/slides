@@ -11,4 +11,4 @@ Estes slides foram produzidos usando o Beamer, uma classe do LATEX para criaçã
 
 Para mais detalhes sobre as turmas e outros materiais desta disciplina podem ser encotrados aqui
 
-[Disciplinas](https://demarque.mat.uff/teaching)
+[Disciplinas](http://demarque.mat.br/teaching)
