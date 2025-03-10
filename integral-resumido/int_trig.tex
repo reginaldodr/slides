@@ -1,0 +1,190 @@
+%\subsection{Integrais Trigonométricas}
+%
+%
+%\begin{frame}
+%\frametitle{Integrais de funções Trigonométricas}
+%\begin{small}
+%
+%\uncover<1->{\begin{block}{Produtos de potências de senos e cossenos}
+%$$\int\sen^m x\cos^n x\ dx,$$
+%onde $m$ e $n$ são inteiros não negativos.
+%\end{block} }
+%
+%\uncover<2->{\begin{exe}
+%\begin{enumerate}
+%\item $\dps \int \sen^3 x\cos^2 x\ dx$
+%\item $\dps \int \sen^2 x\cos^2 x\ dx$
+%\end{enumerate}\end{exe}}
+%
+%\end{small}
+%\end{frame}
+%
+%
+%\begin{frame}
+%\frametitle{ }
+%\begin{small}
+%
+%\uncover<1->{\begin{block}{Produtos de potências de tangentes e secantes}
+%$$\int \tg^m x\sec^n x\ dx,$$
+%onde $m$ e $n$ são inteiros não negativos.
+%\end{block} }
+%
+%\uncover<2->{\begin{exe}
+%\begin{multicols}{2}
+%\begin{enumerate}
+%\item $\dps \int \tg^6 x\sec^4 x\ dx$
+%\item $\dps \int \tg^5 x\sec^7 x\ dx$
+%\item $\dps \int \sec^3 x\ dx$
+%\bigskip
+%
+%\item $\dps \int \tg^2x \sec x\ dx$
+%\item $\dps \int \tg^5 x \ dx$
+%\\
+%
+%\end{enumerate}
+%\end{multicols}\end{exe}}
+%
+%\end{small}
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{ }
+%\begin{small}
+%
+%\uncover<1->{\begin{block}{Produtos de senos e cossenos}
+%$$\int \sen mx \cos nx\ dx,\ \int \sen mx \sen nx\ dx,\ \int \cos mx \cos nx\ dx$$
+%onde $m$ e $n$ são inteiros não negativos.
+%\end{block} }
+%
+%\uncover<1->{\begin{block}{Fórmulas trigonométricas }
+%$$\sen a\sen b=\frac{1}{2}\left(\cos(a-b)-\cos(a+b)\right)$$
+%$$\cos a\cos b=\frac{1}{2}\left(\cos(a-b)+\cos(a+b)\right)$$
+%$$\sen a\cos b=\frac{1}{2}\left(\sen(a-b)-\sen(a+b)\right)$$
+%\end{block}  }
+%
+%\uncover<2->{\begin{exe}
+%\begin{enumerate}
+%\item $\dps \int \sen 4x\cos 5x\ dx$
+%\end{enumerate}\end{exe}}
+%
+%\end{small}
+%\end{frame}
+%
+%
+%\begin{frame}
+%\begin{small}
+%\begin{exer}
+%
+%\begin{enumerate}
+%
+%\item Calcule a integral $\dps\int sen^2x\cos^4 x\ dx$.
+%
+%\item Encontre a fórmula de recorrência de $\dps\int \sec^n x\ dx$.
+%
+%\item Calcule a integral $\dps\int sen2x\sen4 x\ dx$.
+%\end{enumerate}
+%\end{exer}
+%
+%
+%\end{small}
+%\end{frame}
+%
+%
+%\begin{frame}[label=int_trig,label=current]
+%\frametitle{Substituição Trigonométrica }
+%
+%%\begin{block}{Substituição Trigonométrica}
+%\begin{center}
+%\begin{tikzpicture}[node distance = 1cm, thick]%
+%\node (1) {{\color{blue}$\sqrt{1-x^2}$}};
+%\node (2) [below=of 1] {$\sin^2(\theta)+\cos^2(\theta)=1$};
+%\node[align=center] (2a) [below=of 2] {{\color{blue}$1-\sin^2(\theta)=\cos^2(\theta)$}\\ {\color{blue}$-\frac{\pi}{2}\leq \theta\leq \frac{\pi}{2}$}};
+%
+%\draw[->] (1) -- (2);
+%\draw[->] (2) -- (2a);
+%
+%
+%\node (3)[right=2cm of 1] {$\sqrt{1+x^2} \text{ ou } \sqrt{x^2-1}$};
+%\node (4) [below=of 3] {$\sec^2(\theta)-\tan^2(\theta)=1 $};
+%\draw[->] (3) -- (4);
+%\end{tikzpicture}
+%\end{center}
+%%
+%%\[\underbrace{\sqrt{1-x^2}}_{\sin^2(\theta)+\cos^2(\theta)=1} \ \ \ \underbrace{\sqrt{1+x^2} \text{ ou } \sqrt{x^2-1}}_{\sec^2(\theta)-\tan^2(\theta)=1}\]
+%%\end{block}
+%
+%\end{frame}
+
+\begin{frame}[label=int_trig]{Substituição Trigonométrica }
+
+\begin{center}
+\begin{tabular}{|c|l|l|}
+\hline
+ Expressão & Identidade & Substituição  \\ [1ex]
+\hline 
+& & \\
+{\color{blue}$\sqrt{1-x^2}$} & {\color{blue}$1-\sin^2(\theta)=\cos^2(\theta)$}  & {\color{blue}$x=\sin(\theta),\ -\frac{\pi}{2}\leq \theta\leq \frac{\pi}{2}$}\\[1ex]
+\hline
+& & \\
+{\color{red} $\sqrt{1+x^2}$} &  {\color{red} $1+\tan^2(\theta)=\sec^2(\theta)$}  & {\color{red}$x=\tan(\theta),\ -\frac{\pi}{2}< \theta< \frac{\pi}{2}$}  \\[1ex]
+\hline
+& & \\
+{\color{red}$\sqrt{x^2-1}$} &   {\color{red} $\sec^2(\theta)-1=\tan^2(\theta)$}  & {\color{red}$x=\sec(\theta),$\ \makecell{$0\leq \theta< \frac{\pi}{2}$\\ ou \\ $\pi\leq \theta< \frac{3\pi}{2}$}}  \\
+& & \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}[label=int_trig]
+
+\begin{exe}
+%\begin{multicols}{3}
+\begin{enumerate}
+\item Calcule $\dps\int\sqrt{1-x^2}\, dx$
+\item Mostre que a área do círculo de raio \textcolor{blue}{$r$} é $\pi \textcolor{blue}{r}^2$.
+%\item $\dps\int\frac{x^2dx}{\sqrt{9+x^2}}$
+%\item $\dps\int\frac{dx}{\sqrt{25x^2-4}}$
+%\medskip
+\end{enumerate}
+%\end{multicols}
+\end{exe}
+
+\end{frame}
+
+\begin{frame}
+\begin{casa}
+Calcule
+\[ \int\frac{dx}{x\sqrt{9+x^2}}\]
+\end{casa}
+
+\begin{exer}
+Obtenha a fórmula da área da elipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, onde $a,b>0$.
+%\end{enumerate}
+\end{exer}
+\end{frame}
+
+
+%\begin{frame}
+%\begin{small}
+%\begin{casa}
+%Calcule as integrais
+%\begin{enumerate}
+%\item  $\dps\int \sqrt{1-9t^2} dt$.
+%
+%\item  $\dps\int_1^e \frac{dy}{y\sqrt{1+\ln^2y}}$.
+%
+%\item Obtenha a fórmula da área da elipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, onde $a,b>0$.
+%\end{enumerate}
+%
+%\end{casa}
+%
+%\end{small}
+%
+%
+%\end{frame}
+
+
+
+

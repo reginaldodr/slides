@@ -1,0 +1,200 @@
+\documentclass[envcountsect,usenames,dvipsnames,aspectratio=43]{beamer}
+
+
+\usepackage{pythontex} 
+\usefonttheme[onlymath]{serif}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{syntonly}
+
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing,patterns}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% gráfico do coseno nas vibrações mecânicas
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[labelformat=empty]{caption}
+\setbeamertemplate{caption}[numbered]{}
+
+
+
+\usetheme{Madrid}
+\usecolortheme{beaver}
+
+\setbeamertemplate{theorems}[numbered]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\setbeamertemplate{enumerate items}[circle]
+
+\newtheorem{nada}{Nada}
+
+\newtheorem{defin}[nada]{Defini\c c\~ao}
+
+\newtheorem{prop}[nada]{Proposi\c c\~ao}
+
+\newtheorem{corol}[nada]{Corol\'ario}
+
+\newtheorem{teo}[nada]{Teorema}
+
+\newtheorem{lema}[nada]{Lema}
+
+%\newtheorem{exe}{Exemplo}
+
+\newtheorem{outline}{\timesbold outline rem proof}
+
+\newtheorem{obs}[nada]{Observação}
+\newtheorem{afir}{Afirmação}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\makeatletter
+\def\th@exercicio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+\theoremstyle{exercicio}
+\newtheorem*{exer}{\includegraphics[scale=0.06]{w-brainb.png} Exercício}
+\makeatother
+
+\newtheorem{casa}{\includegraphics[scale=0.035]{w-homework.png} Para Casa}
+\makeatother
+
+
+
+
+\makeatletter
+\def\th@something{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{exampleblock}  
+}
+\theoremstyle{something}
+\newtheorem*{exe}{\includegraphics[scale=0.3]{exemplo.png} Exemplo }
+\makeatother
+
+
+\makeatletter
+\def\th@resp{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{block}  
+}
+\theoremstyle{resp}
+\newtheorem*{resp}{\includegraphics[scale=0.01]{White_check.png} Resposta}
+\makeatother
+
+\makeatletter
+\def\th@desafio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+
+\theoremstyle{desafio}
+\newtheorem*{desafio}{\includegraphics[scale=0.02]{desafio-branco.png} Desafio}
+\makeatother
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\cqd}{\hfill \framebox[7pt]{} \mbox{} \medskip}
+\newcommand{\dem}{\noindent {\bf Demonstra\c c\~ao:}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\dt}[1]{{\color{blue} #1}}
+\newcommand{\ang}{\widehat}
+\newcommand{\n}[1]{\|#1\|}
+\newcommand{\pe}[2]{\langle #1,#2\rangle}
+\newcommand{\sen}{\operatorname{sen}} 
+\newcommand{\tg}{\operatorname{tg}}     
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\pv}[2]{\vt{#1}\times \vt{#2}}
+\newcommand{\pmt}[3]{[\vt{#1},\vt{#2},\vt{#3}]}
+\newcommand{\ex}{\textcolor{structure}{\large{Exemplo\ \ }}}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\tgh}{\operatorname{tgh}}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\fm}{\textordfeminine\ }
+\newcommand{\mc}{\textordmasculine}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+%\setbeamercovered{transparent}
+\title[cálculo II: EDO]{ Cálculo II\\
+	\normalsize{Equações Diferenciais Ordinárias e Aplicações}}
+\author[Prof. Reginaldo Demarque]{Prof. Reginaldo Demarque}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pgfdeclareimage[]{logo}{uff}
+%\logo{\pgfuseimage{logo}}
+
+\logo{\includegraphics[scale=0.03]{UFF_brasao.png}}
+
+
+
+\institute[UFF/RCN]{\includegraphics[scale=0.4]{sol-logistico-capa.png}\\
+	Universidade Federal Fluminense\\
+Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza -- RCN  \\
+Campus de Rio das Ostras
+	}
+\date[{\color{orange} \today}]{ }
+
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{
+ \frametitle{Sumário}
+ \tableofcontents
+}
+
+
+
+%\AtBeginSection[]
+%{
+% \begin{frame}
+%
+%  \frametitle{Sumário}
+%  \tableofcontents[currentsection]
+%
+% \end{frame}
+%}
+
+\include{intro}
+\include{1a_ordem}
+\include{complexos}
+\include{2a_ordem_linear}
+
+
+
+\end{document}
+
+
+

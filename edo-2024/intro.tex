@@ -1,0 +1,139 @@
+\section{EDO's}
+
+
+
+
+\begin{frame}
+\frametitle{Equações Diferenciais Ordinárias }
+%\begin{scriptsize}
+
+Uma equação algébrica é uma equação em que as incógnitas são números. Uma \dt{equação diferencial} é uma equação em que as incógnitas são funções e a equação envolve derivadas desta função. 
+
+\begin{exe}
+Primeiros modelos:
+\begin{enumerate}
+\item \textbf{Crescimento Populacional Malthusiano:} $y'=ky$ 
+\item \textbf{Crescimento Populacional Logístico:} $y'=ky(M-y)$
+\item \textbf{Queda Livre de Corpos:} $h''(t)=-g$
+\item \textbf{Vibrações Mecânicas:} $my''+ky=0$
+\item \textbf{Pêndulo Simples:} $\theta''+\frac{g}{\ell}\sen\theta=0.$
+\end{enumerate}
+\end{exe}
+
+
+
+%\end{scriptsize}
+\end{frame}
+
+
+
+
+%
+%
+%\begin{frame}{Vibrações Mecânicas}
+%\begin{tikzpicture}[black!75]
+%		
+%		% Supporting structure
+%		\fill [pattern = north west lines] (-1.5,0) rectangle ++(3,.2);
+%		\draw[thick] (-1.5,0) -- ++(3,0);
+%		
+%		% Spring + Arrows
+%		\draw[] (0,0) -- ++(0,-0.25);
+%		\draw[decoration={aspect=0.3, segment length=1.2mm, amplitude=2mm,coil},decorate] (0,-0.25) -- ++(0,-2.25) node[midway,right=0.25cm,black]{{\color{red}$k$}}; 
+%		\draw[] (0,-2.5) -- ++(0,-0.3) node[coordinate](c1){};
+%		
+%		\begin{scope}[xshift=4cm]
+%			% Supporting structure
+%			\fill [pattern = north west lines] (-1.5,0) rectangle ++(3,.2);
+%			\draw[thick] (-1.5,0) -- ++(3,0);
+%			
+%			% Spring + Arrows
+%			\draw[] (0,0) -- ++(0,-0.25);
+%			\draw[decoration={aspect=0.3, segment length=1.4mm, amplitude=2mm,coil},decorate] (0,-0.25) -- ++(0,-2.75) node[midway,right=0.25cm,black]{{\color{red}$k$}}; 
+%			\draw[] (0,-3) -- ++(0,-0.3)node[coordinate](c2){} node[draw,fill=blue!70,minimum width=1cm,minimum height=0.5cm,anchor=north,label=east:{\color{blue}$m$}](M){};
+%		\end{scope}
+%		
+%		\begin{scope}[xshift=8cm]
+%			% Supporting structure
+%			\fill [pattern = north west lines] (-1.5,0) rectangle ++(3,.2);
+%			\draw[thick] (-1.5,0) -- ++(3,0);
+%			
+%			% Spring + Arrows
+%			\draw[] (0,0) -- ++(0,-0.25);
+%			\draw[decoration={aspect=0.3, segment length=1.5mm, amplitude=2mm,coil},decorate] (0,-0.25) -- ++(0,-3.5) node[midway,right=0.25cm,black]{{\color{red}$k$}}; 
+%			\draw[] (0,-3.75) -- ++(0,-0.3)node[coordinate](c3){} node[draw,fill=blue!70,minimum width=1cm,minimum height=0.5cm,anchor=north,label=east:{\color{blue}$m$}](M){};
+%		\end{scope}
+%		
+%		
+%		\draw[dashed,gray] (c1) -- ++(3.75,0)coordinate(c22);
+%		\draw[dashed,gray] (c2) -- ++(-1.5,0) coordinate(c12);
+%		\draw[latex-latex] (c12)-- (c12|-c1)node[midway,left]{\small $L$};
+%
+%
+%		
+%		\draw[dashed,gray] (c22)++(0.5,0) -- ++(3.5,0)coordinate(c33);
+%		\draw[dashed,gray] (c3) -- ++(-1.5,0) coordinate(c23);
+%
+%	    \draw[dashed,gray] (c2)++(.5,0) -- ++(2,0) coordinate(c122);
+%		\draw[latex-latex] (c122)-- (c122|-c3)node[midway,left]{\small $y$};
+%		
+%		
+%	\end{tikzpicture}
+%
+%Um sistema de massa-mola composto de um corpo de massa {\color{blue}$m$} preso a uma mola, com constante elástica {\color{red}$k$}, que está presa ao teto satisfaz a equação diferencial
+%\[{\color{blue}m}y''+{\color{red}k}y =0.\]
+%\end{frame}
+%
+%
+%\begin{frame}{Pêndulo Simples}
+%O movimento de um pêndulo simples de massa $m$ e comprimento $\ell$ é descrito pela função $\theta(t)$ que satisfaz a equação diferencial
+%\[\theta''+\frac{g}{\ell}\sen\theta=0.\]
+%
+%\end{frame}
+%
+
+
+
+
+\begin{frame}
+\frametitle{Classificação }
+%\begin{scriptsize}
+
+\uncover<1->{As equações diferenciais são classificadas quanto ao \dt{tipo}, à \dt{ordem} e à \dt{linearidade}.
+\begin{enumerate}[a]
+\item Dizemos que uma equação diferencial é \dt{ordinária}, ou simplesmente \dt{EDO}, quando envolver somente funções de uma variável. Caso contrário dizemos que é \dt{parcial}, ou simplesmente (EDP). As duas equações anteriores são EDO's e um exemplo de EDP é a seguinte equação
+$$\frac{\partial u}{\partial x}(x,y)+\frac{\partial u}{\partial y}(x,y)=0.$$
+
+\item Uma equação diferencial é dita de \dt{n-ésima ordem } quando a maior ordem das derivadas é n.
+
+\item Uma EDO é dita \dt{linear} quando é da forma
+$$a_n(t)\frac{d^ny}{dt^2}+\cdots+a_2(t)\frac{d^2y}{dt^2}+a_1(t)\frac{dy}{dt}+a_0(t)y+f(t)=0.$$
+E \dt{não linear} caso contrário.
+
+\end{enumerate} }
+
+%\end{scriptsize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Soluções de EDO's }
+%\begin{scriptsize}
+
+\uncover<1->{\begin{defin}
+Uma \dt{solução } de uma EDO de ordem $n$ em um intervalo $I$ é uma função $y(t)$ definida no intervalo $I$ tal que as derivadas até ordem $n$ estão definidas em $I$ e satisfazem a equação neste intervalo.
+\end{defin} 
+
+\begin{exe} Considere a equação
+$$y''-3y'+2y=0.$$
+Note que $y_1(t)=e^{t}$ e $y_2(t)=e^{2t}$ são soluções da equação para todo $t\in\R$.  
+\end{exe}}
+
+%\end{scriptsize}
+\end{frame}
+
+
+
+
+

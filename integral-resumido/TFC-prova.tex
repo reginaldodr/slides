@@ -1,0 +1,104 @@
+
+\subsection*{Demonstraçao do TFC}
+
+
+\begin{frame}[label=def_integral]
+	\frametitle{ }
+	\begin{small}
+		
+		\uncover<1->{\begin{teo}[Teorema do valor médio para integrais] Se $f$ é contínua em $[a,b]$, então existe $c\in[a,b]$ tal que 
+				$$f(c)=\frac{1}{b-a}\int_a^b f(x)dx.$$
+				O lado direito da identidade é dito \dt{valor médio de f em $[a,b]$.} 
+		\end{teo} }
+		
+		\uncover<1->{\begin{exe} \begin{enumerate}
+					\item Calcule o valor médio da função $f(x)=x$ em $[1,3]$
+					\item Mostre que se $f$ é contínua em $[a,b]$, com $a\neq b$, e $\dps \int_a^bf(x)dx=0$, então $f(x)=0$ em algum ponto de $[a,b]$.
+				\end{enumerate}
+		\end{exe}}
+	\end{small}
+\end{frame}
+
+\begin{frame}[label=def_integral]
+	\frametitle{ Demonstração do Teorema do Valor Médio Para Integrais.}
+	\begin{small}
+		
+		\uncover<1->{Para demonstrarmos o TVMI basta observar que o valor médio de uma função está entre os valores máximo e mínimo desta função e assim usarmos o Teorema do Valor Intermediário.
+			
+			
+			\begin{teo}[Teorema do Valor Intermediário]
+				Uma função $f$ contínua em um intervalo fechado $[a,b]$ assume todos os valores entre $f(a)$ e $f(b)$. Em outras palavras, se $d$ for qualquer valor entre $f(a)$ e $f(b)$, então existe $c\in[a,b]$ tal que $f(c)=d$.\end{teo} }
+	\end{small}
+\end{frame}
+
+
+\begin{frame}[label=def_integral]
+\frametitle{Regra de Leibniz }
+\begin{small}
+
+\uncover<1->{ Em algumas aplicações, às vezes encontramos funções definidas por integrais, como por exemplo a \dt{função de Fresnel}
+$$S(x)=\int_0^x \sen (\pi t^2/2)dt.$$
+Essa função apareceu pela primeira vez na teoria de difração das ondas de luz de Fresnel e foi aplicada mais recentemente no planejamento de autoestradas. Do Corolário \ref{corol_TFC} sabemos que $S'(x)=\sen (\pi x^2/2)$ e a partir daí podemos esboçar o gráfico de $S$. }
+\medskip
+
+\uncover<2->{A \dt{função erro} dada por
+$$\operatorname{erf}(x)=\frac{2}{\sqrt{\pi}}\int_0^ x e^{-t^2}dt$$
+aparece em probabilidade, estatística e engenharia. Pelo Corolário \ref{corol_TFC}, podemos ver que $y=e^{x^2}\operatorname{erf}(x)$ satisfaz a  equação
+$$y'=2xy+\frac{2}{\sqrt{\pi}}.$$}
+
+\end{small}
+\end{frame}
+
+
+\begin{frame}[label=def_integral]
+
+\begin{small}
+
+\uncover<1->{A \dt{função seno integral} dada por
+$$\operatorname{Si}(x)=\int_0^x\frac{\sin(t)}{t}dt$$
+aparece em aplicações de engenharia elétrica.}
+\medskip
+
+\uncover<2->{Em todos estes exemplos os limites de integração são $0$ e $x$, neste caso sabemos calcular a derivada das funções. Porém, em algumas aplicação encontramos funções como 
+$$f(x)=\int_{\sen x}^{x^2}(1+t)dt\ \ \ \ \mbox{ e }\ \ \ \ g(x)=\int_{\sqrt{x}}^{2\sqrt{x}}\sen t^2 dt.$$
+Como proceder no calculo das derivas nestes casos? A primeira integral pode ser resolvida facilmente, já a segunda não. A resposta a essa pergunta é a \dt{regra de Leibnz} a seguir.}
+
+
+
+\end{small}
+\end{frame}
+
+
+\begin{frame}[label=def_integral]
+
+\begin{small}
+
+\uncover<1->{\begin{block}{Regra de Leibnz}
+Seja $f$ contínua em $[a,b]$. Se $u$ e $v$ são funções deriváveis com valores em $[a,b]$, então
+$$\frac{d}{dx}\int_{u(x)}^{v(x)}f(t)dt=f(v(x))v'(x)-f(u(x))u'(x).$$ 
+\end{block}}
+
+\end{small}
+\end{frame}
+
+
+
+\begin{frame}[label=def_integral]
+
+\begin{small}
+
+\begin{casa}
+\begin{enumerate}[a]
+
+\item Derive a função
+$$f(x)=\int_0^{\sqrt{x}}e^{t^2}dt.$$
+
+\item Determine $f(4)$, se $$\dps\int_0^{x^2}f(t)dt=x\cos\frac{\pi x}{8}.$$
+
+\end{enumerate}
+
+
+\end{casa}
+
+\end{small}
+\end{frame}

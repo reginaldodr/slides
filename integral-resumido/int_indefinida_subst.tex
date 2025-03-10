@@ -1,0 +1,299 @@
+\subsection*{Integral indefinida}
+\begin{frame}
+\frametitle{ Integral indefinida}
+\begin{small}
+
+\uncover<1->{A \dt{integral indefinida} de $f$ em relação a $x$ é o conjunto de todas as primitivas de uma função $f$ e denotamos da seguinte forma
+$$\int f(x)dx.$$
+O símbolo $\int$ é dito \dt{sinal de integração}, $f$ é dita \dt{integrando} da integral e $x$ é a \dt{variável de integração.}}
+
+\uncover<2->{\begin{exe} Encontre as integrais indefinidas
+$$\int \frac{1}{x}dx,\ \ \int e^x\ dx, \ \ \int\frac{1}{1+x^2}dx, \ \ \int \sec^2 dx.$$
+\\
+
+\end{exe}}
+
+\end{small}
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]{Usando Python}
+%\begin{small}
+\begin{block}{ }
+\begin{pyverbatim}
+import sympy as sp
+
+x = sp.symbols('x') #variável
+f=1/x #função
+g=1/(1+x**2) #função
+intf=sp.integrate(f,x) #integral indefinida
+intg=sp.integrate(g,x) #integral indefinida
+\end{pyverbatim}
+\end{block}
+%\end{small}
+\begin{pycode}
+import sympy as sp
+x = sp.symbols('x') #variável
+f=1/x #função
+g=1/(1+x**2) #função
+intf=sp.integrate(f,x) #integral indefinida
+intg=sp.integrate(g,x) #integral indefinida
+\end{pycode}
+
+\[\dps \int \frac{1}{x}\, dx=\py{sp.latex(intf)}+C,\ \dps \int \frac{1}{1+x^2}\, dx=\py{sp.latex(intg)}+C.\]
+
+\begin{alertblock}{Observação}
+Neste curso, reservaremos a notação $\log(x)$ para o logarítmo na base $e$, isto é, 
+$\log(x)=\log_e(x)$. Veja a justificativa em \href{https://reginaldodr.github.io/academic/posts/notacao-log/notacao-log.html}{\beamergotobutton{Link}}
+\end{alertblock}
+
+\end{frame}
+
+
+%\begin{frame}{Aplicações}
+%
+%\begin{exampleblock}{Queda livre de corpos}
+%Consideremos um corpo de massa \textcolor{blue}{$m$} que é abandonado, a partir do repouso de uma altura \textcolor{blue}{$h_0$}. Desprezando-se a resistência do ar, determine uma função \textcolor{blue}{$h=h(t)$} que descreve a altura do objeto em cada instante do tempo. 
+%\end{exampleblock}
+%
+%
+%
+%\end{frame}
+\section{Técnicas de integração}
+
+\subsection*{Regra da Substituição}
+
+\begin{frame}
+\frametitle{A regra da Substituição }
+%\begin{small}
+
+\uncover<1->{ \begin{teo} Se $u=g(x)$ é uma função derivável cuja imagem é um intervalo $I$ e  $f$ é contínua em $I$, então
+$$\int f(g(x))g'(x)dx=\int f(u)du$$
+\end{teo}}
+
+
+
+\uncover<2->{\begin{exe} Calcule as integrais
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\dps\int \cos(x^2)2x\ dx$
+\item $\dps\int e^{x^3}x^2\ dx$
+%\item $\dps\int \frac{x}{x^2+1}\ dx$
+\\
+
+%\item $\dps\int_0^{\pi/4} \tg x\ dx$
+\end{enumerate}
+\end{multicols}
+\end{exe}}
+
+
+%\end{small}
+\end{frame}
+
+\begin{frame}
+	\begin{casa}
+		Calcule as integrais
+			\begin{enumerate}
+			\item $\dps\int \cos^2(x)\, dx$
+			\item $\dps\int \sec(x)\, dx$
+			\item $\dps\int\frac{x}{x^2+1}\, dx$
+		\end{enumerate}
+	\end{casa}
+	
+
+\end{frame}
+
+%\begin{frame}{Aplicações}
+%
+%\begin{exampleblock}{Modelo Populacional Malthusiano}
+%Este tipo de modelo é razoável para descrever populações que tem {\color{cyan}recurso ilimitados para crescimento e ausência de predadores}. 
+%\begin{itemize}
+%\item {\color{blue}$y(t)$}: número de indivíduos de uma população no instante $t$.
+%\item {\color{red}$y'(t)$}: taxa de crescimento de uma população no instante $t$.
+%
+%\item Supõe-se que a {\color{red} taxa de crescimento} de uma população é proporcional à {\color{blue} população presente} 
+%\[{\color{red}y'(t)}=k{\color{blue}y(t)}\]
+%\end{itemize}
+%
+%
+%\medskip
+%
+%Supondo que a população no instante $t=0$ é $y_0$, determine a função $y=y(t)$. Em quanto tempo a população dobra de tamanho?
+%\end{exampleblock}
+%\end{frame}
+%
+%\begin{frame}{Decaimento Radioativo}
+%	Átomos instáveis podem emitir massa ou radiação espontaneamente, em um processo chamado {\color{blue}decaimento radioativo}. Isso pode resultar na formação de um novo elemento. Exemplos disso são o {\color{red}carbono-14 radioativo} que decai em nitrogênio e o rádio que decai em chumbo
+%	
+%	\begin{block}{Meia-vida}
+%		A {\color{blue}meia-vida} de um elemento radioativo é o tempo necessário para que metade dos núcleos radioativos presentes em uma amostra decaiam. Por exemplo, sabe-se que {\color{red}a meia-vida do carbono-14 é 5730 anos}, ou seja, que em 5730 anos metade do carbono-14 presente transformou-se em  nitrogênio.
+%	\end{block}
+%	
+%	Experimentos têm mostrado que em um determinado momento, {\color{blue}a taxa na qual um elemento radioativo decai é proporcional à quantidade de elemento presente}.
+%	
+%\end{frame}
+%
+%\begin{frame}{Datação por Carbono-14}
+%	Uma ferramenta importante em pesquisa arqueológica é a {\color{red}datação por carbono-14} desenvolvida pelo químico estadunidense Willard F. Libby, que recebeu o prêmio Nobel de química em 1960 por este trabalho. 
+%\medskip 
+%	
+%Em um organismo vivo, a proporção de {\color{red}carbono-14}, permanece relativamente constante durante a vida do organismo. Quando ele morre a absorção de {\color{red}carbono-14} cessa e a partir de então o {\color{red}carbono-14} {\color{blue}decai a uma taxa proporcional a quantidade presente}. 	
+%	
+%	\begin{casa}
+%		Em um pedaço de madeira é encontrado $90\%$ da quantidade original de carbono-14. Qual a idade deste pedaço de madeira?
+%	\end{casa}
+%\end{frame}
+%%\begin{frame}{Datação por Carbono 14}
+%%
+%%
+%%A proporção de carbono 14(radioativo) em relação ao carbono 12 presentes nos seres vivos é constante. Quando um organismo morre a absorção de carbono 14 cessa e a partir de então o carbono 14 vai se transformando em carbono 12 a uma taxa proporcional a quantidade presente. Podemos descrever o problema de encontrar a quantidade de carbono 14 em função do tempo, $y(t)$, pela seguinte equação.
+%%\[\frac{dy}{dt}=-ky\]
+%%
+%%\begin{exe} Em um pedaço de madeira é encontrado $1/500$ da quantidade original de carbono 14. Sabe-se que a meia-vida do carbono 14 é 5600 anos, ou seja, que em 5600 anos metade do carbono 14 presente transformou-se em carbono 12. Qual a idade deste pedaço de madeira?
+%%\end{exe}
+%%\end{frame}
+
+
+\begin{frame}
+\begin{small}
+\uncover<1->{\begin{corol} Se $g' $ é contínua em $[a,b]$ e $f$ é contínua em $g([a,b])$, então
+$$\int_a^b f(g(x))g'(x)dx=\int_{g(a)}^{g(b)} f(u)du$$
+\end{corol}}
+
+\uncover<2->{\begin{exe} Calcule 
+ $\dps\int_{-1}^1 3x^2\sqrt{x^3+1}\ dx$
+
+\end{exe} }
+
+
+\end{small}
+\end{frame}
+
+
+
+%\begin{frame}
+%\begin{small}
+%
+%\uncover<1->{\begin{prop} Seja $f$ contínua em $[-a,a]$.
+%\begin{enumerate}[a]
+%\item Se $f$ é par, então $\dps \int_{-a}^a f(x)dx=2\int_{0}^a f(x)dx$
+%\item Se $f$ é ímpar, então $\dps \int_{-a}^a f(x)dx=0$
+%\end{enumerate}
+%\end{prop}}
+%
+%\uncover<2->{\begin{exe} 
+%
+%\begin{multicols}{2}
+%\begin{enumerate}
+%
+%\item $\dps\int_{-\pi/2}^{\pi/2} \cos x\ dx$
+%
+%\item $\dps\int_{-\pi}^\pi \sen x\ dx$
+%\\
+%
+%\end{enumerate}
+%\end{multicols}
+%
+%
+%\end{exe} }
+%
+%\end{small}
+%\end{frame}
+
+
+
+%\begin{frame}
+%\frametitle{ Exemplos Importantes}
+%\begin{exe} \begin{enumerate}
+%\item $\dps\int\frac{dx}{\sqrt{8x-x^2}}$
+%\medskip
+%
+%\item $\dps \int\frac{3x^2-7x}{3x+2}dx$
+%\medskip
+%
+%\end{enumerate}
+%\end{exe} 
+
+%\end{frame}
+
+\begin{frame}
+	\begin{casa}
+		Calcule as integrais
+\begin{enumerate}
+	\item  $\dps\int_0^{\pi/4} \tg x\ dx$
+	
+	\item $\dps\int\frac{dx}{\sqrt{8x-x^2}}$
+		
+%	\item $\dps \int\frac{3x^2-7x}{3x+2}dx$
+	
+\end{enumerate}
+	\end{casa}
+	
+	
+%\begin{exer}
+%Calcule as integrais
+%\begin{enumerate}
+%\item $\dps \int \sen^3 (x)\cos^2 (x)\ dx$
+%\item $\dps \int \sen (4x)\cos (5x)\ dx$
+%\end{enumerate}
+%\end{exer}
+\end{frame}
+
+%\begin{frame}[fragile=singleslide]{Usando Python}
+%%\end{small}
+%\begin{block}{title}
+%\begin{pyverbatim}
+%import sympy as sp
+%x = sp.symbols('x')
+%f=1/sp.sqrt(8*x-x**2)
+%g=1/sp.sqrt(16-(x-4)**2)
+%intf=sp.integrate(f,x)
+%intg=sp.integrate(g,x)
+%\end{pyverbatim}
+%\end{block}
+%
+%\begin{pycode}
+%import sympy as sp
+%f=1/sp.sqrt(8*x-x**2)
+%g=1/sp.sqrt(16-(x-4)**2)
+%intf=sp.integrate(f,x)
+%intg=sp.integrate(g,x)
+%\end{pycode}
+%
+%\[=\py{sp.latex(intf)}+C.\]
+%\end{frame}
+
+
+
+%
+%\begin{frame}
+%\frametitle{ }
+%\begin{small}
+%
+%\uncover<1->{\begin{exer} \begin{enumerate}
+%\item Calcule a integral $\int (2x+1)^3 dx$ por dois métodos: 
+%\begin{enumerate}[a]
+%\item Desenvolvendo  o binômio $(2x+1)^3$.
+%
+%\item Fazendo a substituição $u=2x+1$. 
+%
+%Explique a aparente diferença obtida nas respostas.
+%\end{enumerate}
+%\medskip
+%
+%\item  Calcule a integral $\int \sqrt{x-1}x^2 dx$ por dois métodos: 
+%\begin{enumerate}[a]
+%\item Fazendo a substituição $u=x-1$.
+%
+%\item Fazendo a substituição $u=\sqrt{x-1}$. 
+%
+%Explique a aparente diferença obtida nas respostas.
+%\end{enumerate}
+%
+%\end{enumerate}
+%\end{exer} }
+%
+%\end{small}
+%\end{frame}
+
+
