@@ -1,0 +1,14 @@
+*.aux
+*.dvi
+*.log
+*.bbl
+*.fdb_latexmk
+*.fls
+*.nav
+*.out
+*.pytxcode
+*.snm
+*.synctex.gz
+*.synctex.gz(busy)
+*.tex.bak
+*.toc
