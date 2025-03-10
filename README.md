@@ -2,7 +2,7 @@
 
 Estes são slides usados por mim nas disciplinas que leciono para os cursos de Engenharia de Produção e Ciências da Computação no campus da UFF de Rio das Ostras.
 
-- [gaal](/gall/gaal.pdf)
+- [gaal](gaal/gaal.pdf)
 - [Integral](integral/integral.pdf)
 - [EDO](edo/edo.pdf)
 - [Cálculo III-A](calculo3/calculo3.pdf)
