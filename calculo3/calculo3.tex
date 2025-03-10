@@ -1,0 +1,211 @@
+\documentclass[envcountsect,aspectratio=43]{beamer}
+
+
+\usepackage{pythontex} 
+\usepackage{etex}
+\usefonttheme[onlymath]{serif}
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsthm,amssymb}
+%\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{syntonly}
+
+%otimizacao}%,%derivadas-parciais} 
+\hypersetup{colorlinks,linkcolor=,urlcolor=blue}
+
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc}
+
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{tkz-euclide}
+\usepackage{tabu}
+
+%\syntaxonly
+%\includeonlyframes{fun-vet}
+
+%\includeonlyframes{current} 
+%\usebackgroundtemplate{\includegraphics{calculus2.eps}}
+
+
+
+\usepackage[labelformat=empty]{caption}
+\setbeamertemplate{caption}[numbered]{}
+
+
+
+\usetheme{Madrid}
+
+\setbeamertemplate{theorems}[numbered]
+
+\newtheorem{nada}{Nada}
+
+
+\theoremstyle{definition}
+\newtheorem{defin}[nada]{Defini\c c\~ao}
+\newtheorem{prop}[nada]{Proposi\c c\~ao}
+
+\newtheorem{corol}[nada]{Corol\'ario}
+
+\newtheorem{teo}[nada]{Teorema}
+
+\newtheorem{lema}[nada]{Lema}
+
+
+
+\newtheorem{outline}{\timesbold outline rem proof}
+
+\newtheorem{obs}[nada]{Observação}
+\newtheorem{afir}{Afirmação}
+
+
+
+
+
+\makeatletter
+\def\th@exercicio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+\theoremstyle{exercicio}
+\newtheorem*{exer}{\includegraphics[scale=0.06]{w-brainb.png} Exercício}
+\makeatother
+
+
+
+
+\makeatletter
+\def\th@something{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{exampleblock}  
+}
+\theoremstyle{something}
+\newtheorem*{exe}{\includegraphics[scale=0.3]{exemplo.png} Exemplo }
+\makeatother
+
+
+\makeatletter
+\def\th@resp{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{block}  
+}
+\theoremstyle{resp}
+\newtheorem*{resp}{\includegraphics[scale=0.01]{White_check.png} Resposta}
+\makeatother
+
+\makeatletter
+\def\th@desafio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+
+\theoremstyle{desafio}
+\newtheorem*{desafio}{\includegraphics[scale=0.02]{desafio-branco.png} Desafio}
+\makeatother
+
+
+\newtheorem{casa}{\includegraphics[scale=0.035]{w-homework.png} Para Casa}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\cqd}{\hfill \framebox[7pt]{} \mbox{} \medskip}
+\newcommand{\dem}{\noindent {\bf Demonstra\c c\~ao:}}
+\newcommand{\dest}{\textcolor{blue}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\dt}[1]{\textcolor{blue}{#1}}
+\newcommand{\ang}{\widehat}
+\newcommand{\n}[1]{\|#1\|}
+\newcommand{\pe}[2]{\langle #1,#2\rangle}
+\newcommand{\sen}{\operatorname{sen}} 
+\newcommand{\tg}{\operatorname{tg}}     
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\pv}[2]{\vt{#1}\times \vt{#2}}
+\newcommand{\pmt}[3]{[\vt{#1},\vt{#2},\vt{#3}]}
+\newcommand{\ex}{\textcolor{structure}{\large{Exemplo\ \ }}}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\tgh}{\operatorname{tgh}}
+\newcommand{\sech}{\operatorname{sech}}
+
+\newcommand{\pz}{(a,b)}
+\newcommand{\fm}{\textordfeminine\ }
+\newcommand{\mc}{\textordmasculine\ }
+
+\newcommand{\dx}[1]{\frac{\partial #1}{\partial x}}
+\newcommand{\dy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\dz}[1]{\frac{\partial #1}{\partial z}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\definecolor{corcapa}{RGB}{100, 100, 255}
+
+
+
+\begin{document}
+
+%\setbeamercovered{transparent}
+\title[cálculo III]{Cálculo III\\
+	\normalsize{Cálculo Diferencial de Várias Variáveis}}
+\author[Reginaldo Demarque]{\includegraphics[scale=0.2]{sela-macaco.png}\\
+	Prof. Reginaldo Demarque}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pgfdeclareimage[]{logo}{uff}
+%\logo{\pgfuseimage{logo}}
+
+\logo{\includegraphics[scale=0.03]{UFF_brasao.png}}
+
+\institute[RCN/UFF]{Universidade Federal Fluminense\\
+Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza -- RCN
+}
+\date{{\color{orange}\today}}
+
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{
+ \frametitle{Sumário}
+ \tableofcontents
+}
+
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+
+  \frametitle{Sumário}
+  \tableofcontents[currentsection]
+
+ \end{frame}
+}
+
+%\includeonlyframes{otimizacao}
+%bibliografia,introducao,fun-vet,funcoes,limites,der-parciais}
+
+
+
+\include{bibliografia}
+\include{introducao}
+\include{func-vet}
+\include{funcoes}
+\include{limite}
+\include{derivadas-parciais}
+\include{otimizacao}
+
+\end{document}
+
+

@@ -1,0 +1,788 @@
+\section{Sistema de Equações Lineares}
+
+
+\begin{frame}[label=sistemas]{Sistemas de Equações Lineares}
+
+Uma {\color{blue} equação linear} em {\color{red}$n$} variáveis {\color{red} $x_1,x_2,\ldots, x_n$} é uma equação da forma
+\[{\color{blue}a_1}{\color{red}x_1}+{\color{blue}a_2}{\color{red}x_2}+\cdots+{\color{blue}a_n}{\color{red}x_n}=b,\]
+em que {\color{blue} $a_1,a_2,\ldots, a_n$} e $b$ são constantes reais.
+
+Um {\color{blue}sistema  de $m$ equações lineares} a {\color{red}$n$ incógnitas} é um conjunto de {\color{blue}$m$} equações lineares, isto é,
+\[
+\left\{\begin{matrix}
+ {\color{blue}a_{11}}{\color{red}x_1} & + &  {\color{blue}a_{12}}{\color{red}x_2} & + & \cdots & + & {\color{blue}a_{1n}}{\color{red}x_n} & = & b_1  \\
+ {\color{blue}a_{21}}{\color{red}x_1} & + & {\color{blue}a_{22}}{\color{red}x_2} & + &   \cdots & + & {\color{blue}a_{2n}}{\color{red}x_n} & = & b_2  \\
+\vdots & \vdots  & & & &  & \vdots & \vdots & \vdots  \\
+ {\color{blue}a_{m1}}{\color{red}x_1} & + & {\color{blue}a_{m2}}{\color{red}x_2} & + &  \cdots  & + &   {\color{blue}a_{mn}}{\color{red}x_n} & = & b_m. 
+\end{matrix}
+\right.
+\]
+em que {\color{blue}$a_{ij}$} e $b_k$ são constantes reais, para $i,k=1,\ldots,m$ e $j=1,\ldots,n$.
+
+
+\end{frame}
+
+
+\begin{frame}[label=sistemas]{Sistemas de Equações Lineares}
+
+Usando o produto matricial, o {\color{blue}sistema linear} pode ser escrito da seguinte forma
+\[
+{\color{blue} \underbrace{\begin{bmatrix}
+ a_{11}  & a_{12}  & \cdots &  a_{1n}  \\
+ a_{21} & a_{22}  & \cdots  & a_{2n} \\
+ \vdots & \vdots & \cdots & \vdots \\
+ a_{m1} & a_{m2}  & \cdots  & a_{mn} 
+\end{bmatrix}}_{A}}\ \
+{\color{red}
+\underbrace{\begin{bmatrix}
+x_1\\ x_2\\ \vdots \\ x_n
+\end{bmatrix}}_{X}
+}
+=
+\underbrace{\begin{bmatrix}
+b_1 \\ b_2\\ \vdots \\ b_n
+\end{bmatrix}}_{B}.
+\]
+
+\end{frame}
+
+\begin{frame}[label=sistemas]{Solução de um Sistema Linear}
+Uma {\color{blue} solução} de um sistema linear a $n$ incógnitas é um vetor
+$(s_1,s_2,\ldots,s_n)\in \R^n$ que satisfaz a equação matricial $AX=B$ associada ao sistema. O conjunto de todas as soluções do sistema é chamado {\color{blue} conjunto solução} ou {\color{blue} solução geral} do sistema.
+
+\begin{exe}
+O seguinte sistema linear 
+\[\begin{cases}
+x+2y=1\\
+2x+y=0
+\end{cases}\]
+tem como solução geral 
+\[X=\left(-\frac{1}{3},
+\frac{2}{3}\right)\]
+\end{exe}
+
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{Como resolver Sistemas Lineares?}
+
+Uma forma de resolver um sistema linear é {\color{blue}substituir o sistema inicial por outro que tenha o mesmo conjunto solução do primeiro}, mas que seja mais fácil de resolver. Anteriormente, para resolver o seguinte sistema,
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+\end{pycode}
+
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}
+\end{cases}\]
+Fizemos uma operação elementares que o  transformou no sistema mais simples de resolver
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{-2*AX[1]+AX[0]}=\pyl{-2*B[1]+B[0]},
+\end{cases}\]
+cujo  conjunto solução é: $X=\left\{(1-\alpha,-\alpha,\alpha);\ \alpha \in \R.\right\}.$
+
+Esse procedimento pode ser generalizado.
+\end{frame}
+
+
+\subsection*{Operações Elementares}
+\begin{frame}[label=sistemas]{Método de Eliminação}
+O método utilizado acima é conhecido como {\color{blue} método de eliminação}, pois ao aplicá-lo, estamos ``eliminando incógnitas''.
+\medskip
+
+Dizemos que dois sistemas são {\color{blue}equivalentes} quando possuem  o mesmo conjunto solução. Obtemos sistemas equivalentes ao aplicarmos as chamadas {\color{blue} operações elementares}.
+
+\begin{block}{Operações Elementares}
+\begin{itemize}
+\item Trocar a posição de duas equações do sistema;
+\item Multiplicar uma equação por um escalar diferente de zero;
+\item Somar a uma equação outra equação multiplicada por um escalar.
+\end{itemize}
+\end{block}
+
+
+\end{frame}
+
+\begin{frame}[label=sistemas]{Matriz Aumentada}
+Quando aplicamos {\color{blue} operações elementares} sobre as equações de um sistema linear, somente os coeficientes do sistema são alterados, assim  trabalharemos apenas com a chamada {\color{blue}matriz aumentada} do sistema, ou seja,
+\[
+\left\{\begin{matrix}
+ {\color{blue}a_{11}}{\color{red}x_1} & + &  {\color{blue}a_{12}}{\color{red}x_2} & + & \cdots & + & {\color{blue}a_{1n}}{\color{red}x_n} & = & b_1  \\
+ {\color{blue}a_{21}}{\color{red}x_1} & + & {\color{blue}a_{22}}{\color{red}x_2} & + &   \cdots & + & {\color{blue}a_{2n}}{\color{red}x_n} & = & b_2  \\
+\vdots & \vdots  & & & &  & \vdots & \vdots & \vdots  \\
+ {\color{blue}a_{m1}}{\color{red}x_1} & + & {\color{blue}a_{m2}}{\color{red}x_2} & + &  \cdots  & + &   {\color{blue}a_{mn}}{\color{red}x_n} & = & b_m. 
+\end{matrix}
+\right.
+\]
+\[\Updownarrow \]
+\[
+\left[\begin{array}{@{}cccc|c@{}}
+  {\color{blue}a_{11}}  &  {\color{blue}a_{12}}  & \cdots &  {\color{blue}a_{1n}} & b_1  \\
+  {\color{blue}a_{21}} & {\color{blue}a_{22}}  & \cdots  &  {\color{blue}a_{2n}} & b_2\\
+ \vdots & \vdots & \cdots & \vdots & \vdots\\
+ {\color{blue}a_{m1}} &  {\color{blue}a_{m2}}  & \cdots  &  {\color{blue}a_{mn}} & b_n
+\end{array}\right]
+\]
+\end{frame}
+
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]
+Ilustrando com o exemplo anterior:
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+MA=sp.Matrix.hstack(A,B)
+MA2=sp.Matrix([MA.row(0),-2*MA.row(1)+MA.row(0)])
+A2=MA2[:,0:3]
+B2=MA2[:,3:4]
+AX2=A2*X
+eq12=sp.Eq(AX2[0],B2[0])
+eq22=sp.Eq(AX2[1],B2[1])
+\end{pycode}
+
+
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}
+\end{cases}
+\]
+\[\Updownarrow \]
+\[
+\pyl{MA}
+\stackrel{\Leftrightarrow}{_{-2\times L_2+L_1}}
+\pyl{MA2}
+\]
+\[\Updownarrow \]
+\[
+\begin{cases}
+\pyl{eq12}\\
+\pyl{eq22}
+\end{cases}
+\]
+\end{frame}
+
+\begin{frame}[label=sistemas]
+Neste caso, as operações elementares sobre o sistema se traduzem para as seguintes {\color{blue} operações elementares sobre matrizes}:
+
+\begin{block}{Operações elementares sobre as linhas de uma matriz}
+As três operações elementares sobre as linhas de uma matriz $A$ são:
+\begin{itemize}
+\item Trocar a posição de duas linhas da matriz $A$;
+\item Multiplicar uma linha da matriz por um escalar diferente de zero;
+\item Somar a uma linha da matriz um múltiplo escalar de outra linha.
+\end{itemize}
+\end{block}
+
+\begin{defin}
+Uma matriz $A=(a_{ij})_{m\times n}$ é {\color{blue}{linha-equivalente}} a uma matriz $B=(b_{ij})_{m\times n}$, quando $B$ pode ser obtida de $A$ aplicando-se uma sequência de operações elementares sobre suas linhas.
+\end{defin}
+\end{frame}
+
+\begin{frame}[label=sistemas,fragile=singleslide]
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[-6, -1,1],[3,1,5]])
+B=sp.Matrix([0,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+\end{pycode}
+
+\begin{casa}
+Usando a técnica aprendida, resolva o seguinte sistema linear.
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}
+\end{cases}\]
+\end{casa}
+
+\end{frame}
+
+\subsection*{Escalonamento}
+
+\begin{frame}[label=sistemas]{Escalonamento}
+O {\color{blue} escalonamento} é uma técnica que nos permite resolver sistemas lineares de uma forma geral. Ele consiste em aplicar operações elementares às linhas da matriz aumentada até obtermos uma matriz na forma conhecida como {\color{blue} matriz escalonada}. A saber, uma matriz está na forma {\color{blue}escalonada} quando satisfaz:
+\begin{block}{}
+\begin{enumerate}
+\item Todas as linhas nulas ocorrem abaixo das linhas não nulas;
+\item O {\color{blue} pivô} (1\mc elemento não nulo de uma linha) de cada linha ocorre à direita do pivô da linha anterior.
+\end{enumerate}
+\end{block}
+
+
+
+\end{frame}
+
+\begin{frame}[label=sistemas]
+As seguintes matrizes estão na forma escalonada:
+
+\[\begin{bmatrix}
+2 & 4 & 1\\
+0 & -1 & 2 \\
+0& 0& 0 
+\end{bmatrix},\ 
+\begin{bmatrix}
+1 & 0 & 1\\
+0 & 1 & 5 \\
+0& 0& 4 
+\end{bmatrix},\ 
+\begin{bmatrix}
+1 & 1 & 2 & 1\\
+0 & 0  & 1 & 3 \\
+0& 0& 0 & 0 
+\end{bmatrix},\ 
+\begin{bmatrix}
+0 & 2 & 0 & 1 & -1 & 3\\
+0 & 0  & -1 & 1 & 2 & 2 \\
+0& 0& 0 & 0 & 4 & 0\\
+0 & 0& 0& 0& 0 & 5
+\end{bmatrix},\ 
+\]
+
+\end{frame}
+
+
+
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{ }
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,1,1],[2,1,4],[2,3,5]])
+B=sp.Matrix([10,20,25])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+
+\end{pycode}
+
+\begin{exe}
+Resolva o sistema:
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3}
+\end{cases}\]
+\end{exe}
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,1,2],[-1,-2,3],[3,-7,4]])
+B=sp.Matrix([8,1,10])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+\end{pycode}
+
+\begin{exer}
+Resolva o sistema:
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3}
+\end{cases}\]
+\end{exer}
+
+\end{frame}
+
+
+\subsection*{Posto de uma matriz}
+%\begin{frame}[label=sistemas]{Posto de uma matriz}
+%
+%\begin{defin}
+%Definimos o {\color{blue} posto} de uma matriz $A$, denotado por $\operatorname{posto}(A)$, como sendo o número de linhas não nulas em sua forma escalonada.
+%\end{defin}
+%
+%
+%%\begin{block}{Classificação de sistemas lineares}
+%%Um sistema linear $AX=B$, onde $A=(a_{ij})_{m\times n}$, admite uma das seguintes alternativas:
+%%\begin{enumerate}[a]
+%%\item Não possui solução, quando o $\operatorname{posto}([A|B])>\operatorname{posto}(A)$.
+%%
+%%\item Possui uma única solução quando $\operatorname{posto}([A|B])=n$.
+%%
+%%\item Possui infinitas soluções quando $\operatorname{posto}([A|B])<n$.
+%%\end{enumerate}
+%%\end{block}
+%\end{frame}
+
+\begin{frame}[label=sistemas,fragile=singleslide]{Posto de uma matriz}
+
+\begin{defin}
+Definimos o {\color{blue} posto} de uma matriz $A$, denotado por $\operatorname{posto}(A)$, como sendo o número de linhas não nulas em sua forma escalonada.
+\end{defin}
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+\end{pycode}
+
+\begin{exe}
+Resolva o sistema e determine o posto da matriz aumentada.
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3}
+\end{cases}\]
+\end{exe}
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{Variáveis Livres}
+
+Uma matriz escalonada para o sistema anterior é:
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+Ma=sp.Matrix.hstack(A,B)
+system= A,B
+sol=sp.linsolve(system,x,y,z,w)
+Me=Ma.echelon_form()
+\end{pycode}
+\[A\sim \pyl{Me},\]
+cuja solução geral é:
+\[X=\pyl{sol}\]
+
+\begin{block}{}
+A matriz desse sistema possui duas colunas sem pivôs. As variáveis que não estão associadas a pivôs são chamadas de {\color{blue} variáveis livres}, isto é, podem assumir valores arbitrários. Assim, na solução geral, as variáveis associadas aos pivôs terão seus valores dependentes das variáveis livres.
+\end{block}
+
+\end{frame}
+
+\begin{frame}[label=sistemas]
+
+\begin{block}{Sistema impossível}
+Um sistema linear $AX=B$, onde $A=(a_{ij})_{m\times n}$, {\color{red} não admite solução} quando
+\[\operatorname{posto}([A|B])>\operatorname{posto}(A).\]
+Neste caso, dizemos que {\color{blue}o sistema é impossível}.
+\end{block}
+
+\begin{block}{Nulidade}
+Por motivos que ficarão claros nas aulas posteriores, ao número de variáveis livres, daremos o nome de {\color{blue} nulidade}.
+\end{block}
+
+\begin{teo}[Teorema do Posto]
+Seja $A=(a_{ij})_{m\times n}$ a matriz dos coeficiente de um sistema com $n$ variáveis. {\color{blue}Se o sistema for possível}, então
+\[\operatorname{nulidade}(A)+\operatorname{posto}(A)=n.\]
+\end{teo}
+
+%\begin{block}{Classificação de sistemas lineares}
+%Um sistema linear $AX=B$, onde $A=(a_{ij})_{m\times n}$, admite uma das seguintes alternativas:
+%\begin{enumerate}[a]
+%\item Não possui solução, quando o $\operatorname{posto}([A|B])>\operatorname{posto}(A)$.
+%
+%\item Possui uma única solução quando $\operatorname{posto}([A|B])=n$.
+%
+%\item Possui infinitas soluções quando $\operatorname{posto}([A|B])<n$.
+%\end{enumerate}
+%\end{block}
+
+\end{frame}
+
+\begin{frame}[label=sistemas]{Classificação}
+\begin{block}{Classificação de sistemas lineares}
+Um sistema linear $AX=B$, onde $A=(a_{ij})_{m\times n}$, admite uma das seguintes alternativas:
+\medskip
+
+Se $\operatorname{posto}([A|B])>\operatorname{posto}(A)$, então {\color{red} não possui solução}, isto é, sistema impossível.
+
+\medskip
+Caso contrário, 
+\begin{itemize}
+\item Se $\operatorname{posto}(A)=n$, então possui {\color{blue}uma única} solução.
+
+\item Se $\operatorname{posto}(A)<n$, então possui {\color{blue}infinitas} soluções.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{ }
+
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,-2,1],[2,-5,1],[3,-7,2]])
+B=sp.Matrix([1,-2,-1])
+C=sp.Matrix([2,-1,2])
+AX=A*X
+\end{pycode}
+
+\begin{casa}
+Resolva os sistema: $AX=B$ e $AX=C$, onde 
+\[A=\pyl{A},\ B=\pyl{B} \text{ e } C=\pyl{C}\]
+\end{casa}
+
+\end{frame}
+
+
+
+\subsection*{Resolvendo sistemas com o sympy}
+\begin{frame}[label=sistemas,fragile=singleslide]{Usando o sympy para resolver systemas lineares}
+
+O {\colorbox{lightgray}{\texttt{sympy}}} é uma poderosa ferramenta para resolver equações, especialmente as lineares. Considere o seguinte sistema:
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+Ma=sp.Matrix.hstack(A,B)
+system= A,B
+sol=sp.linsolve(system,x,y,z)
+\end{pycode}
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3},
+\end{cases}\]
+cuja matriz aumentada é:
+\[
+\pyl{Ma}
+\]
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+Usando o {\colorbox{lightgray}{\texttt{linsolve}}} obtemos a solução geral do sistema:
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sol=sp.linsolve((A,B),x,y,z)
+\end{pycode}
+
+\begin{footnotesize}
+\begin{pyverbatim}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sol=sp.linsolve((A,B),x,y,z)
+display(sol)
+\end{pyverbatim}
+\end{footnotesize}
+
+\[X=\pyl{sol}\]
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+Usando o {\colorbox{lightgray}{\texttt{solve}}} obtemos a solução geral do sistema:
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sistema=sp.Eq(A*X,B)
+sol=sp.solve(sistema,(x,y,z))
+\end{pycode}
+
+\begin{footnotesize}
+\begin{pyverbatim}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sistema=sp.Eq(A*X,B)
+sol=sp.solve(sistema,(x,y,z))
+display(sol)
+\end{pyverbatim}
+\end{footnotesize}
+
+\[X=\pyl{sol}\]
+\end{frame}
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+Podemos também obter a {\color{blue}matriz escalonada} da seguinte forma
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+\end{pycode}
+
+\begin{footnotesize}
+\begin{pyverbatim}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+display(Me)
+\end{pyverbatim}
+\end{footnotesize}
+
+\[A \sim \pyl{Me}\]
+\end{frame}
+
+
+\subsection*{Método de Gauss-Jordan}
+
+\begin{frame}{Método de Gauss-Jordan}
+O método usado para resolver os sistemas anteriores, isto é, transformar a matriz aumentada em uma escalonada é conhecido como {\color{blue} Método de Gauss}.
+\medskip
+
+Uma variação deste método, conhecido como {\color{blue} Método de Gauss-Jordan}, consiste em transformar a matriz aumentada na chamada {\color{blue} matriz escalonada reduzida}. A saber, uma matriz esta na forma {\color{blue}escalonada reduzida} quando além de escalonada ela satisfaz:
+\begin{block}{ }
+\begin{enumerate}[a]
+\item O pivô de cada linha é $1$;
+\item Se uma coluna contém um pivô, então todos os outros elementos são iguais a zero.
+\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}[label=sistemas]
+A seguinte matriz está na forma escalonada reduzida
+
+\[
+\begin{bmatrix}
+1& 2 & 0 & 0& -5 & 1 & 0 \\
+0& 0 & 1 & 0 & 4 & -1 & 0\\
+0& 0& 0& 1 & 3& -2& 0\\
+0& 0& 0& 0 & 0& 0& 1\\
+0& 0& 0& 0 & 0& 0& 0\\
+\end{bmatrix}
+\]
+\end{frame}
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+\end{pycode}
+
+Vimos anteriormente que o sistema
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3},
+\end{cases}\]
+tem matrizes aumentada e escalonada respectivamente:
+\[\pyl{Ma} \sim \pyl{Me}\]
+Se continuarmos o processo de escalonamento chegaremos à matriz escalonada reduzida
+\[\pyl{Ma.rref()[0]}\]
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([3,-1,2,1]).T
+L2=sp.Matrix([-2,1,1,0]).T
+L3=-2*L1+L2
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+\end{pycode}
+\begin{exe}
+Resolva o sistema pelo método de Gauss-Jordan
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3},
+\end{cases}\]
+\end{exe}
+
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z,a=sp.symbols('x y z a',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([1,2,-3,4]).T
+L2=sp.Matrix([3,-1,5,2]).T
+L3=sp.Matrix([4,1,a**2-14,a+2]).T
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+\end{pycode}
+\begin{exe}
+Determine os valores de $a$ para os quais o sistema não tem solução, tem única solução e tem infinitas soluções.
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3},
+\end{cases}\]
+\end{exe}
+\end{frame}
+
+
+\begin{frame}[label=sistemas,fragile=singleslide]{}
+
+\begin{pycode}
+import sympy as sp
+
+x1,x2,x3,x4,x5,x6=sp.symbols('x_1 x_2 x_3 x_4 x_5 x_6',real=True)
+X=sp.Matrix([x1,x2,x3,x4,x5,x6])
+A=sp.Matrix([[1,2,0,-3,1,0],[1,2,1,-3,1,2],[1,2,0,-3,2,1],[3,6,1,-9,4,3]])
+B=sp.Matrix([2,3,4,9])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+eq4=sp.Eq(AX[3],B[3])
+\end{pycode}
+
+\begin{casa}
+Resolva o sistema pelo método de Gauss-Jordan
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3}\\
+\pyl{eq4},
+\end{cases}\]
+\end{casa}
+
+\begin{pycode}
+import sympy as sp
+
+x,y,z,a=sp.symbols('x y z a',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([1,1,1,2]).T
+L2=sp.Matrix([2,3,2,5]).T
+L3=sp.Matrix([2,3,a**2-1,a+1]).T
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+\end{pycode}
+\begin{casa}
+Determine os valores de $a$ para os quais o sistema não tem solução, tem única solução e tem infinitas soluções.
+\[\begin{cases}
+\pyl{eq1}\\
+\pyl{eq2}\\
+\pyl{eq3},
+\end{cases}\]
+\end{casa}
+\end{frame}
+
+\subsection*{Sistemas Lineares Homogêneos}
+
+\begin{frame}[label=sistemas]{Sistemas Lineares Homogêneos}
+Um sistema linear da forma $AX=0$ é dito {\color{blue} homogêneo}, isto é, um sistema da forma
+\[ \left\{\begin{matrix}
+ {\color{blue}a_{11}}{\color{red}x_1} & + &  {\color{blue}a_{12}}{\color{red}x_2} & + & \cdots & + & {\color{blue}a_{1n}}{\color{red}x_n} & = & 0  \\
+ {\color{blue}a_{21}}{\color{red}x_1} & + & {\color{blue}a_{22}}{\color{red}x_2} & + &   \cdots & + & {\color{blue}a_{2n}}{\color{red}x_n} & = & 0  \\
+\vdots & \vdots  & & & &  & \vdots & \vdots & \vdots  \\
+ {\color{blue}a_{m1}}{\color{red}x_1} & + & {\color{blue}a_{m2}}{\color{red}x_2} & + &  \cdots  & + &   {\color{blue}a_{mn}}{\color{red}x_n} & = & 0. 
+\end{matrix}
+\right.
+\]
+
+\end{frame}
+
+
+\begin{frame}[label=sistemas]
+\begin{block}{Propriedades}
+\begin{itemize}
+\item Todo sistema homogêneo {\color{red} tem pelo menos uma solução}, a chamada {\color{blue}solução trivial}, isto é, $X=0$.
+
+\item Todo sistema homogêneo com menos equações que incógnitas ($m<n$) {\color{red}tem infintas soluções}.
+
+\item Se $X$ e $Y$ são soluções de um sistema homogêneo, então $X+Y$ também o é.
+
+\item Se $X$ é solução de um sistema homogêneo, etnão $\alpha X$ também o é, para todo $\alpha\in \R$.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+
+
+
+

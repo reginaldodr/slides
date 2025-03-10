@@ -1,0 +1,235 @@
+\section{Ortogonalidade}
+
+\subsection*{Vetores Ortogonais}
+
+\begin{frame}[label=orto]{Vetores Ortogonais}
+\begin{exer}
+Considere os vetores $\vec{v}_1=(2,1,-1)$, $\vec{v}_2=(1,0,2)$ e $\vec{v}_3=(2,-5,-1)$. 
+
+\begin{enumerate}
+\item Mostre que os três vetores são ortogonais dois a dois.
+
+\item Use esse fato para mostrar que os vetores são LI, isto é, a equação vetorial 
+\[x\vec{v}_1+y\vec{v}_2+z\vec{v}_3=\vec{0},\]
+{\color{red}só possui} a solução trivial $x=y=z=0$.
+
+\item Escreva  $\vec{v}=(3,-1,1)$ como combinação linear da base $\mathcal{B}=\{\vec{v}_1,\vec{v}_2,\vec{v}_3\}$.
+\end{enumerate}
+\end{exer}
+
+\end{frame}
+
+\begin{frame}[label=orto]{}
+\begin{defin}
+Um conjunto de vetores $\{\vec{v}_1,\vec{v}_2,\ldots, \vec{v_k}\}\subset \R^n$ é dito {\color{blue}ortogonal} se todos os vetores são ortogonais dois a dois, isto é,
+\[\vec{v}_i\cdot \vec{v}_j=0,\ \forall i,j=1,2,\ldots k, \ i\neq j.\]
+E dizemos que {\color{blue}ortonormal} se além de ortogonal cada vetor for unitário, isto é, 
+\[\|\vec{v}_i\|=1,\ \forall i=1,2,\ldots,k.\]
+Neste caso, escrevemos também
+\[
+\vec{v}_i\cdot \vec{v}_j=\delta_{ij}=
+\begin{cases}
+1, & i=j\\ 0, & i\neq j
+\end{cases}, \ \forall i,j=1,2,\ldots,k
+\]
+onde $\delta_{ij}$ é o chamado {\color{blue}Delta de Kronecker}.
+\end{defin}
+
+\end{frame}
+
+\begin{frame}[label=orto]{}
+%\begin{teo}
+Se $\{{\color{blue}\vec{v}_1,\vec{v}_2,\ldots, \vec{v}_k}\}$  de $\R^n$  é ortogonal, então esses vetores são LI. Além disso, se
+\begin{equation}\label{eq-proj}
+{\color{red}\vec{v}}=c_1{\color{blue}\vec{v}_1}+c_2{\color{blue}\vec{v}_2}+\cdots +c_k{\color{blue}\vec{v}_k},
+\end{equation}
+então
+\[c_i=\frac{{\color{red}\vec{v}}\cdot{\color{blue} {\color{blue}\vec{v}_i}}}{\|{\color{blue}\vec{v}_i}\|^2}\] 
+%\end{teo}
+
+\begin{defin}
+Definimos a {\color{blue}projeção ortogonal} de um {\color{red}$\vec{v}$} sobre um vetor  {\color{red} não nulo} {\color{blue}$\vec{w}$} como sendo o seguinte vetor
+\[\proj_{{\color{blue}\vec{w}}}{\color{red}\vec{v}}=
+\left(\frac{ {\color{red}\vec{v}}\cdot
+{\color{blue}\vec{w}} }{\|{\color{blue}\vec{w}}\|^2}\right)
+{\color{blue}\vec{w}}.
+\]
+\end{defin}
+Com esta notação, temos que a identidade \eqref{eq-proj} se escreve como
+\[{\color{red}\vec{v}}=\proj_{{\color{blue}\vec{v}_1}}{\color{red}\vec{v}}+\proj_{{\color{blue}\vec{v}_2}}{\color{red}\vec{v}}+\cdots +\proj_{{\color{blue}\vec{v}_k}}{\color{red}\vec{v}}.\]
+\end{frame}
+
+\begin{frame}[label=orto]{}
+
+\begin{exe}
+Mostre $\vec{v}_1=(0,2,0)$, $\vec{v}_2=(3,0,3)$ e $\vec{v}_3=(-4,0,4)$ formam uma base ortgonal de $\R^3$. Expresse $\vec{v}=(1,2,4)$ como uma combinação linear deles. 
+\end{exe}
+
+\end{frame}
+
+
+%\begin{frame}[label=orto]{Processo de Ortogonalização de Gram-Schimidt}
+%\begin{prop}
+%Seja $\{\vec{v}_1,\vec{v}_2,\ldots, \vec{v}_k\}$ um conjunto ortogonal  de $\R^n$. Então, para qualquer $\vec{v}\in \R^n$, temos que
+%\[\vec{v}-\proj_{{\vec{v}_1}}\vec{v}-\proj_{{\vec{v}_2}}\vec{v}-\cdots-\proj_{{\vec{v}_k}}\vec{v}\]
+%é ortogonal a cada $\vec{v}_i$, onde $i=1,2,\ldots,k$.
+%\end{prop}
+%
+%\begin{exe}
+%Determine uma base ortogonal para o subespaço de $\R^5$ gerado por
+%\[\vec{v}_1=(-1,0,-1,0,1),\ \vec{v}_2=(0,0,1,1,0),\ \vec{v}_3=(-1,1,0,0,0).\]
+%\end{exe}
+%\end{frame}
+
+
+\subsection*{Processo de ortonalização de Gram-Schmidt}
+%\begin{frame}[label=orto]{Processo de ortonalização de Gram-Schmidt}
+%\begin{prop}
+%Seja $\{\vec{w}_1,\vec{w}_2,\ldots, \vec{w}_k\}$ um {\color{blue}conjunto 
+%ortogonal}  de $\R^n$. Então, para qualquer ${\color{red}\vec{v}}\in \R^n$,
+% temos que
+%\[\vec{w}={\color{red}\vec{v}}-\proj_{{\vec{w}_1}}{\color{red}\vec{v}}
+%-\proj_{{\vec{w}_2}}{\color{red}\vec{v}}-\cdots-\
+%\proj_{{\vec{w}_k}}{\color{red}\vec{v}}\]
+%é ortogonal a cada $\vec{w}_i$, onde $i=1,2,\ldots,k$. Além disso, $\vec{w}$ 
+%está no mesmo espaço gerado por $\{\vec{w}_1,\vec{w}_2,\ldots, \vec{w}_k,{\color{red}\vec{v}}\}$.
+%\end{prop}
+%
+%
+%\begin{exe}
+%Sejam $W$ o subespaço gerado por $\vec{v}_1=(1,-1,-1,1)$ e $\vec{v}_2=(2,1,0,1)$. Obtenha uma base ortogonal para $W$.
+%\end{exe}
+%\end{frame}
+
+
+\begin{frame}[label=orto]{Processo de ortonalização de Gram-Schmidt}
+Seja $\{v_1,v_2,\ldots, v_k \}$ uma base para um subespaço $W$ de $\R^n$. 
+Podemos obter uma base ortogonal para $W$ através do seguinte processo, conhecido como {\color{blue}Processo de Ortogonalização de Gram-Schmidt}.
+\begin{align*}
+& \vec{w}_1=\vec{v}_1,\\
+& \vec{w}_2=\vec{v}_2-\proj_{{\vec{w}_1}}\vec{v}_2,\\
+& \vec{w}_3=\vec{v}_3-\proj_{{\vec{w}_1}}\vec{v}_3
+-\proj_{{\vec{w}_2}}\vec{v}_3,\\
+& \vdots\\
+& \vec{w}_k=\vec{v}_k-\proj_{{\vec{w}_1}}\vec{v}_k
+-\proj_{{\vec{w}_2}}\vec{v}_k-\cdots-\proj_{{\vec{w}_{k-1}}}\vec{v}_k
+\end{align*}
+
+
+\begin{exe}
+Determine uma base ortogonal para o subespaço de $\R^5$ gerado por
+\[\vec{v}_1=(-1,0,-1,0,1),\ \vec{v}_2=(0,0,1,1,0),\ \vec{v}_3=(-1,1,0,0,0).\]
+\end{exe}
+
+\end{frame}
+
+
+
+
+\begin{frame}[label=orto]{}
+
+\begin{casa}
+Determine uma base ortogonal para o subespaço de $\R^4$ gerado por
+\[\vec{v}_1=(1,-1,-1,1),\ \vec{v}_2=(2,1,0,1),\ \vec{v}_3=(2,2,1,2).\]
+\end{casa}
+\end{frame}
+
+
+
+\section{Diagonalilzação de Matrizes Simétricas}
+
+
+\subsection*{Matrizes Ortogonais}
+\begin{frame}[label=orto]{Matrizes Ortogonais}
+
+\begin{defin}
+Uma matriz quadrada $Q$ cujas colunas formam um conjunto ortonormal é chamada 
+de \dt{matriz ortogonal}.
+\end{defin}
+
+\begin{teo}
+Seja $Q$ uma matriz $m\times n$. Suas colunas formam um conjunto ortogonal se, 
+e somente se, $Q^TQ=I_n$. Em particular, $Q$ é ortogonal se, e somente se, $Q^{-1}=Q^T$.
+\end{teo}
+
+
+
+\end{frame}
+
+
+
+
+\subsection*{Matriz de Rotação}
+\begin{frame}[label=orto]{Matriz de Rotação}
+A seguinte matriz, conhecida por \dt{Matriz de Rotação}, gira um vetor do plano por um ângulo $\theta$ no sentido anti-horário.
+\[R_\theta= 
+\begin{bmatrix}
+\cos(\theta) & -\sen(\theta)\\
+\sen(\theta) & \cos(\theta)
+\end{bmatrix}
+\]
+
+\begin{exe}
+Mostre que a matriz de rotação é uma matriz ortogonal e calcule sua inversa. Qual o efeito geométrico da inversa?
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=orto]
+\begin{casa}
+\begin{enumerate}
+\item Calcule as matrizes de rotação para $\theta=\frac{\pi}{3},\frac{\pi}{4}, \frac{\pi}{2}$.
+
+\item Qual o ângulo da seguinte matriz de rotação
+\[
+\begin{bmatrix}
+\frac{2}{\sqrt{5}} & -\frac{1}{\sqrt{5}} \\[1em] \frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}}
+\end{bmatrix}
+\]
+\end{enumerate}
+\end{casa}
+
+\end{frame}
+
+
+\begin{frame}[label=orto]{}
+
+\begin{exe}
+Mostre que  a seguinte matriz é diagonalizável
+\[A=
+\begin{bmatrix}
+1& 2\\ 2 & -2
+\end{bmatrix}.
+\]
+Em seguida, obtenha $Q$ ortogonal que diagonalize $A$.
+\end{exe}
+
+\begin{defin}
+Uma matriz quadrada $A$ é \dt{ortogonalmente diagonalizável} se é 
+diagonalizável e a matriz $Q$ que a diagonaliza é ortogonal.
+\end{defin}
+
+\begin{prop}
+Se $A$ é uma matriz simétrica, então os autovetores associados a autovalores distintos são ortogonais.
+\end{prop}
+
+\end{frame}
+
+\subsection*{Teorema Espectral}
+
+\begin{frame}[label=orto]{}
+
+\begin{block}{Teorema Espectral}
+Uma matriz  $A$ quadrada com entradas reais  é ortogonalmente diagonalizável se, e somente se, $A$ é simétrica.
+\end{block}
+
+\begin{exe}
+Encontre  uma diagonalização ortogonal para a matriz
+\[A=
+\begin{bmatrix}
+2 & 1 & 1\\ 1& 2 & 1 \\ 1 & 1 & 2
+\end{bmatrix}
+\]
+\end{exe}
+
+\end{frame}

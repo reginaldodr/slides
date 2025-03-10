@@ -1,0 +1,234 @@
+\documentclass[envcountsect,aspectratio=43]{beamer}
+
+
+\usepackage{pythontex} 
+\usepackage{etex}
+\usefonttheme[onlymath]{serif}
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsthm,amssymb}
+%\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{color}
+
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{syntonly}
+\hypersetup{colorlinks,linkcolor=,urlcolor=blue}
+
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{tkz-euclide,tikz-3dplot}
+
+%---------------- tabu package 
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tabu}
+
+%-------------------------------
+
+%\newcommand{\code}[1]{{\colorbox{gray}{\texttt{#1}}}
+
+%\syntaxonly
+%\includeonly{determinantes}
+%\includeonlyframes{conicas,comp} 
+
+
+
+\usepackage[labelformat=empty]{caption}
+\setbeamertemplate{caption}[numbered]{}
+
+
+\usetheme{Madrid}
+\usecolortheme{beaver}
+
+\setbeamertemplate{theorems}[numbered]
+
+
+\setbeamertemplate{enumerate items}[circle]
+\newtheorem{nada}{Nada}
+
+
+\theoremstyle{definition}
+\newtheorem{defin}[nada]{Defini\c c\~ao}
+\newtheorem{prop}[nada]{Proposi\c c\~ao}
+
+\newtheorem{corol}[nada]{Corol\'ario}
+
+\newtheorem{teo}[nada]{Teorema}
+
+\newtheorem{lema}[nada]{Lema}
+
+
+
+\newtheorem{outline}{\timesbold outline rem proof}
+
+\newtheorem{obs}[nada]{Observação}
+\newtheorem{afir}{Afirmação}
+
+
+
+
+
+\makeatletter
+\def\th@exercicio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+\theoremstyle{exercicio}
+\newtheorem*{exer}{\includegraphics[scale=0.06]{w-brainb.png} Exercício}
+\makeatother
+
+\newtheorem{casa}{\includegraphics[scale=0.035]{w-homework.png} Para Casa}
+\makeatother
+
+
+
+
+\makeatletter
+\def\th@something{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{exampleblock}  
+}
+\theoremstyle{something}
+\newtheorem*{exe}{\includegraphics[scale=0.3]{exemplo.png} Exemplo }
+\makeatother
+
+%\setbeamercolor{block title}{bg=cyan, fg=white}
+
+\newtheorem*{casa-comp}{\includegraphics[scale=0.035]{w-homework-comp.png} Tarefa Computacional}
+\makeatother
+
+\makeatletter
+\def\th@resp{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{block}  
+}
+\theoremstyle{resp}
+\newtheorem*{resp}{\includegraphics[scale=0.01]{White_check.png} Resposta}
+\makeatother
+
+
+\makeatletter
+\def\th@desafio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+
+\theoremstyle{desafio}
+\newtheorem*{desafio}{\includegraphics[scale=0.02]{desafio-branco.png} Desafio}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\cqd}{\hfill \framebox[7pt]{} \mbox{} \medskip}
+\newcommand{\dem}{\noindent {\bf Demonstra\c c\~ao:}}
+\newcommand{\dest}{\textcolor{blue}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\dt}[1]{\textcolor{blue}{#1}}
+\newcommand{\ang}{\widehat}
+\newcommand{\n}[1]{\|#1\|}
+\newcommand{\pe}[2]{\langle #1,#2\rangle}
+\newcommand{\sen}{\operatorname{sen}} 
+\newcommand{\tg}{\operatorname{tg}}     
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\pv}[2]{#1\times #2}
+\newcommand{\pmt}[3]{[{#1},{#2},{#3}]}
+\newcommand{\ex}{\textcolor{structure}{\large{Exemplo\ \ }}}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\tgh}{\operatorname{tgh}}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\mc}{\textordmasculine\ }
+\newcommand{\fm}{\textordfeminine\ }
+
+\newcommand{\pyl}[1]{\py{sp.latex(#1)}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%\setbeamercovered{transparent}
+\title[GAAL]{Geometria Analítica e Álgebra Linear\\
+	\normalsize{GAAL}}
+\author[Reginaldo Demarque]{
+\[
+{\footnotesize {\color{blue} \underbrace{\begin{bmatrix}
+ a_{11}  & a_{12}  & \cdots &  a_{1n}  \\
+ a_{21} & a_{22}  & \cdots  & a_{2n} \\
+ \vdots & \vdots & \cdots & \vdots \\
+ a_{m1} & a_{m2}  & \cdots  & a_{mn} 
+\end{bmatrix}}_{A}}\ \
+{\color{red}
+\underbrace{\begin{bmatrix}
+x_1\\ x_2\\ \vdots \\ x_n
+\end{bmatrix}}_{X}
+}
+=
+\underbrace{\begin{bmatrix}
+b_1 \\ b_2\\ \vdots \\ b_n
+\end{bmatrix}}_{B}.}
+\]
+%\includegraphics[scale=0.03]{capa.png}\\
+	Prof. Reginaldo Demarque}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\logo{\includegraphics[scale=0.03]{UFF_brasao.png}}
+
+\institute[RCN/UFF]{Universidade Federal Fluminense\\
+Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza -- RCN  \\
+}
+\date{{\color{orange} \today}}
+
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{
+ \frametitle{Sumário}
+ \tableofcontents
+}
+
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+
+  \frametitle{Sumário}
+  \tableofcontents[currentsection]
+
+ \end{frame}
+}
+
+\include{vetores}
+\include{matrizes}
+\include{vetores2}
+\include{retas-planos}
+\include{sistemas}
+\include{inversao-matrizes}
+\include{determinantes}
+\include{produtovetorial}
+\include{lild}
+\include{posicao-retas}
+\include{subespacos}
+\include{mudanca-base}
+\include{autovetores}
+\include{ortogonal}
+%\include{conicas}
+\include{conicas-simples}
+
+\end{document}

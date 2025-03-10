@@ -1,0 +1,290 @@
+
+\subsection*{Subespaço}
+\begin{frame}[label=lild]{Subespaço Vetorial}
+\begin{defin}
+Um subconjunto {\color{red}não-vazio} $V\subset\R^n$ é chamado de {\color{blue} subespaço} de $\R^n$ quando satisfaz:
+\begin{enumerate}
+\item Se $\vec{u},\vec{v}\in V$, então $\vec{u}+\vec{v}\in V$,
+\item Se $\vec{v}\in V$, então $\alpha\vec{v}\in V$, para todo $\alpha\in \R$.
+\end{enumerate}
+\end{defin}
+
+\begin{exe}
+Mostre que o conjunto $V=\{(x,y,z)\in \R^3;z=0\}$ é um subespaço de $\R^3$.
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=lild]{}
+\begin{exe}
+\begin{enumerate}
+\item Os subespaços vetoriais triviais de $\R^n$ são $V=\{\vec{0}\}$ e o próprio $V=\R^n$.
+
+\item Se $A$ é uma matriz $m\times n$, então o conjunto solução do sistema homogêneo $AX=\vec{0}$ é um subespaço de $\R^n$, chamado de {\color{blue}espaço solução} ou {\color{blue}espaço nulo} ou {\color{blue}núcleo de A} e será denotado por {\color{blue} $\ker(A)$}.
+
+\item Retas e planos em $\R^3$, passando pela origem, são subespaços de $\R^3$.
+
+\item Determine o subespaço de $\R^5$ que é solução do sistema 
+\[\left\{
+\begin{array}{rrrrrr}
+x_1 &+ x_2 & & &+x_5&=0\\
+-2x_1 & -2x_2 &+ x_3& -x_4 & -x_5& =0 \\
+x_1&+ x_2& -x_3 &+ x_4& &=0
+\end{array}\right.
+\]
+\end{enumerate}
+\end{exe}
+
+
+\end{frame}
+
+\subsection*{Geradores}
+\begin{frame}[label=lild]{}
+\begin{defin}
+Seja $V$ um subespaço de $\R^n$. Dizemos que os vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$, petencentes a $V$, {\color{blue}geram} $V$, se qualquer vetor de $V$ pode ser escrito como combinação linear dos vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$. Neste caso, também dizemos que $V$ é o {\color{blue}subespaço gerado por} $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$ e o denotaremos por $\operatorname{span}\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$.
+\end{defin}
+
+\begin{exe}
+\begin{enumerate}
+\item Determine um conjunto de geradores do núcleo da matriz $A$ do exemplo anterior.
+
+\item Mostre que $\vec{w}=(4,-1,8)$ não está em $\operatorname{span}\{(1,2,-1),(6,4,2)\}$.
+\end{enumerate}
+\end{exe}
+%
+%\begin{block}{}
+%O espaço solução de um sistema homogêneo $AX=\vec{0}$ é gerado pelas linhas da matriz $A$, também chamado de {\color{blue}espaço linha}.
+%\end{block}
+
+\end{frame}
+
+\subsection*{Base}
+\begin{frame}[label=lild]{Base}
+\begin{defin}
+Seja $V$ um subespaço de $\R^n$. Dizemos que um subconjunto $\mathcal{B}=\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ de $V$ é uma {\color{blue}base} de $V$, se
+\begin{enumerate}
+\item $\mathcal{B}$ é um conjuntos de geradores de $V$.
+\item $\mathcal{B}$ é LI.
+\end{enumerate}
+\end{defin}
+\begin{exe}
+\begin{enumerate}
+\item O conjunto $\vec{e}_1=(1,0,\ldots,0), \vec{e}_2=(0,1,\ldots,0),\ldots, \vec{e}_n=(0,0,\ldots,1)$ é uma base do $\R^n$, chamada de {\color{blue}base canônica}.
+\item Determine uma base para o plano $x+2y-z=0$.
+\end{enumerate}
+
+\end{exe}
+
+
+
+\end{frame}
+
+\begin{frame}[label=lild]{Dimensão}
+
+\begin{teo}
+Se $\mathcal{B}=\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ é uma base de $V\subset\R^n$, então qualquer outra base tem $k$ elementos. 
+\end{teo}
+
+
+\begin{defin}
+A {\color{blue}dimensão} de um subespaço vetorial $V\subset\R^n$ é definido como o número de elementos de uma base de $V$.
+\end{defin}
+
+\begin{exe}
+ Determine uma base e a dimensão do subespaço $V=\{(a+c,b+c,a+b+2c);\, a,b,c\in \R\}$.
+
+\end{exe}
+
+\end{frame}
+
+
+
+
+
+\subsection*{Núcleo}
+\begin{frame}[label=lild]{Núcleo de uma matriz}
+Definimos anteriormente que o {\color{blue}núcleo} de uma matriz $A$ é o espaço solução do sistema $AX=\vec{0}$, denotado por {\color{blue}$\ker(A)$}. {\color{blue}As operações elementares com linhas não alteram o núcleo de uma matriz}. Pode-se mostrar que 
+\[{\color{red}\dim(\ker(A))=\operatorname{nulidade}(A)}\]
+isto é, o número de variáveis livres do sistema. 
+%\[{\color{red} \dim(\ker(A))+\operatorname{posto}(A)=n},\]
+%onde $n$ é número de colunas da matriz $A$. 
+Vejamos, através do próximo exemplo, um procedimento para obter-se uma base para o núcleo de uma matriz.
+
+\begin{exe}
+Determine uma base para o núcleo da matriz
+\[
+A=\begin{bmatrix}
+1 & 3 & -2 & 0 & 2 & 0\\
+2 & 6 & -5 & -2& 4& -3& \\
+0 & 0& 5& 10& 0 & 15\\
+2 & 6& 0&  8& 4& 18
+\end{bmatrix}
+\]
+\end{exe}
+
+
+\end{frame}
+
+\subsection*{Espaço linha e Espaço coluna}
+\begin{frame}[label=lild]{Espaço linha e Espaço coluna}
+
+Dada uma matriz $A$  $m\times n$, além do núcleo de $A$, ainda existem mais dois subespaços associados à ela.
+\begin{enumerate}
+\item {\color{blue}O espaço linha de $A$}: subespaço de $\R^n$ gerado pela linhas de $A$.
+\item {\color{blue}O espaço coluna de $A$}: subespaço de $\R^m$ gerados pelas colunas de $A$.
+\end{enumerate}
+
+\begin{teo}
+Se uma matriz {\color{red}$R$ está em forma escalonada por linhas}, então os vetores linha não nulos formam uma base do espaço linha de $R$, e os vetores coluna que contém os pivôs formam uma base do espaço coluna. 
+\end{teo}
+
+\begin{exampleblock}{}
+Em particular, os espaços linha e coluna de $R$ têm a mesma dimensão, apesar de não serem  subespaços de espaços vetoriais diferentes!
+\end{exampleblock}
+
+\end{frame}
+
+
+\begin{frame}[label=lild]{}
+Note que a matriz a seguinte matriz está na forma escalonada
+\[
+R=\begin{bmatrix}
+{\color{red}1} & -2 & 5 & 0 & 3\\
+0& {\color{red}1}& 3 & 0 & 0 \\
+0& 0& 0 & {\color{red}2} & 0\\
+0& 0& 0 & 0 & 0
+\end{bmatrix}.
+\]
+Então, 
+\begin{itemize}
+\item Uma base para o espaço linha de $R$ são os vetores: $\vec{r}_1=(1, -2, 5, 0, 3), \vec{r}_2=(0,1,3,0, 0), \vec{r}_3=(0,0,0,2,0)$ 
+
+\item Uma base para o espaço coluna de $R$ são os vetores:
+\[
+\vec{c}_1=\begin{bmatrix}
+1 \\ 0 \\ 0\\ 0
+\end{bmatrix},\
+\vec{c}_2=\begin{bmatrix}
+-2 \\ 1 \\ 0\\ 0
+\end{bmatrix},\
+\vec{c}_3=\begin{bmatrix}
+0 \\ 0 \\ 2\\ 0
+\end{bmatrix}.
+\]
+
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[label=lild]{Obtendo base para os espaço linha}
+
+
+{\color{blue}As operações elementares com linhas não alteram o espaço linha de uma matriz}, pois as novas linhas são combinações lineares das anteriores e as operações são reversíveis. Portanto, para obter uma base do espaço linha, basta escalonar a matriz.  
+
+\begin{exe}
+Determine uma base para o espaço linha da matriz
+\[
+A=\begin{bmatrix}
+1 & -3 & 4 & -2 & 5 & 4\\
+2 & -6 & 9 & -1 & 8 & 2\\
+2 & -6 & 9 & -1 & 9 & 7\\
+-1 & 3& -4 & 2 & -5 & -4
+\end{bmatrix}.
+\]
+\end{exe}
+\end{frame}
+
+
+\begin{frame}[label=lild]{Obtendo base para os espaço coluna}
+Diferentemente do espaço linha, as operações elementares com linhas podem alterar o espaço coluna. 
+
+\begin{exe}
+As seguintes matrizes são linha-equivalente, mas têm espaços coluna diferentes
+\[
+A=\begin{bmatrix}
+1 & 3\\ 2& 6
+\end{bmatrix},\ 
+B=\begin{bmatrix}
+1 & 3\\ 0 & 0
+\end{bmatrix}.
+\]
+\end{exe}
+
+\end{frame}
+
+
+\begin{frame}[label=lild]{ }
+Dadas duas matrizes ${\color{blue}A}$ e ${\color{red}B}$ linha-equivalentes, sabemos que:
+\begin{enumerate}
+\item  Os sistemas ${\color{blue}A}X=\vec{0}$ e ${\color{red}B}X=\vec{0}$ {\color{red}têm exatamente as mesmas soluções!}
+\item Uma solução $X=\begin{bmatrix}
+c_1\\ c_2 \\ \vdots \\ c_n
+\end{bmatrix}$ desses sistemas nos dá uma combinação linear das colunas, isto é, se {\color{blue}$A_1, A_2, \ldots, A_n$} e {\color{red}$B_1, B_2,\ldots B_n$} são as respectivas colunas de {\color{blue}$A$} e {\color{red}$B$}, então
+\[c_1{\color{blue}A_1}+c_2{\color{blue}A_2}+\cdots c_n{\color{blue}A_n}=\vec{0}\]
+\[c_1{\color{red}B_1}+c_2{\color{red}B_2}+\cdots c_n{\color{red}B_n}=\vec{0}\]
+\end{enumerate}
+
+
+Portanto, {\color{blue} as colunas de $A$ são LI se e só se, as colunas de $B$ são LI}. Em outras palavras, {\color{red} ao escalonarmos uma matriz, as colunas mudam mas a dependência linear permanece!}
+
+\end{frame}
+
+
+
+
+\begin{frame}[label=lild]{}
+
+\begin{teo}
+Sejam {\color{blue}$A$} e {\color{red}$B$} matrizes linha-equivalentes. 
+Um conjunto qualquer de vetores coluna de {\color{blue}$A$} forma uma base do espaço coluna de {\color{blue}$A$} se, e só se, o conjunto de vetores correspondentes de {\color{red}$B$} forma uma base do espaço coluna de {\color{red}$B$}.
+\end{teo}
+
+\begin{exe}
+Determine uma base para o espaço coluna da matriz
+\[
+A=\begin{bmatrix}
+1 & -3 & 4 & -2 & 5 & 4\\
+2 & -6 & 9 & -1 & 8 & 2\\
+2 & -6 & 9 & -1 & 9 & 7\\
+-1 & 3& -4 & 2 & -5 & -4
+\end{bmatrix}.
+\]
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=lild]{Aplicações: obtendo bases de subespaços gerados}
+\begin{exe} Considere o subespaço $V$ de $\R^5$ gerado pelos vetores
+\[\vec{v}_1=(1,-2,0,0,3), \vec{v}_2=(2,-5,-3,-2,6),
+\]
+\[\vec{v}_3=(0,5,15,10,0), \vec{v}_4=(2,6,18,8,6).
+\]
+\begin{enumerate}
+\item Determine uma base qualquer de $V$.
+
+\item Determine um subconjunto de $G=\{\vec{v}_1,\vec{v}_2,\vec{v}_3,\vec{v}_4\}$ que forma uma base de $V$.
+\item Escreva os vetores de $G$ que não estão na base como combinação linear dos vetores da base.
+\end{enumerate}
+
+\end{exe}
+
+\end{frame}
+
+
+\begin{frame}[label=lild]
+\begin{casa} Encontre um subconjunto dos vetores 
+\[\vec{v}_1=(1,-2,0,3), \vec{v}_2=(2,-5,-3,6),
+\]
+\[\vec{v}_3=(0,1,3,0), \vec{v}_4=(2,-1,4,-7), \vec{v}_5=(5,-8,1,2)
+\]
+que forma uma base para o espaço gerado por eles. Escreva aqueles que não estão na base como uma combinação linear da base. 
+
+\end{casa}
+\end{frame}
+
+
+
+
+

@@ -1,0 +1,8 @@
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{Bibliografia}{3}{0}{1}
+\beamer@sectionintoc {2}{Introdu\IeC {\c c}\IeC {\~a}o}{6}{0}{2}
+\beamer@sectionintoc {3}{Fun\IeC {\c c}\IeC {\~o}es Vetoriais}{13}{0}{3}
+\beamer@sectionintoc {4}{Func\IeC {\~o}es de V\IeC {\'a}rias Vari\IeC {\'a}veis}{52}{0}{4}
+\beamer@sectionintoc {5}{Limite e Continuidade}{70}{0}{5}
+\beamer@sectionintoc {6}{Derivadas Parciais}{83}{0}{6}
+\beamer@sectionintoc {7}{Extremos de Fun\IeC {\c c}\IeC {\~o}es de V\IeC {\'a}rias Vari\IeC {\'a}veis}{126}{0}{7}

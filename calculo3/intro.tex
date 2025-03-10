@@ -1,0 +1,117 @@
+\section{Introdução}
+
+
+\begin{frame}
+\frametitle{Introdução}
+\begin{scriptsize}
+
+\uncover<1->{Imagine que você foi contratado por uma empresa que fabrica caixas sem tampa. Cada caixa é contruída a partir de uma folha retangular de papelão medindo 30cm x 50cm. Para se construir uma caixa, um quadrado de lado medindo $x$ cm é retirado de cada canto da folha de papelão. O problema é determinar o valor de $x$ a fim de que a caixa corespondente tenha maior volume possível. 
+\bigskip
+
+\begin{center}
+\psset{unit=8mm}
+\begin{pspicture}(0,0)(7,4.5)
+\psline(1,1)(6,1)(6,4)(1,4)(1,1)
+\psline[linestyle=dashed](2,1)(2,2)(1,2)
+\psline[linestyle=dashed](5,1)(5,2)(6,2)
+\psline[linestyle=dashed](1,3)(2,3)(2,4)
+\psline[linestyle=dashed](6,3)(5,3)(5,4)
+\psline{|-|}(1,0.7)(6,0.7)
+\psline{|-|}(0.7,1)(0.7,4)
+\put(-0.5,2.5){30cm}
+\put(3,0.3){50cm}
+\psline{|-|}(6.3,3)(6.3,4)
+\psline{|-|}(5,4.3)(6,4.3)
+\put(6.4,3.5){$x$}
+\put(5.5,4.4){$x$}
+\end{pspicture}
+\end{center}
+Maximizar a \dt{Função-objetivo:} $V(x)=(30-2x)(50-2x)x$ sujeito às restrições: $ 0\leq x\leq 15$.
+}
+
+\end{scriptsize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{ }
+\begin{scriptsize}
+
+\uncover<1->{Agora imagine que você foi contratado por  uma empresa que fornece refeições a seus funcionários, a fim de estabelecer um cardápio que atenda a quantidade diária mínima de vitaminas que um funcionário deve consumir  e minimize o custo de compras dos diversos tipos de alimentos. Um nutricionista forneceu uma tabela que especifica a quantidade mínima de cada tipo de vitamina que deve ser ingerida diariamente por cada funcionário:
+\bigskip
+
+\begin{center}
+
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+Tipo de vitamina & A & B & C & E\\ \hline
+Quantidade  mínima (mg) & 3 & 1.1 & 60 & 11\\ \hline
+\end{tabular} 
+\end{center}}
+
+Ele também forneceu uma tabela com a quantidade (em mg) de vitaminas em cada 100 gramas de 9 tipos de alimentos diferentes,
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ Alimento & A & B & C & E &  & Alimento  & A & B & C & E \\  \hline  
+1 & 0.140 & 0.08 & 0 & 1.60 & &  6 & 0.035 & 0.05 & 1 & 0 \\ \hline
+ 2 & 0.580 & 0 & 0 & 0 & &  7 & 0 & 0.04 & 5 & 0.02 \\ \hline
+ 3 & 0.150 & 1.30 & 26 & 6.90 & &  8 & 0 & 0.08 & 8 & 0.10 \\ \hline
+ 4 & 0 & 0.08 & 38 & 0.2 & & 9 & 0 & 0.07 & 25 & 2 \\ \hline
+ 5 & 26.780 & 0.07 & 13 & 0.07 & &  &  &  &  &  \\ \hline
+\end{tabular}
+\end{center}
+
+E de uma tabela com o preço de 100 gramas de cada tipo de alimento:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Alimento & 1 & 2& 3 & 4 & 5 & 6 & 7 & 8 & 9\\ \hline
+Preço & 0.60 & 1.00 & 5.00 & 1.00 & 0.50 & 0.20 & 0.15 & 0.40 & 1.00 \\ \hline
+
+\end{tabular}
+\end{center}
+
+
+\end{scriptsize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{ }
+\begin{scriptsize}
+
+\uncover<1->{ Neste tipo de problema, cada alimento é uma \dt{variável de controle}, ou seja, a variável $x_1$ representa a quantidade (em ``pacotes'' de 100g) do alimento 1 que a empresa deve comprar diariamente para cada funcionário, a variável $x_2$ representa a quantidade (em ``pacotes'' de 100g) do alimento 2 que a empresa deve comprar diariamente para cada funcionário, e assim por diante. Resumintdo, $x_i$ representa a quantidade (em ``pacotes'' de 100g) do alimento $i$ que a empresa deve comprar diariamente para cada funcionário, com $i=1,\ldots,9$. }
+\bigskip
+
+\uncover<2->{A \dt{função-objetivo} que fornece o custo (que queremos minimizar) associado à compra  dos diversos tipos de alimentos para cada funcionário é dada por 
+$$C(x_1,x_2,x_3,x_4,x_5,x_6,x_7,x_8,x_9)=0.6x_1+x_2+5x_3+x_4+0.5x_5+0.2x_6+0.15x_7+0.4x_8+x_9.$$ }
+
+\uncover<3->{Consultando as outras tabelas, podemos ver que o problema está sujeito às restrições impostas pelas quantidades mínimas de cada vitamina, a saber
+$$\begin{array}{l}
+0.14x_1+0.58x_2+0.15x_3+26.79x_5+0.035x_6\geq 3,\\
+\\
+0.08x_1+1.3x_3+0.08x_4+0.07x_5+0.05x_6+0.04x_7+0.08x_8+0.07x_9\geq 1.1,\\
+\\
+26x_3+38x_4+13x_5+x_6+5x_7+8x_8+25x_9\geq 60,\\
+\\
+1.6x_1+6.9_x3+0.2x_4+0.07x_5+0.02x_7+0.1x_8+2x_9\geq 11,\\
+\\
+x_i\geq 0, \ \forall i=1,\ldots,9.
+\end{array} $$}
+
+\end{scriptsize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{ }
+
+\uncover<1->{Usando as técnicas que serão vistas neste curso de cálculo 2 é possível resolver este problema e obter a seguinte solução:
+$$x_1=6.24,\  x_3=0.112, \ x_5=0.078,\ x_7=11.209$$
+$$ x_2=x_4=x_6=x_8=x_9=0$$ }
+
+\end{frame}

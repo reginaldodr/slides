@@ -1,0 +1,14 @@
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{Vetores}{3}{0}{1}
+\beamer@sectionintoc {2}{Matrizes}{32}{0}{2}
+\beamer@sectionintoc {3}{Produto Escalar}{51}{0}{3}
+\beamer@sectionintoc {4}{Retas e Planos}{60}{0}{4}
+\beamer@sectionintoc {5}{Sistema de Equações Lineares}{76}{0}{5}
+\beamer@sectionintoc {6}{Inversão de Matrizes}{105}{0}{6}
+\beamer@sectionintoc {7}{Determinantes}{112}{0}{7}
+\beamer@sectionintoc {8}{Produtos Vetoriais em $\mathbb {R}^3$}{127}{0}{8}
+\beamer@sectionintoc {9}{Subespaços, Base e Dimensão}{139}{0}{9}
+\beamer@sectionintoc {10}{Autovetores e Autovalores}{165}{0}{10}
+\beamer@sectionintoc {11}{Ortogonalidade}{177}{0}{11}
+\beamer@sectionintoc {12}{Diagonalilzação de Matrizes Simétricas}{184}{0}{12}
+\beamer@sectionintoc {13}{Cônicas}{190}{0}{13}

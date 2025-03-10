@@ -1,0 +1,95 @@
+\section{Subespaços, Base e Dimensão}
+
+\subsection*{Dependência e Independência Linear}
+
+\begin{frame}[label=lild]{Dependência e Independência Linear}
+\begin{defin}
+
+Dizemos que um conjunto $S=\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ de vetores do $\R^n$ é {\color{blue} linearmente independente (LI)} se a equação vetorial
+\[x_1\vec{v}_1+x_2\vec{v}_2+\cdots +x_k\vec{v}_k=\vec{0}\]
+só possui a solução trivial. Em outras palavras, a única forma de escrever o vetor nulo como combinação linear dos vetores $\vec{v}_1,\vec{v}_2,\ldots, \vec{v}_k$ é aquela em que todos os escalares são iguais a zero. Caso contrário, dizemos que o conjunto $S$ é {\color{blue}linearmente dependente (LD)}.
+
+\end{defin}
+	
+\end{frame}
+
+\begin{frame}[label=lild]{}
+\begin{exe}
+Decida se os seguintes conjuntos de vetores são LI ou LD:
+\begin{enumerate}
+\item $\vec{v}_1=(1,0,1)$, $\vec{v}_2=(0,1,1)$, $\vec{v}_3=(1,1,1)$.
+
+\item  $\vec{v}_1=(1,0,1,2)$, $\vec{v}_2=(2,-1,3,5)$, $\vec{v}_3=(-1,2,-3,-4)$.
+\end{enumerate}
+\end{exe}
+
+\begin{block}{}
+Mostrar que um conjunto $S=\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ de vetores do $\R^n$ é {\color{red}LI} é equivalente a mostrar que o sistema {\color{red}$AX=0$ tem solução única}, onde $A$ é a matriz cujas {\color{red}colunas são dadas pelos vetores de $S$}.
+\end{block}
+
+\begin{exer}
+Decida se são LI ou LD os seguintes vetores:
+\[
+\vec{v}_1=(1,2,-1,-2), \vec{v}_2=(0,1,2,5), \vec{v}_3=(1,0,-4,-1),  \vec{v}_4=(1,-1,2,7).\]
+\end{exer}
+	
+\end{frame}
+
+
+
+\begin{frame}[label=lild,fragile=singleslide]{}
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,1,2])
+v2=sp.Matrix([1,0,1])
+v3=sp.Matrix([4,6,12])
+
+A=sp.Matrix.hstack(v1,v2,v3)
+
+
+u1=sp.Matrix([0,3,1,-1])
+u2=sp.Matrix([6,0,5,1])
+u3=sp.Matrix([4,-7,1,3])
+
+B=sp.Matrix.hstack(u1,u2,u3)
+\end{pycode}
+\begin{casa}
+Para cada caso, diga se o conjunto de vetores é LI ou LD.
+
+\begin{enumerate}
+\item $\{\pyl{pt(v1)},\pyl{pt(v2)}, \pyl{pt(v3)}\}$
+\item $\{\pyl{pt(u1)},\pyl{pt(u2)}, \pyl{pt(u3)}\}$
+\end{enumerate}
+\end{casa}
+
+\end{frame}
+
+
+
+
+\begin{frame}[label=lild]{Propriedades}
+
+\begin{enumerate}
+\item Um conjunto formado por um único vetor não nulo é LI.
+
+\item Um conjunto com 2 vetores não nulos é LD se, e somente se, são múltiplos.
+
+\item Um conjunto finito de vetores de $\R^n$ que contém o vetor nulo é LD.
+
+\item Se $\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ é LD, qualquer conjunto que o contenha também é LD.
+
+\item As colunas de uma matriz $A$ de ordem $n$ são LI se, e somente se, $\det(A)\neq 0$.
+
+\item Em $\R^n$, um conjunto com mais de $n$ vetores é LD.
+
+\item Um conjunto de vetores é LD se, e somente se, {\color{red} pelo menos um dos vetores} pode ser escrito como combinação linear dos demais.
+\end{enumerate}
+
+
+\end{frame}
+
+%---------------------------------------------------------------

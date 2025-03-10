@@ -1,0 +1,205 @@
+\section{Autovetores e Autovalores}
+
+\subsection*{Autovetores}
+
+\begin{frame}[label=autovalores]{Autovetores e Autovalores}
+
+\begin{defin}
+Seja $A$ uma matriz quadrada de ordem $n$. Dizemos que um vetor {\color{red}não nulo} $\vec{v}\in \R^n$ é um  {\color{blue}autovetor} de $A$ se $A\vec{v}$ for um múltiplo escalar de $\vec{v}$, isto é, se existe  $\lambda \in \R$ tal que 
+\[A\vec{v}=\lambda \vec{v}.\]
+Neste caso, dizemos que $\lambda$ é um {\color{blue}autovalor} de $A$.
+
+\end{defin}
+
+\begin{exe}
+O vetor $\vec{v}=\begin{bmatrix} 1\\2 \end{bmatrix}$ é um autovetor da matriz
+$A=\begin{bmatrix}
+3 & 0 \\ 8 & -1
+\end{bmatrix}
+$
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=autovalores]{}
+\begin{teo}
+$\lambda\in \R$ é um autovalor de uma matriz $A$ se, e só se, 
+\[\det(A-\lambda I)=0.\]
+Está equação e dita {\color{blue}equação característica de A}. E o polinômio $p(\lambda)=\det(A-\lambda I)$ é denominado {\color{blue}polinômio característico}.
+\end{teo}
+
+\begin{exe}
+Determine os autovetores e autovalores da matriz
+\[A=
+\begin{bmatrix}
+1 & -1 \\ -4 & 1
+\end{bmatrix}
+\]
+\end{exe}
+\end{frame}
+
+
+\subsection*{Autoespaço}
+\begin{frame}[label=autovalores]{Autoespaço}
+Os autovetores associados a um mesmo autovalor $\lambda$ são os vetores não nulos  que satisfazem
+\[(A-\lambda I)\vec{x}=\vec{0},\]
+isto é, {\color{red}são todos os vetores não nulos} pertencentes ao {\color{red}núcleo de $A-\lambda I$}, chamado de {\color{blue}autoespaço de $A$ associado a $\lambda$} e denotado por $E_{\lambda}$. 
+
+
+\begin{exe}
+Determine uma base dos autoespaços da  matriz 
+\[A=\begin{bmatrix}
+0 & 0 & -2\\ 1 & 2 & 1 \\ 1 &0& 3
+\end{bmatrix}. \]
+\end{exe}
+\end{frame}
+
+\begin{frame}[label=autovalores,fragile=singleslide]{}
+\begin{casa}
+\begin{pycode}
+import sympy as sp
+A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
+\end{pycode}
+Considere a matriz
+\[A=
+\pyl{A}
+\]
+\begin{enumerate}
+\item Determine os autovalores de $A$.
+\item  Determine os autoespaços de $A$.
+\item  Determine uma base para cada autoespaço e a dimensão.
+\end{enumerate}
+\end{casa}
+\end{frame}
+
+
+\subsection*{Matrizes Semelhantes}
+\begin{frame}[label=autovalores]{Matrizes Semelhantes}
+\begin{defin}
+Dizemos que uma {\color{red}matriz quadrada} $B$ é {\color{blue}semelhante} a um matriz $A$ quando existir alguma matriz invertível $P$ tal que 
+\[B=P^{-1}AP.\]
+Neste caso, escrevemos $B\sim A$.
+\end{defin}
+
+Matrizes semelhantes têm muitas propriedades em comum, por exemplo, 
+
+\begin{enumerate}
+\item Matrizes semelhantes têm o mesmo determinante.
+\item Se $A$ e $B$ são semelhantes, então $B^k=P^{-1}A^kP$.
+\end{enumerate}
+
+
+%\begin{center}
+%{\color{red}Matrizes semelhantes têm o mesmo determinante.}
+%\end{center}
+
+
+
+\end{frame}
+
+\begin{frame}[label=autovalores]{}
+\begin{exe}
+Defina $P$ como a matriz cujas colunas são os autovetores da matriz $A=\begin{bmatrix}
+0 & 0 & -2\\ 1 & 2 & 1 \\ 1 &0& 3
+\end{bmatrix}$ do exemplo anterior e calcule a matriz  $D=P^{-1}AP$, semelhante a $A$.
+\end{exe}
+
+\begin{teo}
+Sejam $\lambda_1$ e $\lambda_2$ {\color{red}autovalores distintos} de uma matriz $A$. Se $\mathcal{B}_1$ e $\mathcal{B}_2$ são as bases dos autoespaços $E_{\lambda_1}$ e $E_{\lambda_2}$, respectivamente, então $\mathcal{B}=\mathcal{B}_1\cup \mathcal{B}_2$ é LI.
+\end{teo}
+
+\end{frame}
+
+
+\begin{frame}[label=autovalores]{Diagonalização de Matrizes}
+\begin{defin}
+Dizemos que uma matriz quadrada $A$ é {\color{blue}diagonalizável} se for semelhante a alguma matriz diagonal, isto é, se existe alguma matriz invertível $P$ tal que $D=P^{-1}AP$ é uma matriz diagonal. Neste caso, dizemos que $P$ {\color{blue}diagonaliza } $A$.
+\end{defin}
+
+\begin{teo}
+Uma matriz $A$ de ordem $n$ é diagonalizável se, e só se, possui $n$ autovetores linearmente independentes. Neste caso, se $D=P^{-1}AP$ a matriz diagonal $D$ é formada pelos autovalores e a matriz $P$ tem as colunas formadas pelos autovetores.
+\end{teo}
+
+\end{frame}
+
+\begin{frame}[label=autovalores,fragile=singleslide]{}
+\begin{exe}
+\begin{enumerate}
+\item Mostre que a seguinte matriz não é diagonalizável
+\[
+A=\begin{bmatrix}
+1& 0 & 0& \\ 1 & 2 & 0\\ -3 & 5 &  2
+\end{bmatrix}
+\]
+
+\item Calcule $A^n$ onde $A=\begin{bmatrix}
+0 & 1 \\ 2 & 1
+\end{bmatrix}$
+
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[4,0,1],[2,3,2],[1,0,4]])
+\end{pycode}
+
+\item Mostre que a matriz $A$ é diagonalizável e encontre as matrizes diagonal $D$ e a matriz $P$ que diagonaliza $A$.
+\[
+A=\pyl{A}
+\]
+\end{enumerate}
+
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=autovalores,fragile=singleslide]{}
+
+\begin{casa}
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
+B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
+\end{pycode}
+\begin{enumerate}
+\item Mostre que 
+\[A=\pyl{A}\]
+é diagonalizável e obtenha as matrizes diagonal $D$ e a matriz $P$ que diagonaliza $A$.
+
+\item Calcule $B^{11}$, onde 
+\[B=\pyl{B}\]
+\end{enumerate}
+
+\end{casa}
+\end{frame}
+
+\begin{frame}[label=autovalores,,fragile=singleslide]{Diagonizando com sympy}
+	\begin{footnotesize}
+\begin{pyverbatim}
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10],
+[0, -7, 6, -30],
+[0, 2, 0, 7],
+[0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+display(P)
+display(D)
+\end{pyverbatim}
+	\end{footnotesize}		
+
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10], [0, -7, 6, -30], [0, 2, 0, 7], [0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+\end{pycode}
+\[A=\pyl{A},\, P=\pyl{P},\]
+\[D=\pyl{D}\]
+
+\end{frame}
+
+\begin{frame}[label=autovalores]{}
+
+
+\end{frame}

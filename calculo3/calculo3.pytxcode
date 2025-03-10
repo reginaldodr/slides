@@ -1,0 +1,93 @@
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####func-vet.tex#194#
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.axes(projection = 'polar')
+
+plt.polar(5*np.pi/4,1, 'g.')
+plt.polar(3*np.pi,2, 'b.')
+plt.polar(-2*np.pi/3,2, 'k.')
+plt.polar(3*np.pi/4,3, 'r.')
+plt.polar(3*np.pi/4+np.pi,3, 'r.')
+
+plt.show()
+=>PYTHONTEX#py#default#defaultverb#1#verbatim####func-vet.tex#253#
+import matplotlib.pyplot as plt
+import numpy as np
+
+theta= np.linspace(0, 2*np.pi, 60)
+r=1+np.cos(theta)
+
+theta=np.where(r >= 0, theta,theta + np.pi)
+
+plt.polar(theta, np.abs(r))
+plt.show()
+=>PYTHONTEX#py#default#defaultverb#2#verbatim####funcoes.tex#87#
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 6-3*x-2*y
+
+x =y=np.linspace(-5,5, 25)
+
+X,Y=np.meshgrid(x, y)
+Z = f(X, Y)
+
+fig=plt.figure()
+ax=plt.axes(projection='3d')
+
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('z')
+ax.plot_surface(X, Y, Z,cmap='viridis')
+
+plt.show()
+=>PYTHONTEX#py#default#default#0#code####funcoes.tex#117#
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 6-3*x-2*y
+
+x =y= np.linspace(-5,5, 25)
+
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+ax.view_init(elev=30, azim=30, roll=0)
+
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('z')
+ax.plot_surface(X, Y, Z,cmap='viridis')
+
+
+plt.savefig('figuras/grafico1.png',transparent=False,dpi=400)
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-calculo3
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

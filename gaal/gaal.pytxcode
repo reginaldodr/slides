@@ -1,0 +1,726 @@
+=>PYTHONTEX#py#default#default#0#code####vetores.tex#555#
+import sympy as sp
+
+x1,x2,x3,x4=sp.symbols('x_1 x_2 x_3 x_4',real=True)
+X=sp.Matrix([x1,x2,x3,x4])
+def pt(Y):
+ return((Y[0],Y[1]))
+
+v1=sp.Matrix([0.14,0.08,0,1.6])
+v2=sp.Matrix([0.58,0,0,0])
+v3=sp.Matrix([0.15,1.3,26,6.9])
+v4=sp.Matrix([0,0.08,38,0.2])
+B=sp.Matrix([3,1.1,60,11])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+
+AX=A*X
+sol=sp.solve(sp.Eq(AX,B),(x1,x2,x3,x4))
+=>PYTHONTEX#py#default#default#1#i####vetores.tex#575#
+sp.latex(sp.N(sol[x1],3))
+=>PYTHONTEX#py#default#default#2#i####vetores.tex#575#
+sp.latex(sp.N(sol[x2],3))
+=>PYTHONTEX#py#default#default#3#i####vetores.tex#575#
+sp.latex(sp.N(sol[x3],3))
+=>PYTHONTEX#py#default#default#4#i####vetores.tex#575#
+sp.latex(sp.N(sol[x4],3))
+=>PYTHONTEX#py#default#default#5#i####vetores.tex#579#
+sp.latex(sp.N(sol[x1]*100,3))
+=>PYTHONTEX#py#default#default#6#i####vetores.tex#580#
+sp.latex(sp.N(sol[x2]*100,3))
+=>PYTHONTEX#py#default#default#7#i####vetores.tex#581#
+sp.latex(sp.N(sol[x3]*100,3))
+=>PYTHONTEX#py#default#default#8#i####vetores.tex#582#
+sp.latex(sp.N(sol[x4]*100,3))
+=>PYTHONTEX#py#default#default#9#code####vetores.tex#594#
+import sympy as sp
+
+x1,x2,x3,x4=sp.symbols('x_1 x_2 x_3 x_4',real=True)
+X=sp.Matrix([x1,x2,x3,x4])
+def pt(Y):
+ return((Y[0],Y[1],Y[2],Y[3]))
+
+v1=sp.Matrix([0.14,0.08,0,1.6])
+v2=sp.Matrix([0.58,0,0,0])
+v3=sp.Matrix([0.15,1.3,26,6.9])
+v4=sp.Matrix([0,0.08,38,0.2])
+B=sp.Matrix([3,1.1,60,11])
+=>PYTHONTEX#py#default#default#10#i####vetores.tex#609#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#11#i####vetores.tex#610#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#12#i####vetores.tex#610#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#13#i####vetores.tex#610#
+sp.latex(v3)
+=>PYTHONTEX#py#default#default#14#i####vetores.tex#610#
+sp.latex(v4)
+=>PYTHONTEX#py#default#default#15#code####matrizes.tex#25#
+import sympy as sp
+
+A=sp.Matrix([[0, -1],[1, 0]])
+B=sp.Matrix([[1,3,0],[2,-1,-3]])
+=>PYTHONTEX#py#default#default#16#i####matrizes.tex#34#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#17#i####matrizes.tex#34#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#18#code####matrizes.tex#44#
+import sympy as sp
+
+A=sp.Matrix([[1, 2,-3],[3, 4,0]])
+B=sp.Matrix([[-2,1,5],[0,3,-4]])
+C=A+B
+=>PYTHONTEX#py#default#default#19#i####matrizes.tex#58#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#20#i####matrizes.tex#59#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#21#i####matrizes.tex#62#
+sp.latex(C)
+=>PYTHONTEX#py#default#default#22#code####matrizes.tex#68#
+import sympy as sp
+
+A=sp.Matrix([[-2,1],[0,3],[5,-4]])
+a=-3
+B=a*A
+=>PYTHONTEX#py#default#default#23#i####matrizes.tex#101#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#24#i####matrizes.tex#101#
+sp.latex(a)
+=>PYTHONTEX#py#default#default#25#i####matrizes.tex#101#
+sp.latex(a)
+=>PYTHONTEX#py#default#default#26#i####matrizes.tex#101#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#27#code####matrizes.tex#143#
+import sympy as sp
+
+A=sp.Matrix([[1,2,-3],[3,4,0]])
+B=sp.Matrix([[-2,1,0],[0,3,1],[5,-4,0]])
+C=A*B
+=>PYTHONTEX#py#default#default#28#i####matrizes.tex#152#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#29#i####matrizes.tex#152#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#30#i####matrizes.tex#153#
+sp.latex(C)
+=>PYTHONTEX#py#default#default#31#code####matrizes.tex#191#
+import sympy as sp
+
+R=sp.Matrix([[0,-1],[1,0]])
+S=sp.Matrix([[0,1],[1,0]])
+A=sp.Matrix([0,1])
+B=sp.Matrix([1,1])
+C=sp.Matrix([1,3])
+
+
+=>PYTHONTEX#py#default#default#32#i####matrizes.tex#204#
+sp.latex(R)
+=>PYTHONTEX#py#default#default#33#i####matrizes.tex#204#
+sp.latex(S)
+=>PYTHONTEX#py#default#default#34#i####matrizes.tex#204#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#35#i####matrizes.tex#204#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#36#i####matrizes.tex#204#
+sp.latex(C)
+=>PYTHONTEX#py#default#default#37#code####matrizes.tex#295#
+import sympy as sp
+
+A=sp.Matrix([[1,2,-3],[3,4,0]])
+B=A.T
+=>PYTHONTEX#py#default#default#38#i####matrizes.tex#303#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#39#i####matrizes.tex#304#
+sp.latex(B)
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####matrizes.tex#347#
+import sympy as sp
+
+A=sp.Matrix([[1, 2,-3],[3, 4,0]])
+B=sp.Matrix([[-2,1,5],[0,3,-4]])
+C=sp.Matrix([[-2,1,0],[0,3,0],[5,-4,0]])
+S=A+B
+display(S)
+P=A*C
+display(P)
+T=A.T
+display(T)
+
+=>PYTHONTEX#py#default#default#40#code####matrizes.tex#362#
+import sympy as sp
+
+A=sp.Matrix([[1, 2,-3],[3, 4,0]])
+B=sp.Matrix([[-2,1,5],[0,3,-4]])
+C=sp.Matrix([[-2,1,0],[0,3,1],[5,-4,0]])
+S=A+B
+P=A*C
+T=A.T
+=>PYTHONTEX#py#default#default#41#i####matrizes.tex#372#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#42#i####matrizes.tex#372#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#43#i####matrizes.tex#372#
+sp.latex(C)
+=>PYTHONTEX#py#default#default#44#i####matrizes.tex#374#
+sp.latex(S)
+=>PYTHONTEX#py#default#default#45#i####matrizes.tex#374#
+sp.latex(P)
+=>PYTHONTEX#py#default#default#46#i####matrizes.tex#374#
+sp.latex(T)
+=>PYTHONTEX#py#default#defaultverb#1#verbatim####vetores2.tex#215#
+import sympy as sp
+import mpmath
+
+u=sp.Matrix([1.12,-3.25,2.07,-1.83 ])
+v=sp.Matrix([-2.29,1.72,4.33,-1.54])
+uv=u.dot(v)
+nu=u.norm()
+nv=v.norm()
+cos=uv/(nu*nv)
+theta=sp.acos(cos)
+thetag=round(mp.degrees(theta),2)
+=>PYTHONTEX#py#default#default#47#code####vetores2.tex#230#
+import sympy as sp
+import mpmath as mp
+
+u=sp.Matrix([1.12,-3.25,2.07,-1.83 ])
+v=sp.Matrix([-2.29,1.72,4.33,-1.54])
+uv=u.dot(v)
+nu=u.norm()
+nv=v.norm()
+cos=uv/(nu*nv)
+theta=sp.acos(cos)
+thetag=round(mp.degrees(theta),2)
+=>PYTHONTEX#py#default#default#48#i####vetores2.tex#244#
+sp.latex(u)
+=>PYTHONTEX#py#default#default#49#i####vetores2.tex#244#
+sp.latex(v)
+=>PYTHONTEX#py#default#default#50#i####vetores2.tex#244#
+sp.latex(uv)
+=>PYTHONTEX#py#default#default#51#i####vetores2.tex#245#
+sp.latex(cos)
+=>PYTHONTEX#py#default#default#52#i####vetores2.tex#245#
+sp.latex(theta)
+=>PYTHONTEX#py#default#default#53#i####vetores2.tex#245#
+sp.latex(thetag)
+=>PYTHONTEX#py#default#default#54#code####retas-planos.tex#261#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+=>PYTHONTEX#py#default#default#55#i####retas-planos.tex#280#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#56#i####retas-planos.tex#281#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#57#i####retas-planos.tex#285#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#58#i####retas-planos.tex#286#
+sp.latex(-2*AX[1]+AX[0])
+=>PYTHONTEX#py#default#default#59#i####retas-planos.tex#286#
+sp.latex(-2*B[1]+B[0])
+=>PYTHONTEX#py#default#default#60#code####retas-planos.tex#294#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+=>PYTHONTEX#py#default#default#61#i####retas-planos.tex#310#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#62#i####retas-planos.tex#311#
+sp.latex(-2*AX[1]+AX[0])
+=>PYTHONTEX#py#default#default#63#i####retas-planos.tex#311#
+sp.latex(-2*B[1]+B[0])
+=>PYTHONTEX#py#default#default#64#i####retas-planos.tex#314#
+sp.latex(sol[y])
+=>PYTHONTEX#py#default#default#65#i####retas-planos.tex#314#
+sp.latex(sol[x])
+=>PYTHONTEX#py#default#default#66#code####sistemas.tex#71#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+=>PYTHONTEX#py#default#default#67#i####sistemas.tex#87#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#68#i####sistemas.tex#88#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#69#i####sistemas.tex#92#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#70#i####sistemas.tex#93#
+sp.latex(-2*AX[1]+AX[0])
+=>PYTHONTEX#py#default#default#71#i####sistemas.tex#93#
+sp.latex(-2*B[1]+B[0])
+=>PYTHONTEX#py#default#default#72#code####sistemas.tex#145#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2, -1,1],[1,3,4]])
+B=sp.Matrix([2,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+MA=sp.Matrix.hstack(A,B)
+MA2=sp.Matrix([MA.row(0),-2*MA.row(1)+MA.row(0)])
+A2=MA2[:,0:3]
+B2=MA2[:,3:4]
+AX2=A2*X
+eq12=sp.Eq(AX2[0],B2[0])
+eq22=sp.Eq(AX2[1],B2[1])
+=>PYTHONTEX#py#default#default#73#i####sistemas.tex#167#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#74#i####sistemas.tex#168#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#75#i####sistemas.tex#173#
+sp.latex(MA)
+=>PYTHONTEX#py#default#default#76#i####sistemas.tex#175#
+sp.latex(MA2)
+=>PYTHONTEX#py#default#default#77#i####sistemas.tex#180#
+sp.latex(eq12)
+=>PYTHONTEX#py#default#default#78#i####sistemas.tex#181#
+sp.latex(eq22)
+=>PYTHONTEX#py#default#default#79#code####sistemas.tex#204#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[-6, -1,1],[3,1,5]])
+B=sp.Matrix([0,1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+
+sol=sp.solve(sp.Eq(AX,B),(x,y,z))
+
+=>PYTHONTEX#py#default#default#80#i####sistemas.tex#222#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#81#i####sistemas.tex#223#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#82#code####sistemas.tex#277#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,1,1],[2,1,4],[2,3,5]])
+B=sp.Matrix([10,20,25])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+
+=>PYTHONTEX#py#default#default#83#i####sistemas.tex#294#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#84#i####sistemas.tex#295#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#85#i####sistemas.tex#296#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#86#code####sistemas.tex#300#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,1,2],[-1,-2,3],[3,-7,4]])
+B=sp.Matrix([8,1,10])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+=>PYTHONTEX#py#default#default#87#i####sistemas.tex#316#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#88#i####sistemas.tex#317#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#89#i####sistemas.tex#318#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#90#code####sistemas.tex#351#
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+=>PYTHONTEX#py#default#default#91#i####sistemas.tex#367#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#92#i####sistemas.tex#368#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#93#i####sistemas.tex#369#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#94#code####sistemas.tex#379#
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+Ma=sp.Matrix.hstack(A,B)
+system= A,B
+sol=sp.linsolve(system,x,y,z,w)
+Me=Ma.echelon_form()
+=>PYTHONTEX#py#default#default#95#i####sistemas.tex#391#
+sp.latex(Me)
+=>PYTHONTEX#py#default#default#96#i####sistemas.tex#393#
+sp.latex(sol)
+=>PYTHONTEX#py#default#default#97#code####sistemas.tex#453#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[1,-2,1],[2,-5,1],[3,-7,2]])
+B=sp.Matrix([1,-2,-1])
+C=sp.Matrix([2,-1,2])
+AX=A*X
+=>PYTHONTEX#py#default#default#98#i####sistemas.tex#466#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#99#i####sistemas.tex#466#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#100#i####sistemas.tex#466#
+sp.latex(C)
+=>PYTHONTEX#py#default#default#101#code####sistemas.tex#477#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+Ma=sp.Matrix.hstack(A,B)
+system= A,B
+sol=sp.linsolve(system,x,y,z)
+=>PYTHONTEX#py#default#default#102#i####sistemas.tex#493#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#103#i####sistemas.tex#494#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#104#i####sistemas.tex#495#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#105#i####sistemas.tex#499#
+sp.latex(Ma)
+=>PYTHONTEX#py#default#default#106#code####sistemas.tex#506#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sol=sp.linsolve((A,B),x,y,z)
+=>PYTHONTEX#py#default#defaultverb#2#verbatim####sistemas.tex#516#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sol=sp.linsolve((A,B),x,y,z)
+display(sol)
+=>PYTHONTEX#py#default#default#107#i####sistemas.tex#527#
+sp.latex(sol)
+=>PYTHONTEX#py#default#default#108#code####sistemas.tex#533#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sistema=sp.Eq(A*X,B)
+sol=sp.solve(sistema,(x,y,z))
+=>PYTHONTEX#py#default#defaultverb#3#verbatim####sistemas.tex#544#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+sistema=sp.Eq(A*X,B)
+sol=sp.solve(sistema,(x,y,z))
+display(sol)
+=>PYTHONTEX#py#default#default#109#i####sistemas.tex#556#
+sp.latex(sol)
+=>PYTHONTEX#py#default#default#110#code####sistemas.tex#561#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+=>PYTHONTEX#py#default#defaultverb#4#verbatim####sistemas.tex#572#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+A=sp.Matrix([[2,2,2],[-2,5,2],[8,1,4]])
+B=sp.Matrix([0,1,-1])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+display(Me)
+=>PYTHONTEX#py#default#default#111#i####sistemas.tex#584#
+sp.latex(Me)
+=>PYTHONTEX#py#default#default#112#code####sistemas.tex#619#
+import sympy as sp
+
+x,y,z,w=sp.symbols('x y z w',real=True)
+X=sp.Matrix([x,y,z,w])
+A=sp.Matrix([[0,0,3,-9],[5,15,-10,40],[1,3,-1,5]])
+B=sp.Matrix([6,-45,-7])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+Ma=sp.Matrix.hstack(A,B)
+Me=Ma.echelon_form()
+=>PYTHONTEX#py#default#default#113#i####sistemas.tex#636#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#114#i####sistemas.tex#637#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#115#i####sistemas.tex#638#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#116#i####sistemas.tex#641#
+sp.latex(Ma)
+=>PYTHONTEX#py#default#default#117#i####sistemas.tex#641#
+sp.latex(Me)
+=>PYTHONTEX#py#default#default#118#i####sistemas.tex#643#
+sp.latex(Ma.rref()[0])
+=>PYTHONTEX#py#default#default#119#code####sistemas.tex#649#
+import sympy as sp
+
+x,y,z=sp.symbols('x y z',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([3,-1,2,1]).T
+L2=sp.Matrix([-2,1,1,0]).T
+L3=-2*L1+L2
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+=>PYTHONTEX#py#default#default#120#i####sistemas.tex#668#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#121#i####sistemas.tex#669#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#122#i####sistemas.tex#670#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#123#code####sistemas.tex#675#
+import sympy as sp
+
+x,y,z,a=sp.symbols('x y z a',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([1,2,-3,4]).T
+L2=sp.Matrix([3,-1,5,2]).T
+L3=sp.Matrix([4,1,a**2-14,a+2]).T
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+=>PYTHONTEX#py#default#default#124#i####sistemas.tex#694#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#125#i####sistemas.tex#695#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#126#i####sistemas.tex#696#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#127#code####sistemas.tex#704#
+import sympy as sp
+
+x1,x2,x3,x4,x5,x6=sp.symbols('x_1 x_2 x_3 x_4 x_5 x_6',real=True)
+X=sp.Matrix([x1,x2,x3,x4,x5,x6])
+A=sp.Matrix([[1,2,0,-3,1,0],[1,2,1,-3,1,2],[1,2,0,-3,2,1],[3,6,1,-9,4,3]])
+B=sp.Matrix([2,3,4,9])
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+eq4=sp.Eq(AX[3],B[3])
+=>PYTHONTEX#py#default#default#128#i####sistemas.tex#721#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#129#i####sistemas.tex#722#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#130#i####sistemas.tex#723#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#default#131#i####sistemas.tex#724#
+sp.latex(eq4)
+=>PYTHONTEX#py#default#default#132#code####sistemas.tex#728#
+import sympy as sp
+
+x,y,z,a=sp.symbols('x y z a',real=True)
+X=sp.Matrix([x,y,z])
+L1=sp.Matrix([1,1,1,2]).T
+L2=sp.Matrix([2,3,2,5]).T
+L3=sp.Matrix([2,3,a**2-1,a+1]).T
+M=sp.Matrix([L1,L2,L3])
+A=M[:3,:3]
+B=M[:,3:4]
+AX=A*X
+eq1=sp.Eq(AX[0],B[0])
+eq2=sp.Eq(AX[1],B[1])
+eq3=sp.Eq(AX[2],B[2])
+=>PYTHONTEX#py#default#default#133#i####sistemas.tex#747#
+sp.latex(eq1)
+=>PYTHONTEX#py#default#default#134#i####sistemas.tex#748#
+sp.latex(eq2)
+=>PYTHONTEX#py#default#default#135#i####sistemas.tex#749#
+sp.latex(eq3)
+=>PYTHONTEX#py#default#defaultverb#5#verbatim####inversao-matrizes.tex#104#
+import sympy as sp
+
+A=sp.Matrix([[1, 2,3],[1,1,3],[0,1,2]])
+B=sp.Matrix([[1,1,1,1],[1,2,-1,2],[1,-1,2,1],[1,3,3,2]])
+invA=A.inv()
+invB=B.inv()
+=>PYTHONTEX#py#default#default#136#code####inversao-matrizes.tex#113#
+import sympy as sp
+
+A=sp.Matrix([[1, 2,3],[1,1,3],[0,1,2]])
+B=sp.Matrix([[1,1,1,1],[1,2,-1,2],[1,-1,2,1],[1,3,3,2]])
+invA=A.inv()
+invB=B.inv()
+=>PYTHONTEX#py#default#default#137#i####inversao-matrizes.tex#121#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#138#i####inversao-matrizes.tex#121#
+sp.latex(B)
+=>PYTHONTEX#py#default#default#139#i####inversao-matrizes.tex#123#
+sp.latex(invA)
+=>PYTHONTEX#py#default#default#140#i####inversao-matrizes.tex#123#
+sp.latex(invB)
+=>PYTHONTEX#py#default#defaultverb#6#verbatim####determinantes.tex#82#
+import sympy as sp
+
+A=sp.Matrix([[1,0,3,1],[-1,3,2,5],[0,0,2,3],[2,1,-2,0]])
+A.det()
+=>PYTHONTEX#py#default#default#141#code####determinantes.tex#89#
+import sympy as sp
+
+A=sp.Matrix([[1,0,3,1],[-1,3,2,5],[0,0,2,3],[2,1,-2,0]])
+detA=A.det()
+=>PYTHONTEX#py#default#default#142#i####determinantes.tex#95#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#143#i####determinantes.tex#95#
+sp.latex(detA)
+=>PYTHONTEX#py#default#default#144#code####determinantes.tex#186#
+import sympy as sp
+
+A=sp.Matrix([[0,2,-4,5],[3,0,-3,6],[2,4,5,3],[5,-1,-3,1]])
+=>PYTHONTEX#py#default#default#145#i####determinantes.tex#205#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#146#i####determinantes.tex#207#
+sp.latex(A.det())
+=>PYTHONTEX#py#default#default#147#code####lild.tex#41#
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,1,2])
+v2=sp.Matrix([1,0,1])
+v3=sp.Matrix([4,6,12])
+
+A=sp.Matrix.hstack(v1,v2,v3)
+
+
+u1=sp.Matrix([0,3,1,-1])
+u2=sp.Matrix([6,0,5,1])
+u3=sp.Matrix([4,-7,1,3])
+
+B=sp.Matrix.hstack(u1,u2,u3)
+=>PYTHONTEX#py#default#default#148#i####lild.tex#64#
+sp.latex(pt(v1))
+=>PYTHONTEX#py#default#default#149#i####lild.tex#64#
+sp.latex(pt(v2))
+=>PYTHONTEX#py#default#default#150#i####lild.tex#64#
+sp.latex(pt(v3))
+=>PYTHONTEX#py#default#default#151#i####lild.tex#65#
+sp.latex(pt(u1))
+=>PYTHONTEX#py#default#default#152#i####lild.tex#65#
+sp.latex(pt(u2))
+=>PYTHONTEX#py#default#default#153#i####lild.tex#65#
+sp.latex(pt(u3))
+=>PYTHONTEX#py#default#default#154#code####autovetores.tex#59#
+import sympy as sp
+A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
+=>PYTHONTEX#py#default#default#155#i####autovetores.tex#65#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#156#code####autovetores.tex#139#
+import sympy as sp
+
+A=sp.Matrix([[4,0,1],[2,3,2],[1,0,4]])
+=>PYTHONTEX#py#default#default#157#i####autovetores.tex#147#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#158#code####autovetores.tex#158#
+import sympy as sp
+
+A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
+B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
+=>PYTHONTEX#py#default#default#159#i####autovetores.tex#166#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#160#i####autovetores.tex#170#
+sp.latex(B)
+=>PYTHONTEX#py#default#defaultverb#7#verbatim####autovetores.tex#178#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10],
+[0, -7, 6, -30],
+[0, 2, 0, 7],
+[0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+display(P)
+display(D)
+=>PYTHONTEX#py#default#default#161#code####autovetores.tex#191#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10], [0, -7, 6, -30], [0, 2, 0, 7], [0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+=>PYTHONTEX#py#default#default#162#i####autovetores.tex#197#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#163#i####autovetores.tex#197#
+sp.latex(P)
+=>PYTHONTEX#py#default#default#164#i####autovetores.tex#198#
+sp.latex(D)
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-gaal
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|
