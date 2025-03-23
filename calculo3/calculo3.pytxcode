@@ -1,4 +1,4 @@
-=>PYTHONTEX#py#default#defaultverb#0#verbatim####polares.tex#112#
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####polares.tex#117#
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,7 +11,7 @@ plt.polar(3*np.pi/4,3, 'r.')
 plt.polar(3*np.pi/4+np.pi,3, 'r.')
 
 plt.show()
-=>PYTHONTEX#py#default#defaultverb#1#verbatim####polares.tex#171#
+=>PYTHONTEX#py#default#defaultverb#1#verbatim####polares.tex#176#
 import matplotlib.pyplot as plt
 import numpy as np
 

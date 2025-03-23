@@ -42,11 +42,16 @@ As \dt{coordenadas polares} de ponto {\color{red}$P$} do plano são formadas por
 		\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 
-\begin{frame}[label=polar]{Coordenadas Polares}
-Usamos a convenção de que um ângulo é positivo se for medido no sentido anti-horário a partir do eixo polar e negativo se for medido no sentido horário. Se $P=O$, então $r=0$, e convencionamos que $(0,\theta)$ representa o polo para qualquer valor de $\theta$.
-\medskip
+\begin{frame}[label=polar]
 
-No caso $r<0$, convencionamos que a coordenada $(r,\theta)$ corresponde ao simétrico, em relação à origem, do ponto $(|r|,\theta)$.
+\begin{block}{Convenções}
+\begin{itemize}
+\item Um ângulo é \dt{positivo} se for medido no sentido anti-horário a partir do eixo polar e {\color{red}negativo} se for medido no sentido horário.
+
+\item $(0,\theta)$ representa o {\color{blue}polo} para qualquer valor de $\theta$.
+
+\item Se $r<0$, a coordenada $(r,\theta)$ corresponde ao simétrico, em relação à origem, do ponto $(|r|,\theta)$.
+
 
 \centering
 
@@ -67,21 +72,21 @@ No caso $r<0$, convencionamos que a coordenada $(r,\theta)$ corresponde ao simé
 \node[thick] at (1.2,0.3) {$\theta$};
 \draw[very thick,dashed] (0,0) -- ({2*cos(45)},{2*sin(45)});
 
-\node at (0.5,1) {$r$};
-\node[right] at (A) {$(r,\theta)$};
+\node at (0.5,1) {$|r|$};
+\node[right] at (A) {$(|r|,\theta)$};
 \fill[black] (A) circle (2pt);
 
 \node[below] at (0,0) {$O$};
 
 \draw[very thick,blue] (0,0) -- ({2*cos(45+180)},{2*sin(45+180)});
 
-\node[left] at (B) {$(-r,\theta)$};
+\node[left] at (B) {$(r,\theta)$};
 \fill[red] (B) circle (2pt);
 \node at ({0.8*cos(90+45)},{0.8*sin(90+45)}) {$\theta +\pi$};
   
 \end{tikzpicture}
-
-
+\end{itemize}
+\end{block}
 
 \end{frame}
 
@@ -157,7 +162,7 @@ O \dt{gráfico de uma equação polar} consiste em todos os pontos $P$ que têm 
 
 \begin{frame}[label=fun-vet]
 \begin{exe} Esboce a curva que é representada pela seguinte equação polar
-\[r=1+\cos\theta \text{ (cardioide)}\]
+\[r=1+\cos(\theta) \text{ (cardioide)}\]
 \end{exe}
 
 
@@ -195,7 +200,7 @@ plt.show()
 \only<1>{\begin{figure}
 \centering
 \includegraphics[scale=.7]{figuras/polar-card.png}
-\caption{$r=1+\cos\theta$}
+\caption{$r=1+\cos(\theta)$}
 \end{figure}}
 %\only<3>{\begin{figure}
 %\centering

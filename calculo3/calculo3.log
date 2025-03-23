@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  22 MAR 2025 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  23 MAR 2025 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,8 +1278,19 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mc@col@check@num=\count386
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/syntonly.sty
 Package: syntonly 2017/06/30 v2.1e Standard LaTeX2e package
+) (/usr/share/texlive/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+\XKV@depth=\count387
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
@@ -1304,8 +1315,8 @@ exmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen319
 \pgffor@skip=\dimen320
-\pgffor@stack=\toks52
-\pgffor@toks=\toks53
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1313,7 +1324,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count387
+\pgf@plot@mark@count=\count388
 \pgfplotmarksize=\dimen321
 )
 \tikz@lastx=\dimen322
@@ -1328,18 +1339,18 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box131
 \tikz@tempbox=\box132
 \tikz@tempbox@bg=\box133
-\tikztreelevel=\count388
-\tikznumberofchildren=\count389
-\tikznumberofcurrentchild=\count390
-\tikz@fig@count=\count391
+\tikztreelevel=\count389
+\tikznumberofchildren=\count390
+\tikznumberofcurrentchild=\count391
+\tikz@fig@count=\count392
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count392
-\pgfmatrixcurrentcolumn=\count393
-\pgf@matrix@numberofcolumns=\count394
+\pgfmatrixcurrentrow=\count393
+\pgfmatrixcurrentcolumn=\count394
+\pgf@matrix@numberofcolumns=\count395
 )
-\tikz@expandcount=\count395
+\tikz@expandcount=\count396
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1360,7 +1371,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen332
 \pgfdecoratedinputsegmentremainingdistance=\dimen333
 \pgf@decorate@distancetomove=\dimen334
-\pgf@decorate@repeatstate=\count396
+\pgf@decorate@repeatstate=\count397
 \pgfdecorationsegmentamplitude=\dimen335
 \pgfdecorationsegmentlength=\dimen336
 )
@@ -1425,15 +1436,15 @@ zlibraryintersections.code.tex
 s.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-\pgf@intersect@solutions=\count397
+\pgf@intersect@solutions=\count398
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryfpu.code.tex)
-\tikz@math@for@depth=\count398
+\tikz@math@for@depth=\count399
 \tikz@math@dimen=\dimen342
-\tikz@math@toks=\toks54
+\tikz@math@toks=\toks56
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1467,7 +1478,7 @@ exlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-01-22 L3 programming layer (loader) 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count399
+\l__color_backend_stack_int=\count400
 \l__pdf_internal_box=\box139
 ))
 Package: xfp 2023-10-10 L3 Floating point unit
@@ -1487,7 +1498,7 @@ Package: xparse 2023-10-10 L3 Experimental document command parser
 \tkz@cy=\dimen351
 \tkz@dx=\dimen352
 \tkz@dy=\dimen353
-\tkz@cntmk=\count400
+\tkz@cntmk=\count401
 Local configuration file tkz-euclide.cfg found and used
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
 2024/02/04 5.06c tkz-euclide.cfg
@@ -1573,23 +1584,23 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen354
 \ar@mcellbox=\box140
 \extrarowheight=\dimen355
-\NC@list=\toks55
+\NC@list=\toks57
 \extratabsurround=\skip68
 \backup@length=\skip69
 \ar@cellbox=\box141
 ) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box142
-\sift@deathcycles=\count401
+\sift@deathcycles=\count402
 \@vwid@loff=\dimen356
 \@vwid@roff=\dimen357
 )
-\c@taburow=\count402
-\tabu@nbcols=\count403
-\tabu@cnt=\count404
-\tabu@Xcol=\count405
-\tabu@alloc=\count406
-\tabu@nested=\count407
+\c@taburow=\count403
+\tabu@nbcols=\count404
+\tabu@cnt=\count405
+\tabu@Xcol=\count406
+\tabu@alloc=\count407
+\tabu@nested=\count408
 \tabu@target=\dimen358
 \tabu@spreadtarget=\dimen359
 \tabu@naturalX=\dimen360
@@ -1599,8 +1610,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen364
 \belowtabulinesep=\dimen365
 \tabustrutrule=\dimen366
-\tabu@thebody=\toks56
-\tabu@footnotes=\toks57
+\tabu@thebody=\toks58
+\tabu@footnotes=\toks59
 \tabu@box=\box143
 \tabu@arstrutbox=\box144
 \tabu@hleads=\box145
@@ -1623,8 +1634,8 @@ Package caption Info: beamer document class detected.
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count408
-\c@continuedfloat=\count409
+\c@caption@flags=\count409
+\c@continuedfloat=\count410
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1634,10 +1645,10 @@ hare/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share
 /texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/te
 xlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texl
 ive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-\c@nada=\count410
-\c@outline=\count411
-\c@afir=\count412
-\c@casa=\count413
+\c@nada=\count411
+\c@outline=\count412
+\c@afir=\count413
+\c@casa=\count414
 (./calculo3.aux (./bibliografia.aux) (./introducao.aux
 
 LaTeX Warning: Label `introducao<1>' multiply defined.
@@ -1735,24 +1746,24 @@ LaTeX Warning: Label `cilindros' multiply defined.
 ))
 \openout1 = `calculo3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
-LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1789,17 +1800,17 @@ LaTeX Font Info:    ... okay on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count414
+\scratchcounter=\count415
 \scratchdimen=\dimen375
 \scratchbox=\box147
-\nofMPsegments=\count415
-\nofMParguments=\count416
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count417
+\nofMPsegments=\count416
+\nofMParguments=\count417
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count418
 \MPscratchDim=\dimen376
-\MPnumerator=\count418
-\makeMPintoPDFobject=\count419
-\everyMPtoPDFconversion=\toks59
+\MPnumerator=\count419
+\makeMPintoPDFobject=\count420
+\everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1808,7 +1819,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 152.
+Package hyperref Info: Link coloring ON on input line 153.
 (./calculo3.out) (./calculo3.out)
 \@outlinefile=\write7
 \openout7 = `calculo3.out'.
@@ -1842,30 +1853,30 @@ Package newfloat Info: Trying Plan B...
 Package newfloat Info: `wrapfig' package detected.
 (./pythontex-files-calculo3/calculo3.pytxmcr)
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
-ut line 152.
-\c@listing=\count420
-\newfloat@ftype=\count421
-Package newfloat Info: float type `listing'=8 on input line 152.
+ut line 153.
+\c@listing=\count421
+\newfloat@ftype=\count422
+Package newfloat Info: float type `listing'=8 on input line 153.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (./calculo3.nav) (./pythontex-files-calculo3/calculo3.pytxpyg)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 162.
+(hyperref)                setting the option has no effect on input line 163.
 
-<sela-macaco.png, id=64, 577.15625pt x 450.68375pt>
+<sela-macaco.png, id=68, 577.15625pt x 450.68375pt>
 File: sela-macaco.png Graphic file (type png)
 <use sela-macaco.png>
-Package pdftex.def Info: sela-macaco.png  used on input line 180.
+Package pdftex.def Info: sela-macaco.png  used on input line 181.
 (pdftex.def)             Requested size: 115.4292pt x 90.13515pt.
 
-Overfull \vbox (13.61763pt too high) detected at line 180
+Overfull \vbox (13.61763pt too high) detected at line 181
  []
 
-<UFF_brasao.png, id=67, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=71, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 180.
+Package pdftex.def Info: UFF_brasao.png  used on input line 181.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [1
 
@@ -1873,7 +1884,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 180.
 macaco.png>] (./calculo3.toc)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 187.
+Package pdftex.def Info: UFF_brasao.png  used on input line 188.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [2
 
@@ -2080,7 +2091,7 @@ een already used, duplicate ignored
                    \relax 
 l.65 \end{frame}
                 
-<exemplo.png, id=657, 59.9841pt x 58.5387pt>
+<exemplo.png, id=661, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 65.
@@ -2092,7 +2103,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 65.
 [17
 
  <./exemplo.png>]
-<figuras/normal-vector.png, id=705, 226.446pt x 187.902pt>
+<figuras/normal-vector.png, id=709, 226.446pt x 187.902pt>
 File: figuras/normal-vector.png Graphic file (type png)
 <use figuras/normal-vector.png>
 Package pdftex.def Info: figuras/normal-vector.png  used on input line 76.
@@ -2127,7 +2138,7 @@ been already used, duplicate ignored
                    \relax 
 l.114 \end{frame}
                  
-<w-homework.png, id=782, 513.92pt x 452.69125pt>
+<w-homework.png, id=786, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 114.
@@ -2154,7 +2165,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 42.
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 86.
+Package pdftex.def Info: UFF_brasao.png  used on input line 91.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [22
 
@@ -2163,30 +2174,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{polar<1>}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \end{frame}
+l.113 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{polar}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \end{frame}
+l.113 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 108.
+Package pdftex.def Info: exemplo.png  used on input line 113.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/polar1.png, id=903, 462.528pt x 346.896pt>
+<figuras/polar1.png, id=921, 462.528pt x 346.896pt>
 File: figuras/polar1.png Graphic file (type png)
 <use figuras/polar1.png>
-Package pdftex.def Info: figuras/polar1.png  used on input line 108.
+Package pdftex.def Info: figuras/polar1.png  used on input line 113.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \vbox (3.83427pt too high) detected at line 108
+Overfull \vbox (3.83427pt too high) detected at line 113
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 108.
+Package pdftex.def Info: UFF_brasao.png  used on input line 113.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [23
 
@@ -2195,21 +2206,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \begin
+l.116 \begin
             {block}{ }
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \begin
+l.116 \begin
             {block}{ }
-\c@pytx@py@default@defaultverb=\count422
-\c@pytx@py@default@defaultverb@line=\count423
+\c@pytx@py@default@defaultverb=\count423
+\c@pytx@py@default@defaultverb@line=\count424
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 125.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 130.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 129.
+Package pdftex.def Info: UFF_brasao.png  used on input line 134.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [24
 
@@ -2218,21 +2229,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \end{frame}
+l.161 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \end{frame}
+l.161 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 156.
+Package pdftex.def Info: exemplo.png  used on input line 161.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 156.
+Package pdftex.def Info: UFF_brasao.png  used on input line 161.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [25
 
@@ -2241,27 +2252,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.167 \end{frame}
+l.172 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.167 \end{frame}
+l.172 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 167.
+Package pdftex.def Info: exemplo.png  used on input line 172.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/grafico-aux-cardioide.png, id=1043, 462.528pt x 346.896pt>
+<figuras/grafico-aux-cardioide.png, id=1061, 462.528pt x 346.896pt>
 File: figuras/grafico-aux-cardioide.png Graphic file (type png)
 <use figuras/grafico-aux-cardioide.png>
 Package pdftex.def Info: figuras/grafico-aux-cardioide.png  used on input line 
-167.
+172.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 167.
+Package pdftex.def Info: UFF_brasao.png  used on input line 172.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [26
 
@@ -2270,17 +2281,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 \begin
+l.175 \begin
             {block}{ }
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 \begin
+l.175 \begin
             {block}{ }
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 186.
+Package pdftex.def Info: UFF_brasao.png  used on input line 191.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [27
 
@@ -2289,22 +2300,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \end{frame}
+l.210 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \end{frame}
+l.210 \end{frame}
                  
-<figuras/polar-card.png, id=1114, 433.62pt x 289.08pt>
+<figuras/polar-card.png, id=1132, 433.62pt x 289.08pt>
 File: figuras/polar-card.png Graphic file (type png)
 <use figuras/polar-card.png>
-Package pdftex.def Info: figuras/polar-card.png  used on input line 205.
+Package pdftex.def Info: figuras/polar-card.png  used on input line 210.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 205.
+Package pdftex.def Info: UFF_brasao.png  used on input line 210.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [28
 
@@ -2326,7 +2337,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 16.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/cilindro-ex1.png, id=1178, 163.0893pt x 150.8034pt>
+<figuras/cilindro-ex1.png, id=1196, 163.0893pt x 150.8034pt>
 File: figuras/cilindro-ex1.png Graphic file (type png)
 <use figuras/cilindro-ex1.png>
 Package pdftex.def Info: figuras/cilindro-ex1.png  used on input line 16.
@@ -2361,40 +2372,82 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 37.
 [31
 
 ]
+<figuras/superficies/sup-rev.png, id=1283, 154.176pt x 103.1052pt>
+File: figuras/superficies/sup-rev.png Graphic file (type png)
+<use figuras/superficies/sup-rev.png>
+Package pdftex.def Info: figuras/superficies/sup-rev.png  used on input line 58
+.
+(pdftex.def)             Requested size: 231.2634pt x 154.6574pt.
+<figuras/superficies/fist.png, id=1286, 949.146pt x 1826.022pt>
+File: figuras/superficies/fist.png Graphic file (type png)
+<use figuras/superficies/fist.png>
+Package pdftex.def Info: figuras/superficies/fist.png  used on input line 58.
+(pdftex.def)             Requested size: 14.23657pt x 27.38914pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 58.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[32
+
+ <./figuras/superficies/fist.png> <./figuras/superficies/sup-rev.png>]
+<figuras/superficies/sup-rev1.png, id=1320, 796.9775pt x 379.4175pt>
+File: figuras/superficies/sup-rev1.png Graphic file (type png)
+<use figuras/superficies/sup-rev1.png>
+Package pdftex.def Info: figuras/superficies/sup-rev1.png  used on input line 6
+6.
+(pdftex.def)             Requested size: 318.78534pt x 151.7643pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 66.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[33
+
+ <./figuras/superficies/sup-rev1.png>]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 82.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 82.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[34
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{cilindros<1>}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \end{frame}
-                
+l.105 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{cilindros}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \end{frame}
-                
-<figuras/quadricas/parab-hip.png, id=1264, 997.7275pt x 953.5625pt>
+l.105 \end{frame}
+                 
+<figuras/quadricas/parab-hip.png, id=1387, 997.7275pt x 953.5625pt>
 File: figuras/quadricas/parab-hip.png Graphic file (type png)
 <use figuras/quadricas/parab-hip.png>
-Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 61
-.
+Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 10
+5.
 (pdftex.def)             Requested size: 129.70912pt x 123.96747pt.
-<figuras/quadricas/elipsoide.png, id=1265, 190.7928pt x 132.9768pt>
+<figuras/quadricas/elipsoide.png, id=1388, 190.7928pt x 132.9768pt>
 File: figuras/quadricas/elipsoide.png Graphic file (type png)
 <use figuras/quadricas/elipsoide.png>
-Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 61
-.
+Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 10
+5.
 (pdftex.def)             Requested size: 152.63443pt x 106.38158pt.
 
-Overfull \hbox (15.7184pt too wide) in paragraph at lines 61--61
+Overfull \hbox (15.7184pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 61.
+Package pdftex.def Info: UFF_brasao.png  used on input line 105.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[32
+[35
 
  <./figuras/quadricas/parab-hip.png> <./figuras/quadricas/elipsoide.png>])
 \tf@nav=\write8
@@ -2416,16 +2469,16 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `calculo3.out' has not changed.
-(rerunfilecheck)             Checksum: A71F9FB843C205C93730DD3378F54DB1;1265.
+(rerunfilecheck)             Checksum: 8ED95016D59A238AA8987ED780DA0A54;1459.
  ) 
 Here is how much of TeX's memory you used:
- 37568 strings out of 474222
- 784630 string characters out of 5748733
+ 37922 strings out of 474222
+ 790781 string characters out of 5748733
  1941975 words of memory out of 5000000
- 58854 multiletter control sequences out of 15000+600000
+ 59187 multiletter control sequences out of 15000+600000
  567435 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,1172b,1028s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,1172b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
@@ -2440,10 +2493,10 @@ i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on calculo3.pdf (32 pages, 1694005 bytes).
+Output written on calculo3.pdf (35 pages, 2033766 bytes).
 PDF statistics:
- 1382 PDF objects out of 1440 (max. 8388607)
- 1105 compressed objects within 12 object streams
- 95 named destinations out of 1000 (max. 500000)
- 830 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1506 PDF objects out of 1728 (max. 8388607)
+ 1201 compressed objects within 13 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 925 words of extra memory for PDF output out of 10000 (max. 10000000)
 
