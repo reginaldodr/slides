@@ -2,5 +2,4 @@
 \beamer@sectionintoc {1}{Bibliografia}{3}{0}{1}
 \beamer@sectionintoc {2}{Introdução}{6}{0}{2}
 \beamer@sectionintoc {3}{Retas e Planos}{12}{0}{3}
-\beamer@sectionintoc {4}{Superfícies}{21}{0}{4}
-\beamer@sectionintoc {5}{Funções Vetoriais}{24}{0}{5}
+\beamer@sectionintoc {4}{Superfícies}{29}{0}{4}

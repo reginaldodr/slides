@@ -1,0 +1,205 @@
+\subsection*{Coordenadas Polares}
+
+%---------------  coordenadas polares -------------------------
+
+\begin{frame}[label=fun-vet]{Coordenadas Polares}
+
+Um sistema de \dt{coordenadas polares} é estabelecido da seguinte forma:
+
+\begin{enumerate}
+\item Fixamos um ponto no plano, conhecido como \dt{polo} (ou origem), denotado por $O$.
+
+\item Fixamos uma semi-reta a partir de $O$, chamada \dt{eixo polar}.
+\end{enumerate}
+
+As \dt{coordenadas polares} de ponto {\color{red}$P$} do plano são formadas por um par ordenado $(r,\theta)$, sendo $r$ a distância de {\color{red}$P$} a $O$ e $\theta$ o ângulo entre o eixo polar e a reta $OP$.
+\medskip
+
+\centering
+\begin{tikzpicture}
+\tikzset{>=latex}
+
+\coordinate (A) at ({2*cos(45)},{2*sin(45)});
+\coordinate (O) at (0,0);
+\coordinate (i) at (2,0);
+
+\pic[draw,angle eccentricity=1.5,->] {angle = i--O--A};
+
+\draw[->] (0,0) -- (3,0) node[right] {eixo polar};
+
+\node[thick] at (0.8,0.3) {$\theta$};
+\draw[very thick,blue] (0,0) -- ({2*cos(45)},{2*sin(45)});
+
+\node at (0.5,1) {$r$};
+\node[right] at (A) {$(r,\theta)$};
+\fill[red] (A) circle (2pt);
+
+\node[left] at (0,0) {$O$};
+  
+\end{tikzpicture}
+
+
+		\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+
+\begin{frame}[label=polar]{Coordenadas Polares}
+Usamos a convenção de que um ângulo é positivo se for medido no sentido anti-horário a partir do eixo polar e negativo se for medido no sentido horário. Se $P=O$, então $r=0$, e convencionamos que $(0,\theta)$ representa o polo para qualquer valor de $\theta$.
+\medskip
+
+No caso $r<0$, convencionamos que a coordenada $(r,\theta)$ corresponde ao simétrico, em relação à origem, do ponto $(|r|,\theta)$.
+
+\centering
+
+\begin{tikzpicture}
+\tikzset{>=latex}
+
+\coordinate (A) at ({2*cos(45)},{2*sin(45)});
+\coordinate (O) at (0,0);
+\coordinate (i) at (2,0);
+\coordinate (B) at ({2*cos(45+180)},{2*sin(45+180)});
+
+\pic[draw,->,angle radius=1cm] {angle = i--O--A};
+
+\pic[draw,->] {angle = i--O--B};
+
+\draw[->] (0,0) -- (3,0) node[right] {eixo polar};
+
+\node[thick] at (1.2,0.3) {$\theta$};
+\draw[very thick,dashed] (0,0) -- ({2*cos(45)},{2*sin(45)});
+
+\node at (0.5,1) {$r$};
+\node[right] at (A) {$(r,\theta)$};
+\fill[black] (A) circle (2pt);
+
+\node[below] at (0,0) {$O$};
+
+\draw[very thick,blue] (0,0) -- ({2*cos(45+180)},{2*sin(45+180)});
+
+\node[left] at (B) {$(-r,\theta)$};
+\fill[red] (B) circle (2pt);
+\node at ({0.8*cos(90+45)},{0.8*sin(90+45)}) {$\theta +\pi$};
+  
+\end{tikzpicture}
+
+
+
+\end{frame}
+
+\begin{frame}[label=polar]
+\begin{exe}
+Marque os pontos cujas coordenadas polares são dadas
+\begin{multicols}{4}
+\begin{enumerate}[a]
+	\item $(1,5\pi/4)$
+	
+	\item $(2,3\pi)$
+	
+	\item  $(2,-2\pi/3)$
+	
+	\item $(-3,3\pi/4)$  \medskip
+\end{enumerate}
+\end{multicols}
+\end{exe}
+
+\begin{center}
+\includegraphics[scale=.5]{figuras/polar1.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[label=fun-vet,fragile=singleslide]
+\begin{block}{ }
+\begin{pyverbatim}
+import numpy as np
+import matplotlib.pyplot as plt
+  
+plt.axes(projection = 'polar')
+
+plt.polar(5*np.pi/4,1, 'g.')
+plt.polar(3*np.pi,2, 'b.')
+plt.polar(-2*np.pi/3,2, 'k.')
+plt.polar(3*np.pi/4,3, 'r.')
+plt.polar(3*np.pi/4+np.pi,3, 'r.')
+   
+plt.show()
+\end{pyverbatim}
+\end{block}
+
+
+\end{frame}
+
+
+
+\begin{frame}[label=fun-vet]{Curvas Polares}
+\begin{block}{Relação entre coordenadas cartesianas e polares}
+
+$$x=r\cos \theta, \ \ \ y=r\sen \theta, \ \ \ r^2=x^2+y^2$$
+\end{block}
+
+O \dt{gráfico de uma equação polar} consiste em todos os pontos $P$ que têm pelo menos uma representação $(r,\theta)$ cujas coordenadas satisfaçam a equação. 
+
+\begin{exe} Esboce a curva que é representada pelas equações polares abaixo.
+%\begin{multicols}{3}
+		\begin{enumerate}[a]
+		\item $r=2$
+		
+		\item $\theta=1$
+		
+%		\item $r=2\cos\theta$
+
+	%	\item $r=1+\cos\theta$ (cardioide)
+%		\item $r=\cos 2\theta$ (rosácea de quatro pétalas)
+			\end{enumerate}
+%\end{multicols}
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=fun-vet]
+\begin{exe} Esboce a curva que é representada pela seguinte equação polar
+\[r=1+\cos\theta \text{ (cardioide)}\]
+\end{exe}
+
+
+\begin{center}
+\includegraphics[scale=0.5]{figuras/grafico-aux-cardioide.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label=fun-vet,fragile=singleslide]
+\begin{block}{ }
+\begin{pyverbatim}
+import matplotlib.pyplot as plt
+import numpy as np
+
+theta= np.linspace(0, 2*np.pi, 60)
+r=1+np.cos(theta)
+
+theta=np.where(r >= 0, theta,theta + np.pi)
+
+plt.polar(theta, np.abs(r))
+plt.show()
+\end{pyverbatim}
+\end{block}
+
+
+\end{frame}
+
+
+\begin{frame}[label=fun-vet]
+%\only<1>{\begin{figure}
+%\centering
+%\includegraphics[scale=.7]{figuras/polar-circ.png}
+%\caption{$r=2\cos \theta$}
+%\end{figure}}
+\only<1>{\begin{figure}
+\centering
+\includegraphics[scale=.7]{figuras/polar-card.png}
+\caption{$r=1+\cos\theta$}
+\end{figure}}
+%\only<3>{\begin{figure}
+%\centering
+%\includegraphics[scale=.7]{figuras/polar-rosasea.png}
+%\caption{$r=\cos 2\theta$}
+%\end{figure}}
+\end{frame}

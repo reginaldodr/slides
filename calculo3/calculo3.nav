@@ -47,122 +47,41 @@
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\slideentry {3}{2}{3}{20/20}{Equação Cartesiana do Plano no Espaço}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@sectionpages {12}{20}}
 \headcommand {\beamer@subsectionpages {18}{20}}
-\headcommand {\sectionentry {4}{Superfícies}{21}{Superfícies}{0}}
-\headcommand {\slideentry {4}{0}{1}{21/21}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{21}{Coordenadas Polares}}
+\headcommand {\slideentry {3}{3}{1}{21/21}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@subsectionpages {21}{21}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{22}{Cilindros}}
-\headcommand {\slideentry {4}{1}{1}{22/22}{Cilindros}{0}}
+\headcommand {\slideentry {3}{3}{2}{22/22}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {4}{1}{2}{23/23}{Cilindros}{0}}
+\headcommand {\slideentry {3}{3}{3}{23/23}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@sectionpages {21}{23}}
-\headcommand {\beamer@subsectionpages {22}{23}}
-\headcommand {\sectionentry {5}{Funções Vetoriais}{24}{Funções Vetoriais}{0}}
-\headcommand {\slideentry {5}{0}{1}{24/24}{}{0}}
+\headcommand {\slideentry {3}{3}{4}{24/24}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{25}{Definição de funções Vetoriais}}
-\headcommand {\slideentry {5}{1}{1}{25/25}{Definição de funções Vetoriais}{0}}
+\headcommand {\slideentry {3}{3}{5}{25/25}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@subsectionpages {25}{25}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{26}{limite e continuidade}}
-\headcommand {\slideentry {5}{2}{1}{26/26}{limite e continuidade}{0}}
+\headcommand {\slideentry {3}{3}{6}{26/26}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {5}{2}{2}{27/27}{limite e continuidade}{0}}
+\headcommand {\slideentry {3}{3}{7}{27/27}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@subsectionpages {26}{27}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{28}{Curvas Parametrizadas}}
-\headcommand {\slideentry {5}{3}{1}{28/28}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {3}{3}{8}{28/28}{Coordenadas Polares}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {5}{3}{2}{29/29}{Curvas Parametrizadas}{0}}
+\headcommand {\beamer@sectionpages {12}{28}}
+\headcommand {\beamer@subsectionpages {21}{28}}
+\headcommand {\sectionentry {4}{Superfícies}{29}{Superfícies}{0}}
+\headcommand {\slideentry {4}{0}{1}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {5}{3}{3}{30/30}{Curvas Parametrizadas}{0}}
+\headcommand {\beamer@subsectionpages {29}{29}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{30}{Cilindros}}
+\headcommand {\slideentry {4}{1}{1}{30/30}{Cilindros}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {5}{3}{4}{31/31}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{1}{2}{31/31}{Cilindros}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {5}{3}{5}{32/32}{Curvas Parametrizadas}{0}}
+\headcommand {\beamer@subsectionpages {30}{31}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{32}{Quádricas}}
+\headcommand {\slideentry {4}{2}{1}{32/32}{Quádricas}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {5}{3}{6}{33/33}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {5}{3}{7}{34/34}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {5}{3}{8}{35/35}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {5}{3}{9}{36/36}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {5}{3}{10}{37/37}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {5}{3}{11}{38/38}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {5}{3}{12}{39/39}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {5}{3}{13}{40/40}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {5}{3}{14}{41/41}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{3}{15}{42/42}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {5}{3}{16}{43/43}{Curvas Parametrizadas}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@subsectionpages {28}{43}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{44}{Derivadas}}
-\headcommand {\slideentry {5}{4}{1}{44/44}{Derivadas}{0}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {5}{4}{2}{45/45}{Derivadas}{0}}
-\headcommand {\beamer@framepages {45}{45}}
-\headcommand {\beamer@subsectionpages {44}{45}}
-\headcommand {\beamer@subsectionentry {0}{5}{5}{46}{Regras de Derivação}}
-\headcommand {\slideentry {5}{5}{1}{46/46}{Regras de Derivação}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {5}{5}{2}{47/47}{Regras de Derivação}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@subsectionpages {46}{47}}
-\headcommand {\beamer@subsectionentry {0}{5}{6}{48}{Comprimento de arco}}
-\headcommand {\slideentry {5}{6}{1}{48/48}{Comprimento de arco}{0}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {5}{6}{2}{49/49}{Comprimento de arco}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\beamer@subsectionpages {48}{49}}
-\headcommand {\beamer@subsectionentry {0}{5}{7}{50}{Parametrização Pelo Comprimento de Arco}}
-\headcommand {\slideentry {5}{7}{1}{50/50}{Parametrização Pelo Comprimento de Arco}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {5}{7}{2}{51/51}{Parametrização Pelo Comprimento de Arco}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {5}{7}{3}{52/52}{Parametrização Pelo Comprimento de Arco}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {5}{7}{4}{53/53}{Parametrização Pelo Comprimento de Arco}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@subsectionpages {50}{53}}
-\headcommand {\beamer@subsectionentry {0}{5}{8}{54}{Curvatura}}
-\headcommand {\slideentry {5}{8}{1}{54/54}{Curvatura}{0}}
-\headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {5}{8}{2}{55/55}{Curvatura}{0}}
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {5}{8}{3}{56/56}{Curvatura}{0}}
-\headcommand {\beamer@framepages {56}{56}}
-\headcommand {\beamer@subsectionpages {54}{56}}
-\headcommand {\beamer@subsectionentry {0}{5}{9}{57}{Vetores Normal Principal e Binormal}}
-\headcommand {\slideentry {5}{9}{1}{57/57}{Vetores Normal Principal e Binormal}{0}}
-\headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {5}{9}{2}{58/58}{Vetores Normal Principal e Binormal}{0}}
-\headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@subsectionpages {57}{58}}
-\headcommand {\beamer@subsectionentry {0}{5}{10}{59}{Movimento de partículas}}
-\headcommand {\slideentry {5}{10}{1}{59/59}{Movimento de partículas}{0}}
-\headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {5}{10}{2}{60/60}{Movimento de partículas}{0}}
-\headcommand {\beamer@framepages {60}{60}}
-\headcommand {\beamer@subsectionpages {59}{60}}
-\headcommand {\beamer@subsectionentry {0}{5}{11}{61}{Fórmula para a curvatura}}
-\headcommand {\slideentry {5}{11}{1}{61/61}{Fórmula para a curvatura}{0}}
-\headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {5}{11}{2}{62/62}{Fórmula para a curvatura}{0}}
-\headcommand {\beamer@framepages {62}{62}}
-\headcommand {\beamer@partpages {1}{62}}
-\headcommand {\beamer@subsectionpages {61}{62}}
-\headcommand {\beamer@sectionpages {24}{62}}
-\headcommand {\beamer@documentpages {62}}
-\headcommand {\gdef \inserttotalframenumber {60}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\beamer@sectionpages {29}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {30}}
