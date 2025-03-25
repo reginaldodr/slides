@@ -201,6 +201,26 @@
 \begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@0}
 \PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
 
+\PYG{n}{x1}\PYG{p}{,}\PYG{n}{x2}\PYG{p}{,}\PYG{n}{x3}\PYG{p}{,}\PYG{n}{x4}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x\PYGZus{}1 x\PYGZus{}2 x\PYGZus{}3 x\PYGZus{}4}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{real}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\PYG{n}{X}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{n}{x1}\PYG{p}{,}\PYG{n}{x2}\PYG{p}{,}\PYG{n}{x3}\PYG{p}{,}\PYG{n}{x4}\PYG{p}{]}\PYG{p}{)}
+\PYG{k}{def} \PYG{n+nf}{pt}\PYG{p}{(}\PYG{n}{Y}\PYG{p}{)}\PYG{p}{:}
+ \PYG{k}{return}\PYG{p}{(}\PYG{p}{(}\PYG{n}{Y}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}\PYG{p}{)}
+
+\PYG{n}{v1}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.14}\PYG{p}{,}\PYG{l+m+mf}{0.08}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mf}{1.6}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{v2}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.58}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{v3}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mf}{0.15}\PYG{p}{,}\PYG{l+m+mf}{1.3}\PYG{p}{,}\PYG{l+m+mi}{26}\PYG{p}{,}\PYG{l+m+mf}{6.9}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{v4}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mf}{0.08}\PYG{p}{,}\PYG{l+m+mi}{38}\PYG{p}{,}\PYG{l+m+mf}{0.2}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mf}{1.1}\PYG{p}{,}\PYG{l+m+mi}{60}\PYG{p}{,}\PYG{l+m+mi}{11}\PYG{p}{]}\PYG{p}{)}
+
+\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{(}\PYG{n}{v1}\PYG{p}{,}\PYG{n}{v2}\PYG{p}{,}\PYG{n}{v3}\PYG{p}{,}\PYG{n}{v4}\PYG{p}{)}
+
+\PYG{n}{AX}\PYG{o}{=}\PYG{n}{A}\PYG{o}{*}\PYG{n}{X}
+\PYG{n}{sol}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{solve}\PYG{p}{(}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Eq}\PYG{p}{(}\PYG{n}{AX}\PYG{p}{,}\PYG{n}{B}\PYG{p}{)}\PYG{p}{,}\PYG{p}{(}\PYG{n}{x1}\PYG{p}{,}\PYG{n}{x2}\PYG{p}{,}\PYG{n}{x3}\PYG{p}{,}\PYG{n}{x4}\PYG{p}{)}\PYG{p}{)}
+\end{pytx@SaveVerbatim}
+
+\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@1}
+\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
+
 \PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
 \PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
 \PYG{n}{C}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
@@ -212,7 +232,7 @@
 \PYG{n}{display}\PYG{p}{(}\PYG{n}{T}\PYG{p}{)}
 \end{pytx@SaveVerbatim}
 
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@1}
+\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@2}
 \PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
 \PYG{k+kn}{import} \PYG{n+nn}{mpmath}
 
@@ -224,65 +244,5 @@
 \PYG{n}{cos}\PYG{o}{=}\PYG{n}{uv}\PYG{o}{/}\PYG{p}{(}\PYG{n}{nu}\PYG{o}{*}\PYG{n}{nv}\PYG{p}{)}
 \PYG{n}{theta}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{acos}\PYG{p}{(}\PYG{n}{cos}\PYG{p}{)}
 \PYG{n}{thetag}\PYG{o}{=}\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{mp}\PYG{o}{.}\PYG{n}{degrees}\PYG{p}{(}\PYG{n}{theta}\PYG{p}{)}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@2}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x y z}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{real}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{sol}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{linsolve}\PYG{p}{(}\PYG{p}{(}\PYG{n}{A}\PYG{p}{,}\PYG{n}{B}\PYG{p}{)}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}
-\PYG{n}{display}\PYG{p}{(}\PYG{n}{sol}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@3}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x y z}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{real}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{sistema}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Eq}\PYG{p}{(}\PYG{n}{A}\PYG{o}{*}\PYG{n}{X}\PYG{p}{,}\PYG{n}{B}\PYG{p}{)}
-\PYG{n}{sol}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{solve}\PYG{p}{(}\PYG{n}{sistema}\PYG{p}{,}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{p}{)}\PYG{p}{)}
-\PYG{n}{display}\PYG{p}{(}\PYG{n}{sol}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@4}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{z}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x y z}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{real}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{Ma}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{(}\PYG{n}{A}\PYG{p}{,}\PYG{n}{B}\PYG{p}{)}
-\PYG{n}{Me}\PYG{o}{=}\PYG{n}{Ma}\PYG{o}{.}\PYG{n}{echelon\PYGZus{}form}\PYG{p}{(}\PYG{p}{)}
-\PYG{n}{display}\PYG{p}{(}\PYG{n}{Me}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@5}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{B}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{invA}\PYG{o}{=}\PYG{n}{A}\PYG{o}{.}\PYG{n}{inv}\PYG{p}{(}\PYG{p}{)}
-\PYG{n}{invB}\PYG{o}{=}\PYG{n}{B}\PYG{o}{.}\PYG{n}{inv}\PYG{p}{(}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@6}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{n}{A}\PYG{o}{.}\PYG{n}{det}\PYG{p}{(}\PYG{p}{)}
-\end{pytx@SaveVerbatim}
-
-\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@7}
-\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
-
-\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{]}\PYG{p}{,}
-\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{7}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{30}\PYG{p}{]}\PYG{p}{,}
-\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{7}\PYG{p}{]}\PYG{p}{,}
-\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{9}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
-\PYG{p}{[}\PYG{n}{P}\PYG{p}{,}\PYG{n}{D}\PYG{p}{]}\PYG{o}{=}\PYG{n}{A}\PYG{o}{.}\PYG{n}{diagonalize}\PYG{p}{(}\PYG{p}{)}
-\PYG{n}{display}\PYG{p}{(}\PYG{n}{P}\PYG{p}{)}
-\PYG{n}{display}\PYG{p}{(}\PYG{n}{D}\PYG{p}{)}
 \end{pytx@SaveVerbatim}
 

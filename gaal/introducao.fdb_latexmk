@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1742824428.29858 "introducao.tex" "introducao.pdf" "introducao" 1742824428.54095 2
+  "/etc/texmf/web2c/texmf.cnf" 1716325393.65637 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1716327462 8213687 df671cd833fe332ba53f3ed08a1545a1 ""
+  "introducao.aux" 1742824181.5975 2437 0155f19eed1d40fd298de9c970c4696e "pdflatex"
+  "introducao.tex" 1742824427.87718 3784 5fef0a36c8087661e9a27c097e6e4893 ""
+  (generated)
+  "introducao.aux"
+  "introducao.log"
+  "introducao.pdf"
+  (rewritten before read)
