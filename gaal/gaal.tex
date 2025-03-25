@@ -6,8 +6,8 @@
 \usefonttheme[onlymath]{serif}
 \usepackage[utf8x]{inputenc}
 \usepackage[brazilian]{babel}
-\usepackage{amsthm,amssymb}
-%\usepackage{graphicx}
+\usepackage{amsthm,amssymb,amsmath}
+\usepackage{graphicx}
 \usepackage{wrapfig}
 
 \usepackage{color}
@@ -157,28 +157,27 @@
 \begin{document}
 
 %\setbeamercovered{transparent}
-\title[GAAL]{Geometria Analítica e Álgebra Linear\\
-	\normalsize{GAAL}}
-\author[Reginaldo Demarque]{
-\[
-{\footnotesize {\color{blue} \underbrace{\begin{bmatrix}
- a_{11}  & a_{12}  & \cdots &  a_{1n}  \\
- a_{21} & a_{22}  & \cdots  & a_{2n} \\
- \vdots & \vdots & \cdots & \vdots \\
- a_{m1} & a_{m2}  & \cdots  & a_{mn} 
-\end{bmatrix}}_{A}}\ \
-{\color{red}
-\underbrace{\begin{bmatrix}
-x_1\\ x_2\\ \vdots \\ x_n
-\end{bmatrix}}_{X}
+\title[GAAL]{Geometria Analítica e Álgebra Linear (\normalsize{GAAL})
 }
-=
-\underbrace{\begin{bmatrix}
-b_1 \\ b_2\\ \vdots \\ b_n
-\end{bmatrix}}_{B}.}
-\]
-%\includegraphics[scale=0.03]{capa.png}\\
-	Prof. Reginaldo Demarque}
+\author[Reginaldo Demarque]{
+\begin{minipage}{0.5\textwidth}
+{\scriptsize 
+\begin{align*}
+{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy
+&= \begin{bmatrix} x & y  \end{bmatrix} {\color{blue} \begin{bmatrix} a & c/2\\ c/2 & b\end{bmatrix} }
+\begin{bmatrix} x \\ y \end{bmatrix}\\
+&=X^t {\color{blue}A} X, \quad \bar{X}=Q^tX \\
+& =\bar{X}^t{\color{red}D}\bar{X}\\
+&= \begin{bmatrix} x & y  \end{bmatrix} 
+{\color{red} \begin{bmatrix} \lambda_1  & 0\\ 0 & \lambda_2\end{bmatrix} }\\
+& = {\color{red}\lambda_1}\bar{x}^2+{\color{red}\lambda_2}\bar{y}^2.
+\end{align*}
+}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\includegraphics[scale=0.4]{figuras/rot-elipse.png}
+\end{minipage}
+}
 
 
 
@@ -186,13 +185,14 @@ b_1 \\ b_2\\ \vdots \\ b_n
 
 \logo{\includegraphics[scale=0.03]{UFF_brasao.png}}
 
-\institute[RCN/UFF]{Universidade Federal Fluminense\\
+\vspace{-0.5cm}
+\institute[RCN/UFF]{
+\textbf{Prof. Reginaldo Demarque}\\
+Universidade Federal Fluminense\\
 Instituto de Humanidades e Saúde -- RHS\\
 Departamento de Ciências da Natureza -- RCN  \\
 }
 \date{{\color{orange} \today}}
-
-
 \frame{\titlepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -232,3 +232,19 @@ Departamento de Ciências da Natureza -- RCN  \\
 %\include{conicas-simples}
 
 \end{document}
+
+%{\footnotesize {\color{blue} \underbrace{\begin{bmatrix}
+% a_{11}  & a_{12}  & \cdots &  a_{1n}  \\
+% a_{21} & a_{22}  & \cdots  & a_{2n} \\
+% \vdots & \vdots & \cdots & \vdots \\
+% a_{m1} & a_{m2}  & \cdots  & a_{mn} 
+%\end{bmatrix}}_{A}}\ \
+%{\color{red}
+%\underbrace{\begin{bmatrix}
+%x_1\\ x_2\\ \vdots \\ x_n
+%\end{bmatrix}}_{X}
+%}
+%=
+%\underbrace{\begin{bmatrix}
+%b_1 \\ b_2\\ \vdots \\ b_n
+%\end{bmatrix}}_{B}.}
