@@ -106,28 +106,44 @@ Marque os pontos cujas coordenadas polares são dadas
 \end{multicols}
 \end{exe}
 
+\only<1>{
 \begin{center}
-\includegraphics[scale=.5]{figuras/polar1.png}
+\includegraphics[scale=.5]{figuras/polar/polar-grid.png}
 \end{center}
+}
+
+\only<2>{
+\begin{center}
+\includegraphics[scale=.5]{figuras/polar/polar-grid2.png}
+\end{center}
+}
+
 
 \end{frame}
 
 \begin{frame}[label=fun-vet,fragile=singleslide]
 \begin{block}{ }
+\begin{small}
 \begin{pyverbatim}
 import numpy as np
 import matplotlib.pyplot as plt
-  
-plt.axes(projection = 'polar')
 
+ax = plt.axes(projection='polar')
+angulos=list(range(0, 360, 15))
+raios = [1, 2, 3, 4]
+
+# plota os pontos
 plt.polar(5*np.pi/4,1, 'g.')
 plt.polar(3*np.pi,2, 'b.')
 plt.polar(-2*np.pi/3,2, 'k.')
 plt.polar(3*np.pi/4,3, 'r.')
 plt.polar(3*np.pi/4+np.pi,3, 'r.')
-   
+
+ax.set_thetagrids(angulos) 
+ax.set_rgrids(raios)
 plt.show()
 \end{pyverbatim}
+\end{small}
 \end{block}
 
 
@@ -160,7 +176,7 @@ O \dt{gráfico de uma equação polar} consiste em todos os pontos $P$ que têm 
 
 \end{frame}
 
-\begin{frame}[label=fun-vet]
+\begin{frame}[label=polar]
 \begin{exe} Esboce a curva que é representada pela seguinte equação polar
 \[r=1+\cos(\theta) \text{ (cardioide)}\]
 \end{exe}
@@ -171,40 +187,55 @@ O \dt{gráfico de uma equação polar} consiste em todos os pontos $P$ que têm 
 \end{center}
 \end{frame}
 
-\begin{frame}[label=fun-vet,fragile=singleslide]
-\begin{block}{ }
+\begin{frame}[label=polar]
+\only<1>{
+\begin{center}
+\includegraphics[scale=.7]{figuras/polar/cardioide-grid.png}
+\end{center}
+}
+\only<2>{
+\begin{center}
+\includegraphics[scale=.7]{figuras/polar/cardioide1.png}
+\end{center}
+}
+\only<3>{
+\begin{center}
+\includegraphics[scale=.7]{figuras/polar/cardioide2.png}
+\end{center}
+}
+\only<4>{
+\begin{center}
+\includegraphics[scale=.7]{figuras/polar/cardioide3.png}
+\end{center}
+}
+
+\end{frame}
+
+\begin{frame}[label=polar,fragile=singleslide]{Plotando a Cardiode}
+\begin{block}{}
+\begin{small}
 \begin{pyverbatim}
 import matplotlib.pyplot as plt
 import numpy as np
 
-theta= np.linspace(0, 2*np.pi, 60)
+ax = plt.axes(projection='polar')
+
+#plotar o gráfico
+theta= np.linspace(0, 2*np.pi, 100)
 r=1+np.cos(theta)
+plt.polar(theta, r)
 
-theta=np.where(r >= 0, theta,theta + np.pi)
+#construir a malha
+raios = [0.5,1,1.5,2,2.5]
+angulos=list(range(0, 360, 15))
+ax.set_thetagrids(angulos) 
+ax.set_rgrids(raios)
 
-plt.polar(theta, np.abs(r))
 plt.show()
 \end{pyverbatim}
+\end{small}
 \end{block}
 
 
 \end{frame}
 
-
-\begin{frame}[label=fun-vet]
-%\only<1>{\begin{figure}
-%\centering
-%\includegraphics[scale=.7]{figuras/polar-circ.png}
-%\caption{$r=2\cos \theta$}
-%\end{figure}}
-\only<1>{\begin{figure}
-\centering
-\includegraphics[scale=.7]{figuras/polar-card.png}
-\caption{$r=1+\cos(\theta)$}
-\end{figure}}
-%\only<3>{\begin{figure}
-%\centering
-%\includegraphics[scale=.7]{figuras/polar-rosasea.png}
-%\caption{$r=\cos 2\theta$}
-%\end{figure}}
-\end{frame}
