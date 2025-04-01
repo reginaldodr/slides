@@ -3,4 +3,4 @@
 \beamer@sectionintoc {2}{Introdução}{6}{0}{2}
 \beamer@sectionintoc {3}{Retas e Planos}{12}{0}{3}
 \beamer@sectionintoc {4}{Superfícies}{33}{0}{4}
-\beamer@sectionintoc {5}{Funções Vetoriais}{41}{0}{5}
+\beamer@sectionintoc {5}{Funções Vetoriais}{54}{0}{5}

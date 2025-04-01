@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  30 MAR 2025 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  31 MAR 2025 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,22 +1289,37 @@ ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 )
 \XKV@depth=\count387
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+))) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen317
+\ar@mcellbox=\box129
+\extrarowheight=\dimen318
+\NC@list=\toks54
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box130
+)
+\rotheadsize=\dimen319
+\c@nlinenum=\count388
+\TeXr@lab=\toks55
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box129
+\pgfnodeparttextbox=\box131
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen317
-\pgf@nodesepend=\dimen318
+\pgf@nodesepstart=\dimen320
+\pgf@nodesepend=\dimen321
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1313,10 +1328,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 are/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/t
 exmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen319
-\pgffor@skip=\dimen320
-\pgffor@stack=\toks54
-\pgffor@toks=\toks55
+\pgffor@iter=\dimen322
+\pgffor@skip=\dimen323
+\pgffor@stack=\toks56
+\pgffor@toks=\toks57
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1324,33 +1339,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count388
-\pgfplotmarksize=\dimen321
+\pgf@plot@mark@count=\count389
+\pgfplotmarksize=\dimen324
 )
-\tikz@lastx=\dimen322
-\tikz@lasty=\dimen323
-\tikz@lastxsaved=\dimen324
-\tikz@lastysaved=\dimen325
-\tikz@lastmovetox=\dimen326
-\tikz@lastmovetoy=\dimen327
-\tikzleveldistance=\dimen328
-\tikzsiblingdistance=\dimen329
-\tikz@figbox=\box130
-\tikz@figbox@bg=\box131
-\tikz@tempbox=\box132
-\tikz@tempbox@bg=\box133
-\tikztreelevel=\count389
-\tikznumberofchildren=\count390
-\tikznumberofcurrentchild=\count391
-\tikz@fig@count=\count392
+\tikz@lastx=\dimen325
+\tikz@lasty=\dimen326
+\tikz@lastxsaved=\dimen327
+\tikz@lastysaved=\dimen328
+\tikz@lastmovetox=\dimen329
+\tikz@lastmovetoy=\dimen330
+\tikzleveldistance=\dimen331
+\tikzsiblingdistance=\dimen332
+\tikz@figbox=\box132
+\tikz@figbox@bg=\box133
+\tikz@tempbox=\box134
+\tikz@tempbox@bg=\box135
+\tikztreelevel=\count390
+\tikznumberofchildren=\count391
+\tikznumberofcurrentchild=\count392
+\tikz@fig@count=\count393
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count393
-\pgfmatrixcurrentcolumn=\count394
-\pgf@matrix@numberofcolumns=\count395
+\pgfmatrixcurrentrow=\count394
+\pgfmatrixcurrentcolumn=\count395
+\pgf@matrix@numberofcolumns=\count396
 )
-\tikz@expandcount=\count396
+\tikz@expandcount=\count397
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1366,16 +1381,16 @@ zlibrarydecorations.pathreplacing.code.tex
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen330
-\pgfdecoratedremainingdistance=\dimen331
-\pgfdecoratedinputsegmentcompleteddistance=\dimen332
-\pgfdecoratedinputsegmentremainingdistance=\dimen333
-\pgf@decorate@distancetomove=\dimen334
-\pgf@decorate@repeatstate=\count397
-\pgfdecorationsegmentamplitude=\dimen335
-\pgfdecorationsegmentlength=\dimen336
+\pgfdecoratedcompleteddistance=\dimen333
+\pgfdecoratedremainingdistance=\dimen334
+\pgfdecoratedinputsegmentcompleteddistance=\dimen335
+\pgfdecoratedinputsegmentremainingdistance=\dimen336
+\pgf@decorate@distancetomove=\dimen337
+\pgf@decorate@repeatstate=\count398
+\pgfdecorationsegmentamplitude=\dimen338
+\pgfdecorationsegmentlength=\dimen339
 )
-\tikz@lib@dec@box=\box134
+\tikz@lib@dec@box=\box136
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/t
@@ -1394,21 +1409,21 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen337
+\arrowsize=\dimen340
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen338
-\pgfarrowlength=\dimen339
-\pgfarrowwidth=\dimen340
-\pgfarrowlinewidth=\dimen341
+\pgfarrowinset=\dimen341
+\pgfarrowlength=\dimen342
+\pgfarrowwidth=\dimen343
+\pgfarrowlinewidth=\dimen344
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box135
-\pgf@layerboxsaved@background=\box136
+\pgf@layerbox@background=\box137
+\pgf@layerboxsaved@background=\box138
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -1422,9 +1437,9 @@ decorations.shapes.code.tex))
 zlibrarydecorations.text.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.text.code.tex
-\pgf@lib@dec@text@box=\box137
+\pgf@lib@dec@text@box=\box139
 )
-\tikz@lib@dec@te@box=\box138
+\tikz@lib@dec@te@box=\box140
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -1436,15 +1451,15 @@ zlibraryintersections.code.tex
 s.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-\pgf@intersect@solutions=\count398
+\pgf@intersect@solutions=\count399
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryfpu.code.tex)
-\tikz@math@for@depth=\count399
-\tikz@math@dimen=\dimen342
-\tikz@math@toks=\toks56
+\tikz@math@for@depth=\count400
+\tikz@math@dimen=\dimen345
+\tikz@math@toks=\toks58
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1478,8 +1493,8 @@ exlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-01-22 L3 programming layer (loader) 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count400
-\l__pdf_internal_box=\box139
+\l__color_backend_stack_int=\count401
+\l__pdf_internal_box=\box141
 ))
 Package: xfp 2023-10-10 L3 Floating point unit
 ) (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
@@ -1487,18 +1502,18 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-10-10 L3 Experimental document command parser
 ))
-\tkzRadius=\dimen343
-\tkzLength=\dimen344
-\tkz@radi=\dimen345
-\tkz@ax=\dimen346
-\tkz@ay=\dimen347
-\tkz@bx=\dimen348
-\tkz@by=\dimen349
-\tkz@cx=\dimen350
-\tkz@cy=\dimen351
-\tkz@dx=\dimen352
-\tkz@dy=\dimen353
-\tkz@cntmk=\count401
+\tkzRadius=\dimen346
+\tkzLength=\dimen347
+\tkz@radi=\dimen348
+\tkz@ax=\dimen349
+\tkz@ay=\dimen350
+\tkz@bx=\dimen351
+\tkz@by=\dimen352
+\tkz@cx=\dimen353
+\tkz@cy=\dimen354
+\tkz@dx=\dimen355
+\tkz@dy=\dimen356
+\tkz@cntmk=\count402
 Local configuration file tkz-euclide.cfg found and used
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
 2024/02/04 5.06c tkz-euclide.cfg
@@ -1579,39 +1594,30 @@ x
 )) (/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed) + inter
 mediate FMi
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen354
-\ar@mcellbox=\box140
-\extrarowheight=\dimen355
-\NC@list=\toks57
-\extratabsurround=\skip68
-\backup@length=\skip69
-\ar@cellbox=\box141
-) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box142
-\sift@deathcycles=\count402
-\@vwid@loff=\dimen356
-\@vwid@roff=\dimen357
+\sift@deathcycles=\count403
+\@vwid@loff=\dimen357
+\@vwid@roff=\dimen358
 )
-\c@taburow=\count403
-\tabu@nbcols=\count404
-\tabu@cnt=\count405
-\tabu@Xcol=\count406
-\tabu@alloc=\count407
-\tabu@nested=\count408
-\tabu@target=\dimen358
-\tabu@spreadtarget=\dimen359
-\tabu@naturalX=\dimen360
-\tabucolX=\dimen361
-\tabu@Xsum=\dimen362
-\extrarowdepth=\dimen363
-\abovetabulinesep=\dimen364
-\belowtabulinesep=\dimen365
-\tabustrutrule=\dimen366
-\tabu@thebody=\toks58
-\tabu@footnotes=\toks59
+\c@taburow=\count404
+\tabu@nbcols=\count405
+\tabu@cnt=\count406
+\tabu@Xcol=\count407
+\tabu@alloc=\count408
+\tabu@nested=\count409
+\tabu@target=\dimen359
+\tabu@spreadtarget=\dimen360
+\tabu@naturalX=\dimen361
+\tabucolX=\dimen362
+\tabu@Xsum=\dimen363
+\extrarowdepth=\dimen364
+\abovetabulinesep=\dimen365
+\belowtabulinesep=\dimen366
+\tabustrutrule=\dimen367
+\tabu@thebody=\toks59
+\tabu@footnotes=\toks60
 \tabu@box=\box143
 \tabu@arstrutbox=\box144
 \tabu@hleads=\box145
@@ -1621,21 +1627,21 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen367
-\captionmargin=\dimen368
-\caption@leftmargin=\dimen369
-\caption@rightmargin=\dimen370
-\caption@width=\dimen371
-\caption@indent=\dimen372
-\caption@parindent=\dimen373
-\caption@hangindent=\dimen374
+\caption@tempdima=\dimen368
+\captionmargin=\dimen369
+\caption@leftmargin=\dimen370
+\caption@rightmargin=\dimen371
+\caption@width=\dimen372
+\caption@indent=\dimen373
+\caption@parindent=\dimen374
+\caption@hangindent=\dimen375
 Package caption Info: beamer document class detected.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count409
-\c@continuedfloat=\count410
+\c@caption@flags=\count410
+\c@continuedfloat=\count411
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1645,10 +1651,10 @@ hare/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share
 /texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/te
 xlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texl
 ive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-\c@nada=\count411
-\c@outline=\count412
-\c@afir=\count413
-\c@casa=\count414
+\c@nada=\count412
+\c@outline=\count413
+\c@afir=\count414
+\c@casa=\count415
 (./calculo3.aux (./bibliografia.aux) (./introducao.aux
 
 LaTeX Warning: Label `introducao<1>' multiply defined.
@@ -1741,10 +1747,88 @@ LaTeX Warning: Label `cilindros<1>' multiply defined.
 LaTeX Warning: Label `cilindros' multiply defined.
 
 
-LaTeX Warning: Label `cilindros<1>' multiply defined.
+LaTeX Warning: Label `quadricas<1>' multiply defined.
 
 
-LaTeX Warning: Label `cilindros' multiply defined.
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
+
+
+LaTeX Warning: Label `quadricas<1>' multiply defined.
+
+
+LaTeX Warning: Label `quadricas' multiply defined.
 
 ) (./func-vet.aux
 
@@ -1924,24 +2008,24 @@ LaTeX Warning: Label `fun-vet' multiply defined.
 ))
 \openout1 = `calculo3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1978,17 +2062,17 @@ LaTeX Font Info:    ... okay on input line 153.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count415
-\scratchdimen=\dimen375
+\scratchcounter=\count416
+\scratchdimen=\dimen376
 \scratchbox=\box147
-\nofMPsegments=\count416
-\nofMParguments=\count417
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count418
-\MPscratchDim=\dimen376
-\MPnumerator=\count419
-\makeMPintoPDFobject=\count420
-\everyMPtoPDFconversion=\toks61
+\nofMPsegments=\count417
+\nofMParguments=\count418
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count419
+\MPscratchDim=\dimen377
+\MPnumerator=\count420
+\makeMPintoPDFobject=\count421
+\everyMPtoPDFconversion=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1997,7 +2081,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 153.
+Package hyperref Info: Link coloring ON on input line 154.
 (./calculo3.out) (./calculo3.out)
 \@outlinefile=\write7
 \openout7 = `calculo3.out'.
@@ -2031,30 +2115,30 @@ Package newfloat Info: Trying Plan B...
 Package newfloat Info: `wrapfig' package detected.
 (./pythontex-files-calculo3/calculo3.pytxmcr)
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
-ut line 153.
-\c@listing=\count421
-\newfloat@ftype=\count422
-Package newfloat Info: float type `listing'=8 on input line 153.
+ut line 154.
+\c@listing=\count422
+\newfloat@ftype=\count423
+Package newfloat Info: float type `listing'=8 on input line 154.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (./calculo3.nav) (./pythontex-files-calculo3/calculo3.pytxpyg)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 163.
+(hyperref)                setting the option has no effect on input line 164.
 
 <sela-macaco.png, id=116, 577.15625pt x 450.68375pt>
 File: sela-macaco.png Graphic file (type png)
 <use sela-macaco.png>
-Package pdftex.def Info: sela-macaco.png  used on input line 181.
+Package pdftex.def Info: sela-macaco.png  used on input line 182.
 (pdftex.def)             Requested size: 115.4292pt x 90.13515pt.
 
-Overfull \vbox (13.61763pt too high) detected at line 181
+Overfull \vbox (13.61763pt too high) detected at line 182
  []
 
 <UFF_brasao.png, id=119, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 181.
+Package pdftex.def Info: UFF_brasao.png  used on input line 182.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [1
 
@@ -2062,7 +2146,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 181.
 macaco.png>] (./calculo3.toc)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 188.
+Package pdftex.def Info: UFF_brasao.png  used on input line 189.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [2
 
@@ -2413,8 +2497,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.125 \begin
             {block}{ }
-\c@pytx@py@default@defaultverb=\count423
-\c@pytx@py@default@defaultverb@line=\count424
+\c@pytx@py@default@defaultverb=\count424
+\c@pytx@py@default@defaultverb@line=\count425
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 145.
 File: UFF_brasao.png Graphic file (type png)
@@ -2656,18 +2740,6 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 82.
 [38
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{cilindros<1>}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{cilindros}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \end{frame}
-                 
 <figuras/quadricas/parab-hip.png, id=1572, 997.7275pt x 953.5625pt>
 File: figuras/quadricas/parab-hip.png Graphic file (type png)
 <use figuras/quadricas/parab-hip.png>
@@ -2692,19 +2764,410 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 105.
 [39
 
  <./figuras/quadricas/parab-hip.png> <./figuras/quadricas/elipsoide.png>]
-<figuras/quadricas/elipsoide-padrao.png, id=1604, 435.87843pt x 316.18124pt>
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \end{frame}
+                 
+<figuras/quadricas/elipsoide-padrao.png, id=1607, 435.87843pt x 316.18124pt>
 File: figuras/quadricas/elipsoide-padrao.png Graphic file (type png)
 <use figuras/quadricas/elipsoide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide-padrao.png  used on input 
-line 119.
+line 118.
 (pdftex.def)             Requested size: 217.93867pt x 158.09023pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 119.
+Package pdftex.def Info: UFF_brasao.png  used on input line 118.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [40
 
- <./figuras/quadricas/elipsoide-padrao.png (PNG copy)>])
+ <./figuras/quadricas/elipsoide-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.132 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.132 \end{frame}
+                 
+File: figuras/quadricas/elipsoide-padrao.png Graphic file (type png)
+<use figuras/quadricas/elipsoide-padrao.png>
+Package pdftex.def Info: figuras/quadricas/elipsoide-padrao.png  used on input 
+line 132.
+(pdftex.def)             Requested size: 217.93867pt x 158.09023pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 132.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[41
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.146 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.146 \end{frame}
+                 
+<figuras/quadricas/hiperboloide1-padrao.png, id=1669, 295.1025pt x 453.94594pt>
+
+File: figuras/quadricas/hiperboloide1-padrao.png Graphic file (type png)
+<use figuras/quadricas/hiperboloide1-padrao.png>
+Package pdftex.def Info: figuras/quadricas/hiperboloide1-padrao.png  used on in
+put line 146.
+(pdftex.def)             Requested size: 147.55087pt x 226.97241pt.
+
+Overfull \vbox (1.15634pt too high) detected at line 146
+ []
+
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 146.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[42
+
+ <./figuras/quadricas/hiperboloide1-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.161 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.161 \end{frame}
+                 
+<figuras/quadricas/hiperboloide2-padrao.png, id=1699, 273.27094pt x 496.10344pt
+>
+File: figuras/quadricas/hiperboloide2-padrao.png Graphic file (type png)
+<use figuras/quadricas/hiperboloide2-padrao.png>
+Package pdftex.def Info: figuras/quadricas/hiperboloide2-padrao.png  used on in
+put line 161.
+(pdftex.def)             Requested size: 136.63512pt x 248.0511pt.
+
+Overfull \vbox (22.23503pt too high) detected at line 161
+ []
+
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 161.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[43
+
+ <./figuras/quadricas/hiperboloide2-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.176 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.176 \end{frame}
+                 
+<figuras/quadricas/cone-padrao.png, id=1730, 255.20343pt x 432.86719pt>
+File: figuras/quadricas/cone-padrao.png Graphic file (type png)
+<use figuras/quadricas/cone-padrao.png>
+Package pdftex.def Info: figuras/quadricas/cone-padrao.png  used on input line 
+176.
+(pdftex.def)             Requested size: 127.6014pt x 216.43306pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 176.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[44
+
+ <./figuras/quadricas/cone-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.190 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.190 \end{frame}
+                 
+<figuras/quadricas/paraboloide-padrao.png, id=1760, 294.34969pt x 450.18187pt>
+File: figuras/quadricas/paraboloide-padrao.png Graphic file (type png)
+<use figuras/quadricas/paraboloide-padrao.png>
+Package pdftex.def Info: figuras/quadricas/paraboloide-padrao.png  used on inpu
+t line 190.
+(pdftex.def)             Requested size: 147.17447pt x 225.09038pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 190.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[45
+
+ <./figuras/quadricas/paraboloide-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 \end{frame}
+                 
+<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=1791, 526.96875pt x 4
+29.85594pt>
+File: figuras/quadricas/paraboloide-hiperbolico-padrao.png Graphic file (type p
+ng)
+<use figuras/quadricas/paraboloide-hiperbolico-padrao.png>
+Package pdftex.def Info: figuras/quadricas/paraboloide-hiperbolico-padrao.png  
+used on input line 204.
+(pdftex.def)             Requested size: 263.48372pt x 214.92744pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 204.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[46
+
+ <./figuras/quadricas/paraboloide-hiperbolico-padrao.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.235 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.235 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 235.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[47
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 250.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 250.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[48
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \end{frame}
+                 
+<figuras/quadricas/exerc12-6A.png, id=1891, 520.19344pt x 254.45062pt>
+File: figuras/quadricas/exerc12-6A.png Graphic file (type png)
+<use figuras/quadricas/exerc12-6A.png>
+Package pdftex.def Info: figuras/quadricas/exerc12-6A.png  used on input line 2
+70.
+(pdftex.def)             Requested size: 208.07368pt x 101.77844pt.
+
+Overfull \hbox (2.69443pt too wide) in paragraph at lines 270--270
+[][] 
+ []
+
+<figuras/quadricas/exerc12-6B.png, id=1892, 466.74374pt x 425.33907pt>
+File: figuras/quadricas/exerc12-6B.png Graphic file (type png)
+<use figuras/quadricas/exerc12-6B.png>
+Package pdftex.def Info: figuras/quadricas/exerc12-6B.png  used on input line 2
+70.
+(pdftex.def)             Requested size: 140.0242pt x 127.60269pt.
+
+Overfull \hbox (37.33458pt too wide) in paragraph at lines 270--270
+[][] 
+ []
+
+<figuras/quadricas/exerc12-6C.png, id=1893, 464.4853pt x 421.575pt>
+File: figuras/quadricas/exerc12-6C.png Graphic file (type png)
+<use figuras/quadricas/exerc12-6C.png>
+Package pdftex.def Info: figuras/quadricas/exerc12-6C.png  used on input line 2
+70.
+(pdftex.def)             Requested size: 139.34666pt x 126.47346pt.
+<figuras/quadricas/exerc12-6D.png, id=1894, 448.67625pt x 223.58531pt>
+File: figuras/quadricas/exerc12-6D.png Graphic file (type png)
+<use figuras/quadricas/exerc12-6D.png>
+Package pdftex.def Info: figuras/quadricas/exerc12-6D.png  used on input line 2
+70.
+(pdftex.def)             Requested size: 179.46732pt x 89.43253pt.
+
+Overfull \hbox (42.55128pt too wide) in paragraph at lines 270--270
+[][] 
+ []
+
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 270.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[49
+
+ <./figuras/quadricas/exerc12-6A.png (PNG copy)> <./figuras/quadricas/exerc12-6
+B.png (PNG copy)> <./figuras/quadricas/exerc12-6C.png (PNG copy)> <./figuras/qu
+adricas/exerc12-6D.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.279 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.279 \end{frame}
+                 
+<figuras/quadricas/pringles.png, id=1926, 662.475pt x 252.945pt>
+File: figuras/quadricas/pringles.png Graphic file (type png)
+<use figuras/quadricas/pringles.png>
+Package pdftex.def Info: figuras/quadricas/pringles.png  used on input line 279
+.
+(pdftex.def)             Requested size: 264.9853pt x 101.17621pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 279.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[50
+
+ <./figuras/quadricas/pringles.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.288 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.288 \end{frame}
+                 
+<figuras/quadricas/aplicacoes.png, id=1957, 1072.75781pt x 531.48563pt>
+File: figuras/quadricas/aplicacoes.png Graphic file (type png)
+<use figuras/quadricas/aplicacoes.png>
+Package pdftex.def Info: figuras/quadricas/aplicacoes.png  used on input line 2
+88.
+(pdftex.def)             Requested size: 354.01117pt x 175.3908pt.
+
+Overfull \hbox (11.71587pt too wide) in paragraph at lines 288--288
+ [] 
+ []
+
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 288.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[51
+
+ <./figuras/quadricas/aplicacoes.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.306 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.306 \end{frame}
+                 
+<figuras/quadricas/arquitetura/manantiales.jpg, id=1987, 737.75626pt x 491.8375
+pt>
+File: figuras/quadricas/arquitetura/manantiales.jpg Graphic file (type jpg)
+<use figuras/quadricas/arquitetura/manantiales.jpg>
+Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales.jpg  used on
+ input line 306.
+(pdftex.def)             Requested size: 147.54863pt x 98.36575pt.
+<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=1988, 803.0pt x 477
+.785pt>
+File: figuras/quadricas/arquitetura/manantiales_diagrama.jpg Graphic file (type
+ jpg)
+<use figuras/quadricas/arquitetura/manantiales_diagrama.jpg>
+Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales_diagrama.jpg
+  used on input line 306.
+(pdftex.def)             Requested size: 160.59715pt x 95.5553pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 306.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[52
+
+ <./figuras/quadricas/arquitetura/manantiales.jpg> <./figuras/quadricas/arquite
+tura/manantiales_diagrama.jpg>]
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.319 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{quadricas}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.319 \end{frame}
+                 
+<figuras/quadricas/arquitetura/vila-velha.png, id=2017, 221.8689pt x 138.5175pt
+>
+File: figuras/quadricas/arquitetura/vila-velha.png Graphic file (type png)
+<use figuras/quadricas/arquitetura/vila-velha.png>
+Package pdftex.def Info: figuras/quadricas/arquitetura/vila-velha.png  used on 
+input line 319.
+(pdftex.def)             Requested size: 221.86835pt x 138.51715pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 319.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[53
+
+ <./figuras/quadricas/arquitetura/vila-velha.png>])
 \openout2 = `func-vet.aux'.
 
 (./func-vet.tex (./calculo3.toc)
@@ -2712,7 +3175,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[41
+[54
 
 
 
@@ -2734,7 +3197,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 22.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[42
+[55
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2749,7 +3212,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.38 \end{frame}
                 
-<w-brainb.png, id=1737, 255.95625pt x 212.795pt>
+<w-brainb.png, id=2148, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 38.
@@ -2758,7 +3221,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 38.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[43
+[56
 
  <./w-brainb.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2777,7 +3240,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 48.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[44
+[57
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2800,7 +3263,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 68.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[45
+[58
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2823,7 +3286,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 79.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[46
+[59
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2846,7 +3309,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 89.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[47
+[60
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2869,7 +3332,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 103.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[48
+[61
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2892,7 +3355,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 115.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[49
+[62
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2915,7 +3378,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 148.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[50
+[63
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2930,18 +3393,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.168 \end{frame}
                  
-<figuras/DirkvdM_natural_spiral.jpg, id=2099, 855.195pt x 1140.26pt>
+<figuras/DirkvdM_natural_spiral.jpg, id=2509, 855.195pt x 1140.26pt>
 File: figuras/DirkvdM_natural_spiral.jpg Graphic file (type jpg)
 <use figuras/DirkvdM_natural_spiral.jpg>
 Package pdftex.def Info: figuras/DirkvdM_natural_spiral.jpg  used on input line
  168.
 (pdftex.def)             Requested size: 85.5245pt x 114.03267pt.
-<figuras/mola.jpg, id=2100, 152.4897pt x 85.0377pt>
+<figuras/mola.jpg, id=2510, 152.4897pt x 85.0377pt>
 File: figuras/mola.jpg Graphic file (type jpg)
 <use figuras/mola.jpg>
 Package pdftex.def Info: figuras/mola.jpg  used on input line 168.
 (pdftex.def)             Requested size: 106.74205pt x 59.52597pt.
-<figuras/dna.png, id=2101, 224.84pt x 225.84375pt>
+<figuras/dna.png, id=2511, 224.84pt x 225.84375pt>
 File: figuras/dna.png Graphic file (type png)
 <use figuras/dna.png>
 Package pdftex.def Info: figuras/dna.png  used on input line 168.
@@ -2950,7 +3413,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 168.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[51
+[64
 
  <./figuras/DirkvdM_natural_spiral.jpg> <./figuras/mola.jpg> <./figuras/dna.png
 >]
@@ -2974,7 +3437,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 184.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[52
+[65
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -2993,7 +3456,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 198.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[53
+[66
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3016,7 +3479,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 210.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[54
+[67
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3035,7 +3498,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 227.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[55
+[68
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3054,7 +3517,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 238.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/vetor-const.png, id=2333, 444.91219pt x 450.18187pt>
+<figuras/vetor-const.png, id=2744, 444.91219pt x 450.18187pt>
 File: figuras/vetor-const.png Graphic file (type png)
 <use figuras/vetor-const.png>
 Package pdftex.def Info: figuras/vetor-const.png  used on input line 238.
@@ -3063,7 +3526,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 238.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[56
+[69
 
  <./figuras/vetor-const.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3086,7 +3549,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 267.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[57
+[70
 
 ]
 File: w-brainb.png Graphic file (type png)
@@ -3097,7 +3560,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 280.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[58
+[71
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3116,7 +3579,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 292.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[59
+[72
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3135,7 +3598,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 303.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[60
+[73
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3158,7 +3621,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 314.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[61
+[74
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3181,7 +3644,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 325.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[62
+[75
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3196,7 +3659,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.345 \end{frame}
                  
-<figuras/vetor-tangente.png, id=2613, 484.05844pt x 322.95656pt>
+<figuras/vetor-tangente.png, id=3023, 484.05844pt x 322.95656pt>
 File: figuras/vetor-tangente.png Graphic file (type png)
 <use figuras/vetor-tangente.png>
 Package pdftex.def Info: figuras/vetor-tangente.png  used on input line 345.
@@ -3210,7 +3673,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 345.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[63
+[76
 
  <./figuras/vetor-tangente.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3229,7 +3692,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 364.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[64
+[77
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3252,7 +3715,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 375.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[65
+[78
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3267,7 +3730,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.391 \end{frame}
                  
-<figuras/normal-binormal.png, id=2715, 557.83406pt x 580.41844pt>
+<figuras/normal-binormal.png, id=3125, 557.83406pt x 580.41844pt>
 File: figuras/normal-binormal.png Graphic file (type png)
 <use figuras/normal-binormal.png>
 Package pdftex.def Info: figuras/normal-binormal.png  used on input line 391.
@@ -3281,7 +3744,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 391.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[66
+[79
 
  <./figuras/normal-binormal.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3304,7 +3767,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 398.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[67
+[80
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3323,7 +3786,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 421.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[68
+[81
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3346,7 +3809,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 440.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[69
+[82
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3369,7 +3832,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 454.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[70
+[83
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3392,7 +3855,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 484.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[71
+[84
 
 ])
 \tf@nav=\write8
@@ -3414,13 +3877,13 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `calculo3.out' has not changed.
-(rerunfilecheck)             Checksum: A7747C35C6C11A722B8C79F9E90FE75A;3592.
+(rerunfilecheck)             Checksum: 57FDBD9957D47EC763CA692368237D34;3592.
  ) 
 Here is how much of TeX's memory you used:
- 38414 strings out of 474222
- 803729 string characters out of 5748733
+ 38733 strings out of 474222
+ 810908 string characters out of 5748733
  1950975 words of memory out of 5000000
- 59577 multiletter control sequences out of 15000+600000
+ 59866 multiletter control sequences out of 15000+600000
  567897 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,1172b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3442,10 +3905,10 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfss1095.pfb>
-Output written on calculo3.pdf (71 pages, 4162826 bytes).
+Output written on calculo3.pdf (84 pages, 7220780 bytes).
 PDF statistics:
- 3069 PDF objects out of 3580 (max. 8388607)
- 2431 compressed objects within 25 object streams
- 193 named destinations out of 1000 (max. 500000)
- 2233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3487 PDF objects out of 3580 (max. 8388607)
+ 2785 compressed objects within 28 object streams
+ 219 named destinations out of 1000 (max. 500000)
+ 2339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -90,95 +90,121 @@
 \headcommand {\beamer@framepages {39}{39}}
 \headcommand {\slideentry {4}{3}{2}{40/40}{Quádricas}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@sectionpages {33}{40}}
-\headcommand {\beamer@subsectionpages {39}{40}}
-\headcommand {\sectionentry {5}{Funções Vetoriais}{41}{Funções Vetoriais}{0}}
-\headcommand {\slideentry {5}{0}{1}{41/41}{}{0}}
+\headcommand {\slideentry {4}{3}{3}{41/41}{Quádricas}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{42}{Definição de funções Vetoriais}}
-\headcommand {\slideentry {5}{1}{1}{42/42}{Definição de funções Vetoriais}{0}}
+\headcommand {\slideentry {4}{3}{4}{42/42}{Quádricas}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{43}{limite e continuidade}}
-\headcommand {\slideentry {5}{2}{1}{43/43}{limite e continuidade}{0}}
+\headcommand {\slideentry {4}{3}{5}{43/43}{Quádricas}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {5}{2}{2}{44/44}{limite e continuidade}{0}}
+\headcommand {\slideentry {4}{3}{6}{44/44}{Quádricas}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@subsectionpages {43}{44}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{45}{Curvas Parametrizadas}}
-\headcommand {\slideentry {5}{3}{1}{45/45}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{7}{45/45}{Quádricas}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {5}{3}{2}{46/46}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{8}{46/46}{Quádricas}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {5}{3}{3}{47/47}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{9}{47/47}{Quádricas}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {5}{3}{4}{48/48}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{10}{48/48}{Quádricas}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {5}{3}{5}{49/49}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{11}{49/49}{Quádricas}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {5}{3}{6}{50/50}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{12}{50/50}{Quádricas}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {5}{3}{7}{51/51}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{13}{51/51}{Quádricas}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {5}{3}{8}{52/52}{Curvas Parametrizadas}{0}}
+\headcommand {\slideentry {4}{3}{14}{52/52}{Quádricas}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@subsectionpages {45}{52}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{53}{Derivadas}}
-\headcommand {\slideentry {5}{4}{1}{53/53}{Derivadas}{0}}
+\headcommand {\slideentry {4}{3}{15}{53/53}{Quádricas}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {5}{4}{2}{54/54}{Derivadas}{0}}
+\headcommand {\beamer@sectionpages {33}{53}}
+\headcommand {\beamer@subsectionpages {39}{53}}
+\headcommand {\sectionentry {5}{Funções Vetoriais}{54}{Funções Vetoriais}{0}}
+\headcommand {\slideentry {5}{0}{1}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\beamer@subsectionpages {53}{54}}
-\headcommand {\beamer@subsectionentry {0}{5}{5}{55}{Regras de Derivação}}
-\headcommand {\slideentry {5}{5}{1}{55/55}{Regras de Derivação}{0}}
+\headcommand {\beamer@subsectionpages {54}{54}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{55}{Definição de funções Vetoriais}}
+\headcommand {\slideentry {5}{1}{1}{55/55}{Definição de funções Vetoriais}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {5}{5}{2}{56/56}{Regras de Derivação}{0}}
+\headcommand {\beamer@subsectionpages {55}{55}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{56}{limite e continuidade}}
+\headcommand {\slideentry {5}{2}{1}{56/56}{limite e continuidade}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\beamer@subsectionpages {55}{56}}
-\headcommand {\beamer@subsectionentry {0}{5}{6}{57}{Comprimento de arco}}
-\headcommand {\slideentry {5}{6}{1}{57/57}{Comprimento de arco}{0}}
+\headcommand {\slideentry {5}{2}{2}{57/57}{limite e continuidade}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {5}{6}{2}{58/58}{Comprimento de arco}{0}}
+\headcommand {\beamer@subsectionpages {56}{57}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{58}{Curvas Parametrizadas}}
+\headcommand {\slideentry {5}{3}{1}{58/58}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@subsectionpages {57}{58}}
-\headcommand {\beamer@subsectionentry {0}{5}{7}{59}{Parametrização Pelo Comprimento de Arco}}
-\headcommand {\slideentry {5}{7}{1}{59/59}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\slideentry {5}{3}{2}{59/59}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {5}{7}{2}{60/60}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\slideentry {5}{3}{3}{60/60}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {5}{7}{3}{61/61}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\slideentry {5}{3}{4}{61/61}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {5}{7}{4}{62/62}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\slideentry {5}{3}{5}{62/62}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\beamer@subsectionpages {59}{62}}
-\headcommand {\beamer@subsectionentry {0}{5}{8}{63}{Curvatura}}
-\headcommand {\slideentry {5}{8}{1}{63/63}{Curvatura}{0}}
+\headcommand {\slideentry {5}{3}{6}{63/63}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {5}{8}{2}{64/64}{Curvatura}{0}}
+\headcommand {\slideentry {5}{3}{7}{64/64}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {5}{8}{3}{65/65}{Curvatura}{0}}
+\headcommand {\slideentry {5}{3}{8}{65/65}{Curvas Parametrizadas}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\beamer@subsectionpages {63}{65}}
-\headcommand {\beamer@subsectionentry {0}{5}{9}{66}{Vetores Normal Principal e Binormal}}
-\headcommand {\slideentry {5}{9}{1}{66/66}{Vetores Normal Principal e Binormal}{0}}
+\headcommand {\beamer@subsectionpages {58}{65}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{66}{Derivadas}}
+\headcommand {\slideentry {5}{4}{1}{66/66}{Derivadas}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {5}{9}{2}{67/67}{Vetores Normal Principal e Binormal}{0}}
+\headcommand {\slideentry {5}{4}{2}{67/67}{Derivadas}{0}}
 \headcommand {\beamer@framepages {67}{67}}
 \headcommand {\beamer@subsectionpages {66}{67}}
-\headcommand {\beamer@subsectionentry {0}{5}{10}{68}{Movimento de partículas}}
-\headcommand {\slideentry {5}{10}{1}{68/68}{Movimento de partículas}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{68}{Regras de Derivação}}
+\headcommand {\slideentry {5}{5}{1}{68/68}{Regras de Derivação}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {5}{10}{2}{69/69}{Movimento de partículas}{0}}
+\headcommand {\slideentry {5}{5}{2}{69/69}{Regras de Derivação}{0}}
 \headcommand {\beamer@framepages {69}{69}}
 \headcommand {\beamer@subsectionpages {68}{69}}
-\headcommand {\beamer@subsectionentry {0}{5}{11}{70}{Fórmula para a curvatura}}
-\headcommand {\slideentry {5}{11}{1}{70/70}{Fórmula para a curvatura}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{6}{70}{Comprimento de arco}}
+\headcommand {\slideentry {5}{6}{1}{70/70}{Comprimento de arco}{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {5}{11}{2}{71/71}{Fórmula para a curvatura}{0}}
+\headcommand {\slideentry {5}{6}{2}{71/71}{Comprimento de arco}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\beamer@partpages {1}{71}}
 \headcommand {\beamer@subsectionpages {70}{71}}
-\headcommand {\beamer@sectionpages {41}{71}}
-\headcommand {\beamer@documentpages {71}}
-\headcommand {\gdef \inserttotalframenumber {65}}
+\headcommand {\beamer@subsectionentry {0}{5}{7}{72}{Parametrização Pelo Comprimento de Arco}}
+\headcommand {\slideentry {5}{7}{1}{72/72}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {5}{7}{2}{73/73}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {5}{7}{3}{74/74}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {5}{7}{4}{75/75}{Parametrização Pelo Comprimento de Arco}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\beamer@subsectionpages {72}{75}}
+\headcommand {\beamer@subsectionentry {0}{5}{8}{76}{Curvatura}}
+\headcommand {\slideentry {5}{8}{1}{76/76}{Curvatura}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {5}{8}{2}{77/77}{Curvatura}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {5}{8}{3}{78/78}{Curvatura}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@subsectionpages {76}{78}}
+\headcommand {\beamer@subsectionentry {0}{5}{9}{79}{Vetores Normal Principal e Binormal}}
+\headcommand {\slideentry {5}{9}{1}{79/79}{Vetores Normal Principal e Binormal}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {5}{9}{2}{80/80}{Vetores Normal Principal e Binormal}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\beamer@subsectionpages {79}{80}}
+\headcommand {\beamer@subsectionentry {0}{5}{10}{81}{Movimento de partículas}}
+\headcommand {\slideentry {5}{10}{1}{81/81}{Movimento de partículas}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\slideentry {5}{10}{2}{82/82}{Movimento de partículas}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\beamer@subsectionpages {81}{82}}
+\headcommand {\beamer@subsectionentry {0}{5}{11}{83}{Fórmula para a curvatura}}
+\headcommand {\slideentry {5}{11}{1}{83/83}{Fórmula para a curvatura}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {5}{11}{2}{84/84}{Fórmula para a curvatura}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\beamer@partpages {1}{84}}
+\headcommand {\beamer@subsectionpages {83}{84}}
+\headcommand {\beamer@sectionpages {54}{84}}
+\headcommand {\beamer@documentpages {84}}
+\headcommand {\gdef \inserttotalframenumber {78}}
