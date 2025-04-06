@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Vetores}{8}{0}{2}
 \beamer@sectionintoc {3}{Matrizes}{37}{0}{3}
 \beamer@sectionintoc {4}{Produto Escalar}{56}{0}{4}
+\beamer@sectionintoc {5}{Retas e Planos}{67}{0}{5}

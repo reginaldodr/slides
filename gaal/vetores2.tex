@@ -5,31 +5,36 @@
 \begin{frame}[label=vetores2]{O produto escalar}
 
 \begin{defin}
-Dados dois vetores $u=(u_1,u_2,\ldots,u_n)$ e $v=(v_1,v_2,\ldots,v_n)$ do $\R^n$, definimos o {\color{blue} produto escalar (ou produto interno)} entre eles por:
-\[u\cdot v=u_1v_1+u_2v_2+\cdots+ u_nv_n.\]
+Dados dois vetores $\vec{u}=(u_1,u_2,\ldots,u_n)$ e $\vec{v}=(v_1,v_2,\ldots,v_n)$ do $\R^n$, definimos o {\color{blue} produto escalar (ou produto interno)} entre eles por:
+\[\vec{u}\cdot \vec{v}=u_1v_1+u_2v_2+\cdots+ u_nv_n.\]
 \end{defin}
 
 \begin{exe}
-Calcule $u\cdot v$, em que $u=(1,2,-3)$ e $v=(-3,5,2)$.
+Calcule $\vec{u}\cdot \vec{v}$, em que $\vec{u}=(1,2,-3)$ e $\vec{v}=(-3,5,2)$.
 \end{exe}
 
 \end{frame}
 
 \begin{frame}[label=vetores2]
 
-\begin{block}{Propriedades do produto interno} Para quaisquer vetores $u$, ${v}$ e ${w}$ em $\R^n$ e para qualquer número real $\lambda$, valem as propriedades:
+\begin{block}{Propriedades do produto interno} Para quaisquer vetores $\vu$, $\vv$ e $\vw$ em $\R^n$ e para qualquer número real $\lambda$, valem as propriedades:
 			
 			\begin{enumerate}
-				\item ${u}\cdot {v}={v}\cdot{u}$;
-				\item $\lambda( {u}\cdot {v})=(\lambda  {u})\cdot {v}=  {u}\cdot(\lambda {v});$
-				\item $( {u}+ {v})\cdot {w}= {u}\cdot {w}+ {v}\cdot {w}$;
-				\item $ {u}\cdot {u}=\n{ {u}}^2$.
+				\item ${\vu}\cdot {\vv}={\vv}\cdot{\vu}$;
+				\item $\lambda( {\vu}\cdot {\vv})=(\lambda  {\vu})\cdot {\vv}=  {\vu}\cdot(\lambda {\vv});$
+				\item $( {\vu}+ \vv)\cdot {\vw}= {\vu}\cdot {\vw}+ {\vv}\cdot {\vw}$;
+				\item $ {\vu}\cdot {\vu}=\n{ {\vu}}^2$.
 %				\item $| {u}\cdot {v}|\leq \n{\vect{u}}\n{\vect{v}}$ (desigualdade de Cauchy-Schwartz)
 			\end{enumerate}            
 		\end{block}
 \begin{exe}
+\begin{enumerate}
+\item Calcule $\|u\|$
+\end{enumerate}
+
+
 Mostre que
-\[\|u-v\|^2=\|u\|^2-2u\cdot v+\|v\|^2.\]
+\[\|\vu-\vv\|^2=\|\vu\|^2-2\vu\cdot \vv+\|\vv\|^2.\]
 \end{exe}
 
 \end{frame}
@@ -188,15 +193,47 @@ Determine os ângulo entre os vetores
 \end{enumerate}
 \end{exe}
 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=vetores2]{Generalização de Ângulo entre vetores}
+
 \begin{defin}
-Dados vetores $u$ e $v$ em $\R^n$, definimos o {\color{blue}ângulo entre $u$ e $v$} como sendo o valor $0\leq \theta\leq \pi$ que satisfaz:
-\[\cos(\theta)=\frac{u\cdot v}{\|u\|\, \|v\|}. \] 
+Dados vetores $\vu$ e $\vv$ em $\R^n$, definimos o {\color{blue}ângulo entre $\vu$ e $\vv$} como sendo o valor $0\leq \theta\leq \pi$ que satisfaz:
+\[\cos(\theta)=\frac{\vu\cdot\vv}{\|\vu\|\, \|\vv\|}. \] 
 \end{defin}
 
-Dizemos que dois vetores são {\color{blue}ortogonais} quando o ângulo entre eles é de $90^\circ$, isto é, quando 
-\[u\cdot v=0.\]
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=vetores2]
+
+\begin{alertblock}{Vetores Ortogonais}
+Dizemos que dois vetores são {\color{blue}ortogonais} quando o ângulo entre eles é de $90^\circ$, isto é, quando 
+\[{\color{red}\vu\cdot \vv=0.}\]
+\end{alertblock}
+   \begin{figure}
+        \centering
+\begin{tikzpicture}
+
+\node[anchor=south west,inner sep=0] (fig) at (3,0)
+    {
+\includegraphics[width=0.65\textwidth]{
+figuras/produto-escalar/meme.png}};
+ 
+ % Add labels (adjust positions as needed)
+ \node[blue,thick,font=\large,align=center,fill=white, rounded corners=2pt, inner sep=3pt] at (9.5,2.5) {Vetores\\ Ortogonais};
+ \node[red,thick,font=\huge,fill=white, rounded corners=2pt, inner sep=3pt] at (5,3) {$\vu\cdot \vv=0$};
+ \node[thick,font=\huge,fill=white, rounded corners=2pt, inner sep=3pt] at (7.3,4.5) {$90^\circ$};
+% \node[gray, font=\small] at (4.5,1.5) {
+%     (Everything else)
+% };
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[label=vetores2]
 \begin{casa}
