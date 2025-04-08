@@ -1,0 +1,238 @@
+\fullwidth{\Large \textbf{Determinantes e Álgebra Linear no $\R^n$}}
+
+
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+A=sp.Matrix([3,2,0]).T
+B=sp.Matrix([1,0,2]).T
+C=sp.Matrix([0,4,3]).T
+
+AB=B-A
+AC=C-A
+u=AB.cross(AC)
+n=u.norm()
+area=n/2
+
+\end{pycode}
+
+
+\question Determine a área do triângulo cujos vértices são os pontos $A=\pyl{pt(A)}$, $B=\pyl{pt(B)}$ e $C=\pyl{pt(C)}$.
+
+\begin{solution}
+A área do triângulo é dada por
+\[\frac{1}{2}\|\vt{AB}\times \vt{AC}\|.\]
+Como $\vt{AB}=\pyl{pt(AB)}$ e $\vt{AC}=\pyl{pt(AC)}$, então 
+$\vt{AB}\times \vt{AC}=\pyl{pt(u)}$ e portanto a área do triângulo é dada por
+\[\frac{1}{2}\|\pyl{pt(u)}\|=\pyl{area}.\]
+
+\end{solution}
+
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+x,y,z,t=sp.symbols('x y z t',real=True)
+
+X=sp.Matrix([x,y,z])
+
+n1=sp.Matrix([1,1,1])
+p1=sp.Eq(n1.dot(X),2)
+
+n2=sp.Matrix([1,-1,-1])
+p2=sp.Eq(n2.dot(X),0)
+
+d=sp.sqrt(6)
+
+vs=sp.Matrix([1,-1,1])
+ps=sp.Matrix([1,0,-1])
+
+B=sp.Matrix([2,0])
+
+Aa=sp.Matrix.hstack(sp.Matrix.vstack(n1.T,n2.T),B)
+R=Aa.rref()[0]
+
+A=sp.Matrix([1,1-t,t])
+
+AP=ps-A
+u=AP.cross(vs)
+nv=vs.norm()
+
+sol=sp.solve(sp.Eq(sp.expand(u.dot(u)),(nv*d)**2),t)
+
+\end{pycode}
+%-------------------------------------------------------
+
+\question 
+\begin{parts}
+\part Obtenha a reta $r$ dada pela interseção dos planos $\pi_1: \pyl{p1}$ e $\pi_2: \pyl{p2}$.
+
+\part Determine os pontos da reta $r$ que estão à distância $\pyl{d}$ da reta 
+$s:\begin{cases}
+x=\pyl{ps[0]+vs[0]*t}\\
+y=\pyl{ps[1]+vs[1]*t}\\
+z=\pyl{ps[2]+vs[2]*t}, \ t\in \R.
+\end{cases}$
+\end{parts}
+
+
+\begin{solution}
+\begin{parts}
+\part Basta resolvermos os sistema
+\[\begin{cases}
+\pyl{p1}\\ \pyl{p2}.
+\end{cases}\]
+Escalonando à forma reduzida:
+\[
+\pyl{Aa}\sim \pyl{R} \Rightarrow \begin{cases}
+x=1\\ y=1-z
+\end{cases}
+\]
+Fazendo $z=t$, obtemos 
+\[r:\begin{cases}
+x=1\\ y=1-t\\ z=t,\ t\in \R.
+\end{cases}\]
+
+\part Portanto, um ponto genérico da reta $r$ é da forma $A=\pyl{pt(A)}$. Queremos determinar $t$ tal que $d(A,s)=\pyl{d}$. Sabemos que $P=\pyl{pt(ps)}\in s$ e que $\vec{v}=\pyl{pt(vs)}$ é um vetor diretor de $s$. Com isso, 
+\[d(A,s)=\frac{\|\vt{AP}\times \vec{v}\|}{\|\vec{v}\|}.\]
+Como $\vt{AP}=\pyl{pt(AP)}$, então $\vt{AP}\times \vec{v}=\pyl{pt(u)}$ e portanto
+\[\pyl{d}=\frac{\|\pyl{pt(u)}\|}{\pyl{nv}}=\frac{\pyl{u.norm()}}{\pyl{nv}}.\]
+Donde,
+\[\pyl{sp.expand(u.dot(u))}=\pyl{(nv*d)**2}\Rightarrow t=\pyl{sol[0]} 
+\text{ ou } t=\pyl{sol[1]}.\]
+Logo, os pontos buscados são:
+\[A_1=\pyl{pt(A.subs(t,sol[0]))} \text{ e } A_2=\pyl{pt(A.subs(t,sol[1]))}.\]
+
+
+\end{parts}
+\end{solution}
+
+%----------------------------------------------------------------
+\question 	Determinar $x$ para que o volume do paralelepípedo que tem um dos vértices no ponto $A=(2,1,6)$ e os três vértices adjacentes nos pontos $B=(4,1,3)$, $C=(1,3,2)$ e $D=(1,x,1)$ seja igual a $15$.
+
+
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,1,2])
+v2=sp.Matrix([1,0,1])
+v3=sp.Matrix([4,6,12])
+
+A=sp.Matrix.hstack(v1,v2,v3)
+
+
+u1=sp.Matrix([0,3,1,-1])
+u2=sp.Matrix([6,0,5,1])
+u3=sp.Matrix([4,-7,1,3])
+
+B=sp.Matrix.hstack(u1,u2,u3)
+\end{pycode}
+
+\question Para cada caso, diga se o conjunto de vetores é LI ou LD.
+
+\begin{parts}
+\part $\{\pyl{pt(v1)},\pyl{pt(v2)}, \pyl{pt(v3)}\}$
+\part $\{\pyl{pt(u1)},\pyl{pt(u2)}, \pyl{pt(u3)}\}$
+\end{parts}
+
+\begin{solution}
+\begin{parts}
+\part Basta escalonar a matriz $A$ cujas colunas são so vetores $\vec{v}_1=,$
+\[A=\pyl{A}\sim \pyl{A.rref()[0]}\]
+
+\part Basta escalonar a matriz $B$ cujas colunas são os vetores $\vec{v}_1=,$
+\[B=\pyl{B}\sim \pyl{B.rref()[0]}\]
+\end{parts}
+\end{solution}
+
+
+\question Encontre um subconjunto dos vetores 
+\[\vec{v}_1=(1,-2,0,3), \vec{v}_2=(2,-5,-3,6),
+\]
+\[\vec{v}_3=(0,1,3,0), \vec{v}_4=(2,-1,4,-7), \vec{v}_5=(5,-8,1,2)
+\]
+que forma uma base para o espaço gerado por eles.
+
+%-------------------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
+I=sp.eye(4)
+
+l=A.eigenvals()
+\end{pycode}
+
+\question Considere a matriz
+\[A=
+\pyl{A}
+\]
+\begin{parts}
+\part Determine os autovalores de $A$.
+\part Determine os autoespaços de $A$.
+\part Determine uma base para cada autoespaço e a dimensão.
+\end{parts}
+
+
+\begin{solution}
+
+\begin{pycode}
+import sympy as sp
+
+A = sp.Matrix([
+    [0, 0, 2, 0],
+    [1, 0, 1, 0],
+    [0, 1, -2, 0],
+    [0, 0, 0, 1]
+])
+
+eigenvals = A.eigenvals()
+eigenvects = A.eigenvects()
+
+for vect in eigenvects:
+    print(f"$\lambda={sp.latex(vect[0])}$, autovetores:")
+    for v in vect[2]:
+        print(f"${sp.latex(v)}$,")
+    print()
+
+\end{pycode}
+
+
+\end{solution}
+
+
+%-------------------------------------------------------
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
+B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
+\end{pycode}
+
+\question 
+\begin{parts}
+\part Mostre que 
+\[A=\pyl{A}\]
+é diagonalizável e obtenha as matrizes diagonal $D$ e a matriz $P$ que diagonaliza $A$.
+
+\part Calcule $B^{11}$, onde 
+\[B=\pyl{B}\]
+\end{parts}
+
+
+
+
+
+
+
+
+%-------------------------------------------------------------
