@@ -186,3 +186,186 @@ x + 3 y + 4 z = 1\endpytx@SVMCR
 \pytx@SVMCR{pytx@MCR@py@default@default@74}
 1 - z\endpytx@SVMCR
 
+\pytx@SVMCR{pytx@MCR@py@default@default@76}
+2 x - y + z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@77}
+x + 3 y + 4 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@78}
+2 x - y + z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@79}
+- 7 y - 7 z\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@80}
+0\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@82}
+2 x - y + z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@83}
+x + 3 y + 4 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@84}
+\left[\begin{matrix}2 & -1 & 1 & 2\\1 & 3 & 4 & 1\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@85}
+\left[\begin{matrix}2 & -1 & 1 & 2\\0 & -7 & -7 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@86}
+2 x - y + z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@87}
+- 7 y - 7 z = 0\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@89}
+- 6 x - y + z = 0\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@90}
+3 x + y + 5 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@92}
+x + y + z = 10\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@93}
+2 x + y + 4 z = 20\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@94}
+2 x + 3 y + 5 z = 25\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@96}
+x + y + 2 z = 8\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@97}
+- x - 2 y + 3 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@98}
+3 x - 7 y + 4 z = 10\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@100}
+- 9 w + 3 z = 6\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@101}
+40 w + 5 x + 15 y - 10 z = -45\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@102}
+5 w + x + 3 y - z = -7\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@104}
+\left[\begin{matrix}5 & 15 & -10 & 40 & -45\\0 & 0 & 3 & -9 & 6\\0 & 0 & 0 & 0 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@105}
+\left\{\left( - 2 w - 3 y - 5, \  y, \  3 w + 2, \  w\right)\right\}\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@107}
+\left[\begin{matrix}1 & -2 & 1\\2 & -5 & 1\\3 & -7 & 2\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@108}
+\left[\begin{matrix}1\\-2\\-1\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@109}
+\left[\begin{matrix}2\\-1\\2\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@111}
+2 x + 2 y + 2 z = 0\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@112}
+- 2 x + 5 y + 2 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@113}
+8 x + y + 4 z = -1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@114}
+\left[\begin{matrix}2 & 2 & 2 & 0\\-2 & 5 & 2 & 1\\8 & 1 & 4 & -1\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@116}
+\left\{\left( - \frac{3 z}{7} - \frac{1}{7}, \  \frac{1}{7} - \frac{4 z}{7}, \  z\right)\right\}\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@118}
+\left\{ x : - \frac{3 z}{7} - \frac{1}{7}, \  y : \frac{1}{7} - \frac{4 z}{7}\right\}\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@120}
+\left[\begin{matrix}2 & 2 & 2 & 0\\0 & 14 & 8 & 2\\0 & 0 & 0 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@122}
+- 9 w + 3 z = 6\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@123}
+40 w + 5 x + 15 y - 10 z = -45\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@124}
+5 w + x + 3 y - z = -7\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@125}
+\left[\begin{matrix}0 & 0 & 3 & -9 & 6\\5 & 15 & -10 & 40 & -45\\1 & 3 & -1 & 5 & -7\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@126}
+\left[\begin{matrix}5 & 15 & -10 & 40 & -45\\0 & 0 & 3 & -9 & 6\\0 & 0 & 0 & 0 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@127}
+\left[\begin{matrix}1 & 3 & 0 & 2 & -5\\0 & 0 & 1 & -3 & 2\\0 & 0 & 0 & 0 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@129}
+3 x - y + 2 z = 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@130}
+- 2 x + y + z = 0\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@131}
+- 8 x + 3 y - 3 z = -2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@133}
+x + 2 y - 3 z = 4\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@134}
+3 x - y + 5 z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@135}
+4 x + y + z \left(a^{2} - 14\right) = a + 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@137}
+x_{1} + 2 x_{2} - 3 x_{4} + x_{5} = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@138}
+x_{1} + 2 x_{2} + x_{3} - 3 x_{4} + x_{5} + 2 x_{6} = 3\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@139}
+x_{1} + 2 x_{2} - 3 x_{4} + 2 x_{5} + x_{6} = 4\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@140}
+3 x_{1} + 6 x_{2} + x_{3} - 9 x_{4} + 4 x_{5} + 3 x_{6} = 9\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@142}
+x + y + z = 2\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@143}
+2 x + 3 y + 2 z = 5\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@144}
+2 x + 3 y + z \left(a^{2} - 1\right) = a + 1\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@146}
+\left[\begin{matrix}1 & 2 & 3\\1 & 1 & 3\\0 & 1 & 2\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@147}
+\left[\begin{matrix}1 & 1 & 1 & 1\\1 & 2 & -1 & 2\\1 & -1 & 2 & 1\\1 & 3 & 3 & 2\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@148}
+\left[\begin{matrix}\frac{1}{2} & \frac{1}{2} & - \frac{3}{2}\\1 & -1 & 0\\- \frac{1}{2} & \frac{1}{2} & \frac{1}{2}\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@149}
+\left[\begin{matrix}\frac{7}{3} & - \frac{1}{3} & - \frac{1}{3} & - \frac{2}{3}\\\frac{4}{9} & - \frac{1}{9} & - \frac{4}{9} & \frac{1}{9}\\- \frac{1}{9} & - \frac{2}{9} & \frac{1}{9} & \frac{2}{9}\\- \frac{5}{3} & \frac{2}{3} & \frac{2}{3} & \frac{1}{3}\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@151}
+\left[\begin{matrix}1 & 0 & 3 & 1\\-1 & 3 & 2 & 5\\0 & 0 & 2 & 3\\2 & 1 & -2 & 0\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@152}
+63\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@154}
+\left[\begin{matrix}0 & 2 & -4 & 5\\3 & 0 & -3 & 6\\2 & 4 & 5 & 3\\5 & -1 & -3 & 1\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@155}
+585\endpytx@SVMCR
+
