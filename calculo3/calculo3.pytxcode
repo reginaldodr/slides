@@ -34,6 +34,50 @@ ax.set_thetagrids(angulos)
 ax.set_rgrids(raios)
 
 plt.show()
+=>PYTHONTEX#py#default#defaultverb#2#verbatim####funcoes.tex#87#
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 6-3*x-2*y
+
+x =y=np.linspace(-5,5, 25)
+
+X,Y=np.meshgrid(x, y)
+Z = f(X, Y)
+
+fig=plt.figure()
+ax=plt.axes(projection='3d')
+
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('z')
+ax.plot_surface(X, Y, Z,cmap='viridis')
+
+plt.show()
+=>PYTHONTEX#py#default#default#0#code####funcoes.tex#117#
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 6-3*x-2*y
+
+x =y= np.linspace(-5,5, 25)
+
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+ax.view_init(elev=30, azim=30, roll=0)
+
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('z')
+ax.plot_surface(X, Y, Z,cmap='viridis')
+
+
+plt.savefig('figuras/grafico1.png',transparent=False,dpi=400)
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-calculo3

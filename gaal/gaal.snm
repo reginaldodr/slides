@@ -172,8 +172,8 @@
 \beamer@slide {sistemas}{103}
 \beamer@slide {sistemas<1>}{104}
 \beamer@slide {sistemas}{104}
-\beamer@slide {sistemas<1>}{106}
-\beamer@slide {sistemas}{106}
+\beamer@slide {sistemas<1>}{105}
+\beamer@slide {sistemas}{105}
 \beamer@slide {sistemas<1>}{107}
 \beamer@slide {sistemas}{107}
 \beamer@slide {sistemas<1>}{108}
@@ -184,8 +184,8 @@
 \beamer@slide {sistemas}{110}
 \beamer@slide {sistemas<1>}{111}
 \beamer@slide {sistemas}{111}
-\beamer@slide {inversao<1>}{113}
-\beamer@slide {inversao}{113}
+\beamer@slide {sistemas<1>}{112}
+\beamer@slide {sistemas}{112}
 \beamer@slide {inversao<1>}{114}
 \beamer@slide {inversao}{114}
 \beamer@slide {inversao<1>}{115}
@@ -196,8 +196,8 @@
 \beamer@slide {inversao}{117}
 \beamer@slide {inversao<1>}{118}
 \beamer@slide {inversao}{118}
-\beamer@slide {determinantes<1>}{120}
-\beamer@slide {determinantes}{120}
+\beamer@slide {inversao<1>}{119}
+\beamer@slide {inversao}{119}
 \beamer@slide {determinantes<1>}{121}
 \beamer@slide {determinantes}{121}
 \beamer@slide {determinantes<1>}{122}
@@ -224,3 +224,5 @@
 \beamer@slide {determinantes}{132}
 \beamer@slide {determinantes<1>}{133}
 \beamer@slide {determinantes}{133}
+\beamer@slide {determinantes<1>}{134}
+\beamer@slide {determinantes}{134}

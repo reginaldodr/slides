@@ -205,8 +205,244 @@
 \headcommand {\beamer@framepages {84}{84}}
 \headcommand {\slideentry {5}{11}{2}{85/85}{Fórmula para a curvatura}{0}}
 \headcommand {\beamer@framepages {85}{85}}
-\headcommand {\beamer@partpages {1}{85}}
-\headcommand {\beamer@subsectionpages {84}{85}}
 \headcommand {\beamer@sectionpages {54}{85}}
-\headcommand {\beamer@documentpages {85}}
-\headcommand {\gdef \inserttotalframenumber {79}}
+\headcommand {\beamer@subsectionpages {84}{85}}
+\headcommand {\sectionentry {6}{Funcões de Várias Variáveis}{86}{Funcões de Várias Variáveis}{0}}
+\headcommand {\slideentry {6}{0}{1}{86/86}{}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\beamer@subsectionpages {86}{86}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{87}{Definição}}
+\headcommand {\slideentry {6}{1}{1}{87/87}{Definição}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\slideentry {6}{1}{2}{88/88}{Definição}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\beamer@subsectionpages {87}{88}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{89}{Gráfico de função de duas variáveis}}
+\headcommand {\slideentry {6}{2}{1}{89/89}{Gráfico de função de duas variáveis}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\slideentry {6}{2}{2}{90/90}{Gráfico de função de duas variáveis}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\slideentry {6}{2}{3}{91/91}{Gráfico de função de duas variáveis}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\slideentry {6}{2}{4}{92/92}{Gráfico de função de duas variáveis}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {6}{2}{5}{93/93}{Gráfico de função de duas variáveis}{0}}
+\headcommand {\beamer@framepages {93}{93}}
+\headcommand {\beamer@subsectionpages {89}{93}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{94}{Curvas de Nível}}
+\headcommand {\slideentry {6}{3}{1}{94/94}{Curvas de Nível}{0}}
+\headcommand {\beamer@framepages {94}{94}}
+\headcommand {\slideentry {6}{3}{2}{95/95}{Curvas de Nível}{0}}
+\headcommand {\beamer@framepages {95}{95}}
+\headcommand {\slideentry {6}{3}{3}{96/96}{Curvas de Nível}{0}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\slideentry {6}{3}{4}{97/101}{Curvas de Nível}{0}}
+\headcommand {\beamer@framepages {97}{101}}
+\headcommand {\beamer@subsectionpages {94}{101}}
+\headcommand {\beamer@subsectionentry {0}{6}{4}{102}{Superfícies de Nível}}
+\headcommand {\slideentry {6}{4}{1}{102/102}{Superfícies de Nível}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\slideentry {6}{4}{2}{103/103}{Superfícies de Nível}{0}}
+\headcommand {\beamer@framepages {103}{103}}
+\headcommand {\beamer@sectionpages {86}{103}}
+\headcommand {\beamer@subsectionpages {102}{103}}
+\headcommand {\sectionentry {7}{Limite e Continuidade}{104}{Limite e Continuidade}{0}}
+\headcommand {\slideentry {7}{0}{1}{104/104}{}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\beamer@subsectionpages {104}{104}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{105}{Limites}}
+\headcommand {\slideentry {7}{1}{1}{105/105}{Limites}{0}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\beamer@subsectionpages {105}{105}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{106}{definição}}
+\headcommand {\slideentry {7}{2}{1}{106/106}{definição}{0}}
+\headcommand {\beamer@framepages {106}{106}}
+\headcommand {\slideentry {7}{2}{2}{107/107}{definição}{0}}
+\headcommand {\beamer@framepages {107}{107}}
+\headcommand {\slideentry {7}{2}{3}{108/108}{definição}{0}}
+\headcommand {\beamer@framepages {108}{108}}
+\headcommand {\slideentry {7}{2}{4}{109/109}{definição}{0}}
+\headcommand {\beamer@framepages {109}{109}}
+\headcommand {\beamer@subsectionpages {106}{109}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{110}{Não existência de limite}}
+\headcommand {\slideentry {7}{3}{1}{110/110}{Não existência de limite}{0}}
+\headcommand {\beamer@framepages {110}{110}}
+\headcommand {\slideentry {7}{3}{2}{111/111}{Não existência de limite}{0}}
+\headcommand {\beamer@framepages {111}{111}}
+\headcommand {\slideentry {7}{3}{3}{112/112}{Não existência de limite}{0}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\beamer@subsectionpages {110}{112}}
+\headcommand {\beamer@subsectionentry {0}{7}{4}{113}{Continuidade}}
+\headcommand {\slideentry {7}{4}{1}{113/113}{Continuidade}{0}}
+\headcommand {\beamer@framepages {113}{113}}
+\headcommand {\slideentry {7}{4}{2}{114/114}{Continuidade}{0}}
+\headcommand {\beamer@framepages {114}{114}}
+\headcommand {\slideentry {7}{4}{3}{115/115}{Continuidade}{0}}
+\headcommand {\beamer@framepages {115}{115}}
+\headcommand {\slideentry {7}{4}{4}{116/116}{Continuidade}{0}}
+\headcommand {\beamer@framepages {116}{116}}
+\headcommand {\beamer@sectionpages {104}{116}}
+\headcommand {\beamer@subsectionpages {113}{116}}
+\headcommand {\sectionentry {8}{Derivadas Parciais}{117}{Derivadas Parciais}{0}}
+\headcommand {\slideentry {8}{0}{1}{117/117}{}{0}}
+\headcommand {\beamer@framepages {117}{117}}
+\headcommand {\beamer@subsectionpages {117}{117}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{118}{Motivação}}
+\headcommand {\slideentry {8}{1}{1}{118/118}{Motivação}{0}}
+\headcommand {\beamer@framepages {118}{118}}
+\headcommand {\slideentry {8}{1}{2}{119/119}{Motivação}{0}}
+\headcommand {\beamer@framepages {119}{119}}
+\headcommand {\slideentry {8}{1}{3}{120/120}{Motivação}{0}}
+\headcommand {\beamer@framepages {120}{120}}
+\headcommand {\slideentry {8}{1}{4}{121/121}{Motivação}{0}}
+\headcommand {\beamer@framepages {121}{121}}
+\headcommand {\slideentry {8}{1}{5}{122/122}{Motivação}{0}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\slideentry {8}{1}{6}{123/123}{Motivação}{0}}
+\headcommand {\beamer@framepages {123}{123}}
+\headcommand {\slideentry {8}{1}{7}{124/124}{Motivação}{0}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\beamer@subsectionpages {118}{124}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{125}{Definição}}
+\headcommand {\slideentry {8}{2}{1}{125/125}{Definição}{0}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\slideentry {8}{2}{2}{126/126}{Definição}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\slideentry {8}{2}{3}{127/127}{Definição}{0}}
+\headcommand {\beamer@framepages {127}{127}}
+\headcommand {\beamer@subsectionpages {125}{127}}
+\headcommand {\beamer@subsectionentry {0}{8}{3}{128}{Derivadas de Ordem Superior}}
+\headcommand {\slideentry {8}{3}{1}{128/128}{Derivadas de Ordem Superior}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\slideentry {8}{3}{2}{129/129}{Derivadas de Ordem Superior}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\beamer@subsectionpages {128}{129}}
+\headcommand {\beamer@subsectionentry {0}{8}{4}{130}{EDPs}}
+\headcommand {\slideentry {8}{4}{1}{130/130}{EDPs}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\slideentry {8}{4}{2}{131/131}{EDPs}{0}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\slideentry {8}{4}{3}{132/132}{EDPs}{0}}
+\headcommand {\beamer@framepages {132}{132}}
+\headcommand {\beamer@subsectionpages {130}{132}}
+\headcommand {\beamer@subsectionentry {0}{8}{5}{133}{Aproximação Linear}}
+\headcommand {\slideentry {8}{5}{1}{133/133}{Aproximação Linear}{0}}
+\headcommand {\beamer@framepages {133}{133}}
+\headcommand {\slideentry {8}{5}{2}{134/134}{Aproximação Linear}{0}}
+\headcommand {\beamer@framepages {134}{134}}
+\headcommand {\slideentry {8}{5}{3}{135/135}{Aproximação Linear}{0}}
+\headcommand {\beamer@framepages {135}{135}}
+\headcommand {\beamer@subsectionpages {133}{135}}
+\headcommand {\beamer@subsectionentry {0}{8}{6}{136}{Diferenciabilidade}}
+\headcommand {\slideentry {8}{6}{1}{136/136}{Diferenciabilidade}{0}}
+\headcommand {\beamer@framepages {136}{136}}
+\headcommand {\slideentry {8}{6}{2}{137/137}{Diferenciabilidade}{0}}
+\headcommand {\beamer@framepages {137}{137}}
+\headcommand {\slideentry {8}{6}{3}{138/138}{Diferenciabilidade}{0}}
+\headcommand {\beamer@framepages {138}{138}}
+\headcommand {\beamer@subsectionpages {136}{138}}
+\headcommand {\beamer@subsectionentry {0}{8}{7}{139}{Diferenciais}}
+\headcommand {\slideentry {8}{7}{1}{139/139}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {139}{139}}
+\headcommand {\slideentry {8}{7}{2}{140/140}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {140}{140}}
+\headcommand {\slideentry {8}{7}{3}{141/141}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {141}{141}}
+\headcommand {\slideentry {8}{7}{4}{142/142}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {142}{142}}
+\headcommand {\slideentry {8}{7}{5}{143/143}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\slideentry {8}{7}{6}{144/144}{Diferenciais}{0}}
+\headcommand {\beamer@framepages {144}{144}}
+\headcommand {\beamer@subsectionpages {139}{144}}
+\headcommand {\beamer@subsectionentry {0}{8}{8}{145}{Regra da Cadeia e Vetor Gradiente}}
+\headcommand {\slideentry {8}{8}{1}{145/145}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\slideentry {8}{8}{2}{146/146}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {146}{146}}
+\headcommand {\slideentry {8}{8}{3}{147/147}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {147}{147}}
+\headcommand {\slideentry {8}{8}{4}{148/148}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {148}{148}}
+\headcommand {\slideentry {8}{8}{5}{149/149}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {149}{149}}
+\headcommand {\slideentry {8}{8}{6}{150/150}{Regra da Cadeia e Vetor Gradiente}{0}}
+\headcommand {\beamer@framepages {150}{150}}
+\headcommand {\beamer@subsectionpages {145}{150}}
+\headcommand {\beamer@subsectionentry {0}{8}{9}{151}{Derivadas Direcionais em duas variáveis}}
+\headcommand {\slideentry {8}{9}{1}{151/151}{Derivadas Direcionais em duas variáveis}{0}}
+\headcommand {\beamer@framepages {151}{151}}
+\headcommand {\slideentry {8}{9}{2}{152/152}{Derivadas Direcionais em duas variáveis}{0}}
+\headcommand {\beamer@framepages {152}{152}}
+\headcommand {\slideentry {8}{9}{3}{153/153}{Derivadas Direcionais em duas variáveis}{0}}
+\headcommand {\beamer@framepages {153}{153}}
+\headcommand {\slideentry {8}{9}{4}{154/154}{Derivadas Direcionais em duas variáveis}{0}}
+\headcommand {\beamer@framepages {154}{154}}
+\headcommand {\slideentry {8}{9}{5}{155/155}{Derivadas Direcionais em duas variáveis}{0}}
+\headcommand {\beamer@framepages {155}{155}}
+\headcommand {\beamer@subsectionpages {151}{155}}
+\headcommand {\beamer@subsectionentry {0}{8}{10}{156}{Teorema da Função Implícita}}
+\headcommand {\slideentry {8}{10}{1}{156/156}{Teorema da Função Implícita}{0}}
+\headcommand {\beamer@framepages {156}{156}}
+\headcommand {\slideentry {8}{10}{2}{157/157}{Teorema da Função Implícita}{0}}
+\headcommand {\beamer@framepages {157}{157}}
+\headcommand {\slideentry {8}{10}{3}{158/158}{Teorema da Função Implícita}{0}}
+\headcommand {\beamer@framepages {158}{158}}
+\headcommand {\slideentry {8}{10}{4}{159/159}{Teorema da Função Implícita}{0}}
+\headcommand {\beamer@framepages {159}{159}}
+\headcommand {\beamer@sectionpages {117}{159}}
+\headcommand {\beamer@subsectionpages {156}{159}}
+\headcommand {\sectionentry {9}{Extremos de Funções de Várias Variáveis}{160}{Extremos de Funções de Várias Variáveis}{0}}
+\headcommand {\slideentry {9}{0}{1}{160/160}{}{0}}
+\headcommand {\beamer@framepages {160}{160}}
+\headcommand {\slideentry {9}{0}{2}{161/161}{}{0}}
+\headcommand {\beamer@framepages {161}{161}}
+\headcommand {\slideentry {9}{0}{3}{162/162}{}{0}}
+\headcommand {\beamer@framepages {162}{162}}
+\headcommand {\slideentry {9}{0}{4}{163/163}{}{0}}
+\headcommand {\beamer@framepages {163}{163}}
+\headcommand {\beamer@subsectionpages {160}{163}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{164}{Matriz Hessiana}}
+\headcommand {\slideentry {9}{1}{1}{164/164}{Matriz Hessiana}{0}}
+\headcommand {\beamer@framepages {164}{164}}
+\headcommand {\beamer@subsectionpages {164}{164}}
+\headcommand {\beamer@subsectionentry {0}{9}{2}{165}{Teste da Segunda Derivada}}
+\headcommand {\slideentry {9}{2}{1}{165/165}{Teste da Segunda Derivada}{0}}
+\headcommand {\beamer@framepages {165}{165}}
+\headcommand {\slideentry {9}{2}{2}{166/166}{Teste da Segunda Derivada}{0}}
+\headcommand {\beamer@framepages {166}{166}}
+\headcommand {\slideentry {9}{2}{3}{167/167}{Teste da Segunda Derivada}{0}}
+\headcommand {\beamer@framepages {167}{167}}
+\headcommand {\beamer@subsectionpages {165}{167}}
+\headcommand {\beamer@subsectionentry {0}{9}{3}{168}{Máximos e Mínimos Absolutos}}
+\headcommand {\slideentry {9}{3}{1}{168/168}{Máximos e Mínimos Absolutos}{0}}
+\headcommand {\beamer@framepages {168}{168}}
+\headcommand {\beamer@subsectionpages {168}{168}}
+\headcommand {\beamer@subsectionentry {0}{9}{4}{169}{Topologia no plano}}
+\headcommand {\slideentry {9}{4}{1}{169/169}{Topologia no plano}{0}}
+\headcommand {\beamer@framepages {169}{169}}
+\headcommand {\beamer@subsectionpages {169}{169}}
+\headcommand {\beamer@subsectionentry {0}{9}{5}{170}{Teorema de Weierstrass}}
+\headcommand {\slideentry {9}{5}{1}{170/170}{Teorema de Weierstrass}{0}}
+\headcommand {\beamer@framepages {170}{170}}
+\headcommand {\slideentry {9}{5}{2}{171/171}{Teorema de Weierstrass}{0}}
+\headcommand {\beamer@framepages {171}{171}}
+\headcommand {\beamer@subsectionpages {170}{171}}
+\headcommand {\beamer@subsectionentry {0}{9}{6}{172}{Multiplicadores de Lagrange}}
+\headcommand {\slideentry {9}{6}{1}{172/172}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {172}{172}}
+\headcommand {\slideentry {9}{6}{2}{173/173}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {173}{173}}
+\headcommand {\slideentry {9}{6}{3}{174/174}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {174}{174}}
+\headcommand {\slideentry {9}{6}{4}{175/175}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {175}{175}}
+\headcommand {\slideentry {9}{6}{5}{176/176}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {176}{176}}
+\headcommand {\slideentry {9}{6}{6}{177/177}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {177}{177}}
+\headcommand {\beamer@partpages {1}{177}}
+\headcommand {\beamer@subsectionpages {172}{177}}
+\headcommand {\beamer@sectionpages {160}{177}}
+\headcommand {\beamer@documentpages {177}}
+\headcommand {\gdef \inserttotalframenumber {167}}
