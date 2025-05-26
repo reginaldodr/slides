@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  12 MAY 2025 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  26 MAY 2025 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4140,7 +4140,7 @@ l.144 I
        lustrando com o exemplo anterior:
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 184.
+Package pdftex.def Info: UFF_brasao.png  used on input line 197.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [90
 
@@ -4149,17 +4149,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.214 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.214 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 201.
+Package pdftex.def Info: UFF_brasao.png  used on input line 214.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [91
 
@@ -4168,21 +4168,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \begin
+l.217 \begin
             {pycode}
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \begin
+l.217 \begin
             {pycode}
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 220.
+Package pdftex.def Info: w-homework.png  used on input line 233.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 227.
+Package pdftex.def Info: UFF_brasao.png  used on input line 240.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [92
 
@@ -4191,17 +4191,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.242 \end{frame}
+l.255 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.242 \end{frame}
+l.255 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 242.
+Package pdftex.def Info: UFF_brasao.png  used on input line 255.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [93
 
@@ -4210,17 +4210,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
+l.283 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \end{frame}
+l.283 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 270.
+Package pdftex.def Info: UFF_brasao.png  used on input line 283.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [94
 
@@ -4229,25 +4229,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.272 ...ame}[label=sistemas,fragile=singleslide]{
+l.285 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.272 ...ame}[label=sistemas,fragile=singleslide]{
+l.285 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 288.
+Package pdftex.def Info: exemplo.png  used on input line 301.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
-Package pdftex.def Info: w-brainb.png  used on input line 310.
+Package pdftex.def Info: w-brainb.png  used on input line 323.
 (pdftex.def)             Requested size: 15.3567pt x 12.76714pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 318.
+Package pdftex.def Info: UFF_brasao.png  used on input line 331.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [95
 
@@ -4256,22 +4256,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.320 ...ame}[label=sistemas,fragile=singleslide]{
+l.333 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.320 ...ame}[label=sistemas,fragile=singleslide]{
+l.333 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 \c@pytx@sympy@default@default@line=\count427
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
-Package pdftex.def Info: w-brainb.png  used on input line 325.
+Package pdftex.def Info: w-brainb.png  used on input line 338.
 (pdftex.def)             Requested size: 15.3567pt x 12.76714pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 331.
+Package pdftex.def Info: UFF_brasao.png  used on input line 344.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [96
 
@@ -4280,21 +4280,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.354 ...ame}[label=sistemas,fragile=singleslide]{
+l.367 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Posto de uma matriz}
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.354 ...ame}[label=sistemas,fragile=singleslide]{
+l.367 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Posto de uma matriz}
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 374.
+Package pdftex.def Info: exemplo.png  used on input line 387.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 381.
+Package pdftex.def Info: UFF_brasao.png  used on input line 394.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [97
 
@@ -4303,17 +4303,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 ...ame}[label=sistemas,fragile=singleslide]{
+l.397 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Variáveis Livres}
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 ...ame}[label=sistemas,fragile=singleslide]{
+l.397 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Variáveis Livres}
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 408.
+Package pdftex.def Info: UFF_brasao.png  used on input line 426.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [98
 
@@ -4322,17 +4322,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.438 \end{frame}
+l.456 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.438 \end{frame}
+l.456 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 438.
+Package pdftex.def Info: UFF_brasao.png  used on input line 456.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [99
 
@@ -4341,17 +4341,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \end{frame}
+l.473 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 \end{frame}
+l.473 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 455.
+Package pdftex.def Info: UFF_brasao.png  used on input line 473.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [100
 
@@ -4360,21 +4360,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459 ...ame}[label=sistemas,fragile=singleslide]{
+l.477 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459 ...ame}[label=sistemas,fragile=singleslide]{
+l.477 ...ame}[label=sistemas,fragile=singleslide]{
                                                    }
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 474.
+Package pdftex.def Info: w-homework.png  used on input line 492.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 478.
+Package pdftex.def Info: UFF_brasao.png  used on input line 496.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [101
 
@@ -4383,18 +4383,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.483 ...ame}[label=sistemas,fragile=singleslide]{
+l.501 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Usando o sympy para resolv...
 
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.483 ...ame}[label=sistemas,fragile=singleslide]{
+l.501 ...ame}[label=sistemas,fragile=singleslide]{
                                                   Usando o sympy para resolv...
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 510.
+Package pdftex.def Info: UFF_brasao.png  used on input line 533.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [102
 
@@ -4403,17 +4403,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.513 ...ame}[label=sistemas,fragile=singleslide]{
+l.536 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.513 ...ame}[label=sistemas,fragile=singleslide]{
+l.536 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 537.
+Package pdftex.def Info: UFF_brasao.png  used on input line 560.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [103
 
@@ -4422,17 +4422,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.540 ...ame}[label=sistemas,fragile=singleslide]{
+l.563 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.540 ...ame}[label=sistemas,fragile=singleslide]{
+l.563 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 566.
+Package pdftex.def Info: UFF_brasao.png  used on input line 589.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [104
 
@@ -4441,24 +4441,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.568 ...ame}[label=sistemas,fragile=singleslide]{
+l.591 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.568 ...ame}[label=sistemas,fragile=singleslide]{
+l.591 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 594.
+Package pdftex.def Info: UFF_brasao.png  used on input line 617.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [105
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 610.
+Package pdftex.def Info: UFF_brasao.png  used on input line 633.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [106
 
@@ -4467,17 +4467,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.624 \end{frame}
+l.647 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.624 \end{frame}
+l.647 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 624.
+Package pdftex.def Info: UFF_brasao.png  used on input line 647.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [107
 
@@ -4486,17 +4486,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.626 ...ame}[label=sistemas,fragile=singleslide]{
+l.649 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.626 ...ame}[label=sistemas,fragile=singleslide]{
+l.649 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 653.
+Package pdftex.def Info: UFF_brasao.png  used on input line 681.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [108
 
@@ -4505,25 +4505,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.656 ...ame}[label=sistemas,fragile=singleslide]{
+l.684 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.656 ...ame}[label=sistemas,fragile=singleslide]{
+l.684 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 675.
+Package pdftex.def Info: exemplo.png  used on input line 703.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 701.
+Package pdftex.def Info: exemplo.png  used on input line 729.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 708.
+Package pdftex.def Info: UFF_brasao.png  used on input line 736.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [109
 
@@ -4532,25 +4532,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.711 ...ame}[label=sistemas,fragile=singleslide]{
+l.739 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.711 ...ame}[label=sistemas,fragile=singleslide]{
+l.739 ...ame}[label=sistemas,fragile=singleslide]{
                                                   }
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 728.
+Package pdftex.def Info: w-homework.png  used on input line 756.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 754.
+Package pdftex.def Info: w-homework.png  used on input line 782.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 761.
+Package pdftex.def Info: UFF_brasao.png  used on input line 789.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [110
 
@@ -4559,17 +4559,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.776 \end{frame}
+l.804 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.776 \end{frame}
+l.804 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 776.
+Package pdftex.def Info: UFF_brasao.png  used on input line 804.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [111
 
@@ -4578,17 +4578,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{sistemas<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.791 \end{frame}
+l.819 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sistemas}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.791 \end{frame}
+l.819 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 791.
+Package pdftex.def Info: UFF_brasao.png  used on input line 819.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [112
 
@@ -4720,7 +4720,7 @@ l.102 ...ame}[label=inversao,fragile=singleslide]{
                                                   Invertendo matrizes com o ...
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 124.
+Package pdftex.def Info: UFF_brasao.png  used on input line 132.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [119
 
@@ -5045,10 +5045,10 @@ Package rerunfilecheck Info: File `gaal.out' has not changed.
 (rerunfilecheck)             Checksum: EC09C8BA48B680F02980C363E8CA4AEA;6410.
  ) 
 Here is how much of TeX's memory you used:
- 39428 strings out of 474222
- 826667 string characters out of 5748733
- 1955975 words of memory out of 5000000
- 60418 multiletter control sequences out of 15000+600000
+ 39443 strings out of 474222
+ 827132 string characters out of 5748733
+ 1956975 words of memory out of 5000000
+ 60433 multiletter control sequences out of 15000+600000
  573082 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,1151b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5074,7 +5074,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 ic/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.
 pfb>
-Output written on gaal.pdf (134 pages, 1922508 bytes).
+Output written on gaal.pdf (134 pages, 1923006 bytes).
 PDF statistics:
  5248 PDF objects out of 6186 (max. 8388607)
  4322 compressed objects within 44 object streams

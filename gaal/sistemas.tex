@@ -146,6 +146,14 @@ Ilustrando com o exemplo anterior:
 import sympy as sp
 
 x,y,z=sp.symbols('x y z',real=True)
+
+sep=sp.symbols('|')
+Msep=sp.Matrix([sep,sep])
+
+def aum(X):
+ return sp.Matrix.hstack(X[:,:3],Msep,X[:,3:])
+
+
 X=sp.Matrix([x,y,z])
 A=sp.Matrix([[2, -1,1],[1,3,4]])
 B=sp.Matrix([2,1])
@@ -160,6 +168,11 @@ B2=MA2[:,3:4]
 AX2=A2*X
 eq12=sp.Eq(AX2[0],B2[0])
 eq22=sp.Eq(AX2[1],B2[1])
+
+def aumv(M):
+ latexM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{ccc|c}')
+ latexM = latexM.replace(r'\end{matrix}', r'\end{array}')
+ return latexM
 \end{pycode}
 
 
@@ -170,9 +183,9 @@ eq22=sp.Eq(AX2[1],B2[1])
 \]
 \[\Updownarrow \]
 \[
-\pyl{MA}
+\py{aumv(MA)}
 \stackrel{\Leftrightarrow}{_{-2\times L_2+L_1}}
-\pyl{MA2}
+\py{aumv(MA2)}
 \]
 \[\Updownarrow \]
 \[
@@ -396,8 +409,13 @@ Ma=sp.Matrix.hstack(A,B)
 system= A,B
 sol=sp.linsolve(system,x,y,z,w)
 Me=Ma.echelon_form()
+
+def aumv(M):
+ latexM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{cccc|c}')
+ latexM = latexM.replace(r'\end{matrix}', r'\end{array}')
+ return latexM
 \end{pycode}
-\[A\sim \pyl{Me},\]
+\[[A|B]\sim \py{aumv(Me)},\]
 cuja solução geral é:
 \[X=\pyl{sol}\]
 
@@ -497,6 +515,11 @@ eq3=sp.Eq(AX[2],B[2])
 Ma=sp.Matrix.hstack(A,B)
 system= A,B
 sol=sp.linsolve(system,x,y,z)
+
+def aumv(M):
+ latexM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{ccc|c}')
+ latexM = latexM.replace(r'\end{matrix}', r'\end{array}')
+ return latexM
 \end{pycode}
 \[\begin{cases}
 \pyl{eq1}\\
@@ -505,7 +528,7 @@ sol=sp.linsolve(system,x,y,z)
 \end{cases}\]
 cuja matriz aumentada é:
 \[
-\pyl{Ma}
+\py{aumv(Ma)}
 \]
 \end{frame}
 
@@ -638,6 +661,11 @@ eq2=sp.Eq(AX[1],B[1])
 eq3=sp.Eq(AX[2],B[2])
 Ma=sp.Matrix.hstack(A,B)
 Me=Ma.echelon_form()
+
+def aumv(M):
+ latexM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{cccc|c}')
+ latexM = latexM.replace(r'\end{matrix}', r'\end{array}')
+ return latexM
 \end{pycode}
 
 Vimos anteriormente que o sistema
@@ -647,9 +675,9 @@ Vimos anteriormente que o sistema
 \pyl{eq3},
 \end{cases}\]
 tem matrizes aumentada e escalonada respectivamente:
-\[\pyl{Ma} \sim \pyl{Me}\]
+\[\py{aumv(Ma)} \sim \py{aumv(Me)}\]
 Se continuarmos o processo de escalonamento chegaremos à matriz escalonada reduzida
-\[\pyl{Ma.rref()[0]}\]
+\[\py{aumv(Ma.rref()[0])}\]
 \end{frame}
 
 

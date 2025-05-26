@@ -120,5 +120,13 @@ invB=B.inv()
 \end{pycode}
 \[A=\pyl{A},\ B=\pyl{B}\]
 
-\[A^{-1}=\pyl{invA},\ B^{-1}=\pyl{invB}\]
+\[A^{-1}=\pyl{invA},\ 
+B^{-1}=\begin{pmatrix}
+\pyl{invB[0,0]} & \pyl{invB[0,1]} & \pyl{invB[0,2]}  & \pyl{invB[0,3]}  \\[0.5em]
+\pyl{invB[1,0]} & \pyl{invB[1,1]} & \pyl{invB[1,2]}  & \pyl{invB[1,3]}  \\[0.5em]
+\pyl{invB[2,0]} & \pyl{invB[2,1]} & \pyl{invB[2,2]}  & \pyl{invB[2,3]}  \\[0.5em]
+\pyl{invB[3,0]} & \pyl{invB[3,1]} & \pyl{invB[3,2]}  & \pyl{invB[3,3]}  
+\end{pmatrix}.\]
+
+
 \end{frame}
