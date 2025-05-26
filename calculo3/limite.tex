@@ -89,7 +89,7 @@ Seja $f:D\subset\R^2\to \R$ uma função cujo domínio contém pontos arbitraria
 
 \begin{frame}[label=limites]{Mostrando que um limite não existe}
 
-Quando o limite de uma função existe em um ponto, então o limite tem que ser o mesmo ao longo de todos os caminhos que se aproximam do ponto. 
+Quando o limite de uma função {\color{blue}existe} em um ponto, então o limite tem que ser {\color{blue}o mesmo ao longo de todos os caminhos} que se aproximam do ponto. 
 \smallskip 
 
 No plano podemos nos aproximar de um ponto {\color{blue}$(a,b)$} por {\color{red} um número infinito de caminhos}, assim se existem dois caminhos diferentes tais que $f(x,y)$ tende a valores distintos, então o limite não existe.
@@ -134,6 +134,34 @@ No plano podemos nos aproximar de um ponto {\color{blue}$(a,b)$} por {\color{red
 	\includegraphics[scale=0.7]{figuras/lim3.png}
 \end{center}
 \end{frame}
+
+\begin{frame}[label=limites]
+	\begin{exe}
+		Mostre que o seguinte limite não existe
+		\[\lim_{(x,y)\to(0,0)}\frac{xy}{x^2+y^2}\]
+	\end{exe}
+
+	\begin{center}
+	\includegraphics[scale=0.7]{figuras/lim2.png}
+\end{center}
+\end{frame}
+
+\begin{frame}[label=limites]
+\begin{alertblock}{ATENÇÃO!!!}
+\begin{itemize}
+\item Mesmo que o limite seja igual para uma infinidade de caminhos, isso não garante que o limite exista!
+\item Basta que ele seja diferente para dois caminhos distintos, para não existir.
+\item Ele só existe quando é o mesmo em todos os caminhos possíveis.
+\end{itemize}
+
+\end{alertblock}
+	\begin{exe}
+		Mostre que o seguinte limite NÃO existe
+		\[\lim_{(x,y)\to(0,0)}\frac{xy^2}{x^2+y^4}\]
+	\end{exe}
+
+\end{frame}
+
 
 \subsection*{Continuidade}
 \begin{frame}[label=limites]
