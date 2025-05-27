@@ -64,7 +64,13 @@ u=AP.cross(vs)
 nv=vs.norm()
 
 sol=sp.solve(sp.Eq(sp.expand(u.dot(u)),(nv*d)**2),t)
-
+def aum(M, m):
+ # Cria a parte do array baseada no número de colunas
+ # As primeiras (m-1) colunas são normais, a última é separada por |
+ col = 'c'*(m-1)+'|c'
+ MM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{'+col+ '}')
+ MM = MM.replace(r'\end{matrix}', r'\end{array}')
+ return MM
 \end{pycode}
 %-------------------------------------------------------
 
@@ -89,7 +95,7 @@ z=\pyl{ps[2]+vs[2]*t}, \ t\in \R.
 \end{cases}\]
 Escalonando à forma reduzida:
 \[
-\pyl{Aa}\sim \pyl{R} \Rightarrow \begin{cases}
+\py{aum(Aa,4)}\sim \py{aum(R,4)} \Rightarrow \begin{cases}
 x=1\\ y=1-z
 \end{cases}
 \]
@@ -145,7 +151,7 @@ B=sp.Matrix.hstack(u1,u2,u3)
 
 \begin{solution}
 \begin{parts}
-\part Basta escalonar a matriz $A$ cujas colunas são so vetores $\vec{v}_1=,$
+\part Basta escalonar a matriz $A$ cujas colunas são so vetores $\vec{v}_1=\pyl{pt(v1)},$ $\vec{v}_2=\pyl{pt(v2)}$ e $\vec{v}_3=\pyl{pt(v3)}$.
 \[A=\pyl{A}\sim \pyl{A.rref()[0]}\]
 
 \part Basta escalonar a matriz $B$ cujas colunas são os vetores $\vec{v}_1=,$

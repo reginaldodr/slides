@@ -389,6 +389,12 @@ import sympy as sp
 x1,x2,x3,x4,x5,x6=sp.symbols('x_1 x_2 x_3 x_4 x_5 x_6',real=True)
 a,b,c=sp.symbols('alpha,beta,gamma')
 
+
+def aum7(M):
+ MM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{cccccc|c}')
+ MM = MM.replace(r'\end{matrix}', r'\end{array}')
+ return MM
+
 X=sp.Matrix([x1,x2,x3,x4,x5,x6])
 A=sp.Matrix([[1,2,0,-3,1,0],[1,2,1,-3,1,2],[1,2,0,-3,2,1],[3,6,1,-9,4,3]])
 B=sp.Matrix([2,3,4,9])
@@ -425,37 +431,37 @@ eqB2=sp.Eq(A1X[1],B1[1])
 eqB3=sp.Eq(A1X[2],B1[2])
 eqB4=sp.Eq(A1X[3],B1[3])
 sol=sp.solve(sp.Eq(A1X,B1),(x1,x2,x3,x4,x5,x6))
-=>PYTHONTEX#py#default#default#104#i####part1.tex#531#
+=>PYTHONTEX#py#default#default#104#i####part1.tex#537#
 sp.latex(eq1)
-=>PYTHONTEX#py#default#default#105#i####part1.tex#532#
+=>PYTHONTEX#py#default#default#105#i####part1.tex#538#
 sp.latex(eq2)
-=>PYTHONTEX#py#default#default#106#i####part1.tex#533#
+=>PYTHONTEX#py#default#default#106#i####part1.tex#539#
 sp.latex(eq3)
-=>PYTHONTEX#py#default#default#107#i####part1.tex#534#
+=>PYTHONTEX#py#default#default#107#i####part1.tex#540#
 sp.latex(eq4)
-=>PYTHONTEX#py#default#default#108#i####part1.tex#539#
-sp.latex(Ma)
-=>PYTHONTEX#py#default#default#109#i####part1.tex#546#
-sp.latex(M1)
-=>PYTHONTEX#py#default#default#110#i####part1.tex#552#
-sp.latex(M2)
-=>PYTHONTEX#py#default#default#111#i####part1.tex#557#
-sp.latex(M3)
-=>PYTHONTEX#py#default#default#112#i####part1.tex#566#
-sp.latex(M4)
-=>PYTHONTEX#py#default#default#113#i####part1.tex#570#
+=>PYTHONTEX#py#default#default#108#i####part1.tex#545#
+aum7(Ma)
+=>PYTHONTEX#py#default#default#109#i####part1.tex#552#
+aum7(M1)
+=>PYTHONTEX#py#default#default#110#i####part1.tex#558#
+aum7(M2)
+=>PYTHONTEX#py#default#default#111#i####part1.tex#564#
+aum7(M3)
+=>PYTHONTEX#py#default#default#112#i####part1.tex#573#
+aum7(M4)
+=>PYTHONTEX#py#default#default#113#i####part1.tex#577#
 sp.latex(eqB1)
-=>PYTHONTEX#py#default#default#114#i####part1.tex#571#
+=>PYTHONTEX#py#default#default#114#i####part1.tex#578#
 sp.latex(eqB2)
-=>PYTHONTEX#py#default#default#115#i####part1.tex#572#
+=>PYTHONTEX#py#default#default#115#i####part1.tex#579#
 sp.latex(eqB3)
-=>PYTHONTEX#py#default#default#116#i####part1.tex#575#
+=>PYTHONTEX#py#default#default#116#i####part1.tex#582#
 sp.latex(sol[x1].subs({x2:a,x4:b,x6:c}))
-=>PYTHONTEX#py#default#default#117#i####part1.tex#575#
+=>PYTHONTEX#py#default#default#117#i####part1.tex#582#
 sp.latex(sol[x3].subs({x6:c}))
-=>PYTHONTEX#py#default#default#118#i####part1.tex#575#
+=>PYTHONTEX#py#default#default#118#i####part1.tex#582#
 sp.latex(sol[x5].subs({x6:c}))
-=>PYTHONTEX#py#default#default#119#code####part1.tex#581#
+=>PYTHONTEX#py#default#default#119#code####part1.tex#588#
 import sympy as sp
 
 x,y,z,a=sp.symbols('x y z a',real=True)
@@ -480,19 +486,27 @@ M1=M1.elementary_row_op(op='n->n+km', row=2, k=-2, row1=None, row2=0)
 # 2a eliminacao
 M2=M1.elementary_row_op(op='n->n+km', row=2, k=-1, row1=None, row2=1)
 
-=>PYTHONTEX#py#default#default#120#i####part1.tex#611#
+def aum(M, m):
+ # Cria a parte do array baseada no número de colunas
+ # As primeiras (m-1) colunas são normais, a última é separada por |
+ col = 'c'*(m-1)+'|c'
+ MM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{'+col+ '}')
+ MM = MM.replace(r'\end{matrix}', r'\end{array}')
+ return MM
+
+=>PYTHONTEX#py#default#default#120#i####part1.tex#626#
 sp.latex(eq1)
-=>PYTHONTEX#py#default#default#121#i####part1.tex#612#
+=>PYTHONTEX#py#default#default#121#i####part1.tex#627#
 sp.latex(eq2)
-=>PYTHONTEX#py#default#default#122#i####part1.tex#613#
+=>PYTHONTEX#py#default#default#122#i####part1.tex#628#
 sp.latex(eq3)
-=>PYTHONTEX#py#default#default#123#i####part1.tex#620#
-sp.latex(Ma)
-=>PYTHONTEX#py#default#default#124#i####part1.tex#626#
-sp.latex(M1)
-=>PYTHONTEX#py#default#default#125#i####part1.tex#632#
-sp.latex(M2)
-=>PYTHONTEX#py#default#default#126#code####part1.tex#649#
+=>PYTHONTEX#py#default#default#123#i####part1.tex#635#
+aum(Ma,4)
+=>PYTHONTEX#py#default#default#124#i####part1.tex#641#
+aum(M1,4)
+=>PYTHONTEX#py#default#default#125#i####part1.tex#647#
+aum(M2,4)
+=>PYTHONTEX#py#default#default#126#code####part1.tex#664#
 import sympy as sp
 
 
@@ -563,39 +577,39 @@ B6=B5.elementary_row_op(op='n->kn', row=0, k=sp.Rational(1,3), row1=None, row2=N
 B6=B6.elementary_row_op(op='n->kn', row=1, k=sp.Rational(1,9), row1=None, row2=None)
 B6=B6.elementary_row_op(op='n->kn', row=2, k=-sp.Rational(1,9), row1=None, row2=None)
 B6=B6.elementary_row_op(op='n->kn', row=3, k=sp.Rational(1,3), row1=None, row2=None)
-=>PYTHONTEX#py#default#default#127#i####part1.tex#723#
+=>PYTHONTEX#py#default#default#127#i####part1.tex#738#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#128#i####part1.tex#723#
+=>PYTHONTEX#py#default#default#128#i####part1.tex#738#
 sp.latex(B)
-=>PYTHONTEX#py#default#default#129#i####part1.tex#727#
+=>PYTHONTEX#py#default#default#129#i####part1.tex#742#
 inv3(Aa)
-=>PYTHONTEX#py#default#default#130#i####part1.tex#731#
+=>PYTHONTEX#py#default#default#130#i####part1.tex#746#
 inv3(A1)
-=>PYTHONTEX#py#default#default#131#i####part1.tex#737#
+=>PYTHONTEX#py#default#default#131#i####part1.tex#752#
 inv3(A2)
-=>PYTHONTEX#py#default#default#132#i####part1.tex#743#
+=>PYTHONTEX#py#default#default#132#i####part1.tex#758#
 inv4(Ba)
-=>PYTHONTEX#py#default#default#133#i####part1.tex#752#
+=>PYTHONTEX#py#default#default#133#i####part1.tex#767#
 inv4(B1)
-=>PYTHONTEX#py#default#default#134#i####part1.tex#763#
+=>PYTHONTEX#py#default#default#134#i####part1.tex#778#
 inv4(B2)
-=>PYTHONTEX#py#default#default#135#i####part1.tex#767#
+=>PYTHONTEX#py#default#default#135#i####part1.tex#782#
 inv4(B3)
-=>PYTHONTEX#py#default#default#136#i####part1.tex#771#
+=>PYTHONTEX#py#default#default#136#i####part1.tex#786#
 inv4(B3)
-=>PYTHONTEX#py#default#default#137#i####part1.tex#778#
+=>PYTHONTEX#py#default#default#137#i####part1.tex#793#
 inv4(B4)
-=>PYTHONTEX#py#default#default#138#i####part1.tex#786#
+=>PYTHONTEX#py#default#default#138#i####part1.tex#801#
 inv4(B4a)
-=>PYTHONTEX#py#default#default#139#i####part1.tex#794#
+=>PYTHONTEX#py#default#default#139#i####part1.tex#809#
 inv4(B5a)
-=>PYTHONTEX#py#default#default#140#i####part1.tex#804#
+=>PYTHONTEX#py#default#default#140#i####part1.tex#819#
 inv4(B5b)
-=>PYTHONTEX#py#default#default#141#i####part1.tex#812#
+=>PYTHONTEX#py#default#default#141#i####part1.tex#827#
 inv4(B5)
-=>PYTHONTEX#py#default#default#142#i####part1.tex#824#
+=>PYTHONTEX#py#default#default#142#i####part1.tex#839#
 inv4(B6)
-=>PYTHONTEX#py#default#default#143#i####part1.tex#827#
+=>PYTHONTEX#py#default#default#143#i####part1.tex#842#
 sp.latex(B6[:,4:])
 =>PYTHONTEX#py#default#default#144#code####part2.tex#4#
 import sympy as sp
@@ -662,62 +676,68 @@ u=AP.cross(vs)
 nv=vs.norm()
 
 sol=sp.solve(sp.Eq(sp.expand(u.dot(u)),(nv*d)**2),t)
-
-=>PYTHONTEX#py#default#default#154#i####part2.tex#73#
+def aum(M, m):
+ # Cria a parte do array baseada no número de colunas
+ # As primeiras (m-1) colunas são normais, a última é separada por |
+ col = 'c'*(m-1)+'|c'
+ MM = sp.latex(M).replace(r'\begin{matrix}', r'\begin{array}{'+col+ '}')
+ MM = MM.replace(r'\end{matrix}', r'\end{array}')
+ return MM
+=>PYTHONTEX#py#default#default#154#i####part2.tex#79#
 sp.latex(p1)
-=>PYTHONTEX#py#default#default#155#i####part2.tex#73#
+=>PYTHONTEX#py#default#default#155#i####part2.tex#79#
 sp.latex(p2)
-=>PYTHONTEX#py#default#default#156#i####part2.tex#75#
+=>PYTHONTEX#py#default#default#156#i####part2.tex#81#
 sp.latex(d)
-=>PYTHONTEX#py#default#default#157#i####part2.tex#77#
+=>PYTHONTEX#py#default#default#157#i####part2.tex#83#
 sp.latex(ps[0]+vs[0]*t)
-=>PYTHONTEX#py#default#default#158#i####part2.tex#78#
+=>PYTHONTEX#py#default#default#158#i####part2.tex#84#
 sp.latex(ps[1]+vs[1]*t)
-=>PYTHONTEX#py#default#default#159#i####part2.tex#79#
+=>PYTHONTEX#py#default#default#159#i####part2.tex#85#
 sp.latex(ps[2]+vs[2]*t)
-=>PYTHONTEX#py#default#default#160#i####part2.tex#88#
+=>PYTHONTEX#py#default#default#160#i####part2.tex#94#
 sp.latex(p1)
-=>PYTHONTEX#py#default#default#161#i####part2.tex#88#
+=>PYTHONTEX#py#default#default#161#i####part2.tex#94#
 sp.latex(p2)
-=>PYTHONTEX#py#default#default#162#i####part2.tex#92#
-sp.latex(Aa)
-=>PYTHONTEX#py#default#default#163#i####part2.tex#92#
-sp.latex(R)
-=>PYTHONTEX#py#default#default#164#i####part2.tex#101#
+=>PYTHONTEX#py#default#default#162#i####part2.tex#98#
+aum(Aa,4)
+=>PYTHONTEX#py#default#default#163#i####part2.tex#98#
+aum(R,4)
+=>PYTHONTEX#py#default#default#164#i####part2.tex#107#
 sp.latex(pt(A))
-=>PYTHONTEX#py#default#default#165#i####part2.tex#101#
+=>PYTHONTEX#py#default#default#165#i####part2.tex#107#
 sp.latex(d)
-=>PYTHONTEX#py#default#default#166#i####part2.tex#101#
+=>PYTHONTEX#py#default#default#166#i####part2.tex#107#
 sp.latex(pt(ps))
-=>PYTHONTEX#py#default#default#167#i####part2.tex#101#
+=>PYTHONTEX#py#default#default#167#i####part2.tex#107#
 sp.latex(pt(vs))
-=>PYTHONTEX#py#default#default#168#i####part2.tex#103#
+=>PYTHONTEX#py#default#default#168#i####part2.tex#109#
 sp.latex(pt(AP))
-=>PYTHONTEX#py#default#default#169#i####part2.tex#103#
+=>PYTHONTEX#py#default#default#169#i####part2.tex#109#
 sp.latex(pt(u))
-=>PYTHONTEX#py#default#default#170#i####part2.tex#104#
+=>PYTHONTEX#py#default#default#170#i####part2.tex#110#
 sp.latex(d)
-=>PYTHONTEX#py#default#default#171#i####part2.tex#104#
+=>PYTHONTEX#py#default#default#171#i####part2.tex#110#
 sp.latex(pt(u))
-=>PYTHONTEX#py#default#default#172#i####part2.tex#104#
+=>PYTHONTEX#py#default#default#172#i####part2.tex#110#
 sp.latex(nv)
-=>PYTHONTEX#py#default#default#173#i####part2.tex#104#
+=>PYTHONTEX#py#default#default#173#i####part2.tex#110#
 sp.latex(u.norm())
-=>PYTHONTEX#py#default#default#174#i####part2.tex#104#
+=>PYTHONTEX#py#default#default#174#i####part2.tex#110#
 sp.latex(nv)
-=>PYTHONTEX#py#default#default#175#i####part2.tex#106#
+=>PYTHONTEX#py#default#default#175#i####part2.tex#112#
 sp.latex(sp.expand(u.dot(u)))
-=>PYTHONTEX#py#default#default#176#i####part2.tex#106#
+=>PYTHONTEX#py#default#default#176#i####part2.tex#112#
 sp.latex((nv*d)**2)
-=>PYTHONTEX#py#default#default#177#i####part2.tex#106#
+=>PYTHONTEX#py#default#default#177#i####part2.tex#112#
 sp.latex(sol[0])
-=>PYTHONTEX#py#default#default#178#i####part2.tex#107#
+=>PYTHONTEX#py#default#default#178#i####part2.tex#113#
 sp.latex(sol[1])
-=>PYTHONTEX#py#default#default#179#i####part2.tex#109#
+=>PYTHONTEX#py#default#default#179#i####part2.tex#115#
 sp.latex(pt(A.subs(t,sol[0])))
-=>PYTHONTEX#py#default#default#180#i####part2.tex#109#
+=>PYTHONTEX#py#default#default#180#i####part2.tex#115#
 sp.latex(pt(A.subs(t,sol[1])))
-=>PYTHONTEX#py#default#default#181#code####part2.tex#119#
+=>PYTHONTEX#py#default#default#181#code####part2.tex#125#
 import sympy as sp
 
 def pt(Y):
@@ -735,36 +755,42 @@ u2=sp.Matrix([6,0,5,1])
 u3=sp.Matrix([4,-7,1,3])
 
 B=sp.Matrix.hstack(u1,u2,u3)
-=>PYTHONTEX#py#default#default#182#i####part2.tex#142#
+=>PYTHONTEX#py#default#default#182#i####part2.tex#148#
 sp.latex(pt(v1))
-=>PYTHONTEX#py#default#default#183#i####part2.tex#142#
+=>PYTHONTEX#py#default#default#183#i####part2.tex#148#
 sp.latex(pt(v2))
-=>PYTHONTEX#py#default#default#184#i####part2.tex#142#
+=>PYTHONTEX#py#default#default#184#i####part2.tex#148#
 sp.latex(pt(v3))
-=>PYTHONTEX#py#default#default#185#i####part2.tex#143#
+=>PYTHONTEX#py#default#default#185#i####part2.tex#149#
 sp.latex(pt(u1))
-=>PYTHONTEX#py#default#default#186#i####part2.tex#143#
+=>PYTHONTEX#py#default#default#186#i####part2.tex#149#
 sp.latex(pt(u2))
-=>PYTHONTEX#py#default#default#187#i####part2.tex#143#
+=>PYTHONTEX#py#default#default#187#i####part2.tex#149#
 sp.latex(pt(u3))
-=>PYTHONTEX#py#default#default#188#i####part2.tex#149#
+=>PYTHONTEX#py#default#default#188#i####part2.tex#154#
+sp.latex(pt(v1))
+=>PYTHONTEX#py#default#default#189#i####part2.tex#154#
+sp.latex(pt(v2))
+=>PYTHONTEX#py#default#default#190#i####part2.tex#154#
+sp.latex(pt(v3))
+=>PYTHONTEX#py#default#default#191#i####part2.tex#155#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#189#i####part2.tex#149#
+=>PYTHONTEX#py#default#default#192#i####part2.tex#155#
 sp.latex(A.rref()[0])
-=>PYTHONTEX#py#default#default#190#i####part2.tex#152#
+=>PYTHONTEX#py#default#default#193#i####part2.tex#158#
 sp.latex(B)
-=>PYTHONTEX#py#default#default#191#i####part2.tex#152#
+=>PYTHONTEX#py#default#default#194#i####part2.tex#158#
 sp.latex(B.rref()[0])
-=>PYTHONTEX#py#default#default#192#code####part2.tex#166#
+=>PYTHONTEX#py#default#default#195#code####part2.tex#172#
 import sympy as sp
 
 A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
 I=sp.eye(4)
 
 l=A.eigenvals()
-=>PYTHONTEX#py#default#default#193#i####part2.tex#177#
+=>PYTHONTEX#py#default#default#196#i####part2.tex#183#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#194#code####part2.tex#188#
+=>PYTHONTEX#py#default#default#197#code####part2.tex#194#
 import sympy as sp
 
 A = sp.Matrix([
@@ -783,14 +809,14 @@ for vect in eigenvects:
         print(f"${sp.latex(v)}$,")
     print()
 
-=>PYTHONTEX#py#default#default#195#code####part2.tex#214#
+=>PYTHONTEX#py#default#default#198#code####part2.tex#220#
 import sympy as sp
 
 A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
 B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
-=>PYTHONTEX#py#default#default#196#i####part2.tex#224#
+=>PYTHONTEX#py#default#default#199#i####part2.tex#230#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#197#i####part2.tex#228#
+=>PYTHONTEX#py#default#default#200#i####part2.tex#234#
 sp.latex(B)
 =>PYTHONTEX:SETTINGS#
 version=0.18
