@@ -7,3 +7,4 @@
 \beamer@sectionintoc {6}{Sistema de Equações Lineares}{83}{0}{6}
 \beamer@sectionintoc {7}{Inversão de Matrizes}{113}{0}{7}
 \beamer@sectionintoc {8}{Determinantes}{120}{0}{8}
+\beamer@sectionintoc {9}{Produtos Vetoriais em $\mathbb {R}^3$}{135}{0}{9}
