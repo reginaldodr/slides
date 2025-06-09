@@ -1,0 +1,33 @@
+\frametitle{Combinação Linear}
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+
+a,b=2,3
+v1=sp.Matrix([-1,1,-2])
+v2=sp.Matrix([2,0,3])
+
+v=a*v1+b*v2
+
+i=sp.Matrix([1,0,0])
+k=sp.Matrix([0,0,1])
+j=sp.Matrix([0,1,0])
+v3=v1+v2
+
+\end{pycode}
+\begin{defin}
+Um vetor $\vec{v}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares {\color{blue}$\alpha_1,\alpha_2,\ldots, \alpha_k$} tais que
+\[\vec{v}={\color{blue}\alpha_1}\vec{v}_1+{\color{blue}\alpha_2}\vec{v}_2+\cdots +{\color{blue}\alpha_k}\vec{v}_k.\]
+\end{defin}
+
+\begin{exe}
+Podemos escrever  \(\vec{v}=\pyl{pt(v)}\) como combinação linear da seguinte forma:
+\begin{enumerate}
+\item \(\pyl{v}={\color{blue}\pyl{v[0]}}\pyl{i}+{\color{blue}\pyl{v[1]}}\pyl{j}+{\color{blue}\pyl{v[2]}}\pyl{k}\)
+\item \(\pyl{v}={\color{blue}\pyl{a}}\pyl{v1}+{\color{blue}\pyl{b}}\pyl{v2}\)
+\end{enumerate}
+\end{exe}
+

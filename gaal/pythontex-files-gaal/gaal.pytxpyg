@@ -294,3 +294,15 @@
 \PYG{n}{A}\PYG{o}{.}\PYG{n}{det}\PYG{p}{(}\PYG{p}{)}
 \end{pytx@SaveVerbatim}
 
+\begin{pytx@SaveVerbatim}[commandchars=\\\{\}]{pytx@py@default@defaultverb@8}
+\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sp}
+
+\PYG{n}{A}\PYG{o}{=}\PYG{n}{sp}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{]}\PYG{p}{,}
+\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{7}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{30}\PYG{p}{]}\PYG{p}{,}
+\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{7}\PYG{p}{]}\PYG{p}{,}
+\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{9}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
+\PYG{p}{[}\PYG{n}{P}\PYG{p}{,}\PYG{n}{D}\PYG{p}{]}\PYG{o}{=}\PYG{n}{A}\PYG{o}{.}\PYG{n}{diagonalize}\PYG{p}{(}\PYG{p}{)}
+\PYG{n}{display}\PYG{p}{(}\PYG{n}{P}\PYG{p}{)}
+\PYG{n}{display}\PYG{p}{(}\PYG{n}{D}\PYG{p}{)}
+\end{pytx@SaveVerbatim}
+

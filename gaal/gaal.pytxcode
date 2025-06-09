@@ -743,6 +743,307 @@ A=sp.Matrix([[0,2,-4,5],[3,0,-3,6],[2,4,5,3],[5,-1,-3,1]])
 sp.latex(A)
 =>PYTHONTEX#py#default#default#170#i####determinantes.tex#207#
 sp.latex(A.det())
+=>PYTHONTEX#py#default#default#171#code####gaal.142.vrb#2#
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+
+a,b=2,3
+v1=sp.Matrix([-1,1,-2])
+v2=sp.Matrix([2,0,3])
+
+v=a*v1+b*v2
+
+i=sp.Matrix([1,0,0])
+k=sp.Matrix([0,0,1])
+j=sp.Matrix([0,1,0])
+v3=v1+v2
+
+=>PYTHONTEX#py#default#default#172#i####gaal.142.vrb#27#
+sp.latex(pt(v))
+=>PYTHONTEX#py#default#default#173#i####gaal.142.vrb#29#
+sp.latex(v)
+=>PYTHONTEX#py#default#default#174#i####gaal.142.vrb#29#
+sp.latex(v[0])
+=>PYTHONTEX#py#default#default#175#i####gaal.142.vrb#29#
+sp.latex(i)
+=>PYTHONTEX#py#default#default#176#i####gaal.142.vrb#29#
+sp.latex(v[1])
+=>PYTHONTEX#py#default#default#177#i####gaal.142.vrb#29#
+sp.latex(j)
+=>PYTHONTEX#py#default#default#178#i####gaal.142.vrb#29#
+sp.latex(v[2])
+=>PYTHONTEX#py#default#default#179#i####gaal.142.vrb#29#
+sp.latex(k)
+=>PYTHONTEX#py#default#default#180#i####gaal.142.vrb#30#
+sp.latex(v)
+=>PYTHONTEX#py#default#default#181#i####gaal.142.vrb#30#
+sp.latex(a)
+=>PYTHONTEX#py#default#default#182#i####gaal.142.vrb#30#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#183#i####gaal.142.vrb#30#
+sp.latex(b)
+=>PYTHONTEX#py#default#default#184#i####gaal.142.vrb#30#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#185#code####gaal.143.vrb#1#
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,2,1])
+v2=sp.Matrix([1,-1,2])
+
+v=v1+2*v2
+
+i=sp.Matrix([1,0,0])
+k=sp.Matrix([0,0,1])
+j=sp.Matrix([0,1,0])
+v3=v1+v2
+
+=>PYTHONTEX#py#default#default#186#i####gaal.143.vrb#19#
+sp.latex(v)
+=>PYTHONTEX#py#default#default#187#i####gaal.143.vrb#24#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#188#i####gaal.143.vrb#30#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#189#i####gaal.143.vrb#30#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#190#i####gaal.143.vrb#30#
+sp.latex(v3)
+=>PYTHONTEX#py#default#default#191#i####gaal.143.vrb#31#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#192#i####gaal.143.vrb#31#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#193#code####gaal.146.vrb#2#
+import sympy as sp
+
+v1=sp.Matrix([1,2,-1,-2])
+v2=sp.Matrix([0,1,2,5])
+v3=sp.Matrix([1,0,-4,-1])
+v4=sp.Matrix([1,-1,2,7])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+R=A.echelon_form()
+=>PYTHONTEX#py#default#default#194#i####gaal.146.vrb#17#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#195#i####gaal.146.vrb#17#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#196#i####gaal.146.vrb#17#
+sp.latex(v3)
+=>PYTHONTEX#py#default#default#197#i####gaal.146.vrb#17#
+sp.latex(v4)
+=>PYTHONTEX#py#default#default#198#code####gaal.147.vrb#2#
+import sympy as sp
+
+v1=sp.Matrix([1,2,-1,-2])
+v2=sp.Matrix([0,1,2,5])
+v3=sp.Matrix([1,0,-4,-1])
+v4=sp.Matrix([1,-1,2,7])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+
+pos,neg=sp.symbols('+ -')
+def sinal(x):
+ if x>0:
+  return pos
+ else:
+  return neg
+
+def opa(M,i,j):
+ B=M.elementary_row_op(op='n<->m', row=None, k=None, row1=i-1, row2=j-1)
+ L=r'L_{}'.format(i)+r'\leftrightarrow L_{}'.format(j)
+ return B, L
+
+def opb(M,i,r):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->kn', row=i-1, k=r, row1=None, row2=None)
+ L=r'L_{}'.format(i)+r'\to '+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(i)
+ return B, L
+
+def opc(M,i,r,j):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->n+km', row=i-1, k=r, row1=None, row2=j-1)
+ L=r'L_{}'.format(i)+r'\to L_{}'.format(i)+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(j)
+ return B, L
+
+#1ª eliminação
+A1,e1a=opc(A,2,-2,1)
+A1,e1b=opc(A1,3,1,1)
+A1,e1c=opc(A1,4,2,1)
+
+#2ª eliminação
+A2,e2a=opc(A1,3,-2,2)
+A2,e2b=opc(A2,4,-5,2)
+
+#3ª eliminação
+A3,e3a=opc(A2,4,-11,3)
+=>PYTHONTEX#py#default#default#199#i####gaal.147.vrb#71#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#200#i####gaal.147.vrb#71#
+e1a
+=>PYTHONTEX#py#default#default#201#i####gaal.147.vrb#71#
+e1b
+=>PYTHONTEX#py#default#default#202#i####gaal.147.vrb#71#
+e1c
+=>PYTHONTEX#py#default#default#203#i####gaal.147.vrb#71#
+sp.latex(A1)
+=>PYTHONTEX#py#default#default#204#i####gaal.147.vrb#71#
+e2a
+=>PYTHONTEX#py#default#default#205#i####gaal.147.vrb#71#
+e2b
+=>PYTHONTEX#py#default#default#206#i####gaal.147.vrb#71#
+sp.latex(A2)
+=>PYTHONTEX#py#default#default#207#i####gaal.147.vrb#71#
+e3a
+=>PYTHONTEX#py#default#default#208#i####gaal.147.vrb#71#
+sp.latex(A3)
+=>PYTHONTEX#py#default#default#209#code####gaal.147.vrb#2#
+import sympy as sp
+
+v1=sp.Matrix([1,2,-1,-2])
+v2=sp.Matrix([0,1,2,5])
+v3=sp.Matrix([1,0,-4,-1])
+v4=sp.Matrix([1,-1,2,7])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+
+pos,neg=sp.symbols('+ -')
+def sinal(x):
+ if x>0:
+  return pos
+ else:
+  return neg
+
+def opa(M,i,j):
+ B=M.elementary_row_op(op='n<->m', row=None, k=None, row1=i-1, row2=j-1)
+ L=r'L_{}'.format(i)+r'\leftrightarrow L_{}'.format(j)
+ return B, L
+
+def opb(M,i,r):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->kn', row=i-1, k=r, row1=None, row2=None)
+ L=r'L_{}'.format(i)+r'\to '+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(i)
+ return B, L
+
+def opc(M,i,r,j):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->n+km', row=i-1, k=r, row1=None, row2=j-1)
+ L=r'L_{}'.format(i)+r'\to L_{}'.format(i)+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(j)
+ return B, L
+
+#1ª eliminação
+A1,e1a=opc(A,2,-2,1)
+A1,e1b=opc(A1,3,1,1)
+A1,e1c=opc(A1,4,2,1)
+
+#2ª eliminação
+A2,e2a=opc(A1,3,-2,2)
+A2,e2b=opc(A2,4,-5,2)
+
+#3ª eliminação
+A3,e3a=opc(A2,4,-11,3)
+=>PYTHONTEX#py#default#default#210#i####gaal.147.vrb#71#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#211#i####gaal.147.vrb#71#
+e1a
+=>PYTHONTEX#py#default#default#212#i####gaal.147.vrb#71#
+e1b
+=>PYTHONTEX#py#default#default#213#i####gaal.147.vrb#71#
+e1c
+=>PYTHONTEX#py#default#default#214#i####gaal.147.vrb#71#
+sp.latex(A1)
+=>PYTHONTEX#py#default#default#215#i####gaal.147.vrb#71#
+e2a
+=>PYTHONTEX#py#default#default#216#i####gaal.147.vrb#71#
+e2b
+=>PYTHONTEX#py#default#default#217#i####gaal.147.vrb#71#
+sp.latex(A2)
+=>PYTHONTEX#py#default#default#218#i####gaal.147.vrb#71#
+e3a
+=>PYTHONTEX#py#default#default#219#i####gaal.147.vrb#71#
+sp.latex(A3)
+=>PYTHONTEX#py#default#default#220#code####lild.tex#224#
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,1,2])
+v2=sp.Matrix([1,0,1])
+v3=sp.Matrix([4,6,12])
+
+A=sp.Matrix.hstack(v1,v2,v3)
+
+
+u1=sp.Matrix([0,3,1,-1])
+u2=sp.Matrix([6,0,5,1])
+u3=sp.Matrix([4,-7,1,3])
+
+B=sp.Matrix.hstack(u1,u2,u3)
+=>PYTHONTEX#py#default#default#221#i####lild.tex#247#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#222#i####lild.tex#247#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#223#i####lild.tex#247#
+sp.latex(v3)
+=>PYTHONTEX#py#default#default#224#i####lild.tex#248#
+sp.latex(u1)
+=>PYTHONTEX#py#default#default#225#i####lild.tex#248#
+sp.latex(u2)
+=>PYTHONTEX#py#default#default#226#i####lild.tex#248#
+sp.latex(u3)
+=>PYTHONTEX#py#default#default#227#code####autovetores.tex#59#
+import sympy as sp
+A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
+=>PYTHONTEX#py#default#default#228#i####autovetores.tex#65#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#229#code####autovetores.tex#139#
+import sympy as sp
+
+A=sp.Matrix([[4,0,1],[2,3,2],[1,0,4]])
+=>PYTHONTEX#py#default#default#230#i####autovetores.tex#147#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#231#code####autovetores.tex#158#
+import sympy as sp
+
+A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
+B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
+=>PYTHONTEX#py#default#default#232#i####autovetores.tex#166#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#233#i####autovetores.tex#170#
+sp.latex(B)
+=>PYTHONTEX#py#default#defaultverb#8#verbatim####autovetores.tex#178#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10],
+[0, -7, 6, -30],
+[0, 2, 0, 7],
+[0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+display(P)
+display(D)
+=>PYTHONTEX#py#default#default#234#code####autovetores.tex#191#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10], [0, -7, 6, -30], [0, 2, 0, 7], [0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+=>PYTHONTEX#py#default#default#235#i####autovetores.tex#197#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#236#i####autovetores.tex#197#
+sp.latex(P)
+=>PYTHONTEX#py#default#default#237#i####autovetores.tex#198#
+sp.latex(D)
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-gaal

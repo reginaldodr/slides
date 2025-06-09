@@ -1,0 +1,72 @@
+\frametitle{Solução do Exercício}
+\begin{pycode}
+import sympy as sp
+
+v1=sp.Matrix([1,2,-1,-2])
+v2=sp.Matrix([0,1,2,5])
+v3=sp.Matrix([1,0,-4,-1])
+v4=sp.Matrix([1,-1,2,7])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+
+pos,neg=sp.symbols('+ -')
+def sinal(x):
+ if x>0:
+  return pos
+ else:
+  return neg
+
+def opa(M,i,j):
+ B=M.elementary_row_op(op='n<->m', row=None, k=None, row1=i-1, row2=j-1)
+ L=r'L_{}'.format(i)+r'\leftrightarrow L_{}'.format(j)
+ return B, L
+
+def opb(M,i,r):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->kn', row=i-1, k=r, row1=None, row2=None)
+ L=r'L_{}'.format(i)+r'\to '+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(i)
+ return B, L
+
+def opc(M,i,r,j):
+ rr=sp.Abs(r)
+ if rr==1:
+  rr=' '
+ B=M.elementary_row_op(op='n->n+km', row=i-1, k=r, row1=None, row2=j-1)
+ L=r'L_{}'.format(i)+r'\to L_{}'.format(i)+r'{}'.format(sinal(r))+r'{}'.format(rr)+r'L_{}'.format(j)
+ return B, L
+
+#1ª eliminação
+A1,e1a=opc(A,2,-2,1)
+A1,e1b=opc(A1,3,1,1)
+A1,e1c=opc(A1,4,2,1)
+
+#2ª eliminação
+A2,e2a=opc(A1,3,-2,2)
+A2,e2b=opc(A2,4,-5,2)
+
+#3ª eliminação
+A3,e3a=opc(A2,4,-11,3)
+\end{pycode}
+\uncover<2->{\[
+\pyl{A}
+{\footnotesize \begin{tabu}{c}
+\py{e1a}\\
+\py{e1b}\\
+\py{e1c}
+\end{tabu} }
+\pyl{A1}
+{\footnotesize \begin{tabu}{c}
+\py{e2a}\\
+\py{e2b}
+\end{tabu} }
+\]
+\[
+\pyl{A2}
+{\footnotesize
+\begin{tabu}{c}\py{e3a}\end{tabu}  }
+\pyl{A3}
+\]
+Logo, os vetores são LI.}
+
