@@ -8,32 +8,42 @@ Um subconjunto {\color{red}não-vazio} $V\subset\R^n$ é chamado de {\color{blue
 \item Se $\vec{v}\in V$, então $\alpha\vec{v}\in V$, para todo $\alpha\in \R$.
 \end{enumerate}
 \end{defin}
-
-\begin{exe}
-Mostre que o conjunto $V=\{(x,y,z)\in \R^3;z=0\}$ é um subespaço de $\R^3$.
+\begin{exe} Decida se os conjuntos abaixo são subespaços.
+\begin{enumerate}
+\item $V=\{(x,y,z)\in \R^3;\ z=0\}$.
+\item \(W=\{(x,y)\in \R^2;\ x+y=1\}\}\).
+\item \(X=\{(x,y,z)\in \R^3;\ y=0 \text{ e } z=x^2\}\}\) 
+\item \(Z=\{(x,y)\in \R^2;\ y\geq 0  \} \)
+\end{enumerate}
 \end{exe}
 
 \end{frame}
 
+
+
 \begin{frame}[label=lild]{}
-\begin{exe}
+\begin{block}{Propriedades}
 \begin{enumerate}
 \item Os subespaços vetoriais triviais de $\R^n$ são $V=\{\vec{0}\}$ e o próprio $V=\R^n$.
 
+\item O vetor nulo pertence a qualquer subespaço.
+
 \item Se $A$ é uma matriz $m\times n$, então o conjunto solução do sistema homogêneo $AX=\vec{0}$ é um subespaço de $\R^n$, chamado de {\color{blue}espaço solução} ou {\color{blue}espaço nulo} ou {\color{blue}núcleo de A} e será denotado por {\color{blue} $\ker(A)$}.
 
-\item Retas e planos em $\R^3$, passando pela origem, são subespaços de $\R^3$.
+\item Retas, passando pela origem, são todos os subespaços não triviais de $\R^2$.
 
-\item Determine o subespaço de $\R^5$ que é solução do sistema 
-\[\left\{
-\begin{array}{rrrrrr}
-x_1 &+ x_2 & & &+x_5&=0\\
--2x_1 & -2x_2 &+ x_3& -x_4 & -x_5& =0 \\
-x_1&+ x_2& -x_3 &+ x_4& &=0
-\end{array}\right.
-\]
+\item Retas e planos em $\R^3$, passando pela origem, são todos os subespaços não triviais de $\R^3$.
+
+%\item Determine o subespaço de $\R^5$ que é solução do sistema 
+%\[\left\{
+%\begin{array}{rrrrrr}
+%x_1 &+ x_2 & & &+x_5&=0\\
+%-2x_1 & -2x_2 &+ x_3& -x_4 & -x_5& =0 \\
+%x_1&+ x_2& -x_3 &+ x_4& &=0
+%\end{array}\right.
+%\]
 \end{enumerate}
-\end{exe}
+\end{block}
 
 
 \end{frame}
@@ -41,12 +51,19 @@ x_1&+ x_2& -x_3 &+ x_4& &=0
 \subsection*{Geradores}
 \begin{frame}[label=lild]{}
 \begin{defin}
-Seja $V$ um subespaço de $\R^n$. Dizemos que os vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$, petencentes a $V$, {\color{blue}geram} $V$, se qualquer vetor de $V$ pode ser escrito como combinação linear dos vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$. Neste caso, também dizemos que $V$ é o {\color{blue}subespaço gerado por} $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$ e o denotaremos por $\operatorname{span}\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$.
+Seja $V$ um subespaço de $\R^n$. Dizemos que os vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$, pertencentes a $V$, {\color{blue}geram} $V$, se qualquer vetor de $V$ pode ser escrito como combinação linear dos vetores $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$. Neste caso, também dizemos que $V$ é o {\color{blue}subespaço gerado por} $\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k$ e o denotaremos por $\operatorname{span}\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$.
 \end{defin}
 
 \begin{exe}
 \begin{enumerate}
-\item Determine um conjunto de geradores do núcleo da matriz $A$ do exemplo anterior.
+\item Determine um conjunto de geradores do núcleo da matriz 
+\[A=
+\begin{bmatrix}
+1 &1 & 0 &0 &1\\
+-2 & -2 & 1& -1 & -1 \\
+1&1& -1 &1&0
+\end{bmatrix}
+\]
 
 \item Mostre que $\vec{w}=(4,-1,8)$ não está em $\operatorname{span}\{(1,2,-1),(6,4,2)\}$.
 \end{enumerate}
