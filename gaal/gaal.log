@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  10 JUN 2025 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  14 JUN 2025 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2485,13 +2485,19 @@ LaTeX Warning: Label `lild<1>' multiply defined.
 
 LaTeX Warning: Label `lild' multiply defined.
 
-) (./subespacos.aux
 
 LaTeX Warning: Label `lild<1>' multiply defined.
 
 
 LaTeX Warning: Label `lild' multiply defined.
 
+
+LaTeX Warning: Label `lild<1>' multiply defined.
+
+
+LaTeX Warning: Label `lild' multiply defined.
+
+) (./subespacos.aux
 
 LaTeX Warning: Label `lild<1>' multiply defined.
 
@@ -2817,24 +2823,24 @@ LaTeX Warning: Label `conicas' multiply defined.
 ))
 \openout1 = `gaal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2892,7 +2898,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 161.
+Package hyperref Info: Link coloring ON on input line 175.
 
 (./gaal.out) (./gaal.out)
 \@outlinefile=\write7
@@ -2927,42 +2933,42 @@ Package newfloat Info: Trying Plan B...
 Package newfloat Info: `wrapfig' package detected.
  (./pythontex-files-gaal/gaal.pytxmcr)
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
-ut line 161.
+ut line 175.
 \c@listing=\count422
 \newfloat@ftype=\count423
-Package newfloat Info: float type `listing'=8 on input line 161.
+Package newfloat Info: float type `listing'=8 on input line 175.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./gaal.nav)
 (./pythontex-files-gaal/gaal.pytxpyg)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 184.
+(hyperref)                setting the option has no effect on input line 198.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 200
+LaTeX Font Info:    Trying to load font information for U+msa on input line 214
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 200
+LaTeX Font Info:    Trying to load font information for U+msb on input line 214
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figuras/rot-elipse.png, id=308, 322.95656pt x 210.7875pt>
+<figuras/rot-elipse.png, id=312, 322.95656pt x 210.7875pt>
 File: figuras/rot-elipse.png Graphic file (type png)
 <use figuras/rot-elipse.png>
-Package pdftex.def Info: figuras/rot-elipse.png  used on input line 200.
+Package pdftex.def Info: figuras/rot-elipse.png  used on input line 214.
 (pdftex.def)             Requested size: 129.18033pt x 84.3135pt.
 
-Overfull \vbox (7.28749pt too high) detected at line 200
+Overfull \vbox (7.28749pt too high) detected at line 214
  []
 
-<UFF_brasao.png, id=309, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=313, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 200.
+Package pdftex.def Info: UFF_brasao.png  used on input line 214.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [1
 
@@ -2970,7 +2976,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 200.
 as/rot-elipse.png (PNG copy)>] (./gaal.toc)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 207.
+Package pdftex.def Info: UFF_brasao.png  used on input line 221.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [2
 
@@ -3059,7 +3065,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
                    \relax 
 l.19 \end{frame}
                 
-<exemplo.png, id=612, 59.9841pt x 58.5387pt>
+<exemplo.png, id=617, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 19.
@@ -3307,7 +3313,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
                    \relax 
 l.348 \end{frame}
                  
-<w-homework.png, id=1023, 513.92pt x 452.69125pt>
+<w-homework.png, id=1027, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 348.
@@ -3390,7 +3396,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
                    \relax 
 l.383 \end{frame}
                  
-<figuras/eixos3d2.png, id=1173, 986.68625pt x 662.475pt>
+<figuras/eixos3d2.png, id=1177, 986.68625pt x 662.475pt>
 File: figuras/eixos3d2.png Graphic file (type png)
 <use figuras/eixos3d2.png>
 Package pdftex.def Info: figuras/eixos3d2.png  used on input line 383.
@@ -3789,7 +3795,7 @@ s been already used, duplicate ignored
                    \relax 
 l.177 \end{frame}
                  
-<w-brainb.png, id=1878, 255.95625pt x 212.795pt>
+<w-brainb.png, id=1882, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 177.
@@ -4127,7 +4133,7 @@ s been already used, duplicate ignored
                    \relax 
 l.232 \end{frame}
                  
-<figuras/produto-escalar/meme.png, id=2613, 270.2898pt x 205.0059pt>
+<figuras/produto-escalar/meme.png, id=2617, 270.2898pt x 205.0059pt>
 File: figuras/produto-escalar/meme.png Graphic file (type png)
 <use figuras/produto-escalar/meme.png>
 Package pdftex.def Info: figuras/produto-escalar/meme.png  used on input line 2
@@ -4378,7 +4384,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 239.
  [78
 
 ]
-<figuras/normal-vector.png, id=3153, 226.446pt x 187.902pt>
+<figuras/normal-vector.png, id=3157, 226.446pt x 187.902pt>
 File: figuras/normal-vector.png Graphic file (type png)
 <use figuras/normal-vector.png>
 Package pdftex.def Info: figuras/normal-vector.png  used on input line 249.
@@ -5526,7 +5532,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 60.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/paralelogramo.png, id=5408, 953.81343pt x 569.12625pt>
+<figuras/paralelogramo.png, id=5412, 953.81343pt x 569.12625pt>
 File: figuras/paralelogramo.png Graphic file (type png)
 <use figuras/paralelogramo.png>
 Package pdftex.def Info: figuras/paralelogramo.png  used on input line 60.
@@ -5735,13 +5741,11 @@ File: exemplo.png Graphic file (type png)
 Package pdftex.def Info: exemplo.png  used on input line 27.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 )
-Overfull \vbox (3.47893pt too high) detected at line 39
- []
-
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 39.
+Package pdftex.def Info: UFF_brasao.png  used on input line 41.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+
 [148
 
 ]
@@ -5752,83 +5756,137 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \end{frame}
+l.73 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \end{frame}
+l.73 \end{frame}
                  (./gaal.143.vrb
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 19.
+Package pdftex.def Info: exemplo.png  used on input line 15.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 )
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 78.
+Package pdftex.def Info: UFF_brasao.png  used on input line 73.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [149
 
 ]
+\openout4 = `gaal.144.vrb'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \end{frame}
-                
+l.102 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \end{frame}
-                
+l.102 \end{frame}
+                  (./gaal.144.vrb
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 20.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 88.
+Package pdftex.def Info: UFF_brasao.png  used on input line 102.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [150
 
 ]
+\openout4 = `gaal.145.vrb'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \end{frame}
+l.126 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \end{frame}
-                 
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 121.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+l.126 \end{frame}
+                  (./gaal.145.vrb
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 14.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 121.
+Package pdftex.def Info: UFF_brasao.png  used on input line 126.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [151
 
 ]
-\openout4 = `gaal.146.vrb'.
+pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.140 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.140 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 140.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [152
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 173.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 173.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [153
+
+]
+\openout4 = `gaal.148.vrb'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \end{frame}
+l.195 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \end{frame}
-                  (./gaal.146.vrb
+l.195 \end{frame}
+                  (./gaal.148.vrb
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 15.
@@ -5836,106 +5894,106 @@ Package pdftex.def Info: w-brainb.png  used on input line 15.
 )
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 143.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [152
-
-]
-\openout4 = `gaal.147.vrb'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.219 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.219 \end{frame}
-                  (./gaal.147.vrb
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-)
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 219.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [153
-
-] (./gaal.147.vrb
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-.
-
-)
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 219.
+Package pdftex.def Info: UFF_brasao.png  used on input line 195.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [154
 
 ]
+\openout4 = `gaal.149.vrb'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 ...n{frame}[label=lild,fragile=singleslide]{
-                                                  }
+l.271 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 ...n{frame}[label=lild,fragile=singleslide]{
-                                                  }
-File: w-homework.png Graphic file (type png)
-<use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 244.
-(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+l.271 \end{frame}
+                  (./gaal.149.vrb
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 252.
+Package pdftex.def Info: UFF_brasao.png  used on input line 271.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [155
+
+] (./gaal.149.vrb
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
+.
+
+)
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 271.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [156
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.273 \end{frame}
+l.275 ...n{frame}[label=lild,fragile=singleslide]{
+                                                  }
+pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.275 ...n{frame}[label=lild,fragile=singleslide]{
+                                                  }
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 296.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 304.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [157
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.325 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.273 \end{frame}
+l.325 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 273.
+Package pdftex.def Info: UFF_brasao.png  used on input line 325.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [156
+ [158
 
 ])
 \openout2 = `subespacos.aux'.
@@ -5961,7 +6019,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 20.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [157
+ [159
 
 
 
@@ -5983,7 +6041,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 49.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [158
+ [160
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
@@ -6006,7 +6064,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 76.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [159
+ [161
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
@@ -6029,52 +6087,6 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 97.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [160
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 \end{frame}
-                 
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 115.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 115.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [161
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \end{frame}
-                 
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 143.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 143.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [162
 
 ]
@@ -6082,36 +6094,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \end{frame}
+l.111 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \end{frame}
+l.111 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 162.
+Package pdftex.def Info: UFF_brasao.png  used on input line 111.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [163
 
 ]
+\openout4 = `gaal.157.vrb'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{frame}
+l.138 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{frame}
-                 
+l.138 \end{frame}
+                  (./gaal.157.vrb
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 15.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 194.
+Package pdftex.def Info: UFF_brasao.png  used on input line 138.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [164
 
@@ -6120,21 +6140,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.214 \end{frame}
+l.155 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.214 \end{frame}
+l.155 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 214.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 214.
+Package pdftex.def Info: UFF_brasao.png  used on input line 155.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [165
 
@@ -6143,21 +6159,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \end{frame}
+l.166 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \end{frame}
+l.166 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 232.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 166.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 232.
+Package pdftex.def Info: UFF_brasao.png  used on input line 166.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [166
 
@@ -6166,17 +6182,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \end{frame}
+l.210 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 \end{frame}
+l.210 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 249.
+Package pdftex.def Info: UFF_brasao.png  used on input line 210.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [167
 
@@ -6185,21 +6201,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.273 \end{frame}
+l.242 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.273 \end{frame}
+l.242 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 273.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 273.
+Package pdftex.def Info: UFF_brasao.png  used on input line 242.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [168
 
@@ -6208,21 +6220,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.290 \end{frame}
+l.262 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.290 \end{frame}
+l.262 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 290.
+Package pdftex.def Info: exemplo.png  used on input line 262.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 290.
+Package pdftex.def Info: UFF_brasao.png  used on input line 262.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [169
 
@@ -6231,23 +6243,46 @@ pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.302 \end{frame}
+l.285 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.302 \end{frame}
+l.285 \end{frame}
                  
-File: w-homework.png Graphic file (type png)
-<use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 302.
-(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 285.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 302.
+Package pdftex.def Info: UFF_brasao.png  used on input line 285.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [170
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{lild<1>}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{lild}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 343.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 343.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [171
 
 ])
 \openout2 = `mudanca-base.aux'.
@@ -6282,7 +6317,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 20.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [171
+ [172
 
 
 
@@ -6308,7 +6343,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 32.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [172
+ [173
 
 ])
 \openout2 = `autovetores.aux'.
@@ -6318,7 +6353,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [173
+ [174
 
 
 
@@ -6332,7 +6367,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 22.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [174
+ [175
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6355,7 +6390,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 39.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [175
+ [176
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6378,7 +6413,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 55.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [176
+ [177
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6401,7 +6436,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 73.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [177
+ [178
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6420,7 +6455,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 98.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [178
+ [179
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6443,7 +6478,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 111.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [179
+ [180
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6462,7 +6497,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 123.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [180
+ [181
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6485,7 +6520,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 153.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [181
+ [182
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6508,7 +6543,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 174.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [182
+ [183
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6530,7 +6565,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 200.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[183
+[184
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{autovalores<1
@@ -6549,7 +6584,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 205.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [184
+ [185
 
 ])
 \openout2 = `ortogonal.aux'.
@@ -6559,7 +6594,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [185
+ [186
 
 
 
@@ -6573,7 +6608,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 20.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [186
+ [187
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6592,7 +6627,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 38.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [187
+ [188
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6611,7 +6646,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 60.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [188
+ [189
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6634,7 +6669,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 68.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [189
+ [190
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6657,7 +6692,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 124.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [190
+ [191
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6680,14 +6715,14 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 135.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [191
+ [192
 
 ] (./gaal.toc)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 139.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [192
+ [193
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6706,7 +6741,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 157.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [193
+ [194
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6729,7 +6764,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 176.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [194
+ [195
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6752,7 +6787,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 192.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [195
+ [196
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6775,7 +6810,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 216.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [196
+ [197
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
@@ -6798,7 +6833,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 235.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [197
+ [198
 
 ])
 \openout2 = `conicas-simples.aux'.
@@ -6808,7 +6843,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [198
+ [199
 
 
 
@@ -6823,7 +6858,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 26.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [199
+ [200
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{comp<1>}) has
@@ -6846,7 +6881,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 42.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [200
+ [201
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{comp<1>}) has
@@ -6869,10 +6904,10 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 55.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [201
+ [202
 
 ])
-<figuras/conicas.png, id=8051, 679.78969pt x 353.82187pt>
+<figuras/conicas.png, id=8096, 679.78969pt x 353.82187pt>
 File: figuras/conicas.png Graphic file (type png)
 <use figuras/conicas.png>
 Package pdftex.def Info: figuras/conicas.png  used on input line 23.
@@ -6881,7 +6916,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 23.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [202
+ [203
 
  <./figuras/conicas.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -6904,7 +6939,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 50.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [203
+ [204
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -6923,7 +6958,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 63.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [204
+ [205
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -6946,7 +6981,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 131.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[205
+[206
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -6965,7 +7000,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 210.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [206
+ [207
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -6984,7 +7019,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 286.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [207
+ [208
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7007,7 +7042,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 299.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [208
+ [209
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7022,7 +7057,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
                    \relax 
 l.315 \end{frame}
                  
-<figuras/catenaria.png, id=8270, 321.2pt x 240.9pt>
+<figuras/catenaria.png, id=8315, 321.2pt x 240.9pt>
 File: figuras/catenaria.png Graphic file (type png)
 <use figuras/catenaria.png>
 Package pdftex.def Info: figuras/catenaria.png  used on input line 315.
@@ -7031,7 +7066,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 315.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [209
+ [210
 
  <./figuras/catenaria.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7054,7 +7089,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 331.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [210
+ [211
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7069,16 +7104,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
                    \relax 
 l.391 \end{frame}
                  
-Overfull \vbox (0.8685pt too high) detected at line 391
- []
-
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 391.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[211
-
-]
 Overfull \vbox (0.8685pt too high) detected at line 391
  []
 
@@ -7109,6 +7134,16 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 391.
 [214
 
 ]
+Overfull \vbox (0.8685pt too high) detected at line 391
+ []
+
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 391.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[215
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
 has been already used, duplicate ignored
 <to be read again> 
@@ -7129,7 +7164,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 409.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [215
+ [216
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7148,7 +7183,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 435.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [216
+ [217
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7167,7 +7202,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 456.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [217
+ [218
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7186,7 +7221,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 472.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [218
+ [219
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7209,7 +7244,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 484.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [219
+ [220
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7232,7 +7267,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 496.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [220
+ [221
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>}) 
@@ -7251,7 +7286,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 502.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [221
+ [222
 
 ])
 \tf@nav=\write8
@@ -7277,16 +7312,16 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `gaal.out' has not changed.
-(rerunfilecheck)             Checksum: B4F44F390C0DF9ECF9B1FB371AD6E741;11434.
+(rerunfilecheck)             Checksum: 12A37D0A8D78D595D6666682DB2C3350;11623.
  ) 
 Here is how much of TeX's memory you used:
- 41045 strings out of 474222
- 866488 string characters out of 5748733
- 1963975 words of memory out of 5000000
- 61729 multiletter control sequences out of 15000+600000
+ 41126 strings out of 474222
+ 868817 string characters out of 5748733
+ 1960975 words of memory out of 5000000
+ 61797 multiletter control sequences out of 15000+600000
  574983 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1151b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,1151b,987s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -7313,10 +7348,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on gaal.pdf (221 pages, 2594687 bytes).
+Output written on gaal.pdf (222 pages, 2601076 bytes).
 PDF statistics:
- 8929 PDF objects out of 10688 (max. 8388607)
- 7313 compressed objects within 74 object streams
- 557 named destinations out of 1000 (max. 500000)
- 6790 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8975 PDF objects out of 10688 (max. 8388607)
+ 7351 compressed objects within 74 object streams
+ 561 named destinations out of 1000 (max. 500000)
+ 6816 words of extra memory for PDF output out of 10000 (max. 10000000)
 

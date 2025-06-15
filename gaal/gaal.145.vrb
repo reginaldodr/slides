@@ -1,0 +1,19 @@
+\begin{pycode}
+import sympy as sp
+
+v1=sp.Matrix([2,1,-2,1])
+v2=sp.Matrix([1,-3,2,-1])
+v3=sp.Matrix([3,1,1,0])
+
+b1=3*v1-v2+2*v3
+b2=sp.Matrix([1,-1,0,0])
+
+\end{pycode}
+\begin{casa}
+%\addcontentsline{toc}{subsection}{Para Casa \protect\numberline{\thecasa}}
+Escreva, se possível,  os vetores {\color{blue}\(\vec{b}_1=\pyl{b1}\)} e {\color{blue}\(\vec{b}_2=\pyl{b2}\)} como combinação linear dos seguintes vetores
+\[
+\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2} \text{ e } \vec{v}_3=\pyl{v3}.
+\]
+\end{casa}
+\subsection*{Para Casa \thecasa}

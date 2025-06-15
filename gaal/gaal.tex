@@ -123,6 +123,20 @@
 \newtheorem*{desafio}{\includegraphics[scale=0.02]{desafio-branco.png} Desafio}
 \makeatother
 
+%-----------------------------------------------------------------------
+% Comando para destacar um item específico da subseção
+\newcommand{\rsubsection}[1]{%
+    \addtocontents{toc}{%
+        \protect\setbeamercolor{subsection in sidebar}{fg=red}%
+        \protect\setbeamercolor{subsection in sidebar shaded}{fg=red!50}%
+    }%
+    \subsection*{#1}%
+    \addtocontents{toc}{%
+        \protect\setbeamercolor{subsection in sidebar}{fg=black}% Volta ao normal
+        \protect\setbeamercolor{subsection in sidebar shaded}{fg=gray}%
+    }%
+}
+%-----------------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

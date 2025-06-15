@@ -19,15 +19,18 @@ v3=v1+v2
 
 \end{pycode}
 \begin{defin}
-Um vetor $\vec{v}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares {\color{blue}$\alpha_1,\alpha_2,\ldots, \alpha_k$} tais que
-\[\vec{v}={\color{blue}\alpha_1}\vec{v}_1+{\color{blue}\alpha_2}\vec{v}_2+\cdots +{\color{blue}\alpha_k}\vec{v}_k.\]
+Um vetor ${\color{blue}\vec{b}}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares {\color{red}$\alpha_1,\alpha_2,\ldots, \alpha_k$} tais que
+\[{\color{red}\alpha_1}\vec{v}_1+{\color{red}\alpha_2}\vec{v}_2+\cdots +{\color{red}\alpha_k}\vec{v}_k={\color{blue}\vec{b}}.\]
 \end{defin}
 
 \begin{exe}
-Podemos escrever  \(\vec{v}=\pyl{pt(v)}\) como combinação linear da seguinte forma:
-\begin{enumerate}
-\item \(\pyl{v}={\color{blue}\pyl{v[0]}}\pyl{i}+{\color{blue}\pyl{v[1]}}\pyl{j}+{\color{blue}\pyl{v[2]}}\pyl{k}\)
-\item \(\pyl{v}={\color{blue}\pyl{a}}\pyl{v1}+{\color{blue}\pyl{b}}\pyl{v2}\)
+Podemos escrever  {\color{blue}\(\vec{b}=\pyl{pt(v)}\)} como combinação linear da seguinte forma:
+\begin{multicols}{2}
+\begin{enumerate}[a]
+\item \({\color{red}\pyl{v[0]}}\pyl{i}+{\color{red}\pyl{v[1]}}\pyl{j} +{\color{red}\pyl{v[2]}}\pyl{k}={\color{blue}\pyl{v}}\)
+\item \({\color{red}\pyl{a}}\pyl{v1}+{\color{red}\pyl{b}}\pyl{v2}={\color{blue}\pyl{v}}\)
 \end{enumerate}
+\end{multicols}
+\smallskip
 \end{exe}
 

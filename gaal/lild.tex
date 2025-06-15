@@ -1,8 +1,7 @@
 \section{Subespaços, Base e Dimensão}
 
-\subsection*{Dependência e Independência Linear}
-
 %-----------------------------------------------------------------------------
+\subsection*{Combinação Linear}
 \begin{frame}[label=lild,fragile]{Combinação Linear}
 \begin{pycode} 
 import sympy as sp
@@ -24,16 +23,19 @@ v3=v1+v2
 
 \end{pycode} 
 \begin{defin}
-Um vetor $\vec{v}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares {\color{blue}$\alpha_1,\alpha_2,\ldots, \alpha_k$} tais que
-\[\vec{v}={\color{blue}\alpha_1}\vec{v}_1+{\color{blue}\alpha_2}\vec{v}_2+\cdots +{\color{blue}\alpha_k}\vec{v}_k.\]
+Um vetor ${\color{blue}\vec{b}}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares {\color{red}$\alpha_1,\alpha_2,\ldots, \alpha_k$} tais que
+\[{\color{red}\alpha_1}\vec{v}_1+{\color{red}\alpha_2}\vec{v}_2+\cdots +{\color{red}\alpha_k}\vec{v}_k={\color{blue}\vec{b}}.\]
 \end{defin}
 
 \begin{exe}
-Podemos escrever  \(\vec{v}=\pyl{pt(v)}\) como combinação linear da seguinte forma:
-\begin{enumerate}
-\item \(\pyl{v}={\color{blue}\pyl{v[0]}}\pyl{i}+{\color{blue}\pyl{v[1]}}\pyl{j}+{\color{blue}\pyl{v[2]}}\pyl{k}\)
-\item \(\pyl{v}={\color{blue}\pyl{a}}\pyl{v1}+{\color{blue}\pyl{b}}\pyl{v2}\)
+Podemos escrever  {\color{blue}\(\vec{b}=\pyl{pt(v)}\)} como combinação linear da seguinte forma:
+\begin{multicols}{2}
+\begin{enumerate}[a]
+\item \({\color{red}\pyl{v[0]}}\pyl{i}+{\color{red}\pyl{v[1]}}\pyl{j} +{\color{red}\pyl{v[2]}}\pyl{k}={\color{blue}\pyl{v}}\)
+\item \({\color{red}\pyl{a}}\pyl{v1}+{\color{red}\pyl{b}}\pyl{v2}={\color{blue}\pyl{v}}\)
 \end{enumerate}
+\end{multicols}
+\smallskip
 \end{exe}
 
 \end{frame}
@@ -41,24 +43,19 @@ Podemos escrever  \(\vec{v}=\pyl{pt(v)}\) como combinação linear da seguinte f
 \begin{frame}[label=lild,fragile]
 \begin{pycode} 
 import sympy as sp
-
 def pt(Y):
  return((Y[0],Y[1],Y[2]))
-
 v1=sp.Matrix([1,2,1])
 v2=sp.Matrix([1,-1,2])
-
 v=v1+2*v2
-
 i=sp.Matrix([1,0,0])
 k=sp.Matrix([0,0,1])
 j=sp.Matrix([0,1,0])
 v3=v1+v2
-
 \end{pycode} 
+ \hypertarget{exem.comb}{} 
 \begin{exe}
-De quantas maneiras podemos escrever o vetor \(\vec{v}=\pyl{v}\) como combinação linear dos vetores:
-
+De quantas maneiras podemos escrever o vetor {\color{blue}\(\vec{b}=\pyl{b}\)} como combinação linear dos vetores:\\
 \begin{minipage}{0.4\textwidth}
 \begin{enumerate}
 \item \(\vec{i}\) e \(\vec{k}\)
@@ -72,14 +69,69 @@ De quantas maneiras podemos escrever o vetor \(\vec{v}=\pyl{v}\) como combinaç�
 \item \(\vec{v}_1=\pyl{v1}\) e \(\vec{v}_2=\pyl{v2}\)
 \end{enumerate}
 \end{minipage}
-
 \end{exe}
+\end{frame}
 
+
+%--------------------------------------------------------------------------
+\begin{frame}[label=lild,fragile]
+\begin{pycode} 
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,0,0,1])
+v2=sp.Matrix([2,-1,1,3])
+v3=sp.Matrix([1,-2,1,0])
+
+b1=v1-v2+v3 
+b2=sp.Matrix([1,0,0,2])
+
+\end{pycode} 
+\begin{teo}
+Um vetor {\color{blue} $\vec{b}$} é uma combinação linear dos vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se, e somente se, o sistema linear com matriz aumentada  \([A \vert {\color{blue}\vec{b}}]\) é possível, onde as {\color{red}colunas de \(A\)} são os vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$
+\end{teo}
+
+\begin{exe}
+Escreva, se possível,  os vetores {\color{blue}\(\vec{b}_1=\pyl{b1}\)} e {\color{blue}\(\vec{b}_2=\pyl{b2}\)} como combinação linear dos seguintes vetores
+\[
+\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2} \text{ e } \vec{v}_3=\pyl{v3}.
+\]
+\end{exe}
+\end{frame}
+
+
+%--------------------------------------------------------------------------
+\begin{frame}[label=lild,fragile]
+\begin{pycode} 
+import sympy as sp
+
+v1=sp.Matrix([2,1,-2,1])
+v2=sp.Matrix([1,-3,2,-1])
+v3=sp.Matrix([3,1,1,0])
+
+b1=3*v1-v2+2*v3
+b2=sp.Matrix([1,-1,0,0])
+
+\end{pycode} 
+\begin{casa}
+%\addcontentsline{toc}{subsection}{Para Casa \protect\numberline{\thecasa}}
+Escreva, se possível,  os vetores {\color{blue}\(\vec{b}_1=\pyl{b1}\)} e {\color{blue}\(\vec{b}_2=\pyl{b2}\)} como combinação linear dos seguintes vetores
+\[
+\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2} \text{ e } \vec{v}_3=\pyl{v3}.
+\]
+\end{casa}
+\subsection*{Para Casa \thecasa}
 \end{frame}
 
 
 
+\subsection*{Dependência e Independência Linear}
+%-----------------------------------------------------------------
 \begin{frame}[label=lild]{Dependência e Independência Linear}
+No item 4 deste \hyperlink{exem.comb}{\beamerbutton{Exemplo}}, vimos que o vetor $\vec{b}$ pode ser escrito como combinação apenas de \(\vec{v}_1\) e \(\vec{v}_2\) dispensando a necessidade do vetor \(\vec{v}_3\). Isso ocorre pois o vetor \(\vec{v}_3\) já é, por si só, uma combinação linear dos vetores \(\vec{v}_1\) e \(\vec{v}_2\). Isso motiva a seguinte definição.
+
 \begin{defin}
 Dizemos que um conjunto $W=\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_k\}$ de vetores do $\R^n$ é {\color{blue} linearmente independente (LI)} se a equação vetorial
 \[{\color{blue}\alpha_1}\vec{v}_1+{\color{blue}\alpha_2}\vec{v}_2+\cdots +{\color{blue}\alpha_k}\vec{v}_k=\vec{0}\]

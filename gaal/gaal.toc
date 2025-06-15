@@ -9,7 +9,7 @@
 \beamer@sectionintoc {8}{Determinantes}{120}{0}{8}
 \beamer@sectionintoc {9}{Produtos Vetoriais em $\mathbb {R}^3$}{135}{0}{9}
 \beamer@sectionintoc {10}{Subespaços, Base e Dimensão}{147}{0}{10}
-\beamer@sectionintoc {11}{Autovetores e Autovalores}{173}{0}{11}
-\beamer@sectionintoc {12}{Ortogonalidade}{185}{0}{12}
-\beamer@sectionintoc {13}{Diagonalilzação de Matrizes Simétricas}{192}{0}{13}
-\beamer@sectionintoc {14}{Cônicas}{198}{0}{14}
+\beamer@sectionintoc {11}{Autovetores e Autovalores}{174}{0}{11}
+\beamer@sectionintoc {12}{Ortogonalidade}{186}{0}{12}
+\beamer@sectionintoc {13}{Diagonalilzação de Matrizes Simétricas}{193}{0}{13}
+\beamer@sectionintoc {14}{Cônicas}{199}{0}{14}
