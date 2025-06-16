@@ -445,8 +445,12 @@
 \headcommand {\beamer@framepages {179}{179}}
 \headcommand {\slideentry {9}{6}{6}{180/180}{Multiplicadores de Lagrange}{0}}
 \headcommand {\beamer@framepages {180}{180}}
-\headcommand {\beamer@partpages {1}{180}}
-\headcommand {\beamer@subsectionpages {175}{180}}
-\headcommand {\beamer@sectionpages {163}{180}}
-\headcommand {\beamer@documentpages {180}}
-\headcommand {\gdef \inserttotalframenumber {169}}
+\headcommand {\slideentry {9}{6}{7}{181/181}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {181}{181}}
+\headcommand {\slideentry {9}{6}{8}{182/182}{Multiplicadores de Lagrange}{0}}
+\headcommand {\beamer@framepages {182}{182}}
+\headcommand {\beamer@partpages {1}{182}}
+\headcommand {\beamer@subsectionpages {175}{182}}
+\headcommand {\beamer@sectionpages {163}{182}}
+\headcommand {\beamer@documentpages {182}}
+\headcommand {\gdef \inserttotalframenumber {171}}
