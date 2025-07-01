@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  22 JUN 2025 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  1 JUL 2025 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6704,17 +6704,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.157 \end{frame}
+l.167 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{orto}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.157 \end{frame}
+l.167 \end{frame}
                  
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 167.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 157.
+Package pdftex.def Info: UFF_brasao.png  used on input line 167.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [193
 
@@ -6723,21 +6727,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \end{frame}
+l.189 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{orto}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \end{frame}
+l.189 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 176.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 176.
+Package pdftex.def Info: UFF_brasao.png  used on input line 189.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [194
 
@@ -6746,21 +6746,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 \end{frame}
+l.205 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{orto}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 \end{frame}
+l.205 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 192.
+Package pdftex.def Info: w-homework.png  used on input line 205.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 192.
+Package pdftex.def Info: UFF_brasao.png  used on input line 205.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [195
 
@@ -6769,21 +6769,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.216 \end{frame}
+l.253 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{orto}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.216 \end{frame}
+l.253 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 216.
+Package pdftex.def Info: exemplo.png  used on input line 253.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 216.
+Package pdftex.def Info: UFF_brasao.png  used on input line 253.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [196
 
@@ -6792,21 +6792,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{orto<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.235 \end{frame}
+l.266 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{orto}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.235 \end{frame}
+l.266 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 235.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 266.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 235.
+Package pdftex.def Info: UFF_brasao.png  used on input line 266.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [197
 
@@ -6882,7 +6882,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 55.
  [201
 
 ])
-<figuras/conicas.png, id=8069, 679.78969pt x 353.82187pt>
+<figuras/conicas.png, id=8033, 679.78969pt x 353.82187pt>
 File: figuras/conicas.png Graphic file (type png)
 <use figuras/conicas.png>
 Package pdftex.def Info: figuras/conicas.png  used on input line 23.
@@ -7032,7 +7032,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
                    \relax 
 l.315 \end{frame}
                  
-<figuras/catenaria.png, id=8288, 321.2pt x 240.9pt>
+<figuras/catenaria.png, id=8252, 321.2pt x 240.9pt>
 File: figuras/catenaria.png Graphic file (type png)
 <use figuras/catenaria.png>
 Package pdftex.def Info: figuras/catenaria.png  used on input line 315.
@@ -7287,12 +7287,12 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `gaal.out' has not changed.
-(rerunfilecheck)             Checksum: 658C21E886655AF7E799291FB12A5E48;11623.
+(rerunfilecheck)             Checksum: F37885360753E28927B2E17D330BFD77;11623.
  ) 
 Here is how much of TeX's memory you used:
  41122 strings out of 474222
- 868778 string characters out of 5748733
- 1961975 words of memory out of 5000000
+ 868790 string characters out of 5748733
+ 1958975 words of memory out of 5000000
  61795 multiletter control sequences out of 15000+600000
  574983 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7323,10 +7323,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on gaal.pdf (221 pages, 2598583 bytes).
+Output written on gaal.pdf (221 pages, 2594225 bytes).
 PDF statistics:
- 8948 PDF objects out of 10688 (max. 8388607)
- 7326 compressed objects within 74 object streams
+ 8912 PDF objects out of 10688 (max. 8388607)
+ 7310 compressed objects within 74 object streams
  559 named destinations out of 1000 (max. 500000)
- 6816 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6696 words of extra memory for PDF output out of 10000 (max. 10000000)
 

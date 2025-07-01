@@ -142,16 +142,26 @@ Determine uma base ortogonal para o subespaço de $\R^4$ gerado por
 \subsection*{Matrizes Ortogonais}
 \begin{frame}[label=orto]{Matrizes Ortogonais}
 
-\begin{defin}
-Uma matriz quadrada $Q$ cujas colunas formam um conjunto ortonormal é chamada 
-de \dt{matriz ortogonal}.
-\end{defin}
+As colunas de uma matriz quadrada \(Q\) formam um conjunto {\color{blue}ortonormal} se, e somente se \(Q^{-1}=Q^t\). A esse tipo de matriz, damos o nome de \dt{matriz ortogonal}.
 
-\begin{teo}
-Seja $Q$ uma matriz $m\times n$. Suas colunas formam um conjunto ortogonal se, 
-e somente se, $Q^TQ=I_n$. Em particular, $Q$ é ortogonal se, e somente se, $Q^{-1}=Q^T$.
-\end{teo}
+\begin{exe}
+A seguinte matriz é ortogonal
+\[
+\begin{bmatrix}
+\frac{1}{3} & \frac{2}{3} & \frac{2}{3} \\[0.8em]
+\frac{2}{3} & -\frac{2}{3} & \frac{1}{3} \\[0.8em]
+-\frac{2}{3} & -\frac{1}{3} & \frac{2}{3}
+\end{bmatrix}
+\]
+\end{exe}
 
+
+
+
+%\begin{teo}
+%Seja $Q$ uma matriz $m\times n$. Suas colunas formam um conjunto ortogonal se, 
+%e somente se, $Q^TQ=I_n$. Em particular, $Q$ é ortogonal se, e somente se, $Q^{-1}=Q^T$.
+%\end{teo}
 
 
 \end{frame}
@@ -161,18 +171,21 @@ e somente se, $Q^TQ=I_n$. Em particular, $Q$ é ortogonal se, e somente se, $Q^{
 
 \subsection*{Matriz de Rotação}
 \begin{frame}[label=orto]{Matriz de Rotação}
-A seguinte matriz, conhecida por \dt{Matriz de Rotação}, gira um vetor do plano por um ângulo $\theta$ no sentido anti-horário.
+Uma classe especial de matrizes ortogonais são as chamadas \dt{Matrizes de Rotação}. A seguinte matriz gira um {\color{blue}vetor do plano} por um ângulo $\theta$ no sentido anti-horário.
 \[R_\theta= 
 \begin{bmatrix}
 \cos(\theta) & -\sen(\theta)\\
 \sen(\theta) & \cos(\theta)
 \end{bmatrix}
 \]
-
-\begin{exe}
-Mostre que a matriz de rotação é uma matriz ortogonal e calcule sua inversa. Qual o efeito geométrico da inversa?
-\end{exe}
-
+A seguinte matriz gira um {\color{blue}vetor do espaço} por um ângulo $\theta$ em torno do eixo \(z\).
+\[R_\theta= 
+\begin{bmatrix}
+\cos(\theta) & -\sen(\theta)& 0\\
+\sen(\theta) & \cos(\theta) & 0\\
+0 & 0 & 1
+\end{bmatrix}
+\]
 \end{frame}
 
 \begin{frame}[label=orto]
@@ -192,44 +205,62 @@ Mostre que a matriz de rotação é uma matriz ortogonal e calcule sua inversa. 
 \end{frame}
 
 
-\begin{frame}[label=orto]{}
-
-\begin{exe}
-Mostre que  a seguinte matriz é diagonalizável
-\[A=
-\begin{bmatrix}
-1& 2\\ 2 & -2
-\end{bmatrix}.
-\]
-Em seguida, obtenha $Q$ ortogonal que diagonalize $A$.
-\end{exe}
-
-\begin{defin}
-Uma matriz quadrada $A$ é \dt{ortogonalmente diagonalizável} se é 
-diagonalizável e a matriz $Q$ que a diagonaliza é ortogonal.
-\end{defin}
-
-\begin{prop}
-Se $A$ é uma matriz simétrica, então os autovetores associados a autovalores distintos são ortogonais.
-\end{prop}
-
-\end{frame}
+%\begin{frame}[label=orto]{}
+%
+%\begin{exe}
+%Mostre que  a seguinte matriz é diagonalizável
+%\[A=
+%\begin{bmatrix}
+%1& 2\\ 2 & -2
+%\end{bmatrix}.
+%\]
+%Em seguida, obtenha $Q$ ortogonal que diagonalize $A$.
+%\end{exe}
+%
+%
+%
+%\end{frame}
 
 \subsection*{Teorema Espectral}
 
-\begin{frame}[label=orto]{}
+\begin{frame}[label=orto]{Teorema Espectral para Matrizes Simétricas}
+%\begin{prop}
+%Se $A$ é uma matriz simétrica, então os autovetores associados a autovalores distintos são ortogonais.
+%\end{prop}
+Dizemos que uma matriz quadrada $A$ é \dt{ortogonalmente diagonalizável} se é 
+diagonalizável e a matriz $Q$ que a diagonaliza é ortogonal.
 
 \begin{block}{Teorema Espectral}
-Uma matriz  $A$ quadrada com entradas reais  é ortogonalmente diagonalizável se, e somente se, $A$ é simétrica.
+Uma matriz  $A$ quadrada com entradas reais  é ortogonalmente diagonalizável se, e somente se, $A$ é simétrica. Além disso, autovetores associados a autovalores distintos são ortogonais.
 \end{block}
 
 \begin{exe}
 Encontre  uma diagonalização ortogonal para a matriz
-\[A=
+%\[A=
+%\begin{bmatrix}
+%2 & 1 & 1\\ 1& 2 & 1 \\ 1 & 1 & 2
+%\end{bmatrix}
+%\]
+\[
+A=
 \begin{bmatrix}
-2 & 1 & 1\\ 1& 2 & 1 \\ 1 & 1 & 2
+1 & \frac{1}{2} & \frac{1}{2}\\[0.5em] 
+\frac{1}{2} & 1 & \frac{1}{2}\\[0.5em]
+ \frac{1}{2} & \frac{1}{2} & 1
 \end{bmatrix}
 \]
 \end{exe}
+\end{frame}
 
+\begin{frame}[label=orto]{}
+\begin{casa}
+Encontre a matriz \(Q\) que diagonaliza a matriz
+\[
+A=\begin{bmatrix}
+4 & 2 & 2 \\
+2 & 4 & 2 \\
+2 & 2 & 4
+\end{bmatrix}
+\]
+\end{casa}
 \end{frame}

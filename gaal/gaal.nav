@@ -507,14 +507,14 @@
 \headcommand {\beamer@framepages {194}{194}}
 \headcommand {\slideentry {13}{2}{2}{195/195}{Matriz de Rotação}{0}}
 \headcommand {\beamer@framepages {195}{195}}
-\headcommand {\slideentry {13}{2}{3}{196/196}{Matriz de Rotação}{0}}
+\headcommand {\beamer@subsectionpages {194}{195}}
+\headcommand {\beamer@subsectionentry {0}{13}{3}{196}{Teorema Espectral}}
+\headcommand {\slideentry {13}{3}{1}{196/196}{Teorema Espectral}{0}}
 \headcommand {\beamer@framepages {196}{196}}
-\headcommand {\beamer@subsectionpages {194}{196}}
-\headcommand {\beamer@subsectionentry {0}{13}{3}{197}{Teorema Espectral}}
-\headcommand {\slideentry {13}{3}{1}{197/197}{Teorema Espectral}{0}}
+\headcommand {\slideentry {13}{3}{2}{197/197}{Teorema Espectral}{0}}
 \headcommand {\beamer@framepages {197}{197}}
 \headcommand {\beamer@sectionpages {192}{197}}
-\headcommand {\beamer@subsectionpages {197}{197}}
+\headcommand {\beamer@subsectionpages {196}{197}}
 \headcommand {\sectionentry {14}{Cônicas}{198}{Cônicas}{0}}
 \headcommand {\slideentry {14}{0}{1}{198/198}{}{0}}
 \headcommand {\beamer@framepages {198}{198}}
