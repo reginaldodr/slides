@@ -737,7 +737,47 @@ sp.latex(sol[1])
 sp.latex(pt(A.subs(t,sol[0])))
 =>PYTHONTEX#py#default#default#180#i####part2.tex#115#
 sp.latex(pt(A.subs(t,sol[1])))
-=>PYTHONTEX#py#default#default#181#code####part2.tex#125#
+=>PYTHONTEX#py#default#default#181#code####part2.tex#126#
+import sympy as sp
+
+v1=sp.Matrix([2,1,-2,1])
+v2=sp.Matrix([1,-3,2,-1])
+v3=sp.Matrix([3,1,1,0])
+
+b1=3*v1-v2+2*v3
+b2=sp.Matrix([1,-1,0,0])
+
+def aumk(X,k):
+ x=X.shape[1]
+ col = 'c'*(x-k)+'|'+'c'*k
+ MM = sp.latex(X).replace(r'\begin{matrix}', r'\begin{array}{'+col+'}')
+ MM = MM.replace(r'\end{matrix}', r'\end{array}')
+ return MM
+
+A=sp.Matrix.hstack(v1,v2,v3)
+B=sp.Matrix.hstack(b1,b2)
+
+M=sp.Matrix.hstack(A,B)
+Mb=aumk(M,2)
+R=M.rref()[0]
+Rb=aumk(R,2)
+
+
+=>PYTHONTEX#py#default#default#182#i####part2.tex#154#
+sp.latex(b1)
+=>PYTHONTEX#py#default#default#183#i####part2.tex#154#
+sp.latex(b2)
+=>PYTHONTEX#py#default#default#184#i####part2.tex#156#
+sp.latex(v1)
+=>PYTHONTEX#py#default#default#185#i####part2.tex#156#
+sp.latex(v2)
+=>PYTHONTEX#py#default#default#186#i####part2.tex#156#
+sp.latex(v3)
+=>PYTHONTEX#py#default#default#187#i####part2.tex#162#
+Mb
+=>PYTHONTEX#py#default#default#188#i####part2.tex#162#
+Rb
+=>PYTHONTEX#py#default#default#189#code####part2.tex#171#
 import sympy as sp
 
 def pt(Y):
@@ -755,69 +795,156 @@ u2=sp.Matrix([6,0,5,1])
 u3=sp.Matrix([4,-7,1,3])
 
 B=sp.Matrix.hstack(u1,u2,u3)
-=>PYTHONTEX#py#default#default#182#i####part2.tex#148#
+=>PYTHONTEX#py#default#default#190#i####part2.tex#194#
 sp.latex(pt(v1))
-=>PYTHONTEX#py#default#default#183#i####part2.tex#148#
+=>PYTHONTEX#py#default#default#191#i####part2.tex#194#
 sp.latex(pt(v2))
-=>PYTHONTEX#py#default#default#184#i####part2.tex#148#
+=>PYTHONTEX#py#default#default#192#i####part2.tex#194#
 sp.latex(pt(v3))
-=>PYTHONTEX#py#default#default#185#i####part2.tex#149#
+=>PYTHONTEX#py#default#default#193#i####part2.tex#195#
 sp.latex(pt(u1))
-=>PYTHONTEX#py#default#default#186#i####part2.tex#149#
+=>PYTHONTEX#py#default#default#194#i####part2.tex#195#
 sp.latex(pt(u2))
-=>PYTHONTEX#py#default#default#187#i####part2.tex#149#
+=>PYTHONTEX#py#default#default#195#i####part2.tex#195#
 sp.latex(pt(u3))
-=>PYTHONTEX#py#default#default#188#i####part2.tex#154#
+=>PYTHONTEX#py#default#default#196#i####part2.tex#200#
 sp.latex(pt(v1))
-=>PYTHONTEX#py#default#default#189#i####part2.tex#154#
+=>PYTHONTEX#py#default#default#197#i####part2.tex#200#
 sp.latex(pt(v2))
-=>PYTHONTEX#py#default#default#190#i####part2.tex#154#
+=>PYTHONTEX#py#default#default#198#i####part2.tex#200#
 sp.latex(pt(v3))
-=>PYTHONTEX#py#default#default#191#i####part2.tex#155#
+=>PYTHONTEX#py#default#default#199#i####part2.tex#201#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#192#i####part2.tex#155#
+=>PYTHONTEX#py#default#default#200#i####part2.tex#201#
 sp.latex(A.rref()[0])
-=>PYTHONTEX#py#default#default#193#i####part2.tex#158#
+=>PYTHONTEX#py#default#default#201#i####part2.tex#204#
+sp.latex(pt(u1))
+=>PYTHONTEX#py#default#default#202#i####part2.tex#204#
+sp.latex(pt(u2))
+=>PYTHONTEX#py#default#default#203#i####part2.tex#204#
+sp.latex(pt(u3))
+=>PYTHONTEX#py#default#default#204#i####part2.tex#205#
 sp.latex(B)
-=>PYTHONTEX#py#default#default#194#i####part2.tex#158#
+=>PYTHONTEX#py#default#default#205#i####part2.tex#205#
 sp.latex(B.rref()[0])
-=>PYTHONTEX#py#default#default#195#code####part2.tex#172#
+=>PYTHONTEX#py#default#default#206#code####part2.tex#220#
 import sympy as sp
 
 A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
 I=sp.eye(4)
 
 l=A.eigenvals()
-=>PYTHONTEX#py#default#default#196#i####part2.tex#183#
+=>PYTHONTEX#py#default#default#207#i####part2.tex#231#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#197#code####part2.tex#194#
+=>PYTHONTEX#py#default#default#208#code####part2.tex#241#
 import sympy as sp
-
 A = sp.Matrix([
     [0, 0, 2, 0],
     [1, 0, 1, 0],
     [0, 1, -2, 0],
     [0, 0, 0, 1]
 ])
-
 eigenvals = A.eigenvals()
 eigenvects = A.eigenvects()
+l=sp.symbols('lambda')
 
+print('Vamos calular o polinômio característico.')
+print()
+
+d=sp.factor((A-l*sp.eye(4)).det())
+print('\(p(\lambda)=\det(A-\lambda I)=\)',f'\(\det {sp.latex(A-l*sp.eye(4))}={sp.latex(d)}.\)')
+print()
+
+print('A seguir são dados os autovalores e a respectiva base do autoespaço.')
+print()
 for vect in eigenvects:
     print(f"$\lambda={sp.latex(vect[0])}$, autovetores:")
     for v in vect[2]:
         print(f"${sp.latex(v)}$,")
     print()
 
-=>PYTHONTEX#py#default#default#198#code####part2.tex#220#
+=>PYTHONTEX#py#default#default#209#code####part2.tex#275#
 import sympy as sp
 
 A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
 B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
-=>PYTHONTEX#py#default#default#199#i####part2.tex#230#
+
+l=sp.symbols('lambda',real=True)
+I3=sp.eye(3)
+pa=sp.factor((A-l*sp.eye(3)).det())
+autvaA = A.eigenvals()
+autveA = A.eigenvects()
+l1=autveA[0][0]
+l2=autveA[1][0]
+
+A1=A-l1*I3
+RA1=A1.rref()[0]
+sola1=sp.linsolve(RA1,(x,y,z))
+sa1 = next(iter(sola1))
+vla1 = tuple(sa1.free_symbols)
+
+va1=autveA[0][2][0]
+va2=autveA[0][2][1]
+
+A2=A-l2*I3
+RA2=A2.rref()[0]
+sola2=sp.linsolve(RA2,(x,y,z))
+sa2 = next(iter(sola2))
+va3=autveA[1][2][0]
+
+Pa=sp.Matrix.hstack(va1,va2,va3)
+Da=sp.diag(l1,l1,l2)
+
+=>PYTHONTEX#py#default#default#210#i####part2.tex#312#
 sp.latex(A)
-=>PYTHONTEX#py#default#default#200#i####part2.tex#234#
+=>PYTHONTEX#py#default#default#211#i####part2.tex#316#
 sp.latex(B)
+=>PYTHONTEX#py#default#default#212#i####part2.tex#322#
+sp.latex(A-l*sp.eye(3))
+=>PYTHONTEX#py#default#default#213#i####part2.tex#322#
+sp.latex(pa)
+=>PYTHONTEX#py#default#default#214#i####part2.tex#323#
+sp.latex(autveA[0][0])
+=>PYTHONTEX#py#default#default#215#i####part2.tex#323#
+sp.latex(autveA[1][0])
+=>PYTHONTEX#py#default#default#216#i####part2.tex#326#
+sp.latex(l1)
+=>PYTHONTEX#py#default#default#217#i####part2.tex#326#
+sp.latex(l1)
+=>PYTHONTEX#py#default#default#218#i####part2.tex#328#
+sp.latex(A1)
+=>PYTHONTEX#py#default#default#219#i####part2.tex#328#
+sp.latex(RA1)
+=>PYTHONTEX#py#default#default#220#i####part2.tex#329#
+sp.latex(l1)
+=>PYTHONTEX#py#default#default#221#i####part2.tex#330#
+sp.latex(l1)
+=>PYTHONTEX#py#default#default#222#i####part2.tex#332#
+sp.latex(l1)
+=>PYTHONTEX#py#default#default#223#i####part2.tex#332#
+sp.latex(va1)
+=>PYTHONTEX#py#default#default#224#i####part2.tex#332#
+sp.latex(va2)
+=>PYTHONTEX#py#default#default#225#i####part2.tex#335#
+sp.latex(l2)
+=>PYTHONTEX#py#default#default#226#i####part2.tex#335#
+sp.latex(l2)
+=>PYTHONTEX#py#default#default#227#i####part2.tex#337#
+sp.latex(A2)
+=>PYTHONTEX#py#default#default#228#i####part2.tex#337#
+sp.latex(RA2)
+=>PYTHONTEX#py#default#default#229#i####part2.tex#338#
+sp.latex(l2)
+=>PYTHONTEX#py#default#default#230#i####part2.tex#339#
+sp.latex(l2)
+=>PYTHONTEX#py#default#default#231#i####part2.tex#341#
+sp.latex(l2)
+=>PYTHONTEX#py#default#default#232#i####part2.tex#341#
+sp.latex(va3)
+=>PYTHONTEX#py#default#default#233#i####part2.tex#345#
+sp.latex(Da)
+=>PYTHONTEX#py#default#default#234#i####part2.tex#345#
+sp.latex(Pa)
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-paracasa-gabarito
