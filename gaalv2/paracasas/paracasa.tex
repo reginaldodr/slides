@@ -1,0 +1,127 @@
+\documentclass[a4paper,addpoints,12pt]{exam}
+
+
+%------------ comandos para gerar a prova e o gabarito -----------------------
+\usepackage{currfile}
+\usepackage{xstring}
+\IfSubStr*{\currfilename}{gabarito}{\printanswers}{\noprintanswers}
+%-----------------------------------
+
+
+
+%\printanswers
+%\noprintanswers
+
+\usepackage{pythontex} 
+%\usepackage[]{qrcode}
+
+\usepackage{enumitem}
+
+%\usepackage{showframe}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+
+%-----------tikz libraries ------------
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} %positioning to break text in node
+%---------------------------------------
+
+\usepackage{enumerate}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{patterns}
+\usepackage{array,booktabs}
+\usepackage{mathtools}
+\usepackage{dashrule}
+\usepackage{caption}
+\usepackage{tabu}
+
+\SolutionEmphasis{\color{blue}}
+
+
+\qformat{\textbf{\includegraphics[scale=0.05]{w-homework.png} \thequestion.} \dotfill }
+
+
+
+
+%--------------------------------------------------------------------------
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\enspace}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\sen}{\operatorname{sen}}
+\renewcommand{\half}{,5}
+\newcommand{\fm}{\textsuperscript{\b{a}\ }}
+\newcommand{\mc}{\textsuperscript{\b{0}\ }}
+\newcommand{\D}{\dps\frac{d}{dx}}
+\newcommand{\tg}{\operatorname{tg}}
+\newcommand{\cotg}{\operatorname{cotg}}
+\newcommand{\cosec}{\operatorname{cosec}}
+\newcommand{\arcsen}{\operatorname{arcsen}}
+\newcommand{\arctg}{\operatorname{arctg}}
+\newcommand{\arccosec}{\operatorname{arccosec}}
+\newcommand{\arccotg}{\operatorname{arccotg}}
+\newcommand{\arcsec}{\operatorname{arcsec}}
+\newcommand{\im}{\operatorname{Im}}
+\newcommand{\lap}{\mathcal{L}}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\pyl}[1]{\py{sp.latex(#1)}}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+
+\setlength{\textwidth}{7.3in} \setlength{\oddsidemargin}{-.7in}
+
+\setlength{\evensidemargin}{0in}
+
+\setlength{\marginparwidth}{0.in} \setlength{\textheight}{9.5in}
+
+\setlength{\topmargin}{-0.2in} \setlength{\footskip}{0.5in}
+
+\setlength{\headsep}{0.1in}
+
+\begin{document}
+
+
+\header{\includegraphics[scale=0.08]{brasao-cor.png}}
+{\sc \scriptsize Universidade Federal Fluminense \\
+%Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza\\
+Campus de Rio das Ostras \\
+\textbf{Professor Reginaldo Demarque}\\}
+{\scriptsize 
+\textbf{Geometria Analítica}\\
+\textbf{ e Álgebra Linear}\\
+\textbf{\textcolor{blue}{Atualizada em:}}\\
+\textbf{\textcolor{blue}{\today}}\\
+}	
+	\ifprintanswers
+	\begin{center}
+		\noindent \\
+
+{\Large \textbf{{Soluções dos Para Casa}}}\\
+	\end{center}
+
+	\else
+	\begin{center}
+		\noindent \\
+	{\Large \textbf{{Lista dos Para Casa}}} \\
+	\end{center}
+\fi
+
+\begin{questions}
+\input{part1}
+\input{part2}
+
+
+\end{questions}
+\end{document}
+
+
+
+
+
+%\include{derivadas}
+
+

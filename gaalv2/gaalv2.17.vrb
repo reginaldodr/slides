@@ -1,0 +1,26 @@
+\begin{casa}
+\begin{enumerate}
+\item Sejam    $A=\begin{bmatrix} x & 4 &  -2 \end{bmatrix}$  e  $B=\begin{bmatrix} 2 & -3 & 5 \end{bmatrix}$. Encontre o valor de $x$ tal que $AB^t=0,$ onde $0$ é a matriz nula, isto é, com todas as entradas sendo zero.
+
+\item Calcule $M^3$, onde
+\[M=\begin{bmatrix}
+0 & 1 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{bmatrix}.
+\]
+\begin{pycode}
+import sympy as sp
+B=sp.Matrix([[1,0,-2],[-3,1,1],[2,0,-1]])
+v=sp.Matrix([1,1,1])
+A=sp.Matrix([[-1,0,2,1],[0,3,5,1],[-2,1,1,1]])
+BA=B*A
+\end{pycode}
+\item  Calcule o produto entre as matrizes
+\[
+A=\py{sp.latex(A)} \text{ e } \ B=\py{sp.latex(B)}.
+\]
+Em seguida, calcule \(A^tB^t\).
+
+\end{enumerate}
+\end{casa}

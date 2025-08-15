@@ -1,0 +1,12 @@
+\begin{casa}
+Sejam
+$A=\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix} $ e
+$B=\begin{bmatrix}
+-2 & 1 \\
+0 & 3
+\end{bmatrix}$.
+Calcule $AB$ e $BA$.
+\end{casa}

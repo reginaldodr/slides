@@ -1,0 +1,209 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Matrizes}{3}{Matrizes}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Matrizes}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Matrizes}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Matrizes}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Operações com matrizes}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{2}{4}{9/9}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{2}{5}{10/10}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{2}{6}{11/11}{Operações com matrizes}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {6}{11}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{12}{Propriedades das Matrizes }}
+\headcommand {\slideentry {1}{3}{1}{12/12}{Propriedades das Matrizes }{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{3}{2}{13/13}{Propriedades das Matrizes }{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{14}{Matriz Identidade}}
+\headcommand {\slideentry {1}{4}{1}{14/14}{Matriz Identidade}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{1}{5}{15}{Transposta}}
+\headcommand {\slideentry {1}{5}{1}{15/15}{Transposta}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{5}{2}{16/16}{Transposta}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {1}{5}{3}{17/17}{Transposta}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\beamer@subsectionentry {0}{1}{6}{18}{Usando o sympy para operar matrizes}}
+\headcommand {\slideentry {1}{6}{1}{18/18}{Usando o sympy para operar matrizes}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{1}{7}{19}{Espaços Vetoriais}}
+\headcommand {\slideentry {1}{7}{1}{19/19}{Espaços Vetoriais}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {1}{7}{2}{20/20}{Espaços Vetoriais}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\beamer@subsectionentry {0}{1}{8}{21}{O Espaço Vetorial \(\mathbb {R}^n\)}}
+\headcommand {\slideentry {1}{8}{1}{21/21}{O Espaço Vetorial \(\mathbb {R}^n\)}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {1}{8}{2}{22/22}{O Espaço Vetorial \(\mathbb {R}^n\)}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {1}{8}{3}{23/23}{O Espaço Vetorial \(\mathbb {R}^n\)}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {1}{8}{4}{24/24}{O Espaço Vetorial \(\mathbb {R}^n\)}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@sectionpages {3}{24}}
+\headcommand {\beamer@subsectionpages {21}{24}}
+\headcommand {\sectionentry {2}{Sistema de Equações Lineares}{25}{Sistema de Equações Lineares}{0}}
+\headcommand {\slideentry {2}{0}{1}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{0}{2}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{0}{3}{27/27}{}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {2}{0}{4}{28/28}{}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{0}{5}{29/29}{}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{0}{6}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionpages {25}{30}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{31}{Operações Elementares}}
+\headcommand {\slideentry {2}{1}{1}{31/31}{Operações Elementares}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {2}{1}{2}{32/32}{Operações Elementares}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{1}{3}{33/33}{Operações Elementares}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {2}{1}{4}{34/34}{Operações Elementares}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {2}{1}{5}{35/35}{Operações Elementares}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\beamer@subsectionpages {31}{35}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{36}{Escalonamento}}
+\headcommand {\slideentry {2}{2}{1}{36/36}{Escalonamento}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{2}{2}{37/37}{Escalonamento}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {2}{2}{3}{38/38}{Escalonamento}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {2}{2}{4}{39/39}{Escalonamento}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\beamer@subsectionpages {36}{39}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{40}{Posto de uma matriz}}
+\headcommand {\slideentry {2}{3}{1}{40/40}{Posto de uma matriz}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {2}{3}{2}{41/41}{Posto de uma matriz}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {2}{3}{3}{42/42}{Posto de uma matriz}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {2}{3}{4}{43/43}{Posto de uma matriz}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {2}{3}{5}{44/44}{Posto de uma matriz}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@subsectionpages {40}{44}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{45}{Resolvendo sistemas com o sympy}}
+\headcommand {\slideentry {2}{4}{1}{45/45}{Resolvendo sistemas com o sympy}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {2}{4}{2}{46/46}{Resolvendo sistemas com o sympy}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {2}{4}{3}{47/47}{Resolvendo sistemas com o sympy}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {2}{4}{4}{48/48}{Resolvendo sistemas com o sympy}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@subsectionpages {45}{48}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{49}{Método de Gauss-Jordan}}
+\headcommand {\slideentry {2}{5}{1}{49/49}{Método de Gauss-Jordan}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {2}{5}{2}{50/50}{Método de Gauss-Jordan}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {2}{5}{3}{51/51}{Método de Gauss-Jordan}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {2}{5}{4}{52/52}{Método de Gauss-Jordan}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {2}{5}{5}{53/53}{Método de Gauss-Jordan}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\beamer@subsectionpages {49}{53}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{54}{Sistemas Lineares Homogêneos}}
+\headcommand {\slideentry {2}{6}{1}{54/54}{Sistemas Lineares Homogêneos}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {2}{6}{2}{55/55}{Sistemas Lineares Homogêneos}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@sectionpages {25}{55}}
+\headcommand {\beamer@subsectionpages {54}{55}}
+\headcommand {\sectionentry {3}{Inversão de Matrizes}{56}{Inversão de Matrizes}{0}}
+\headcommand {\slideentry {3}{0}{1}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {3}{0}{2}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@subsectionpages {56}{57}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{58}{método de inversão}}
+\headcommand {\slideentry {3}{1}{1}{58/58}{método de inversão}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {3}{1}{2}{59/59}{método de inversão}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {3}{1}{3}{60/60}{método de inversão}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {3}{1}{4}{61/61}{método de inversão}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@subsectionpages {58}{61}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{62}{Invertendo matrizes com o sympy}}
+\headcommand {\slideentry {3}{2}{1}{62/62}{Invertendo matrizes com o sympy}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\beamer@sectionpages {56}{62}}
+\headcommand {\beamer@subsectionpages {62}{62}}
+\headcommand {\sectionentry {4}{Determinantes}{63}{Determinantes}{0}}
+\headcommand {\slideentry {4}{0}{1}{63/63}{}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {4}{0}{2}{64/64}{}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {4}{0}{3}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\slideentry {4}{0}{4}{66/66}{}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {4}{0}{5}{67/67}{}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {4}{0}{6}{68/68}{}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\beamer@subsectionpages {63}{68}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{69}{Determinantes com o sympy}}
+\headcommand {\slideentry {4}{1}{1}{69/69}{Determinantes com o sympy}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {4}{1}{2}{70/70}{Determinantes com o sympy}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@subsectionpages {69}{70}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{71}{Propriedades dos Determinantes}}
+\headcommand {\slideentry {4}{2}{1}{71/71}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {4}{2}{2}{72/72}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {4}{2}{3}{73/73}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {4}{2}{4}{74/74}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {4}{2}{5}{75/75}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {4}{2}{6}{76/76}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {4}{2}{7}{77/77}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {4}{2}{8}{78/78}{Propriedades dos Determinantes}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@partpages {1}{78}}
+\headcommand {\beamer@subsectionpages {71}{78}}
+\headcommand {\beamer@sectionpages {63}{78}}
+\headcommand {\beamer@documentpages {78}}
+\headcommand {\gdef \inserttotalframenumber {78}}
