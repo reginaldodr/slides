@@ -93,9 +93,9 @@ A multiplicação  da matriz $A=\py{sp.latex(A)} $ pelo escalar $\alpha=\py{sp.l
 \begin{frame}[label=matrizes]{Produto de Matrizes}
 
 Dadas duas matrizes $A=(a_{ij})_{{\color{blue}m}\times {\color{red}p}}$ e $B=(b_{ij})_{{\color{red}p}\times {\color{blue}n}}$, definimos o {\color{blue} produto de $A$ por $B$} como sendo a matriz $C=(c_{ij})_{{\color{blue}m\times n}}$, definida por
-\[c_{ij}=\sum_{{\color{red}k=1}}^{n} a_{i{\color{red}k}}b_{{\color{red}k}j}
-=a_{i{\color{red}1}}b_{{\color{red}1}j} +a_{i{\color{red}2}}b_{{\color{red}2}j} +\cdots + a_{i{\color{red}n}}b_{{\color{red}n}j},\]
-para cada $i=1,\ldots,m$ e $j=1,\ldots,n$.
+\[c_{ij}=\sum_{{\color{red}k=1}}^{p} a_{i{\color{red}k}}b_{{\color{red}k}j}
+=a_{i{\color{red}1}}b_{{\color{red}1}j} +a_{i{\color{red}2}}b_{{\color{red}2}j} +\cdots + a_{i{\color{red}p}}b_{{\color{red}p}j},\]
+para cada $i=1,\ldots,m$ e $j=1,\ldots,p$.
 
 \begin{small}
 \[
@@ -228,7 +228,7 @@ A transposta da matriz  $A=\py{sp.latex(A)} $ é a matriz
 
 \begin{frame}[label=matrizes]{Propriedades da Transposta}
 
-Sejam $A$ e $B$ matrizes com tamanhos apropriados e $\alpha,\in \R$. São válidas as seguintes propriedades:
+Sejam $A$ e $B$ matrizes com tamanhos apropriados e $\alpha\in \R$. São válidas as seguintes propriedades:
 
 \begin{enumerate}
 \item $(A^t)^t=A$ 

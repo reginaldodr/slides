@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  18 AUG 2025 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  19 AUG 2025 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1821,12 +1821,6 @@ LaTeX Warning: Label `introducao<1>' multiply defined.
 
 LaTeX Warning: Label `introducao' multiply defined.
 
-
-LaTeX Warning: Label `introducao<1>' multiply defined.
-
-
-LaTeX Warning: Label `introducao' multiply defined.
-
 ) (./retas-planos.aux
 
 LaTeX Warning: Label `retas<1>' multiply defined.
@@ -2756,9 +2750,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `wrapfig' package detected.
-
-No file pythontex-files-calculo3/calculo3.pytxmcr.
-Run PythonTeX to create it.
+ (./pythontex-files-calculo3/calculo3.pytxmcr)
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
 ut line 155.
 \c@listing=\count422
@@ -2766,7 +2758,7 @@ ut line 155.
 Package newfloat Info: float type `listing'=8 on input line 155.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-(./calculo3.nav)
+ (./calculo3.nav) (./pythontex-files-calculo3/calculo3.pytxpyg)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 165.
@@ -3023,7 +3015,7 @@ has been already used, duplicate ignored
                    \relax 
 l.93 \end{frame}
                 
-<figuras/introducao/cobb.png, id=773, 393.72093pt x 280.04625pt>
+<figuras/introducao/cobb.png, id=772, 393.72093pt x 280.04625pt>
 File: figuras/introducao/cobb.png Graphic file (type png)
 <use figuras/introducao/cobb.png>
 Package pdftex.def Info: figuras/introducao/cobb.png  used on input line 93.
@@ -3101,7 +3093,7 @@ een already used, duplicate ignored
                    \relax 
 l.65 \end{frame}
                 
-<exemplo.png, id=965, 59.9841pt x 58.5387pt>
+<exemplo.png, id=963, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 65.
@@ -3113,7 +3105,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 65.
  [20
 
  <./exemplo.png>]
-<figuras/normal-vector.png, id=1013, 226.446pt x 187.902pt>
+<figuras/normal-vector.png, id=1011, 226.446pt x 187.902pt>
 File: figuras/normal-vector.png Graphic file (type png)
 <use figuras/normal-vector.png>
 Package pdftex.def Info: figuras/normal-vector.png  used on input line 76.
@@ -3149,7 +3141,7 @@ been already used, duplicate ignored
                    \relax 
 l.114 \end{frame}
                  
-<w-homework.png, id=1089, 513.92pt x 452.69125pt>
+<w-homework.png, id=1086, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 114.
@@ -3197,7 +3189,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 122.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/polar/polar-grid.png, id=1228, 462.528pt x 346.896pt>
+<figuras/polar/polar-grid.png, id=1225, 462.528pt x 346.896pt>
 File: figuras/polar/polar-grid.png Graphic file (type png)
 <use figuras/polar/polar-grid.png>
 Package pdftex.def Info: figuras/polar/polar-grid.png  used on input line 122.
@@ -3217,7 +3209,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 122.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/polar/polar-grid2.png, id=1266, 462.528pt x 346.896pt>
+<figuras/polar/polar-grid2.png, id=1264, 462.528pt x 346.896pt>
 File: figuras/polar/polar-grid2.png Graphic file (type png)
 <use figuras/polar/polar-grid2.png>
 Package pdftex.def Info: figuras/polar/polar-grid2.png  used on input line 122.
@@ -3248,15 +3240,13 @@ l.125 \begin
             {block}{ }
 \c@pytx@py@default@defaultverb=\count424
 \c@pytx@py@default@defaultverb@line=\count425
-
-
-Package PythonTeX Warning: Non-existent Pygments content on input line 145.
-
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 145.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 150.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[28
+ [28
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{fun-vet<1>}) 
@@ -3298,7 +3288,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 188.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/grafico-aux-cardioide.png, id=1406, 462.528pt x 346.896pt>
+<figuras/grafico-aux-cardioide.png, id=1404, 462.528pt x 346.896pt>
 File: figuras/grafico-aux-cardioide.png Graphic file (type png)
 <use figuras/grafico-aux-cardioide.png>
 Package pdftex.def Info: figuras/grafico-aux-cardioide.png  used on input line 
@@ -3323,7 +3313,7 @@ een already used, duplicate ignored
                    \relax 
 l.212 \end{frame}
                  
-<figuras/polar/cardioide-grid.png, id=1437, 462.528pt x 346.896pt>
+<figuras/polar/cardioide-grid.png, id=1435, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide-grid.png Graphic file (type png)
 <use figuras/polar/cardioide-grid.png>
 Package pdftex.def Info: figuras/polar/cardioide-grid.png  used on input line 2
@@ -3342,7 +3332,7 @@ s been already used, duplicate ignored
                    \relax 
 l.212 \end{frame}
                  
-<figuras/polar/cardioide1.png, id=1467, 462.528pt x 346.896pt>
+<figuras/polar/cardioide1.png, id=1466, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide1.png Graphic file (type png)
 <use figuras/polar/cardioide1.png>
 Package pdftex.def Info: figuras/polar/cardioide1.png  used on input line 212.
@@ -3354,7 +3344,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 212.
  [32
 
  <./figuras/polar/cardioide1.png>]
-<figuras/polar/cardioide2.png, id=1498, 462.528pt x 346.896pt>
+<figuras/polar/cardioide2.png, id=1496, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide2.png Graphic file (type png)
 <use figuras/polar/cardioide2.png>
 Package pdftex.def Info: figuras/polar/cardioide2.png  used on input line 212.
@@ -3366,7 +3356,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 212.
  [33
 
  <./figuras/polar/cardioide2.png>]
-<figuras/polar/cardioide3.png, id=1528, 462.528pt x 346.896pt>
+<figuras/polar/cardioide3.png, id=1525, 462.528pt x 346.896pt>
 File: figuras/polar/cardioide3.png Graphic file (type png)
 <use figuras/polar/cardioide3.png>
 Package pdftex.def Info: figuras/polar/cardioide3.png  used on input line 212.
@@ -3390,19 +3380,17 @@ een already used, duplicate ignored
                    \relax 
 l.214 ...{frame}[label=polar,fragile=singleslide]{
                                                   Plotando a Cardiode}
-
-Package PythonTeX Warning: Non-existent Pygments content on input line 235.
-
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 240.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[35
+ [35
 
 ])
 \openout2 = `superficies.aux'.
 
- (./superficies.tex (./calculo3.toc)
+
+(./superficies.tex (./calculo3.toc)
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 2.
@@ -3417,7 +3405,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 16.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/cilindro-ex1.png, id=1634, 163.0893pt x 150.8034pt>
+<figuras/cilindro-ex1.png, id=1633, 163.0893pt x 150.8034pt>
 File: figuras/cilindro-ex1.png Graphic file (type png)
 <use figuras/cilindro-ex1.png>
 Package pdftex.def Info: figuras/cilindro-ex1.png  used on input line 16.
@@ -3452,13 +3440,13 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 37.
  [38
 
 ]
-<figuras/superficies/sup-rev.png, id=1725, 154.176pt x 103.1052pt>
+<figuras/superficies/sup-rev.png, id=1721, 154.176pt x 103.1052pt>
 File: figuras/superficies/sup-rev.png Graphic file (type png)
 <use figuras/superficies/sup-rev.png>
 Package pdftex.def Info: figuras/superficies/sup-rev.png  used on input line 58
 .
 (pdftex.def)             Requested size: 231.2634pt x 154.6574pt.
-<figuras/superficies/fist.png, id=1728, 949.146pt x 1826.022pt>
+<figuras/superficies/fist.png, id=1724, 949.146pt x 1826.022pt>
 File: figuras/superficies/fist.png Graphic file (type png)
 <use figuras/superficies/fist.png>
 Package pdftex.def Info: figuras/superficies/fist.png  used on input line 58.
@@ -3470,7 +3458,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 58.
  [39
 
  <./figuras/superficies/fist.png> <./figuras/superficies/sup-rev.png>]
-<figuras/superficies/sup-rev1.png, id=1760, 796.9775pt x 379.4175pt>
+<figuras/superficies/sup-rev1.png, id=1758, 796.9775pt x 379.4175pt>
 File: figuras/superficies/sup-rev1.png Graphic file (type png)
 <use figuras/superficies/sup-rev1.png>
 Package pdftex.def Info: figuras/superficies/sup-rev1.png  used on input line 6
@@ -3494,13 +3482,13 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 82.
  [41
 
 ]
-<figuras/quadricas/parab-hip.png, id=1830, 997.7275pt x 953.5625pt>
+<figuras/quadricas/parab-hip.png, id=1825, 997.7275pt x 953.5625pt>
 File: figuras/quadricas/parab-hip.png Graphic file (type png)
 <use figuras/quadricas/parab-hip.png>
 Package pdftex.def Info: figuras/quadricas/parab-hip.png  used on input line 10
 5.
 (pdftex.def)             Requested size: 129.70912pt x 123.96747pt.
-<figuras/quadricas/elipsoide.png, id=1831, 190.7928pt x 132.9768pt>
+<figuras/quadricas/elipsoide.png, id=1826, 190.7928pt x 132.9768pt>
 File: figuras/quadricas/elipsoide.png Graphic file (type png)
 <use figuras/quadricas/elipsoide.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide.png  used on input line 10
@@ -3530,7 +3518,7 @@ as been already used, duplicate ignored
                    \relax 
 l.118 \end{frame}
                  
-<figuras/quadricas/elipsoide-padrao.png, id=1866, 435.87843pt x 316.18124pt>
+<figuras/quadricas/elipsoide-padrao.png, id=1861, 435.87843pt x 316.18124pt>
 File: figuras/quadricas/elipsoide-padrao.png Graphic file (type png)
 <use figuras/quadricas/elipsoide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/elipsoide-padrao.png  used on input 
@@ -3579,7 +3567,7 @@ as been already used, duplicate ignored
                    \relax 
 l.146 \end{frame}
                  
-<figuras/quadricas/hiperboloide1-padrao.png, id=1927, 295.1025pt x 453.94594pt>
+<figuras/quadricas/hiperboloide1-padrao.png, id=1923, 295.1025pt x 453.94594pt>
 
 File: figuras/quadricas/hiperboloide1-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide1-padrao.png>
@@ -3609,7 +3597,7 @@ as been already used, duplicate ignored
                    \relax 
 l.161 \end{frame}
                  
-<figuras/quadricas/hiperboloide2-padrao.png, id=1957, 273.27094pt x 496.10344pt
+<figuras/quadricas/hiperboloide2-padrao.png, id=1953, 273.27094pt x 496.10344pt
 >
 File: figuras/quadricas/hiperboloide2-padrao.png Graphic file (type png)
 <use figuras/quadricas/hiperboloide2-padrao.png>
@@ -3639,7 +3627,7 @@ as been already used, duplicate ignored
                    \relax 
 l.176 \end{frame}
                  
-<figuras/quadricas/cone-padrao.png, id=1988, 255.20343pt x 432.86719pt>
+<figuras/quadricas/cone-padrao.png, id=1984, 255.20343pt x 432.86719pt>
 File: figuras/quadricas/cone-padrao.png Graphic file (type png)
 <use figuras/quadricas/cone-padrao.png>
 Package pdftex.def Info: figuras/quadricas/cone-padrao.png  used on input line 
@@ -3664,7 +3652,7 @@ as been already used, duplicate ignored
                    \relax 
 l.190 \end{frame}
                  
-<figuras/quadricas/paraboloide-padrao.png, id=2018, 294.34969pt x 450.18187pt>
+<figuras/quadricas/paraboloide-padrao.png, id=2014, 294.34969pt x 450.18187pt>
 File: figuras/quadricas/paraboloide-padrao.png Graphic file (type png)
 <use figuras/quadricas/paraboloide-padrao.png>
 Package pdftex.def Info: figuras/quadricas/paraboloide-padrao.png  used on inpu
@@ -3689,7 +3677,7 @@ as been already used, duplicate ignored
                    \relax 
 l.204 \end{frame}
                  
-<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=2048, 526.96875pt x 4
+<figuras/quadricas/paraboloide-hiperbolico-padrao.png, id=2044, 526.96875pt x 4
 29.85594pt>
 File: figuras/quadricas/paraboloide-hiperbolico-padrao.png Graphic file (type p
 ng)
@@ -3758,13 +3746,13 @@ as been already used, duplicate ignored
                    \relax 
 l.276 \end{frame}
                  
-<figuras/quadricas/exerc12-6D.png, id=2150, 531.48563pt x 197.98969pt>
+<figuras/quadricas/exerc12-6D.png, id=2146, 531.48563pt x 197.98969pt>
 File: figuras/quadricas/exerc12-6D.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6D.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6D.png  used on input line 2
 76.
 (pdftex.def)             Requested size: 186.02275pt x 69.29742pt.
-<figuras/quadricas/exerc12-6B.png, id=2151, 416.30531pt x 332.74312pt>
+<figuras/quadricas/exerc12-6B.png, id=2147, 416.30531pt x 332.74312pt>
 File: figuras/quadricas/exerc12-6B.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6B.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6B.png  used on input line 2
@@ -3775,13 +3763,13 @@ Overfull \hbox (43.01941pt too wide) in paragraph at lines 276--276
 [][] 
  []
 
-<figuras/quadricas/exerc12-6A.png, id=2152, 431.36156pt x 363.60844pt>
+<figuras/quadricas/exerc12-6A.png, id=2148, 431.36156pt x 363.60844pt>
 File: figuras/quadricas/exerc12-6A.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6A.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6A.png  used on input line 2
 76.
 (pdftex.def)             Requested size: 172.54156pt x 145.4408pt.
-<figuras/quadricas/exerc12-6C.png, id=2153, 408.77719pt x 328.22626pt>
+<figuras/quadricas/exerc12-6C.png, id=2149, 408.77719pt x 328.22626pt>
 File: figuras/quadricas/exerc12-6C.png Graphic file (type png)
 <use figuras/quadricas/exerc12-6C.png>
 Package pdftex.def Info: figuras/quadricas/exerc12-6C.png  used on input line 2
@@ -3817,7 +3805,7 @@ as been already used, duplicate ignored
                    \relax 
 l.285 \end{frame}
                  
-<figuras/quadricas/pringles.png, id=2183, 662.475pt x 252.945pt>
+<figuras/quadricas/pringles.png, id=2179, 662.475pt x 252.945pt>
 File: figuras/quadricas/pringles.png Graphic file (type png)
 <use figuras/quadricas/pringles.png>
 Package pdftex.def Info: figuras/quadricas/pringles.png  used on input line 285
@@ -3842,7 +3830,7 @@ as been already used, duplicate ignored
                    \relax 
 l.294 \end{frame}
                  
-<figuras/quadricas/aplicacoes.png, id=2215, 1072.75781pt x 531.48563pt>
+<figuras/quadricas/aplicacoes.png, id=2211, 1072.75781pt x 531.48563pt>
 File: figuras/quadricas/aplicacoes.png Graphic file (type png)
 <use figuras/quadricas/aplicacoes.png>
 Package pdftex.def Info: figuras/quadricas/aplicacoes.png  used on input line 2
@@ -3872,14 +3860,14 @@ as been already used, duplicate ignored
                    \relax 
 l.312 \end{frame}
                  
-<figuras/quadricas/arquitetura/manantiales.jpg, id=2245, 737.75626pt x 491.8375
+<figuras/quadricas/arquitetura/manantiales.jpg, id=2241, 737.75626pt x 491.8375
 pt>
 File: figuras/quadricas/arquitetura/manantiales.jpg Graphic file (type jpg)
 <use figuras/quadricas/arquitetura/manantiales.jpg>
 Package pdftex.def Info: figuras/quadricas/arquitetura/manantiales.jpg  used on
  input line 312.
 (pdftex.def)             Requested size: 147.54863pt x 98.36575pt.
-<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=2246, 803.0pt x 477
+<figuras/quadricas/arquitetura/manantiales_diagrama.jpg, id=2242, 803.0pt x 477
 .785pt>
 File: figuras/quadricas/arquitetura/manantiales_diagrama.jpg Graphic file (type
  jpg)
@@ -3907,7 +3895,7 @@ as been already used, duplicate ignored
                    \relax 
 l.325 \end{frame}
                  
-<figuras/quadricas/arquitetura/vila-velha.png, id=2277, 221.8689pt x 138.5175pt
+<figuras/quadricas/arquitetura/vila-velha.png, id=2272, 221.8689pt x 138.5175pt
 >
 File: figuras/quadricas/arquitetura/vila-velha.png Graphic file (type png)
 <use figuras/quadricas/arquitetura/vila-velha.png>
@@ -3966,7 +3954,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.38 \end{frame}
                 
-<w-brainb.png, id=2412, 255.95625pt x 212.795pt>
+<w-brainb.png, id=2407, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 38.
@@ -4147,18 +4135,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.168 \end{frame}
                  
-<figuras/DirkvdM_natural_spiral.jpg, id=2774, 855.195pt x 1140.26pt>
+<figuras/DirkvdM_natural_spiral.jpg, id=2767, 855.195pt x 1140.26pt>
 File: figuras/DirkvdM_natural_spiral.jpg Graphic file (type jpg)
 <use figuras/DirkvdM_natural_spiral.jpg>
 Package pdftex.def Info: figuras/DirkvdM_natural_spiral.jpg  used on input line
  168.
 (pdftex.def)             Requested size: 85.5245pt x 114.03267pt.
-<figuras/mola.jpg, id=2775, 152.4897pt x 85.0377pt>
+<figuras/mola.jpg, id=2768, 152.4897pt x 85.0377pt>
 File: figuras/mola.jpg Graphic file (type jpg)
 <use figuras/mola.jpg>
 Package pdftex.def Info: figuras/mola.jpg  used on input line 168.
 (pdftex.def)             Requested size: 106.74205pt x 59.52597pt.
-<figuras/dna.png, id=2776, 224.84pt x 225.84375pt>
+<figuras/dna.png, id=2769, 224.84pt x 225.84375pt>
 File: figuras/dna.png Graphic file (type png)
 <use figuras/dna.png>
 Package pdftex.def Info: figuras/dna.png  used on input line 168.
@@ -4294,7 +4282,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 257.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/vetor-const.png, id=3051, 444.91219pt x 450.18187pt>
+<figuras/vetor-const.png, id=3043, 444.91219pt x 450.18187pt>
 File: figuras/vetor-const.png Graphic file (type png)
 <use figuras/vetor-const.png>
 Package pdftex.def Info: figuras/vetor-const.png  used on input line 257.
@@ -4436,7 +4424,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.364 \end{frame}
                  
-<figuras/vetor-tangente.png, id=3335, 484.05844pt x 322.95656pt>
+<figuras/vetor-tangente.png, id=3323, 484.05844pt x 322.95656pt>
 File: figuras/vetor-tangente.png Graphic file (type png)
 <use figuras/vetor-tangente.png>
 Package pdftex.def Info: figuras/vetor-tangente.png  used on input line 364.
@@ -4507,7 +4495,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fun-vet}) has
                    \relax 
 l.410 \end{frame}
                  
-<figuras/normal-binormal.png, id=3438, 557.83406pt x 580.41844pt>
+<figuras/normal-binormal.png, id=3425, 557.83406pt x 580.41844pt>
 File: figuras/normal-binormal.png Graphic file (type png)
 <use figuras/normal-binormal.png>
 Package pdftex.def Info: figuras/normal-binormal.png  used on input line 410.
@@ -4648,7 +4636,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 
 
 ]
-<figuras/func.png, id=3709, 350.81062pt x 158.84344pt>
+<figuras/func.png, id=3695, 350.81062pt x 158.84344pt>
 File: figuras/func.png Graphic file (type png)
 <use figuras/func.png>
 Package pdftex.def Info: figuras/func.png  used on input line 22.
@@ -4695,7 +4683,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
                    \relax 
 l.60 \end{frame}
                 
-<figuras/grafico-f.png, id=3787, 283.81032pt x 231.11343pt>
+<figuras/grafico-f.png, id=3770, 283.81032pt x 231.11343pt>
 File: figuras/grafico-f.png Graphic file (type png)
 <use figuras/grafico-f.png>
 Package pdftex.def Info: figuras/grafico-f.png  used on input line 60.
@@ -4719,7 +4707,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
                    \relax 
 l.76 \end{frame}
                 
-<figuras/grafico-2.png, id=3829, 407.5225pt x 252.945pt>
+<figuras/grafico-2.png, id=3814, 407.5225pt x 252.945pt>
 File: figuras/grafico-2.png Graphic file (type png)
 <use figuras/grafico-2.png>
 Package pdftex.def Info: figuras/grafico-2.png  used on input line 76.
@@ -4766,14 +4754,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
                    \relax 
 l.85 \begin
            {block}{ }
-
-Package PythonTeX Warning: Non-existent Pygments content on input line 108.
-
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 108.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 114.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[95
+ [95
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{funcoes<1>}) 
@@ -4789,7 +4776,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
 l.117 \begin
             {pycode}
 \c@pytx@py@default@default@line=\count426
-<figuras/grafico1.png, id=3945, 462.528pt x 346.896pt>
+<figuras/grafico1.png, id=3928, 462.528pt x 346.896pt>
 File: figuras/grafico1.png Graphic file (type png)
 <use figuras/grafico1.png>
 Package pdftex.def Info: figuras/grafico1.png  used on input line 143.
@@ -4813,7 +4800,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
                    \relax 
 l.167 \end{frame}
                  
-<figuras/nivel1.png, id=3975, 478.78876pt x 146.04562pt>
+<figuras/nivel1.png, id=3958, 478.78876pt x 146.04562pt>
 File: figuras/nivel1.png Graphic file (type png)
 <use figuras/nivel1.png>
 Package pdftex.def Info: figuras/nivel1.png  used on input line 167.
@@ -4837,7 +4824,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{funcoes}) has
                    \relax 
 l.171 \end{frame}
                  
-<figuras/nivel3.jpg, id=4007, 602.25pt x 376.40625pt>
+<figuras/nivel3.jpg, id=3992, 602.25pt x 376.40625pt>
 File: figuras/nivel3.jpg Graphic file (type jpg)
 <use figuras/nivel3.jpg>
 Package pdftex.def Info: figuras/nivel3.jpg  used on input line 171.
@@ -4870,7 +4857,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 181.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/funcoes/curva-nivel.png, id=4051, 895.84688pt x 638.385pt>
+<figuras/funcoes/curva-nivel.png, id=4034, 895.84688pt x 638.385pt>
 File: figuras/funcoes/curva-nivel.png Graphic file (type png)
 <use figuras/funcoes/curva-nivel.png>
 Package pdftex.def Info: figuras/funcoes/curva-nivel.png  used on input line 18
@@ -4939,7 +4926,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 202.
  [102
 
 ]
-<figuras/nivel4.png, id=4174, 595.47469pt x 398.99063pt>
+<figuras/nivel4.png, id=4157, 595.47469pt x 398.99063pt>
 File: figuras/nivel4.png Graphic file (type png)
 <use figuras/nivel4.png>
 Package pdftex.def Info: figuras/nivel4.png  used on input line 202.
@@ -4960,7 +4947,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 202.
 [103
 
  <./figuras/nivel4.png (PNG copy)>]
-<figuras/nivel5.png, id=4204, 353.82187pt x 347.79938pt>
+<figuras/nivel5.png, id=4187, 353.82187pt x 347.79938pt>
 File: figuras/nivel5.png Graphic file (type png)
 <use figuras/nivel5.png>
 Package pdftex.def Info: figuras/nivel5.png  used on input line 202.
@@ -4972,7 +4959,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 202.
  [104
 
  <./figuras/nivel5.png (PNG copy)>]
-<figuras/nivel6.png, id=4234, 352.31625pt x 350.81062pt>
+<figuras/nivel6.png, id=4216, 352.31625pt x 350.81062pt>
 File: figuras/nivel6.png Graphic file (type png)
 <use figuras/nivel6.png>
 Package pdftex.def Info: figuras/nivel6.png  used on input line 202.
@@ -5000,7 +4987,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 221.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/nivel-superfice.png, id=4273, 290.58563pt x 299.61937pt>
+<figuras/nivel-superfice.png, id=4255, 290.58563pt x 299.61937pt>
 File: figuras/nivel-superfice.png Graphic file (type png)
 <use figuras/nivel-superfice.png>
 Package pdftex.def Info: figuras/nivel-superfice.png  used on input line 221.
@@ -5090,12 +5077,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{limites}) has
                    \relax 
 l.79 \end{frame}
                 
-<figuras/limite1.png, id=4457, 462.97969pt x 253.69781pt>
+<figuras/limite1.png, id=4439, 462.97969pt x 253.69781pt>
 File: figuras/limite1.png Graphic file (type png)
 <use figuras/limite1.png>
 Package pdftex.def Info: figuras/limite1.png  used on input line 79.
 (pdftex.def)             Requested size: 231.48927pt x 126.84859pt.
-<figuras/limite2.png, id=4458, 282.30469pt x 240.14719pt>
+<figuras/limite2.png, id=4440, 282.30469pt x 240.14719pt>
 File: figuras/limite2.png Graphic file (type png)
 <use figuras/limite2.png>
 Package pdftex.def Info: figuras/limite2.png  used on input line 79.
@@ -5142,7 +5129,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{limites}) has
                    \relax 
 l.103 \end{frame}
                  
-<figuras/lim-caminhos.png, id=4532, 279.29344pt x 172.39406pt>
+<figuras/lim-caminhos.png, id=4511, 279.29344pt x 172.39406pt>
 File: figuras/lim-caminhos.png Graphic file (type png)
 <use figuras/lim-caminhos.png>
 Package pdftex.def Info: figuras/lim-caminhos.png  used on input line 103.
@@ -5170,7 +5157,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 115.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/lim1.png, id=4573, 242.8272pt x 211.38976pt>
+<figuras/lim1.png, id=4552, 242.8272pt x 211.38976pt>
 File: figuras/lim1.png Graphic file (type png)
 <use figuras/lim1.png>
 Package pdftex.def Info: figuras/lim1.png  used on input line 115.
@@ -5198,7 +5185,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 126.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/lim2.png, id=4617, 285.31593pt x 244.66406pt>
+<figuras/lim2.png, id=4598, 285.31593pt x 244.66406pt>
 File: figuras/lim2.png Graphic file (type png)
 <use figuras/lim2.png>
 Package pdftex.def Info: figuras/lim2.png  used on input line 126.
@@ -5230,7 +5217,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 136.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/lim3.png, id=4659, 253.6677pt x 219.33945pt>
+<figuras/lim3.png, id=4638, 253.6677pt x 219.33945pt>
 File: figuras/lim3.png Graphic file (type png)
 <use figuras/lim3.png>
 Package pdftex.def Info: figuras/lim3.png  used on input line 136.
@@ -5331,7 +5318,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 194.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/cont1.png, id=4834, 283.81032pt x 235.63031pt>
+<figuras/cont1.png, id=4812, 283.81032pt x 235.63031pt>
 File: figuras/cont1.png Graphic file (type png)
 <use figuras/cont1.png>
 Package pdftex.def Info: figuras/cont1.png  used on input line 194.
@@ -5402,12 +5389,12 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 
 
 ]
-<figuras/der-parc2-1.png, id=4985, 338.9463pt x 284.38245pt>
+<figuras/der-parc2-1.png, id=4964, 338.9463pt x 284.38245pt>
 File: figuras/der-parc2-1.png Graphic file (type png)
 <use figuras/der-parc2-1.png>
 Package pdftex.def Info: figuras/der-parc2-1.png  used on input line 22.
 (pdftex.def)             Requested size: 169.47273pt x 142.19087pt.
-<figuras/der-parc2-1-nivel.png, id=4986, 373.99725pt x 298.29442pt>
+<figuras/der-parc2-1-nivel.png, id=4965, 373.99725pt x 298.29442pt>
 File: figuras/der-parc2-1-nivel.png Graphic file (type png)
 <use figuras/der-parc2-1-nivel.png>
 Package pdftex.def Info: figuras/der-parc2-1-nivel.png  used on input line 22.
@@ -5424,7 +5411,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 22.
 [124
 
  <./figuras/der-parc2-1.png> <./figuras/der-parc2-1-nivel.png>]
-<figuras/der-parc2-2.png, id=5022, 302.26927pt x 291.79013pt>
+<figuras/der-parc2-2.png, id=5001, 302.26927pt x 291.79013pt>
 File: figuras/der-parc2-2.png Graphic file (type png)
 <use figuras/der-parc2-2.png>
 Package pdftex.def Info: figuras/der-parc2-2.png  used on input line 61.
@@ -5436,7 +5423,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 61.
  [125
 
  <./figuras/der-parc2-2.png>]
-<figuras/der-parc2y-2.png, id=5055, 302.26927pt x 291.79013pt>
+<figuras/der-parc2y-2.png, id=5032, 302.26927pt x 291.79013pt>
 File: figuras/der-parc2y-2.png Graphic file (type png)
 <use figuras/der-parc2y-2.png>
 Package pdftex.def Info: figuras/der-parc2y-2.png  used on input line 71.
@@ -5448,7 +5435,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 71.
  [126
 
  <./figuras/der-parc2y-2.png>]
-<figuras/der-parc2xy-2.png, id=5086, 302.26927pt x 291.79013pt>
+<figuras/der-parc2xy-2.png, id=5063, 302.26927pt x 291.79013pt>
 File: figuras/der-parc2xy-2.png Graphic file (type png)
 <use figuras/der-parc2xy-2.png>
 Package pdftex.def Info: figuras/der-parc2xy-2.png  used on input line 83.
@@ -5460,7 +5447,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 83.
  [127
 
  <./figuras/der-parc2xy-2.png>]
-<figuras/der-parc2-3.png, id=5119, 306.96683pt x 291.79013pt>
+<figuras/der-parc2-3.png, id=5096, 306.96683pt x 291.79013pt>
 File: figuras/der-parc2-3.png Graphic file (type png)
 <use figuras/der-parc2-3.png>
 Package pdftex.def Info: figuras/der-parc2-3.png  used on input line 97.
@@ -5832,7 +5819,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{der-parciais}
                    \relax 
 l.410 \end{frame}
                  
-<figuras/diferenciais1.png, id=5822, 333.245pt x 302.12875pt>
+<figuras/diferenciais1.png, id=5793, 333.245pt x 302.12875pt>
 File: figuras/diferenciais1.png Graphic file (type png)
 <use figuras/diferenciais1.png>
 Package pdftex.def Info: figuras/diferenciais1.png  used on input line 410.
@@ -5856,7 +5843,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{der-parciais}
                    \relax 
 l.422 \end{frame}
                  
-<figuras/diferenciais2.png, id=5854, 651.43375pt x 458.71375pt>
+<figuras/diferenciais2.png, id=5827, 651.43375pt x 458.71375pt>
 File: figuras/diferenciais2.png Graphic file (type png)
 <use figuras/diferenciais2.png>
 Package pdftex.def Info: figuras/diferenciais2.png  used on input line 422.
@@ -5972,7 +5959,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 538.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/cadeia1.png, id=6064, 225.09094pt x 296.60812pt>
+<figuras/cadeia1.png, id=6034, 225.09094pt x 296.60812pt>
 File: figuras/cadeia1.png Graphic file (type png)
 <use figuras/cadeia1.png>
 Package pdftex.def Info: figuras/cadeia1.png  used on input line 538.
@@ -5996,7 +5983,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{der-parciais}
                    \relax 
 l.583 \end{frame}
                  
-<figuras/cadeia2.png, id=6107, 356.83313pt x 307.1475pt>
+<figuras/cadeia2.png, id=6079, 356.83313pt x 307.1475pt>
 File: figuras/cadeia2.png Graphic file (type png)
 <use figuras/cadeia2.png>
 Package pdftex.def Info: figuras/cadeia2.png  used on input line 583.
@@ -6094,7 +6081,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{der-parciais}
                    \relax 
 l.645 \end{frame}
                  
-<figuras/plano-tang.png, id=6297, 351.56343pt x 274.02374pt>
+<figuras/plano-tang.png, id=6266, 351.56343pt x 274.02374pt>
 File: figuras/plano-tang.png Graphic file (type png)
 <use figuras/plano-tang.png>
 Package pdftex.def Info: figuras/plano-tang.png  used on input line 645.
@@ -6206,12 +6193,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{der-parciais}
                    \relax 
 l.752 \end{frame}
                  
-<figuras/grad1.png, id=6527, 259.7203pt x 218.31563pt>
+<figuras/grad1.png, id=6495, 259.7203pt x 218.31563pt>
 File: figuras/grad1.png Graphic file (type png)
 <use figuras/grad1.png>
 Package pdftex.def Info: figuras/grad1.png  used on input line 752.
 (pdftex.def)             Requested size: 155.83337pt x 130.99037pt.
-<figuras/grad2.png, id=6528, 255.95625pt x 185.94469pt>
+<figuras/grad2.png, id=6496, 255.95625pt x 185.94469pt>
 File: figuras/grad2.png Graphic file (type png)
 <use figuras/grad2.png>
 Package pdftex.def Info: figuras/grad2.png  used on input line 752.
@@ -6325,7 +6312,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 
 
 ]
-<figuras/max-min1.png, id=6748, 347.79938pt x 289.08pt>
+<figuras/max-min1.png, id=6718, 347.79938pt x 289.08pt>
 File: figuras/max-min1.png Graphic file (type png)
 <use figuras/max-min1.png>
 Package pdftex.def Info: figuras/max-min1.png  used on input line 18.
@@ -6357,7 +6344,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 38.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/pnt-critico.png, id=6807, 334.24875pt x 338.01282pt>
+<figuras/pnt-critico.png, id=6775, 334.24875pt x 338.01282pt>
 File: figuras/pnt-critico.png Graphic file (type png)
 <use figuras/pnt-critico.png>
 Package pdftex.def Info: figuras/pnt-critico.png  used on input line 38.
@@ -6390,12 +6377,12 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 54.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/sela.png, id=6849, 339.51843pt x 244.66406pt>
+<figuras/sela.png, id=6816, 339.51843pt x 244.66406pt>
 File: figuras/sela.png Graphic file (type png)
 <use figuras/sela.png>
 Package pdftex.def Info: figuras/sela.png  used on input line 54.
 (pdftex.def)             Requested size: 169.75879pt x 122.33173pt.
-<figuras/sela-montanha.png, id=6850, 371.13657pt x 423.08063pt>
+<figuras/sela-montanha.png, id=6817, 371.13657pt x 423.08063pt>
 File: figuras/sela-montanha.png Graphic file (type png)
 <use figuras/sela-montanha.png>
 Package pdftex.def Info: figuras/sela-montanha.png  used on input line 54.
@@ -6466,12 +6453,12 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 120.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/teste-derv2.png, id=6973, 275.52937pt x 298.11375pt>
+<figuras/teste-derv2.png, id=6941, 275.52937pt x 298.11375pt>
 File: figuras/teste-derv2.png Graphic file (type png)
 <use figuras/teste-derv2.png>
 Package pdftex.def Info: figuras/teste-derv2.png  used on input line 120.
 (pdftex.def)             Requested size: 137.76434pt x 149.0565pt.
-<figuras/mapa-cont.png, id=6974, 431.36156pt x 463.7325pt>
+<figuras/mapa-cont.png, id=6942, 431.36156pt x 463.7325pt>
 File: figuras/mapa-cont.png Graphic file (type png)
 <use figuras/mapa-cont.png>
 Package pdftex.def Info: figuras/mapa-cont.png  used on input line 120.
@@ -6546,7 +6533,7 @@ has been already used, duplicate ignored
                    \relax 
 l.183 \end{frame}
                  
-<figuras/fechados.png, id=7100, 255.95625pt x 271.0125pt>
+<figuras/fechados.png, id=7065, 255.95625pt x 271.0125pt>
 File: figuras/fechados.png Graphic file (type png)
 <use figuras/fechados.png>
 Package pdftex.def Info: figuras/fechados.png  used on input line 183.
@@ -6598,12 +6585,12 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 213.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/sec-15_7-fig13.png, id=7196, 254.45062pt x 224.33812pt>
+<figuras/sec-15_7-fig13.png, id=7160, 254.45062pt x 224.33812pt>
 File: figuras/sec-15_7-fig13.png Graphic file (type png)
 <use figuras/sec-15_7-fig13.png>
 Package pdftex.def Info: figuras/sec-15_7-fig13.png  used on input line 213.
 (pdftex.def)             Requested size: 127.22499pt x 112.16878pt.
-<figuras/max1.png, id=7197, 247.67531pt x 170.13562pt>
+<figuras/max1.png, id=7161, 247.67531pt x 170.13562pt>
 File: figuras/max1.png Graphic file (type png)
 <use figuras/max1.png>
 Package pdftex.def Info: figuras/max1.png  used on input line 213.
@@ -6627,7 +6614,7 @@ has been already used, duplicate ignored
                    \relax 
 l.252 \end{frame}
                  
-<figuras/otimizacao/lagrange1.png, id=7240, 681.29532pt x 551.05875pt>
+<figuras/otimizacao/lagrange1.png, id=7202, 681.29532pt x 551.05875pt>
 File: figuras/otimizacao/lagrange1.png Graphic file (type png)
 <use figuras/otimizacao/lagrange1.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange1.png  used on input line 2
@@ -6656,13 +6643,13 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 266.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/exemplo-lagrange1.png, id=7280, 299.9205pt x 281.49165pt>
+<figuras/exemplo-lagrange1.png, id=7242, 299.9205pt x 281.49165pt>
 File: figuras/exemplo-lagrange1.png Graphic file (type png)
 <use figuras/exemplo-lagrange1.png>
 Package pdftex.def Info: figuras/exemplo-lagrange1.png  used on input line 266.
 
 (pdftex.def)             Requested size: 179.95367pt x 168.89629pt.
-<figuras/exemplo-lagrange-curvas-nivel.png, id=7281, 319.25273pt x 298.29442pt>
+<figuras/exemplo-lagrange-curvas-nivel.png, id=7243, 319.25273pt x 298.29442pt>
 
 File: figuras/exemplo-lagrange-curvas-nivel.png Graphic file (type png)
 <use figuras/exemplo-lagrange-curvas-nivel.png>
@@ -6740,7 +6727,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 313.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/otimizacao/lagrange3d.png, id=7406, 540.51938pt x 569.12625pt>
+<figuras/otimizacao/lagrange3d.png, id=7368, 540.51938pt x 569.12625pt>
 File: figuras/otimizacao/lagrange3d.png Graphic file (type png)
 <use figuras/otimizacao/lagrange3d.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange3d.png  used on input line 
@@ -6769,7 +6756,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 325.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/otimizacao/lagrange2.png, id=7446, 760.34062pt x 392.21532pt>
+<figuras/otimizacao/lagrange2.png, id=7408, 760.34062pt x 392.21532pt>
 File: figuras/otimizacao/lagrange2.png Graphic file (type png)
 <use figuras/otimizacao/lagrange2.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange2.png  used on input line 3
@@ -6817,7 +6804,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 349.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<figuras/sec14_8-fig8.png, id=7528, 191.21437pt x 316.93407pt>
+<figuras/sec14_8-fig8.png, id=7489, 191.21437pt x 316.93407pt>
 File: figuras/sec14_8-fig8.png Graphic file (type png)
 <use figuras/sec14_8-fig8.png>
 Package pdftex.def Info: figuras/sec14_8-fig8.png  used on input line 349.
@@ -6854,209 +6841,38 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `calculo3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `calculo3.out':
-(rerunfilecheck)             Before: 0496933D73D1ECED86EBF8630C59A979;8288
-(rerunfilecheck)             After:  8E355691E6A99DBE7C04EACC6520A5B3;8288.
+Package rerunfilecheck Info: File `calculo3.out' has not changed.
+(rerunfilecheck)             Checksum: 8E355691E6A99DBE7C04EACC6520A5B3;8288.
  ) 
 Here is how much of TeX's memory you used:
- 40211 strings out of 474222
- 850312 string characters out of 5748733
+ 40373 strings out of 474222
+ 852238 string characters out of 5748733
  1955975 words of memory out of 5000000
- 61027 multiletter control sequences out of 15000+600000
- 566450 words of font info for 67 fonts, out of 8000000 for 9000
+ 61221 multiletter control sequences out of 15000+600000
+ 566366 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,1172b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation186} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.6.179} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.5.177} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.4.176} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.3.175} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.2.172} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.9.1.171} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.10.163} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.9.158} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.8.152} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.7.146} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.6.143} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.5.140} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.4.137} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.3.135} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.2.132} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.8.1.125} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.7.4.120} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.7.3.115} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.7.2.111} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.7.1.110} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.4.107} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.3.98} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.2.93} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.1.91} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.11.88} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.10.86} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.9.84} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.8.81} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.7.77} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.6.75} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.5.73} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.4.71} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.3.62} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.2.60} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.5.1.59} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.3.43} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.2.40} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.1.38} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.3.3.25} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.3.2.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.3.1.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on calculo3.pdf (185 pages, 17003293 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfss1095.pfb>
+Output written on calculo3.pdf (185 pages, 17034214 bytes).
 PDF statistics:
- 7734 PDF objects out of 8907 (max. 8388607)
- 6164 compressed objects within 62 object streams
- 505 named destinations out of 1000 (max. 500000)
+ 7698 PDF objects out of 8907 (max. 8388607)
+ 6122 compressed objects within 62 object streams
+ 463 named destinations out of 1000 (max. 500000)
  5684 words of extra memory for PDF output out of 10000 (max. 10000000)
 
