@@ -1,9 +1,9 @@
 \begin{pycode}
 import sympy as sp
 x,y,z,a=sp.symbols('x y z alpha',real=True)
-A=sp.Matrix([[2,-1,1],[1,3,4]])
+A=sp.Matrix([[1,3,4],[2,-1,1]])
 X=sp.Matrix([x,y,z])
-B=sp.Matrix([2,1])
+B=sp.Matrix([1,2])
 AX=A*X
 v=sp.linsolve((A,B),(x,y,z))
 u1=v.subs(z,2)
