@@ -1,26 +1,5 @@
 \section{Determinantes}
 
-\begin{frame}[label=determinantes]{Determinantes}
-
-o {\color{blue}determinante} de uma matriz quadrada
-\[
-A=\begin{bmatrix}
-a_{11} & a_{12} &  a_{13} &  \cdots & a_{1n}\\
-a_{21} & a_{22} &  a_{23} &  \cdots & a_{2n}\\
-a_{31} & a_{32} &  a_{33} &  \cdots & a_{3n}\\
-\vdots & \vdots & \vdots & \ddots & \vdots\\
-a_{n1} & a_{n2} &  a_{n3} & \cdots & a_{nn}
-\end{bmatrix},
-\]
-denotado por {\color{blue} $\det(A)$},  é o número real formado pela {\color{blue} soma de todos os possíveis produtos de \(n\) elementos que aparecem em diferentes linhas e diferentes colunas}, {\color{red}precedidos por um sinal de \(+\) ou \(-\)}, segundo uma regra que será estabelecida. Isto é, todas as somas de elementos do tipo:
-\[
-{\color{red}\pm} {\color{blue}a_{1\alpha_1}\cdot a_{2\alpha_2}\cdots a_{n\alpha_n}}
-\]
-Por exemplo: {\color{blue}\(a_{11}\cdot a_{22}\cdot a_{33}\cdots a_{nn}\)} ou 
-\({\color{red}\pm} {\color{blue}a_{11}\cdot a_{23}\cdot a_{32}\cdot a_{44}\cdots a_{nn}}\) ou 
-\({\color{red}\pm}{\color{blue}a_{13}\cdot a_{22}\cdot a_{31}\cdot a_{44}\cdots a_{nn}} \)
-\end{frame}
-
 \begin{frame}[label=determinantes]{Como calcular Determinantes}
 
 \begin{itemize}
@@ -42,6 +21,83 @@ Por exemplo: {\color{blue}\(a_{11}\cdot a_{22}\cdot a_{33}\cdots a_{nn}\)} ou
 \end{exe}
 
 \end{frame}
+
+
+\begin{frame}[label=determinantes]{ }
+
+\begin{itemize}
+\item {\color{blue} \textbf{Matrizes $3\times 3$}:} Regra de Sarrus (Lê-se Sarrí)
+
+
+%\uncover<1>{\[\det(A)=\det \begin{bmatrix}
+%{\color{black}a_{1}} &{\color{black} a_{2}} &  {\color{black} a_{3}}\\ 
+%{\color{black}b_{1}} &{\color{black} b_{2}} &  {\color{black} b_{3}}\\ 
+%{\color{black}c_{1}} &{\color{black} c_{2}} &  {\color{black} c_{3}}
+%\end{bmatrix} \] 
+%}
+\begin{align*}
+\det(A) & =\det \begin{bmatrix}
+{\color{black}a_{1}} &{\color{black} a_{2}} &  {\color{black} a_{3}}\\ 
+{\color{black}b_{1}} &{\color{black} b_{2}} &  {\color{black} b_{3}}\\ 
+{\color{black}c_{1}} &{\color{black} c_{2}} &  {\color{black} c_{3}}
+\end{bmatrix}
+\uncover<2->{
+\begin{array}{cc}
+{\color{black}a_{1}} &{\color{black} a_{2}} \\ 
+{\color{black}b_{1}} &{\color{black} b_{2}}\\
+{\color{black}c_{1}} &{\color{black} c_{2}}
+\end{array}
+\\
+& =(a_1b_2c_3+a_2b_3c_1+a_3b_1c_2)-(a_3b_2c_1+a_1b_3c_2+a_2b_1c_3) 
+}
+\end{align*}
+
+\end{itemize}
+
+\begin{exe}
+Calcule o determinante de 
+\[
+A=\begin{bmatrix}
+1 & 3 & 1 \\ -2 & 1 & -1 \\ 2 & 1 & 1
+\end{bmatrix}.
+\]
+\end{exe}
+
+\end{frame}
+
+\begin{frame}[label=determinantes]{Determinantes}
+
+o {\color{blue}determinante} de uma matriz quadrada
+\[
+A=\begin{bmatrix}
+a_{11} & a_{12} &  a_{13} &  \cdots & a_{1n}\\
+a_{21} & a_{22} &  a_{23} &  \cdots & a_{2n}\\
+a_{31} & a_{32} &  a_{33} &  \cdots & a_{3n}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+a_{n1} & a_{n2} &  a_{n3} & \cdots & a_{nn}
+\end{bmatrix},
+\]
+denotado por {\color{blue} $\det(A)$},  é o número real formado pela {\color{blue} soma de todos os possíveis produtos de \(n\) elementos que aparecem em diferentes linhas e diferentes colunas}, {\color{red}precedidos por um sinal de \(+\) ou \(-\)}, segundo uma regra que será estabelecida. Isto é, todas as somas de elementos do tipo:
+\[
+{\color{red}\pm} {\color{blue}a_{1\alpha_1}\cdot a_{2\alpha_2}\cdots a_{n\alpha_n}}
+\]
+Por exemplo: {\color{blue}\(a_{11}\cdot a_{22}\cdot a_{33}\cdots a_{nn}\)} ou 
+\({\color{red}\pm} {\color{blue}a_{11}\cdot a_{23}\cdot a_{32}\cdot a_{44}\cdots a_{nn}}\) ou 
+\({\color{red}\pm}{\color{blue}a_{13}\cdot a_{22}\cdot a_{31}\cdot a_{44}\cdots a_{nn}} \)
+\end{frame}
+
+
+\begin{frame}{}
+\begin{exe}
+Calcule o determinante da matriz 
+\[
+A=\begin{bmatrix}
+ 1 & 0 & 3 & 1 \\ -1 & 3 & 2 & 5 \\ 	0 & 0 & 2  & 3\\ 2 & 1 & -2 & 0
+\end{bmatrix}.
+\]
+\end{exe}
+\end{frame}
+
 
 \begin{frame}[label=determinantes]
 Se $A$ for uma matriz quadrada de ordem $n$, denotaremos por $A_{ij}$ a submatriz de $A$, de ordem $n-1$, obtida mediante a omissão da $i$-ésima linha e da $j$-ésima coluna de $A$.
