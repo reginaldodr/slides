@@ -1,5 +1,6 @@
 \section{Determinantes}
 
+\subsection*{Determinantes 2x2 e 3x3}
 \begin{frame}[label=determinantes]{Como calcular Determinantes}
 
 \begin{itemize}
@@ -65,7 +66,9 @@ A=\begin{bmatrix}
 
 \end{frame}
 
-\begin{frame}[label=determinantes]{Determinantes}
+\subsection*{Definição de Determinante}
+\begin{frame}[label=determinantes]{Definição de Determinante}
+
 
 o {\color{blue}determinante} de uma matriz quadrada
 \[
@@ -77,7 +80,8 @@ a_{31} & a_{32} &  a_{33} &  \cdots & a_{3n}\\
 a_{n1} & a_{n2} &  a_{n3} & \cdots & a_{nn}
 \end{bmatrix},
 \]
-denotado por {\color{blue} $\det(A)$},  é o número real formado pela {\color{blue} soma de todos os possíveis produtos de \(n\) elementos que aparecem em diferentes linhas e diferentes colunas}, {\color{red}precedidos por um sinal de \(+\) ou \(-\)}, segundo uma regra que será estabelecida. Isto é, todas as somas de elementos do tipo:
+denotado por {\color{blue} $\det(A)$},  é o número real formado pela {\color{blue} soma de todos os possíveis produtos de \(n\) elementos que aparecem em diferentes linhas e diferentes colunas},
+{\color{red}precedidos por um sinal de \(+\) ou \(-\)}, segundo uma regra que será estabelecida. Isto é, todas as somas de elementos do tipo:
 \[
 {\color{red}\pm} {\color{blue}a_{1\alpha_1}\cdot a_{2\alpha_2}\cdots a_{n\alpha_n}}
 \]
@@ -87,15 +91,114 @@ Por exemplo: {\color{blue}\(a_{11}\cdot a_{22}\cdot a_{33}\cdots a_{nn}\)} ou
 \end{frame}
 
 
+\begin{frame}[label=determinantes]{}
+O sinal é do produto 
+\[
+ {\color{blue}a_{1\alpha_1}\cdot a_{2\alpha_2}\cdots a_{n\alpha_n}}
+\]
+é definido de acordo com a {\color{blue}reordenação crescente} dos índices das colunas \(\alpha_1, \alpha_2, \ldots , \alpha_n\), da seguinte forma:
+\begin{itemize}
+\item {\color{blue}+}\ , se fazemos um número {\color{blue}par} de permutações;
+\item {\color{red}--}\ , se  fazemos um número {\color{red}ímpar} de permutações;
+\end{itemize}
+
+Por exemplo: Para matrizes 3x3, temos:
+\begin{itemize}
+\item \({\color{red}-}a_3b_2c_1\), pois precisamos precisamos fazer {\color{red}apenas uma} permutação dos elementos para obtermos \(c_1b_2a_3\) com índices crescentes.
+
+\item \({\color{blue}+}a_2b_3c_1\) precisamos fazer {\color{blue}duas} permutações para obtermos \(c_1a_2b_3\).
+\end{itemize}
+\end{frame}
+
+
 \begin{frame}{}
-\begin{exe}
+\begin{exer}
 Calcule o determinante da matriz 
 \[
 A=\begin{bmatrix}
  1 & 0 & 3 & 1 \\ -1 & 3 & 2 & 5 \\ 	0 & 0 & 2  & 3\\ 2 & 1 & -2 & 0
 \end{bmatrix}.
 \]
-\end{exe}
+\end{exer}
+\end{frame}
+
+\begin{frame}[label=determinantes]{Matrizes 4x4}
+Seja
+\[
+A=\begin{bmatrix}
+{\color{blue}a_{1}} &{\color{blue} a_{2}} &  {\color{blue} a_{3}}  &  {\color{blue} a_{4}}\\ 
+{\color{black}b_{1}} &{\color{black} b_{2}} &  {\color{black} b_{3}}  &  {\color{black} b_{4}}\\ 
+{\color{black}c_{1}} &{\color{black} c_{2}} &  {\color{black} c_{3}}  &  {\color{black} c_{4}}\\
+{\color{black}d_{1}} &{\color{black} d_{2}} &  {\color{black} d_{3}}  &  {\color{black} d_{4}}
+\end{bmatrix}
+\]
+Neste caso, precisamos calcular seus 24 produtos:
+
+\only<1>{\[
+\begin{array}{cccc}
+%--------- linha 1 --------------
+{\color{blue}+a_{1}}b_2c_3d_4 
+& {\color{red}-}{\color{blue}a_{2}}b_1c_3d_4
+& {\color{blue}+}{\color{blue}a_{3}}b_1c_2d_4
+& {\color{red}-}{\color{blue}a_{4}}b_1c_2d_3\\
+%--------- linha 2 --------------
+{\color{red}-}{\color{blue}a_{1}}b_2c_4d_3 
+& {\color{blue}+a_{2}}b_1c_4d_3 
+& {\color{red}-}{\color{blue}a_{3}}b_1c_4d_2 
+& {\color{blue}+}{\color{blue}a_{4}}b_1c_3d_2\\
+%--------- linha 3 --------------
+{\color{red}-}{\color{blue}a_{1}}b_3c_2d_4 
+& {\color{blue}+a_{2}}b_3c_1d_4  
+&{\color{red}-}{\color{blue}a_{3}}b_2c_1d_4 
+& {\color{blue}+}{\color{blue}a_{4}}b_2c_1d_3\\
+%--------- linha 4 --------------
+{\color{blue}+a_{1}}b_3c_4d_2 
+& {\color{red}-}{\color{blue}a_{2}}b_3c_4d_1  
+& {\color{blue}+}{\color{blue}a_{3}}b_2c_4d_1
+& {\color{red}-}{\color{blue}a_{4}}b_2c_3d_1\\
+%--------- linha 5 --------------
+{\color{blue}+a_{1}}b_4c_2d_3 
+& {\color{red}-}{\color{blue}a_{2}}b_4c_1d_3 
+&{\color{blue}+}{\color{blue}a_{3}}b_4c_1d_2 
+& {\color{red}-}{\color{blue}a_{4}}b_3c_1d_2\\
+%--------- linha 6 --------------
+{\color{red}-}{\color{blue}a_{1}}b_4c_3d_2 
+& {\color{blue}+a_{2}}b_4c_3d_1  
+& {\color{red}-}{\color{blue}a_{3}}b_4c_2d_1
+& {\color{blue}+}{\color{blue}a_{4}}b_3c_2d_1\\
+\end{array}
+\]}
+\only<2>{
+\begin{multline*}
+{\color{blue}a_1}\det
+\begin{bmatrix}
+{\color{black} b_{2}} &  {\color{black} b_{3}}  &  {\color{black} b_{4}}\\ 
+{\color{black} c_{2}} &  {\color{black} c_{3}}  &  {\color{black} c_{4}}\\
+{\color{black} d_{2}} &  {\color{black} d_{3}}  &  {\color{black} d_{4}}
+\end{bmatrix}
+-{\color{blue}a_2}\det
+\begin{bmatrix}
+{\color{black} b_{1}} &  {\color{black} b_{3}}  &  {\color{black} b_{4}}\\ 
+{\color{black} c_{1}} &  {\color{black} c_{3}}  &  {\color{black} c_{4}}\\
+{\color{black} d_{1}} &  {\color{black} d_{3}}  &  {\color{black} d_{4}}
+\end{bmatrix} 
++{\color{blue}a_3}\det
+\begin{bmatrix}
+{\color{black} b_{1}} &  {\color{black} b_{2}}  &  {\color{black} b_{4}}\\ 
+{\color{black} c_{1}} &  {\color{black} c_{2}}  &  {\color{black} c_{4}}\\
+{\color{black} d_{1}} &  {\color{black} d_{2}}  &  {\color{black} d_{4}}
+\end{bmatrix}\\ 
+-{\color{blue}a_4}\det
+\begin{bmatrix}
+{\color{black} b_{1}} &  {\color{black} b_{2}}  &  {\color{black} b_{3}}\\ 
+{\color{black} c_{1}} &  {\color{black} c_{2}}  &  {\color{black} c_{3}}\\
+{\color{black} d_{1}} &  {\color{black} d_{2}}  &  {\color{black} d_{3}}
+\end{bmatrix}
+\end{multline*}
+}
+
+
+
 \end{frame}
 
 
@@ -106,12 +209,18 @@ Dada uma matriz quadrada $A$. Definimos o {\color{blue} menor do elemento $a_{ij
 \[c_{ij}=(-1)^{i+j}\det(A_{ij}).\]
 \end{defin}
 \begin{exe}
-Seja $A=\begin{bmatrix}
-1 & 3 & 0 \\ -2 & 1 & -1 \\ 2 & 0 & 1
-\end{bmatrix}$. Então $A_{12}=\begin{bmatrix}
- -2  & -1 \\ 2 &  1 
-\end{bmatrix}$. E o cofator do elemento $a_{12}$ é $c_{12}=-\det(A_{12})=-(-2-(-2))=0$.
+Com essa notação, o determinante de matrizes 4x4 é:
+\[
+\det(A)=a_1\det(A_{11})-a_2\det(A{_12})+a_3\det(A_{13})-a_4\det(A_{14})
+\]
 \end{exe}
+%\begin{exe}
+%Seja $A=\begin{bmatrix}
+%1 & 3 & 0 \\ -2 & 1 & -1 \\ 2 & 0 & 1
+%\end{bmatrix}$. Então $A_{12}=\begin{bmatrix}
+% -2  & -1 \\ 2 &  1 
+%\end{bmatrix}$. E o cofator do elemento $a_{12}$ é $c_{12}=-\det(A_{12})=-(-2-(-2))=0$.
+%\end{exe}
 
 \end{frame}
 
@@ -122,12 +231,12 @@ Seja $A$ uma matriz quadrada de ordem $n>2$. Definimos o {\color{blue}determinan
 Essa soma é chamada de {\color{blue}expansão em cofatores} do determinante de $A$.
 \end{defin}
 
-\begin{exe}
-Calcule o determinate da matriz 
-\[A=\begin{bmatrix}
-1 & 3 & 0 \\ -2 & 1 & -1 \\ 2 & 0 & 1
-\end{bmatrix}.\]
-\end{exe}
+%\begin{exe}
+%Calcule o determinate da matriz 
+%\[A=\begin{bmatrix}
+%1 & 3 & 0 \\ -2 & 1 & -1 \\ 2 & 0 & 1
+%\end{bmatrix}.\]
+%\end{exe}
 
 \end{frame}
 
@@ -171,7 +280,7 @@ detA=A.det()
 
 \begin{frame}[label=determinantes]
 \begin{block}{Um restaurante no fim do universo}
-Para se calcular o determinante de uma matriz $n\times n$ pela expansão em cofatores, precisamos fazer $n$ produtos e calcular $n$ determinantes de matrizes $(n-1)\times (n-1)$, que por sua vez vai precisar calcular $n-1$ produtos e assim por diante. Portanto, ao todo são necessários da ordem de $n!$ produtos.
+Para se calcular o determinante de uma matriz $n\times n$, pela expansão em cofatores, ao todo são necessários da ordem de $n!$ produtos.
 \medskip
 
 

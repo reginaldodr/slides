@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  2 SEP 2025 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  4 SEP 2025 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2106,6 +2106,21 @@ LaTeX Warning: Label `determinantes<1>' multiply defined.
 LaTeX Warning: Label `determinantes' multiply defined.
 
 
+LaTeX Warning: Label `determinantes<2>' multiply defined.
+
+
+LaTeX Warning: Label `determinantes<1>' multiply defined.
+
+
+LaTeX Warning: Label `determinantes' multiply defined.
+
+
+LaTeX Warning: Label `determinantes<1>' multiply defined.
+
+
+LaTeX Warning: Label `determinantes' multiply defined.
+
+
 LaTeX Warning: Label `determinantes<1>' multiply defined.
 
 
@@ -2307,7 +2322,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 174
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figuras/rot-elipse.png, id=115, 322.95656pt x 210.7875pt>
+<figuras/rot-elipse.png, id=123, 322.95656pt x 210.7875pt>
 File: figuras/rot-elipse.png Graphic file (type png)
 <use figuras/rot-elipse.png>
 Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
@@ -2316,7 +2331,7 @@ Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
 Overfull \vbox (5.15833pt too high) detected at line 174
  []
 
-<UFF_brasao.png, id=116, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=124, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 174.
@@ -2364,7 +2379,7 @@ s been already used, duplicate ignored
 l.24 ...rame}[label=matrizes,fragile=singleslide]{
                                                   Matrizes}
 \c@pytx@py@default@default@line=\count424
-<exemplo.png, id=265, 59.9841pt x 58.5387pt>
+<exemplo.png, id=273, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 33.
@@ -2500,7 +2515,7 @@ s been already used, duplicate ignored
                    \relax 
 l.161 \end{frame}
                  
-<w-homework.png, id=484, 513.92pt x 452.69125pt>
+<w-homework.png, id=492, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 161.
@@ -3039,7 +3054,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 328.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<w-brainb.png, id=1380, 255.95625pt x 212.795pt>
+<w-brainb.png, id=1388, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 350.
@@ -3538,11 +3553,11 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 1.
 ]
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 23.
+Package pdftex.def Info: exemplo.png  used on input line 24.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 23.
+Package pdftex.def Info: UFF_brasao.png  used on input line 24.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [64
 
@@ -3551,32 +3566,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \end{frame}
+l.67 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \end{frame}
+l.67 \end{frame}
                 
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 66.
+Package pdftex.def Info: exemplo.png  used on input line 67.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 66.
+Package pdftex.def Info: UFF_brasao.png  used on input line 67.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [65
 
 ]
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 66.
+Package pdftex.def Info: exemplo.png  used on input line 67.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 66.
+Package pdftex.def Info: UFF_brasao.png  used on input line 67.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [66
 
@@ -3585,51 +3600,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \end{frame}
+l.91 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \end{frame}
+l.91 \end{frame}
                 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 87.
+Package pdftex.def Info: UFF_brasao.png  used on input line 91.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [67
-
-]
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 99.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 99.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [68
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \end{frame}
+l.111 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \end{frame}
+l.111 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 116.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 116.
+Package pdftex.def Info: UFF_brasao.png  used on input line 111.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [68
+
+]
+File: w-brainb.png Graphic file (type png)
+<use w-brainb.png>
+Package pdftex.def Info: w-brainb.png  used on input line 123.
+(pdftex.def)             Requested size: 15.3567pt x 12.76714pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 123.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [69
 
@@ -3638,44 +3649,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \end{frame}
+l.202 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \end{frame}
+l.202 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 132.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 132.
+Package pdftex.def Info: UFF_brasao.png  used on input line 202.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [70
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-<1>}) has been already used, duplicate ignored
+<2>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 \end{frame}
+l.202 \end{frame}
                  
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 \end{frame}
-                 
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 149.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 149.
+Package pdftex.def Info: UFF_brasao.png  used on input line 202.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [71
 
@@ -3684,37 +3681,40 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 ...label=determinantes,fragile=singleslide]{
-                                                  Determinantes com o sympy}
+l.225 \end{frame}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 ...label=determinantes,fragile=singleslide]{
-                                                  Determinantes com o sympy}
+l.225 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 225.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 170.
+Package pdftex.def Info: UFF_brasao.png  used on input line 225.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-
-[72
+ [72
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \end{frame}
+l.241 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \end{frame}
+l.241 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 184.
+Package pdftex.def Info: UFF_brasao.png  used on input line 241.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [73
 
@@ -3723,17 +3723,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.258 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.258 \end{frame}
                  
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 258.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 207.
+Package pdftex.def Info: UFF_brasao.png  used on input line 258.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [74
 
@@ -3742,40 +3746,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.224 \end{frame}
-                 
+l.263 ...label=determinantes,fragile=singleslide]{
+                                                  Determinantes com o sympy}
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.224 \end{frame}
-                 
+l.263 ...label=determinantes,fragile=singleslide]{
+                                                  Determinantes com o sympy}
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 224.
+Package pdftex.def Info: UFF_brasao.png  used on input line 279.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [75
+
+[75
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 \end{frame}
+l.293 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 \end{frame}
+l.293 \end{frame}
                  
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 237.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 237.
+Package pdftex.def Info: UFF_brasao.png  used on input line 293.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [76
 
@@ -3784,84 +3785,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 <1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 \end{frame}
+l.316 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 \end{frame}
+l.316 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 257.
+Package pdftex.def Info: UFF_brasao.png  used on input line 316.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [77
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-<1>}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.260 \begin
-            {pycode}
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.260 \begin
-            {pycode}
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 278.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 286.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [78
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-<1>}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.304 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.304 \end{frame}
-                 
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 304.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [79
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-<1>}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{determinantes
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.315 \end{frame}
-                 
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 315.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 315.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
- [80
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{determinantes
@@ -3880,7 +3816,133 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 333.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [78
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.346 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.346 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 346.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 346.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [79
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.366 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.366 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 366.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [80
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.369 \begin
+            {pycode}
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.369 \begin
+            {pycode}
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 387.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 395.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [81
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.413 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.413 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 413.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [82
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.424 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.424 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 424.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 424.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [83
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{determinantes
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 442.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [84
 
 ])
 \tf@nav=\write8
@@ -3902,56 +3964,42 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `gaalv2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gaalv2.out':
-(rerunfilecheck)             Before: 6E559396B951DE395050ACED8406DA93;3705
-(rerunfilecheck)             After:  057504DDADFFBDAD515902B826FC3E62;3705.
+Package rerunfilecheck Info: File `gaalv2.out' has not changed.
+(rerunfilecheck)             Checksum: 2E3F2EA0E907CE5791A7C7A0D0609D94;4084.
  ) 
 Here is how much of TeX's memory you used:
- 38493 strings out of 474222
- 804982 string characters out of 5748733
+ 38513 strings out of 474222
+ 805243 string characters out of 5748733
  1951975 words of memory out of 5000000
- 59644 multiletter control sequences out of 15000+600000
+ 59658 multiletter control sequences out of 15000+600000
  571230 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,1172b,907s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Outline0.4.2.73} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.1.71} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss
-1095.pfb>
-Output written on gaalv2.pdf (81 pages, 928662 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+ss1095.pfb>
+Output written on gaalv2.pdf (84 pages, 934447 bytes).
 PDF statistics:
- 3179 PDF objects out of 3580 (max. 8388607)
- 2601 compressed objects within 27 object streams
- 198 named destinations out of 1000 (max. 500000)
- 2200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3257 PDF objects out of 3580 (max. 8388607)
+ 2679 compressed objects within 27 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 2186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
