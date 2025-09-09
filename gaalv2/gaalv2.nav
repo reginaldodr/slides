@@ -196,26 +196,18 @@
 \headcommand {\beamer@framepages {75}{75}}
 \headcommand {\slideentry {4}{3}{2}{76/76}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\beamer@subsectionpages {75}{76}}
-\headcommand {\beamer@subsectionentry {0}{4}{4}{77}{Propriedades dos Determinantes}}
-\headcommand {\slideentry {4}{4}{1}{77/77}{Propriedades dos Determinantes}{0}}
+\headcommand {\slideentry {4}{3}{3}{77/77}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\slideentry {4}{4}{2}{78/78}{Propriedades dos Determinantes}{0}}
+\headcommand {\slideentry {4}{3}{4}{78/78}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {4}{4}{3}{79/79}{Propriedades dos Determinantes}{0}}
+\headcommand {\slideentry {4}{3}{5}{79/79}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {4}{4}{4}{80/80}{Propriedades dos Determinantes}{0}}
+\headcommand {\slideentry {4}{3}{6}{80/80}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {4}{4}{5}{81/81}{Propriedades dos Determinantes}{0}}
+\headcommand {\slideentry {4}{3}{7}{81/81}{Determinantes com o sympy}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\slideentry {4}{4}{6}{82/82}{Propriedades dos Determinantes}{0}}
-\headcommand {\beamer@framepages {82}{82}}
-\headcommand {\slideentry {4}{4}{7}{83/83}{Propriedades dos Determinantes}{0}}
-\headcommand {\beamer@framepages {83}{83}}
-\headcommand {\slideentry {4}{4}{8}{84/84}{Propriedades dos Determinantes}{0}}
-\headcommand {\beamer@framepages {84}{84}}
-\headcommand {\beamer@partpages {1}{84}}
-\headcommand {\beamer@subsectionpages {77}{84}}
-\headcommand {\beamer@sectionpages {63}{84}}
-\headcommand {\beamer@documentpages {84}}
-\headcommand {\gdef \inserttotalframenumber {82}}
+\headcommand {\beamer@partpages {1}{81}}
+\headcommand {\beamer@subsectionpages {75}{81}}
+\headcommand {\beamer@sectionpages {63}{81}}
+\headcommand {\beamer@documentpages {81}}
+\headcommand {\gdef \inserttotalframenumber {79}}
