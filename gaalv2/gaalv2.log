@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  9 SEP 2025 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  16 SEP 2025 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2168,6 +2168,83 @@ LaTeX Warning: Label `determinantes<1>' multiply defined.
 
 LaTeX Warning: Label `determinantes' multiply defined.
 
+) (./gaplana.aux
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<1>' multiply defined.
+
+
+LaTeX Warning: Label `vetores' multiply defined.
+
+
+LaTeX Warning: Label `vetores<2>' multiply defined.
+
+) (./retas-plano.aux
+
+LaTeX Warning: Label `retas<1>' multiply defined.
+
+
+LaTeX Warning: Label `retas' multiply defined.
+
 ))
 \openout1 = `gaalv2.aux'.
 
@@ -2304,7 +2381,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 174
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figuras/rot-elipse.png, id=119, 322.95656pt x 210.7875pt>
+<figuras/rot-elipse.png, id=147, 322.95656pt x 210.7875pt>
 File: figuras/rot-elipse.png Graphic file (type png)
 <use figuras/rot-elipse.png>
 Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
@@ -2313,7 +2390,7 @@ Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
 Overfull \vbox (5.15833pt too high) detected at line 174
  []
 
-<UFF_brasao.png, id=120, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=148, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 174.
@@ -2361,7 +2438,7 @@ s been already used, duplicate ignored
 l.24 ...rame}[label=matrizes,fragile=singleslide]{
                                                   Matrizes}
 \c@pytx@py@default@default@line=\count424
-<exemplo.png, id=269, 59.9841pt x 58.5387pt>
+<exemplo.png, id=303, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 33.
@@ -2497,7 +2574,7 @@ s been already used, duplicate ignored
                    \relax 
 l.161 \end{frame}
                  
-<w-homework.png, id=488, 513.92pt x 452.69125pt>
+<w-homework.png, id=522, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 161.
@@ -2668,45 +2745,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 \end{frame}
+l.42 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 \end{frame}
+l.42 \end{frame}
                 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 41.
+Package pdftex.def Info: UFF_brasao.png  used on input line 42.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [20
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 44.
+(hyperref)                removing `math shift' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 44.
+(hyperref)                removing `superscript' on input line 46.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \end{frame}
+l.61 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \end{frame}
+l.61 \end{frame}
                 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 59.
+Package pdftex.def Info: UFF_brasao.png  used on input line 61.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [21
 
@@ -2715,17 +2792,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \end{frame}
+l.93 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \end{frame}
+l.93 \end{frame}
                 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 91.
+Package pdftex.def Info: UFF_brasao.png  used on input line 93.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [22
 
@@ -2734,17 +2811,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \end{frame}
+l.128 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \end{frame}
+l.128 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 126.
+Package pdftex.def Info: UFF_brasao.png  used on input line 128.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [23
 
@@ -2753,17 +2830,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \begin
+l.131 \begin
             {pycode}
 pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \begin
+l.131 \begin
             {pycode}
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 158.
+Package pdftex.def Info: UFF_brasao.png  used on input line 160.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [24
 
@@ -3036,7 +3113,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 328.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<w-brainb.png, id=1384, 255.95625pt x 212.795pt>
+<w-brainb.png, id=1421, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 350.
@@ -3862,6 +3939,337 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 452.
  [81
 
 ])
+\openout2 = `gaplana.aux'.
+
+ (./gaplana.tex (./gaalv2.toc)
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 1.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [82
+
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \end{frame}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \end{frame}
+                
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 20.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 20.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [83
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \end{frame}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \end{frame}
+                
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 28.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [84
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \end{frame}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \end{frame}
+                
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 66.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [85
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \end{frame}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \end{frame}
+                
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 85.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 85.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [86
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 143.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [87
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 143.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [88
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 187.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [89
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 \end{frame}
+                 
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 204.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 204.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [90
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.252 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.252 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 252.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [91
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.290 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.290 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 290.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [92
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \end{frame}
+                 
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 308.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 308.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [93
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<1>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 331.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [94
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{vetores<2>}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 \end{frame}
+                 
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 331.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [95
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 331.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [96
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 331.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [97
+
+])
+\openout2 = `retas-plano.aux'.
+
+ (./retas-plano.tex
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 30.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [98
+
+
+
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 30.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [99
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 30.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [100
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{retas<1>}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \end{frame}
+                
+pdfTeX warning (ext4): destination with the same identifier (name{retas}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \end{frame}
+                
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 39.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+ [101
+
+])
 \tf@nav=\write8
 \openout8 = `gaalv2.nav'.
 
@@ -3872,7 +4280,8 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 452.
 \openout10 = `gaalv2.snm'.
 
  (./gaalv2.aux (./matrizes.aux) (./espaco-rn.aux)
-(./sistemas.aux) (./inversao-matrizes.aux) (./determinantes.aux))
+(./sistemas.aux) (./inversao-matrizes.aux) (./determinantes.aux) (./gaplana.aux
+) (./retas-plano.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -3881,42 +4290,60 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `gaalv2.out' has not changed.
-(rerunfilecheck)             Checksum: 975CB9AE7232B003D07C791908DE211F;3869.
+
+Package rerunfilecheck Warning: File `gaalv2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `gaalv2.out':
+(rerunfilecheck)             Before: AEA2E395BCA52CE9477D6DFEBCF39489;4954
+(rerunfilecheck)             After:  63F950EA4315861FD77DF7CF5FFD8482;4834.
  ) 
 Here is how much of TeX's memory you used:
- 38485 strings out of 474222
- 804552 string characters out of 5748733
+ 38848 strings out of 474222
+ 811984 string characters out of 5748733
  1951975 words of memory out of 5000000
- 59637 multiletter control sequences out of 15000+600000
+ 59927 multiletter control sequences out of 15000+600000
  571230 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1172b,907s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-ss1095.pfb>
-Output written on gaalv2.pdf (81 pages, 923167 bytes).
+ 128i,20n,123p,1172b,911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation102} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.6.1.99} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss
+1095.pfb>
+Output written on gaalv2.pdf (101 pages, 994703 bytes).
 PDF statistics:
- 3146 PDF objects out of 3580 (max. 8388607)
- 2587 compressed objects within 26 object streams
- 197 named destinations out of 1000 (max. 500000)
- 2106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3843 PDF objects out of 4296 (max. 8388607)
+ 3201 compressed objects within 33 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 2414 words of extra memory for PDF output out of 10000 (max. 10000000)
 

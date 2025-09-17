@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Sistema de Equações Lineares}{25}{0}{2}
 \beamer@sectionintoc {3}{Inversão de Matrizes}{56}{0}{3}
 \beamer@sectionintoc {4}{Determinantes}{63}{0}{4}
+\beamer@sectionintoc {5}{Geometria Plana}{82}{0}{5}

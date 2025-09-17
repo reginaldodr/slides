@@ -101,7 +101,7 @@ sp.latex(S)
 sp.latex(P)
 =>PYTHONTEX#py#default#default#30#i####matrizes.tex#304#
 sp.latex(T)
-=>PYTHONTEX#py#default#default#31#code####espaco-rn.tex#129#
+=>PYTHONTEX#py#default#default#31#code####espaco-rn.tex#131#
 import sympy as sp
 
 x1,x2,x3,x4=sp.symbols('x_1 x_2 x_3 x_4',real=True)
@@ -119,21 +119,21 @@ A=sp.Matrix.hstack(v1,v2,v3,v4)
 
 AX=A*X
 sol=sp.solve(sp.Eq(AX,B),(x1,x2,x3,x4))
-=>PYTHONTEX#py#default#default#32#i####espaco-rn.tex#149#
+=>PYTHONTEX#py#default#default#32#i####espaco-rn.tex#151#
 sp.latex(sp.N(sol[x1],3))
-=>PYTHONTEX#py#default#default#33#i####espaco-rn.tex#149#
+=>PYTHONTEX#py#default#default#33#i####espaco-rn.tex#151#
 sp.latex(sp.N(sol[x2],3))
-=>PYTHONTEX#py#default#default#34#i####espaco-rn.tex#149#
+=>PYTHONTEX#py#default#default#34#i####espaco-rn.tex#151#
 sp.latex(sp.N(sol[x3],3))
-=>PYTHONTEX#py#default#default#35#i####espaco-rn.tex#149#
+=>PYTHONTEX#py#default#default#35#i####espaco-rn.tex#151#
 sp.latex(sp.N(sol[x4],3))
-=>PYTHONTEX#py#default#default#36#i####espaco-rn.tex#153#
+=>PYTHONTEX#py#default#default#36#i####espaco-rn.tex#155#
 sp.latex(sp.N(sol[x1]*100,3))
-=>PYTHONTEX#py#default#default#37#i####espaco-rn.tex#154#
+=>PYTHONTEX#py#default#default#37#i####espaco-rn.tex#156#
 sp.latex(sp.N(sol[x2]*100,3))
-=>PYTHONTEX#py#default#default#38#i####espaco-rn.tex#155#
+=>PYTHONTEX#py#default#default#38#i####espaco-rn.tex#157#
 sp.latex(sp.N(sol[x3]*100,3))
-=>PYTHONTEX#py#default#default#39#i####espaco-rn.tex#156#
+=>PYTHONTEX#py#default#default#39#i####espaco-rn.tex#158#
 sp.latex(sp.N(sol[x4]*100,3))
 =>PYTHONTEX#py#default#default#40#code####gaalv2.29.vrb#1#
 import sympy as sp

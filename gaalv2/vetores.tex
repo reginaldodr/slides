@@ -1,9 +1,11 @@
 \section{Vetores}
 
-\subsection*{Plano Cartesiano}
-\begin{frame}[label=vetores]{O conjunto $\R^2$}
 
-Denotamos por   $\R^2$ o conjunto formado pelos {\color{blue}pares ordenados} $(x,y)$ tais $x$ $y$ são números reais. O número $x$ chama-se {\color{blue}primeira coordenada ou abcissa} e o número $y$ chama-se {\color{blue}segunda coordenada ou ordenada}. 
+\subsection*{Vetores no $\R^2$}
+
+\begin{frame}[label=vetores]{Interpretação Geométrica do conjunto $\R^2$}
+
+Como vimos \hyperlink{evreal}{\beamergotobutton{aqui}}, {\color{blue} \(\R^2\)}  é o conjunto  formado pelas matrizes linhas com dois elementos, isto é, o conjunto formado pelos {\color{blue}pares ordenados} $(x,y)$ tais $x$ e $y$ são números reais. O número $x$ chama-se {\color{blue}primeira coordenada ou abcissa} e o número $y$ chama-se {\color{blue}segunda coordenada ou ordenada}. 
 \medskip
 
 Podemos representar geometricamente os elementos de $\R^2$ usando um {\color{blue}sistema de coordenadas cartesianas}, que consiste em um plano com um par de eixos perpendiculares $OX$ e $OY$ e que tem a mesma origem.
@@ -15,63 +17,15 @@ Em um plano, fixado um sistema de coordenadas cartesianas, represente:
 \item Os conjuntos $A=\{(x,y)\in \R^2;\ x=1\}$ e $B=\{(x,y)\in \R^2;\ x=y\}$.
 \end{enumerate}
 \end{exe}
-
 \end{frame}
 
-\subsection*{Espaços Vetoriais}
-
-\begin{frame}[label=vetores]{Espaços Vetoriais Reais}
-
-Um {\color{blue}espaço vetorial real} $V$ é um conjunto, cujos elementos são chamados {\color{blue} vetores}, no qual estão definidas duas operações:
-
-\begin{itemize}
-\item A {\color{blue} adição}, que a cada par de vetores $\vec{u}$,$\vec{v}\in V$ faz corresponder um novo vetor $\vec{u}+\vec{v}$, chamado {\color{blue}vetor soma} de $\vec{u}$ e $\vec{v}$.
-
-\item A {\color{blue} multiplicação por escalar}, que a cada número $\alpha\in \R$ e a cada vetor $\vec{v}\in V$ faz corresponder um vetor $\alpha \vec{v}$, chamado {\color{blue}produto de $\alpha$ por $\vec{v}$}.
-\end{itemize}
-Além disso, essas operações devem satisfazer, para quaisquer $\vec{u},\vec{v},\vec{w}\in V$ e $\alpha,\beta \in \R$, as seguintes condições:
-%\begin{enumerate}
-%\item $\vec{u}+\vec{v}=\vec{v}+\vec{u}$ (comutatividade)
-%\item $(\vec{u}+\vec{v})+\vec{w}=\vec{u}+(\vec{v}+\vec{w})$ (associatividade)
-%\item Existe um vetor $\vec{0}\in V$, chamado {\color{blue}vetor nulo}, tal que
-%\[\vec{u}+\vec{0}=\vec{u} \text{ para todo } \vec{u}\in V.\]
-%\end{enumerate}
-\end{frame}
-
-
-\begin{frame}[label=vetores]{Espaços Vetoriais Reais}
-
-\begin{enumerate}
-
-\item $\vec{u}+\vec{v}\in V$. (fechamento em relação à adição)
-\item $\vec{u}+\vec{v}=\vec{v}+\vec{u}$ (comutatividade)
-\item $(\vec{u}+\vec{v})+\vec{w}=\vec{u}+(\vec{v}+\vec{w})$ (associatividade)
-\item Existe um vetor $\vec{0}\in V$, chamado {\color{blue}vetor nulo}, tal que
-\[\vec{u}+\vec{0}=\vec{u} \text{ para todo } \vec{u}\in V.\]
-
-\item Para cada $\vec{v}\in V$, existe um vetor $\vec{-v}\in E$, chamado {\color{blue}inverso aditivo}, ou {\color{blue}simétrico} de $\vec{v}$, tal que
-\[-\vec{v}+\vec{v}=\vec{0}.\]
-
-\item $\alpha \vec{v}\in V$. (fechamento em relação à multiplicação por escalar)
-
-\item $(\alpha+\beta)\vec{v}=\alpha \vec{v}+\beta \vec{v}$ e $\alpha(\vec{u}+\vec{v})=\alpha\vec{v}+\alpha\vec{v}$. (distributividade)
-
-\item $1\cdot \vec{v}=\vec{v}$.
-\end{enumerate}
-\end{frame}
-
-\subsection*{Vetores no $\R^2$}
-
-\begin{frame}[label=vetores]{O Espaço Vetorial $\R^2$}
-
-O conjunto $\R^2$ torna-se um espaço vetorial quando o munimos com as seguintes  operações: Se $\vec{u}=(u_1,u_2)$,  $\vec{v}=(v_1,v_2)$ e $\alpha\in \R$ então
+\begin{frame}[label=vetores]
+Além disso, vimos que {\color{blue} \(\R^2\)} é um  {\color{red} espaço vetorial} munido com as seguintes  operações: Se $\vec{u}=(u_1,u_2)$,  $\vec{v}=(v_1,v_2)$ e $\alpha\in \R$ então
 \[\vec{u}+\vec{v}=(u_1+v_1,u_2+v_2),\]
 \[\alpha \vec{v}=(\alpha v_1,\alpha v_2).\]
 Neste caso, o {\color{blue}vetor nulo} é $\vec{0}=(0,0)$ e o {\color{blue}simétrico} de $\vec{v}$ é  $-\vec{v}=(-v_1,-v_2)$.
 
-
 \end{frame}
-
 
 \begin{frame}[label=vetores]{Representação Geométrica}
 
@@ -484,104 +438,7 @@ Normalize os vetores $\vec{u}=(1,\sqrt{2},\sqrt{3},0)$ e $\vec{v}=(4,-\sqrt{2},0
 \end{casa}
 \end{frame}
 
-\begin{frame}[label=vetores]
-Um nutricionista forneceu uma tabela que especifica a {\color{blue} quantidade mínima de cada tipo de vitamina que deve ser ingerida diariamente}.
 
-\begin{center}
-
-\begin{tabu}{|l|c|c|c|c|}
-\hline
-Tipo de vitamina & A & B & C & E\\ \hline
- Quantidade  mínima (mg) & 3 & 1.1 & 60 & 11\\ \hline
-\end{tabu} 
-\end{center}
-
-Ele também forneceu uma tabela com a quantidade (em mg) de vitaminas em cada 100 gramas de 4 tipos de alimentos diferentes,
-\begin{center}
-\begin{tabu}{|c|c|c|c|c|}
-\hline
-& \multicolumn{4}{c|}{Alimento} \\ \hline
-Vitamina & 1 & 2 & 3 & 4  \\ \hline
- \rowfont{\color{blue}} A &  0.140 & 0.580  & 0.150 & 0 \\ \hline
- \rowfont{\color{blue}} B &  0.08  & 0      & 1.30  & 0.08  \\ \hline
- \rowfont{\color{blue}} C &  0     & 0      & 26    & 38  \\ \hline
- \rowfont{\color{blue}} E & 1.60  & 0      & 6.90    & 0.2 \\ \hline
-\end{tabu}
-\end{center}
-
- Cada alimento é uma {\color{red}variável}, ou seja, 
-\begin{center}
- $x_i$ representa a quantidade (em ``pacotes'' de 100g) do alimento $i$ que deve ser consumido diariamente, com $i=1,\ldots,4$. 
- \end{center}\bigskip
-
-\end{frame}
-
-\begin{frame}[label=vetores]
-Com isso, se quisermos saber qual a quantidade de cada alimentos devemos consumir, para se ter a quantidade mínima de cada vitamina, devemos resolver o sistema:
-\[
-\begin{cases}
-{\color{blue}0.14 } {\color{red}x_1}+ {\color{blue}0.58}{\color{red}x_2}+ {\color{blue}0.15}{\color{red}x_3}= 3,\\
-{\color{blue}0.08}{\color{red}x_1}+{\color{blue}1.3}{\color{red}x_3}+{\color{blue}0.08}{\color{red}x_4}= 1.1,\\
-{\color{blue}26}{\color{red}x_3}+{\color{blue}38}{\color{red}x_4}=  60,\\
-{\color{blue}1.6}{\color{red}x_1}+{\color{blue}6.9}{\color{red}x_3}+{\color{blue}0.2}{\color{red}x_4}=  11,
-\end{cases} 
-\]
-Usando a notação vetorial, temos:
-
-\[
-{\color{blue}
-\begin{bmatrix}
-0.14 \\ 0.08 \\ 0 \\ 1.60
-\end{bmatrix}} {\color{red}x_1}+
-{\color{blue}
-\begin{bmatrix}
-0.58 \\ 0 \\ 0 \\ 0
-\end{bmatrix}} {\color{red}x_2}+
-{\color{blue}
-\begin{bmatrix}
-0.150 \\ 1.30 \\ 26 \\ 6.90
-\end{bmatrix}} {\color{red}x_3}+
-{\color{blue}
-\begin{bmatrix}
-0\\ 0.08 \\ 38 \\ 0.2
-\end{bmatrix}} {\color{red}x_4}=
-\begin{bmatrix}
-3 \\ 1.1\\ 60 \\ 11
-\end{bmatrix}
-\]
-\end{frame}
-
-\begin{frame}[label=vetores,fragile=singleslide]
-\begin{pycode} 
-import sympy as sp
-
-x1,x2,x3,x4=sp.symbols('x_1 x_2 x_3 x_4',real=True)
-X=sp.Matrix([x1,x2,x3,x4])
-def pt(Y):
- return((Y[0],Y[1]))
-
-v1=sp.Matrix([0.14,0.08,0,1.6])
-v2=sp.Matrix([0.58,0,0,0])
-v3=sp.Matrix([0.15,1.3,26,6.9])
-v4=sp.Matrix([0,0.08,38,0.2])
-B=sp.Matrix([3,1.1,60,11])
-
-A=sp.Matrix.hstack(v1,v2,v3,v4)
-
-AX=A*X
-sol=sp.solve(sp.Eq(AX,B),(x1,x2,x3,x4))
-\end{pycode} 
-Aprenderemos mais à frente que este sistema tem a seguinte solução
-\[x_1 \approx\pyl{sp.N(sol[x1],3)},\ x_2 \approx\pyl{sp.N(sol[x2],3)},\ x_3 \approx\pyl{sp.N(sol[x3],3)}\ \text{ e }\ x_4 \approx\pyl{sp.N(sol[x4],3)}.\]
-Isto é, para se {\color{blue}ingerir a quantidade mínima de cada tipo de vitamina} devemos consumir:
-\begin{center}
-
-$\pyl{sp.N(sol[x1]*100,3)}$ gramas do alimento 1\\
-$\pyl{sp.N(sol[x2]*100,3)}$ gramas do alimento 2\\
-$\pyl{sp.N(sol[x3]*100,3)}$ gramas do alimento 3\\
-$\pyl{sp.N(sol[x4]*100,3)}$ gramas do alimento 4
-\end{center}
-\end{frame}
 
 
 \begin{frame}[label=vetores,fragile=singleslide]{Combinação Linear}
