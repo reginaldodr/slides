@@ -1,0 +1,93 @@
+
+\subsection*{Cônicas Rotacionadas}
+
+\begin{frame}[label=conicas]{Cônicas Rotacionadas}
+Os termos mistos da forma $xy$ de uma equação de cônica podem ser 
+eliminados através de um processo de diagonalização, que equivale a uma 
+rotação dos eixos.
+\medskip
+
+Uma expressão da forma
+\[{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy\]
+é chamada de \dt{forma quadrática} em $x$ e $y$ e pode ser representada 
+usando matrizes da seguinte forma:
+\[{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy=
+\begin{bmatrix}
+x & y
+\end{bmatrix}
+{\color{blue}\begin{bmatrix}
+a & c/2\\ c/2 & b
+\end{bmatrix}}
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}= X^t {\color{blue}A} X.
+\]
+
+\end{frame}
+
+
+\begin{frame}[label=conicas]{Teorema dos Eixos Principais}
+Como ${\color{blue}A}$ é uma matriz simétrica, pelo Teorema Espectral, 
+existe uma matriz ortogonal que diagonaliza ${\color{blue}A}$, isto é, 
+\[Q^t {\color{blue}A} Q={\color{red}D},\]
+onde ${\color{red}D}$ é uma matriz diagonal formada por autovalores de 
+${\color{blue}A}$.
+Fazendo a \dt{mudança de variáveis} 
+\[X=Q\bar{X}\ \text{ ou, equivalentemente, }\  \bar{X}=Q^tX,\]
+temos
+\begin{equation*}
+X^t {\color{blue}A} X
+=(Q\bar{X})^t {\color{blue}A}(Q\bar{X})
+=\bar{X}^t(Q^t {\color{blue}A}Q) \bar{X}
+=\bar{X}^t{\color{red}D}\bar{X}
+\end{equation*}
+
+
+
+\end{frame}
+
+\begin{frame}[label=conicas]{Teorema dos Eixos Principais}
+Assim, se ${\color{red}\lambda_1,\lambda_2}$ são os autovalores de ${\color{blue}A}$ e 
+\[\bar{X}=
+\begin{bmatrix}
+\bar{x} \\ \bar{y},
+\end{bmatrix}\]
+então
+\begin{align*}
+{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy& =X^t {\color{blue}A} X\\
+& =\bar{X}^t{\color{red}D}\bar{X}\\
+& = {\color{red}\lambda_1}\bar{x}^2+{\color{red}\lambda_2}\bar{y}^2,
+\end{align*}
+uma forma quadrática sem termos mistos.
+
+\end{frame}
+
+
+\begin{frame}[label=conicas]
+\begin{exe}
+Identifique e faça um esboça das seguintes cônicas:
+\begin{enumerate}
+\item $5x^2+4xy+2y^2=6$.
+\item $2x^2-4xy-y^2+8=0.$
+\item $x^2+4\sqrt{2}xy-y^2+2\sqrt{6}x+2\sqrt{3}y=0$
+\end{enumerate}
+\end{exe}
+\end{frame}
+
+
+\begin{frame}[label=conicas]
+\begin{casa}
+Identifique e faça um esboço das seguintes cônicas
+
+\begin{enumerate}
+\item  $5x^2-4xy+8y^2-36=0$
+\item $11 x^{2} + 24 x y + 4 x + 4 y^{2} + 3 y + \frac{15}{4} = 0$
+\end{enumerate}
+\end{casa}
+\end{frame}
+
+\begin{frame}[label=conicas]
+
+
+
+\end{frame}

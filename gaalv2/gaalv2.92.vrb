@@ -1,0 +1,17 @@
+\begin{pycode}
+import sympy as sp
+x,y=sp.symbols('x y',real=True)
+x0=sp.Rational(1,2)
+r=2
+exp=sp.expand((x-x0)**2+y**2-r**2)
+eq=sp.Eq(exp,0)
+\end{pycode}
+\begin{exe}
+\begin{enumerate}
+\item Determine a equação do círculo de centro na origem e raio 2.
+\item Encontre o ponto de interseção do círculo de centro \((0,1)\) e raio 1 com a reta que que corta os eixos coordenados em \(x=1\) e \(y=2\).
+\item  Determine o centro e o raio da circunferência
+\[\pyl{eq}\]
+e faça um esboço.
+\end{enumerate}
+\end{exe}

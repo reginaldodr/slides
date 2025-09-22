@@ -1,0 +1,55 @@
+
+
+\subsection*{Equação Paramétrica da Reta}
+
+
+\begin{frame}[label=retas]{Equação Paramétrica de uma Reta}
+
+Fixados um ponto ${\color{red} A}$ de uma reta $r$ e um vetor ${\color{blue}\vec{v}}$ paralelo a esta reta, podemos descrever os pontos $P$ dessa reta da seguinte forma:
+\[P={\color{red}A}+t{\color{blue}\vec{v}},\ t\in \R.\]
+	\begin{center}
+		\begin{tikzpicture}
+		\tikzset{>=latex}
+		\draw[thick] (-1,-1) -- (2,2);
+		\node[left] at (2,2) {r};
+		\draw[fill=red] (0,0) circle [radius=1.5pt];
+		\node[above left] at (0,0) {$\textcolor{red}{A}$};
+		\draw[thick, blue,->] (2,0) -- (0.7+2,0.7);
+		\node[blue, right] at (0.7+2,0.7) {$\vec{v}$};
+		\onslide<2->{
+		\draw[fill=black] (1.5,1.5) circle [radius=1.5pt];
+		\node[above left] at (1.5,1.5) {$P$};}
+	
+	\onslide<3->{
+\draw[thick, blue,->] (0,0) -- (1.5,1.5);	
+  }
+		\end{tikzpicture}
+	\end{center}
+	
+Esta equação é dita {\color{blue} equação vetorial paramétrica da reta $r$}, $t$ é dito ser um {\color{blue}parâmetro} e ${\color{blue}\vec{v}}$ é chamado de {\color{blue}vetor diretor.}
+
+\end{frame}
+
+\begin{frame}[label=retas]
+Se	$P=(x,y)$, $\textcolor{red}{A=(x_0,y_0)}$ e $\textcolor{blue}{\vt{v}=(a,b)}$
+em coordenadas temos que
+\[	\left\{\begin{array}{l}
+	x=\textcolor{red}{x_0}+\textcolor{blue}{a}t\\
+	y=\textcolor{red}{y_0}+\textcolor{blue}{b}t,\  t\in \R.
+	\end{array}\right.\]
+
+
+\end{frame}
+
+\begin{frame}[label=retas]
+	\frametitle{ }
+	%\begin{scriptsize}
+	{\begin{exe}\label{exer4} \noindent
+			
+\begin{enumerate}[a]
+\item Determine as equações paramétricas da reta que passa pelos pontos  $A=(-1,0)$ e $B=(0,1)$ .
+\end{enumerate}
+	\end{exe}}
+
+\end{frame}
+
