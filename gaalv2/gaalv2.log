@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  19 SEP 2025 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 SEP 2025 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2608,7 +2608,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 174
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figuras/rot-elipse.png, id=211, 322.95656pt x 210.7875pt>
+<figuras/rot-elipse.png, id=207, 322.95656pt x 210.7875pt>
 File: figuras/rot-elipse.png Graphic file (type png)
 <use figuras/rot-elipse.png>
 Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
@@ -2617,7 +2617,7 @@ Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
 Overfull \vbox (5.15833pt too high) detected at line 174
  []
 
-<UFF_brasao.png, id=212, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=208, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 174.
@@ -2665,7 +2665,7 @@ s been already used, duplicate ignored
 l.24 ...rame}[label=matrizes,fragile=singleslide]{
                                                   Matrizes}
 \c@pytx@py@default@default@line=\count424
-<exemplo.png, id=374, 59.9841pt x 58.5387pt>
+<exemplo.png, id=370, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 33.
@@ -2801,7 +2801,7 @@ s been already used, duplicate ignored
                    \relax 
 l.161 \end{frame}
                  
-<w-homework.png, id=592, 513.92pt x 452.69125pt>
+<w-homework.png, id=588, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 161.
@@ -3340,7 +3340,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 328.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<w-brainb.png, id=1493, 255.95625pt x 212.795pt>
+<w-brainb.png, id=1489, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 350.
@@ -4426,21 +4426,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.376 \end{frame}
+l.378 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.376 \end{frame}
+l.378 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 376.
+Package pdftex.def Info: w-homework.png  used on input line 378.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 376.
+Package pdftex.def Info: UFF_brasao.png  used on input line 378.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [96
 
@@ -4448,7 +4448,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 376.
 \openout2 = `conicas-simples.aux'.
 
  (./conicas-simples.tex
-<figuras/conicas.png, id=3673, 679.78969pt x 353.82187pt>
+<figuras/conicas.png, id=3671, 679.78969pt x 353.82187pt>
 File: figuras/conicas.png Graphic file (type png)
 <use figuras/conicas.png>
 Package pdftex.def Info: figuras/conicas.png  used on input line 22.
@@ -4601,7 +4601,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
                    \relax 
 l.314 \end{frame}
                  
-<figuras/catenaria.png, id=3896, 321.2pt x 240.9pt>
+<figuras/catenaria.png, id=3894, 321.2pt x 240.9pt>
 File: figuras/catenaria.png Graphic file (type png)
 <use figuras/catenaria.png>
 Package pdftex.def Info: figuras/catenaria.png  used on input line 314.
@@ -5393,7 +5393,7 @@ s been already used, duplicate ignored
                    \relax 
 l.232 \end{frame}
                  
-<figuras/produto-escalar/meme.png, id=5467, 270.2898pt x 205.0059pt>
+<figuras/produto-escalar/meme.png, id=5464, 270.2898pt x 205.0059pt>
 File: figuras/produto-escalar/meme.png Graphic file (type png)
 <use figuras/produto-escalar/meme.png>
 Package pdftex.def Info: figuras/produto-escalar/meme.png  used on input line 2
@@ -5470,61 +5470,47 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `gaalv2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gaalv2.out':
-(rerunfilecheck)             Before: 5794C7E4F50B2BCD722713D5E202BE75;7317
-(rerunfilecheck)             After:  518203A20B0C71F58C032E6FCA336D67;7245.
+Package rerunfilecheck Info: File `gaalv2.out' has not changed.
+(rerunfilecheck)             Checksum: 518203A20B0C71F58C032E6FCA336D67;7245.
  ) 
 Here is how much of TeX's memory you used:
- 39985 strings out of 474222
- 838165 string characters out of 5748733
+ 39980 strings out of 474222
+ 838097 string characters out of 5748733
  1954975 words of memory out of 5000000
- 60890 multiletter control sequences out of 15000+600000
+ 60887 multiletter control sequences out of 15000+600000
  574983 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,1172b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Outline0.7.2.136} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.7.1.132} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on gaalv2.pdf (150 pages, 2197683 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on gaalv2.pdf (150 pages, 2198483 bytes).
 PDF statistics:
- 5759 PDF objects out of 6186 (max. 8388607)
- 4784 compressed objects within 48 object streams
- 377 named destinations out of 1000 (max. 500000)
- 3786 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5756 PDF objects out of 6186 (max. 8388607)
+ 4781 compressed objects within 48 object streams
+ 375 named destinations out of 1000 (max. 500000)
+ 3778 words of extra memory for PDF output out of 10000 (max. 10000000)
 
