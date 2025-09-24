@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 SEP 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 SEP 2025 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2608,7 +2608,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 174
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figuras/rot-elipse.png, id=207, 322.95656pt x 210.7875pt>
+<figuras/rot-elipse.png, id=211, 322.95656pt x 210.7875pt>
 File: figuras/rot-elipse.png Graphic file (type png)
 <use figuras/rot-elipse.png>
 Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
@@ -2617,7 +2617,7 @@ Package pdftex.def Info: figuras/rot-elipse.png  used on input line 174.
 Overfull \vbox (5.15833pt too high) detected at line 174
  []
 
-<UFF_brasao.png, id=208, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=212, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 174.
@@ -2665,7 +2665,7 @@ s been already used, duplicate ignored
 l.24 ...rame}[label=matrizes,fragile=singleslide]{
                                                   Matrizes}
 \c@pytx@py@default@default@line=\count424
-<exemplo.png, id=370, 59.9841pt x 58.5387pt>
+<exemplo.png, id=374, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 33.
@@ -2801,7 +2801,7 @@ s been already used, duplicate ignored
                    \relax 
 l.161 \end{frame}
                  
-<w-homework.png, id=588, 513.92pt x 452.69125pt>
+<w-homework.png, id=592, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 161.
@@ -3340,7 +3340,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 328.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<w-brainb.png, id=1489, 255.95625pt x 212.795pt>
+<w-brainb.png, id=1493, 255.95625pt x 212.795pt>
 File: w-brainb.png Graphic file (type png)
 <use w-brainb.png>
 Package pdftex.def Info: w-brainb.png  used on input line 350.
@@ -4325,7 +4325,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 239.
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 274.
+Package pdftex.def Info: UFF_brasao.png  used on input line 275.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [91
 
@@ -4334,21 +4334,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{frame}
+l.292 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{frame}
+l.292 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 289.
+Package pdftex.def Info: exemplo.png  used on input line 292.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 289.
+Package pdftex.def Info: UFF_brasao.png  used on input line 292.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [92
 
@@ -4357,21 +4357,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.299 \end{frame}
+l.304 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.299 \end{frame}
+l.304 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 299.
+Package pdftex.def Info: w-homework.png  used on input line 304.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 299.
+Package pdftex.def Info: UFF_brasao.png  used on input line 304.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [93
 
@@ -4380,17 +4380,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.337 \end{frame}
+l.344 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.337 \end{frame}
+l.344 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 337.
+Package pdftex.def Info: UFF_brasao.png  used on input line 344.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [94
 
@@ -4402,13 +4402,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.357 \end{frame}
+l.364 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.357 \end{frame}
+l.364 \end{frame}
                   (./gaalv2.93.vrb
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
@@ -4417,7 +4417,7 @@ Package pdftex.def Info: exemplo.png  used on input line 10.
 )
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 357.
+Package pdftex.def Info: UFF_brasao.png  used on input line 364.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [95
 
@@ -4426,21 +4426,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{circulo<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.378 \end{frame}
+l.385 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{circulo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.378 \end{frame}
+l.385 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 378.
+Package pdftex.def Info: w-homework.png  used on input line 385.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 378.
+Package pdftex.def Info: UFF_brasao.png  used on input line 385.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [96
 
@@ -4448,14 +4448,14 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 378.
 \openout2 = `conicas-simples.aux'.
 
  (./conicas-simples.tex
-<figuras/conicas.png, id=3671, 679.78969pt x 353.82187pt>
+<figuras/conicas.png, id=3675, 679.78969pt x 353.82187pt>
 File: figuras/conicas.png Graphic file (type png)
 <use figuras/conicas.png>
-Package pdftex.def Info: figuras/conicas.png  used on input line 22.
+Package pdftex.def Info: figuras/conicas.png  used on input line 19.
 (pdftex.def)             Requested size: 271.91106pt x 141.52623pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 22.
+Package pdftex.def Info: UFF_brasao.png  used on input line 19.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [97
 
@@ -4467,21 +4467,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \end{frame}
+l.46 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \end{frame}
+l.46 \end{frame}
                 
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 49.
+Package pdftex.def Info: exemplo.png  used on input line 46.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 49.
+Package pdftex.def Info: UFF_brasao.png  used on input line 46.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [98
 
@@ -4490,17 +4490,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \end{frame}
+l.59 \end{frame}
                 
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \end{frame}
+l.59 \end{frame}
                 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 62.
+Package pdftex.def Info: UFF_brasao.png  used on input line 59.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [99
 
@@ -4509,21 +4509,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \end{frame}
+l.127 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \end{frame}
+l.127 \end{frame}
                  
-Overfull \hbox (46.06056pt too wide) in paragraph at lines 130--130
+Overfull \hbox (46.06056pt too wide) in paragraph at lines 127--127
 [][] 
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 130.
+Package pdftex.def Info: UFF_brasao.png  used on input line 127.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [100
 
@@ -4532,17 +4532,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \end{frame}
+l.206 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \end{frame}
+l.206 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 209.
+Package pdftex.def Info: UFF_brasao.png  used on input line 206.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [101
 
@@ -4551,17 +4551,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.285 \end{frame}
+l.282 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.285 \end{frame}
+l.282 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 285.
+Package pdftex.def Info: UFF_brasao.png  used on input line 282.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [102
 
@@ -4570,21 +4570,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.298 \end{frame}
+l.295 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.298 \end{frame}
+l.295 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 298.
+Package pdftex.def Info: exemplo.png  used on input line 295.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 298.
+Package pdftex.def Info: UFF_brasao.png  used on input line 295.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [103
 
@@ -4593,22 +4593,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.314 \end{frame}
+l.311 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.314 \end{frame}
+l.311 \end{frame}
                  
-<figuras/catenaria.png, id=3894, 321.2pt x 240.9pt>
+<figuras/catenaria.png, id=3898, 321.2pt x 240.9pt>
 File: figuras/catenaria.png Graphic file (type png)
 <use figuras/catenaria.png>
-Package pdftex.def Info: figuras/catenaria.png  used on input line 314.
+Package pdftex.def Info: figuras/catenaria.png  used on input line 311.
 (pdftex.def)             Requested size: 160.59961pt x 120.44969pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 314.
+Package pdftex.def Info: UFF_brasao.png  used on input line 311.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [104
 
@@ -4617,21 +4617,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{conicas<1>})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.330 \end{frame}
+l.327 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{conicas}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.330 \end{frame}
+l.327 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 330.
+Package pdftex.def Info: exemplo.png  used on input line 327.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 330.
+Package pdftex.def Info: UFF_brasao.png  used on input line 327.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [105
 
@@ -5072,7 +5072,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vetores}) has
                    \relax 
 l.11 \end{frame}
                 
-<figuras/eixos3d2.png, id=4802, 986.68625pt x 662.475pt>
+<figuras/eixos3d2.png, id=4806, 986.68625pt x 662.475pt>
 File: figuras/eixos3d2.png Graphic file (type png)
 <use figuras/eixos3d2.png>
 Package pdftex.def Info: figuras/eixos3d2.png  used on input line 11.
@@ -5393,7 +5393,7 @@ s been already used, duplicate ignored
                    \relax 
 l.232 \end{frame}
                  
-<figuras/produto-escalar/meme.png, id=5464, 270.2898pt x 205.0059pt>
+<figuras/produto-escalar/meme.png, id=5468, 270.2898pt x 205.0059pt>
 File: figuras/produto-escalar/meme.png Graphic file (type png)
 <use figuras/produto-escalar/meme.png>
 Package pdftex.def Info: figuras/produto-escalar/meme.png  used on input line 2
@@ -5471,13 +5471,13 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `gaalv2.out' has not changed.
-(rerunfilecheck)             Checksum: 518203A20B0C71F58C032E6FCA336D67;7245.
+(rerunfilecheck)             Checksum: E6A18B08DFFDABE219C92AAA8BC0F6E5;7455.
  ) 
 Here is how much of TeX's memory you used:
- 39980 strings out of 474222
- 838097 string characters out of 5748733
+ 39984 strings out of 474222
+ 838149 string characters out of 5748733
  1954975 words of memory out of 5000000
- 60887 multiletter control sequences out of 15000+600000
+ 60890 multiletter control sequences out of 15000+600000
  574983 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,1172b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5507,10 +5507,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on gaalv2.pdf (150 pages, 2198483 bytes).
+Output written on gaalv2.pdf (150 pages, 2198516 bytes).
 PDF statistics:
- 5756 PDF objects out of 6186 (max. 8388607)
- 4781 compressed objects within 48 object streams
- 375 named destinations out of 1000 (max. 500000)
- 3778 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5760 PDF objects out of 6186 (max. 8388607)
+ 4785 compressed objects within 48 object streams
+ 376 named destinations out of 1000 (max. 500000)
+ 3786 words of extra memory for PDF output out of 10000 (max. 10000000)
 
