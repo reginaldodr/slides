@@ -1,0 +1,24 @@
+\begin{pycode}
+import sympy as sp
+
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+
+v1=sp.Matrix([1,0,0,1])
+v2=sp.Matrix([2,-1,1,3])
+v3=sp.Matrix([1,-2,1,0])
+
+b1=v1-v2+v3
+b2=sp.Matrix([1,0,0,2])
+
+\end{pycode}
+\begin{teo}
+Um vetor {\color{blue} $\vec{b}$} é uma combinação linear dos vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se, e somente se, o sistema linear com matriz aumentada  \([A \vert {\color{blue}\vec{b}}]\) é possível, onde as {\color{red}colunas de \(A\)} são os vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$
+\end{teo}
+
+\begin{exe}
+Escreva, se possível,  os vetores {\color{blue}\(\vec{b}_1=\pyl{b1}\)} e {\color{blue}\(\vec{b}_2=\pyl{b2}\)} como combinação linear dos seguintes vetores
+\[
+\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2} \text{ e } \vec{v}_3=\pyl{v3}.
+\]
+\end{exe}

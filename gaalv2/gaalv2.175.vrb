@@ -1,0 +1,23 @@
+\begin{pycode}
+import sympy as sp
+
+import sympy as sp
+
+v1=sp.Matrix([1,0,1,2,1])
+v2=sp.Matrix([1,2,0,-1,0])
+v3=sp.Matrix([-3,2,0,1,1])
+
+v4=3*v1-v2
+v5=v1-v2+v3
+A=sp.Matrix.hstack(v1,v2,v3,v4,v5)
+\end{pycode}
+\begin{exe}
+
+\begin{enumerate}
+\item Determine uma base e a dimensão para o subespaços
+\[V=\{(a+c,b+c,a+b+2c);\, a,b,c\in \R\}.\]
+\item Seja
+\[W=\operatorname{span}\left\{ \pyl{v1},\pyl{v2},\pyl{v3},\pyl{v4},\pyl{v5} \right\}.\]
+Obtenha uma base para \(W\) dentre seus geradores.
+\end{enumerate}
+\end{exe}

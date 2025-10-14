@@ -107,6 +107,7 @@ Normalize o vetor $\vec{v}=(2,-1,3)$.
 \end{exe}
 
 
+
 \begin{casa}
 Normalize os vetores $\vec{u}=(1,\sqrt{2},\sqrt{3},0)$ e $\vec{v}=(4,-\sqrt{2},0,-5)$.
 \end{casa}
@@ -115,29 +116,3 @@ Normalize os vetores $\vec{u}=(1,\sqrt{2},\sqrt{3},0)$ e $\vec{v}=(4,-\sqrt{2},0
 
 
 
-\begin{frame}[label=vetores,fragile=singleslide]{Combinação Linear}
-
-\begin{defin}
-Um vetor $\vec{v}\in \R^n$ é uma {\color{blue} combinação linear} de vetores $\vec{v}_1, \vec{v}_2, \ldots, \vec{v}_k$ se existem escalares $\alpha_1,\alpha_2,\ldots, \alpha_k$ tais que
-\[\vec{v}=\alpha_1\vec{v}_1+\alpha_2\vec{v}_2+\cdots +\alpha_k\vec{v}_k.\]
-\end{defin}
-
-\begin{pycode} 
-import sympy as sp
-
-x1,x2,x3,x4=sp.symbols('x_1 x_2 x_3 x_4',real=True)
-X=sp.Matrix([x1,x2,x3,x4])
-def pt(Y):
- return((Y[0],Y[1],Y[2],Y[3]))
-
-v1=sp.Matrix([0.14,0.08,0,1.6])
-v2=sp.Matrix([0.58,0,0,0])
-v3=sp.Matrix([0.15,1.3,26,6.9])
-v4=sp.Matrix([0,0.08,38,0.2])
-B=sp.Matrix([3,1.1,60,11])
-\end{pycode} 
-
-No exemplo anterior, escrevemos  o vetor $\vec{v}=\pyl{B}$ como combinação linear dos vetores
-\[\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2},\ \vec{v}_3=\pyl{v3},\ \text{ e } \vec{v}_4=\pyl{v4}. \]
-
-\end{frame}

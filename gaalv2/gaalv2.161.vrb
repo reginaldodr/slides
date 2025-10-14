@@ -1,0 +1,29 @@
+\begin{pycode}
+import sympy as sp
+def pt(Y):
+ return((Y[0],Y[1],Y[2]))
+v1=sp.Matrix([1,2,1])
+v2=sp.Matrix([1,-1,2])
+v=v1+2*v2
+i=sp.Matrix([1,0,0])
+k=sp.Matrix([0,0,1])
+j=sp.Matrix([0,1,0])
+v3=v1+v2
+\end{pycode}
+ \hypertarget{exem.comb}{}
+\begin{exe}
+De quantas maneiras podemos escrever o vetor {\color{blue}\(\vec{b}=\pyl{v}\)} como combinação linear dos vetores:\\
+\begin{minipage}{0.4\textwidth}
+\begin{enumerate}
+\item \(\vec{i}\) e \(\vec{k}\)
+\item \(\vec{v}_1=\pyl{v1}\) e \(\vec{k}\)
+\end{enumerate}
+\end{minipage}
+\begin{minipage}{0.55\textwidth}
+\begin{enumerate}
+\setcounter{enumi}{2}
+\item \(\vec{v}_1=\pyl{v1}\),  \(\vec{v}_2=\pyl{v2}\) e  \(\vec{v}_3=\pyl{v3}\)
+\item \(\vec{v}_1=\pyl{v1}\) e \(\vec{v}_2=\pyl{v2}\)
+\end{enumerate}
+\end{minipage}
+\end{exe}

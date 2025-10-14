@@ -5,5 +5,8 @@
 \beamer@sectionintoc {4}{Determinantes}{63}{0}{4}
 \beamer@sectionintoc {5}{Geometria Plana}{82}{0}{5}
 \beamer@sectionintoc {6}{Vetores no plano}{111}{0}{6}
-\beamer@sectionintoc {7}{Vetores no Espaço}{131}{0}{7}
-\beamer@sectionintoc {8}{Produto Escalar}{140}{0}{8}
+\beamer@sectionintoc {7}{Vetores no Espaço}{130}{0}{7}
+\beamer@sectionintoc {8}{Produto Escalar}{138}{0}{8}
+\beamer@sectionintoc {9}{Retas e Planos}{149}{0}{9}
+\beamer@sectionintoc {10}{Produtos Vetoriais em $\mathbb {R}^3$}{160}{0}{10}
+\beamer@sectionintoc {11}{Subespaços, Base e Dimensão}{172}{0}{11}

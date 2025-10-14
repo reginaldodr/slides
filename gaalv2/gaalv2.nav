@@ -318,66 +318,183 @@
 \headcommand {\beamer@framepages {126}{128}}
 \headcommand {\slideentry {6}{4}{2}{129/129}{Equação Paramétrica da Reta}{0}}
 \headcommand {\beamer@framepages {129}{129}}
-\headcommand {\slideentry {6}{4}{3}{130/130}{Equação Paramétrica da Reta}{0}}
+\headcommand {\beamer@sectionpages {111}{129}}
+\headcommand {\beamer@subsectionpages {126}{129}}
+\headcommand {\sectionentry {7}{Vetores no Espaço}{130}{Vetores no Espaço}{0}}
+\headcommand {\slideentry {7}{0}{1}{130/130}{}{0}}
 \headcommand {\beamer@framepages {130}{130}}
-\headcommand {\beamer@sectionpages {111}{130}}
-\headcommand {\beamer@subsectionpages {126}{130}}
-\headcommand {\sectionentry {7}{Vetores no Espaço}{131}{Vetores no Espaço}{0}}
-\headcommand {\slideentry {7}{0}{1}{131/131}{}{0}}
+\headcommand {\slideentry {7}{0}{2}{131/131}{}{0}}
 \headcommand {\beamer@framepages {131}{131}}
-\headcommand {\slideentry {7}{0}{2}{132/132}{}{0}}
+\headcommand {\slideentry {7}{0}{3}{132/132}{}{0}}
 \headcommand {\beamer@framepages {132}{132}}
-\headcommand {\slideentry {7}{0}{3}{133/133}{}{0}}
+\headcommand {\slideentry {7}{0}{4}{133/133}{}{0}}
 \headcommand {\beamer@framepages {133}{133}}
-\headcommand {\slideentry {7}{0}{4}{134/134}{}{0}}
+\headcommand {\slideentry {7}{0}{5}{134/134}{}{0}}
 \headcommand {\beamer@framepages {134}{134}}
-\headcommand {\slideentry {7}{0}{5}{135/135}{}{0}}
+\headcommand {\beamer@subsectionpages {130}{134}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{135}{Vetores no $\mathbb {R}^n$}}
+\headcommand {\slideentry {7}{1}{1}{135/135}{Vetores no $\mathbb {R}^n$}{0}}
 \headcommand {\beamer@framepages {135}{135}}
-\headcommand {\beamer@subsectionpages {131}{135}}
-\headcommand {\beamer@subsectionentry {0}{7}{1}{136}{Vetores no $\mathbb {R}^n$}}
-\headcommand {\slideentry {7}{1}{1}{136/136}{Vetores no $\mathbb {R}^n$}{0}}
+\headcommand {\slideentry {7}{1}{2}{136/136}{Vetores no $\mathbb {R}^n$}{0}}
 \headcommand {\beamer@framepages {136}{136}}
-\headcommand {\slideentry {7}{1}{2}{137/137}{Vetores no $\mathbb {R}^n$}{0}}
+\headcommand {\slideentry {7}{1}{3}{137/137}{Vetores no $\mathbb {R}^n$}{0}}
 \headcommand {\beamer@framepages {137}{137}}
-\headcommand {\slideentry {7}{1}{3}{138/138}{Vetores no $\mathbb {R}^n$}{0}}
+\headcommand {\beamer@sectionpages {130}{137}}
+\headcommand {\beamer@subsectionpages {135}{137}}
+\headcommand {\sectionentry {8}{Produto Escalar}{138}{Produto Escalar}{0}}
+\headcommand {\slideentry {8}{0}{1}{138/138}{}{0}}
 \headcommand {\beamer@framepages {138}{138}}
-\headcommand {\slideentry {7}{1}{4}{139/139}{Vetores no $\mathbb {R}^n$}{0}}
+\headcommand {\beamer@subsectionpages {138}{138}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{139}{O Produto Escalar}}
+\headcommand {\slideentry {8}{1}{1}{139/139}{O Produto Escalar}{0}}
 \headcommand {\beamer@framepages {139}{139}}
-\headcommand {\beamer@sectionpages {131}{139}}
-\headcommand {\beamer@subsectionpages {136}{139}}
-\headcommand {\sectionentry {8}{Produto Escalar}{140}{Produto Escalar}{0}}
-\headcommand {\slideentry {8}{0}{1}{140/140}{}{0}}
+\headcommand {\slideentry {8}{1}{2}{140/140}{O Produto Escalar}{0}}
 \headcommand {\beamer@framepages {140}{140}}
-\headcommand {\beamer@subsectionpages {140}{140}}
-\headcommand {\beamer@subsectionentry {0}{8}{1}{141}{O Produto Escalar}}
-\headcommand {\slideentry {8}{1}{1}{141/141}{O Produto Escalar}{0}}
+\headcommand {\beamer@subsectionpages {139}{140}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{141}{Ângulo entre vetores}}
+\headcommand {\slideentry {8}{2}{1}{141/141}{Ângulo entre vetores}{0}}
 \headcommand {\beamer@framepages {141}{141}}
-\headcommand {\slideentry {8}{1}{2}{142/142}{O Produto Escalar}{0}}
+\headcommand {\slideentry {8}{2}{2}{142/142}{Ângulo entre vetores}{0}}
 \headcommand {\beamer@framepages {142}{142}}
 \headcommand {\beamer@subsectionpages {141}{142}}
-\headcommand {\beamer@subsectionentry {0}{8}{2}{143}{Ângulo entre vetores}}
-\headcommand {\slideentry {8}{2}{1}{143/143}{Ângulo entre vetores}{0}}
+\headcommand {\beamer@subsectionentry {0}{8}{3}{143}{Lei dos Cossenos}}
+\headcommand {\slideentry {8}{3}{1}{143/143}{Lei dos Cossenos}{0}}
 \headcommand {\beamer@framepages {143}{143}}
-\headcommand {\slideentry {8}{2}{2}{144/144}{Ângulo entre vetores}{0}}
+\headcommand {\slideentry {8}{3}{2}{144/144}{Lei dos Cossenos}{0}}
 \headcommand {\beamer@framepages {144}{144}}
-\headcommand {\beamer@subsectionpages {143}{144}}
-\headcommand {\beamer@subsectionentry {0}{8}{3}{145}{Lei dos Cossenos}}
-\headcommand {\slideentry {8}{3}{1}{145/145}{Lei dos Cossenos}{0}}
+\headcommand {\slideentry {8}{3}{3}{145/145}{Lei dos Cossenos}{0}}
 \headcommand {\beamer@framepages {145}{145}}
-\headcommand {\slideentry {8}{3}{2}{146/146}{Lei dos Cossenos}{0}}
+\headcommand {\slideentry {8}{3}{4}{146/146}{Lei dos Cossenos}{0}}
 \headcommand {\beamer@framepages {146}{146}}
-\headcommand {\slideentry {8}{3}{3}{147/147}{Lei dos Cossenos}{0}}
+\headcommand {\slideentry {8}{3}{5}{147/147}{Lei dos Cossenos}{0}}
 \headcommand {\beamer@framepages {147}{147}}
-\headcommand {\slideentry {8}{3}{4}{148/148}{Lei dos Cossenos}{0}}
+\headcommand {\beamer@subsectionpages {143}{147}}
+\headcommand {\beamer@subsectionentry {0}{8}{4}{148}{Produto escalar usando o sympy}}
+\headcommand {\slideentry {8}{4}{1}{148/148}{Produto escalar usando o sympy}{0}}
 \headcommand {\beamer@framepages {148}{148}}
-\headcommand {\slideentry {8}{3}{5}{149/149}{Lei dos Cossenos}{0}}
+\headcommand {\beamer@sectionpages {138}{148}}
+\headcommand {\beamer@subsectionpages {148}{148}}
+\headcommand {\sectionentry {9}{Retas e Planos}{149}{Retas e Planos}{0}}
+\headcommand {\slideentry {9}{0}{1}{149/149}{}{0}}
 \headcommand {\beamer@framepages {149}{149}}
-\headcommand {\beamer@subsectionpages {145}{149}}
-\headcommand {\beamer@subsectionentry {0}{8}{4}{150}{Produto escalar usando o sympy}}
-\headcommand {\slideentry {8}{4}{1}{150/150}{Produto escalar usando o sympy}{0}}
-\headcommand {\beamer@framepages {150}{150}}
-\headcommand {\beamer@partpages {1}{150}}
-\headcommand {\beamer@subsectionpages {150}{150}}
-\headcommand {\beamer@sectionpages {140}{150}}
-\headcommand {\beamer@documentpages {150}}
-\headcommand {\gdef \inserttotalframenumber {139}}
+\headcommand {\beamer@subsectionpages {149}{149}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{150}{Equação Paramétrica da Reta}}
+\headcommand {\slideentry {9}{1}{1}{150/152}{Equação Paramétrica da Reta}{0}}
+\headcommand {\beamer@framepages {150}{152}}
+\headcommand {\slideentry {9}{1}{2}{153/153}{Equação Paramétrica da Reta}{0}}
+\headcommand {\beamer@framepages {153}{153}}
+\headcommand {\slideentry {9}{1}{3}{154/154}{Equação Paramétrica da Reta}{0}}
+\headcommand {\beamer@framepages {154}{154}}
+\headcommand {\slideentry {9}{1}{4}{155/155}{Equação Paramétrica da Reta}{0}}
+\headcommand {\beamer@framepages {155}{155}}
+\headcommand {\beamer@subsectionpages {150}{155}}
+\headcommand {\beamer@subsectionentry {0}{9}{2}{156}{Equações Cartesianas da reta em $\mathbb {R}^2$}}
+\headcommand {\slideentry {9}{2}{1}{156/156}{Equações Cartesianas da reta em $\mathbb {R}^2$}{0}}
+\headcommand {\beamer@framepages {156}{156}}
+\headcommand {\slideentry {9}{2}{2}{157/157}{Equações Cartesianas da reta em $\mathbb {R}^2$}{0}}
+\headcommand {\beamer@framepages {157}{157}}
+\headcommand {\beamer@subsectionpages {156}{157}}
+\headcommand {\beamer@subsectionentry {0}{9}{3}{158}{Equação Cartesiana do Plano no Espaço}}
+\headcommand {\slideentry {9}{3}{1}{158/158}{Equação Cartesiana do Plano no Espaço}{0}}
+\headcommand {\beamer@framepages {158}{158}}
+\headcommand {\slideentry {9}{3}{2}{159/159}{Equação Cartesiana do Plano no Espaço}{0}}
+\headcommand {\beamer@framepages {159}{159}}
+\headcommand {\beamer@sectionpages {149}{159}}
+\headcommand {\beamer@subsectionpages {158}{159}}
+\headcommand {\sectionentry {10}{Produtos Vetoriais em $\mathbb {R}^3$}{160}{Produtos Vetoriais em $\mathbb {R}^3$}{0}}
+\headcommand {\slideentry {10}{0}{1}{160/160}{}{0}}
+\headcommand {\beamer@framepages {160}{160}}
+\headcommand {\slideentry {10}{0}{2}{161/161}{}{0}}
+\headcommand {\beamer@framepages {161}{161}}
+\headcommand {\slideentry {10}{0}{3}{162/162}{}{0}}
+\headcommand {\beamer@framepages {162}{162}}
+\headcommand {\slideentry {10}{0}{4}{163/163}{}{0}}
+\headcommand {\beamer@framepages {163}{163}}
+\headcommand {\slideentry {10}{0}{5}{164/164}{}{0}}
+\headcommand {\beamer@framepages {164}{164}}
+\headcommand {\slideentry {10}{0}{6}{165/165}{}{0}}
+\headcommand {\beamer@framepages {165}{165}}
+\headcommand {\beamer@subsectionpages {160}{165}}
+\headcommand {\beamer@subsectionentry {0}{10}{1}{166}{Distância entre ponto e reta}}
+\headcommand {\slideentry {10}{1}{1}{166/166}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {166}{166}}
+\headcommand {\slideentry {10}{1}{2}{167/167}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {167}{167}}
+\headcommand {\slideentry {10}{1}{3}{168/168}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {168}{168}}
+\headcommand {\slideentry {10}{1}{4}{169/169}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {169}{169}}
+\headcommand {\slideentry {10}{1}{5}{170/170}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {170}{170}}
+\headcommand {\slideentry {10}{1}{6}{171/171}{Distância entre ponto e reta}{0}}
+\headcommand {\beamer@framepages {171}{171}}
+\headcommand {\beamer@sectionpages {160}{171}}
+\headcommand {\beamer@subsectionpages {166}{171}}
+\headcommand {\sectionentry {11}{Subespaços, Base e Dimensão}{172}{Subespaços, Base e Dimensão}{0}}
+\headcommand {\slideentry {11}{0}{1}{172/172}{}{0}}
+\headcommand {\beamer@framepages {172}{172}}
+\headcommand {\beamer@subsectionpages {172}{172}}
+\headcommand {\beamer@subsectionentry {0}{11}{1}{173}{Combinação Linear}}
+\headcommand {\slideentry {11}{1}{1}{173/173}{Combinação Linear}{0}}
+\headcommand {\beamer@framepages {173}{173}}
+\headcommand {\slideentry {11}{1}{2}{174/174}{Combinação Linear}{0}}
+\headcommand {\beamer@framepages {174}{174}}
+\headcommand {\slideentry {11}{1}{3}{175/175}{Combinação Linear}{0}}
+\headcommand {\beamer@framepages {175}{175}}
+\headcommand {\beamer@subsectionpages {173}{175}}
+\headcommand {\beamer@subsectionentry {0}{11}{2}{176}{Para Casa 18}}
+\headcommand {\slideentry {11}{2}{0}{176/176}{Combinação Linear}{0}}
+\headcommand {\beamer@framepages {176}{176}}
+\headcommand {\beamer@subsectionpages {173}{176}}
+\headcommand {\beamer@subsectionentry {0}{11}{3}{177}{Dependência e Independência Linear}}
+\headcommand {\slideentry {11}{3}{1}{177/177}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {177}{177}}
+\headcommand {\slideentry {11}{3}{2}{178/178}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {178}{178}}
+\headcommand {\slideentry {11}{3}{3}{179/179}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {179}{179}}
+\headcommand {\slideentry {11}{3}{4}{180/181}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {180}{181}}
+\headcommand {\slideentry {11}{3}{5}{182/182}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {182}{182}}
+\headcommand {\slideentry {11}{3}{6}{183/183}{Dependência e Independência Linear}{0}}
+\headcommand {\beamer@framepages {183}{183}}
+\headcommand {\beamer@subsectionpages {177}{183}}
+\headcommand {\beamer@subsectionentry {0}{11}{4}{184}{Subespaço}}
+\headcommand {\slideentry {11}{4}{1}{184/184}{Subespaço}{0}}
+\headcommand {\beamer@framepages {184}{184}}
+\headcommand {\slideentry {11}{4}{2}{185/185}{Subespaço}{0}}
+\headcommand {\beamer@framepages {185}{185}}
+\headcommand {\beamer@subsectionpages {184}{185}}
+\headcommand {\beamer@subsectionentry {0}{11}{5}{186}{Geradores}}
+\headcommand {\slideentry {11}{5}{1}{186/186}{Geradores}{0}}
+\headcommand {\beamer@framepages {186}{186}}
+\headcommand {\beamer@subsectionpages {186}{186}}
+\headcommand {\beamer@subsectionentry {0}{11}{6}{187}{Base}}
+\headcommand {\slideentry {11}{6}{1}{187/187}{Base}{0}}
+\headcommand {\beamer@framepages {187}{187}}
+\headcommand {\slideentry {11}{6}{2}{188/188}{Base}{0}}
+\headcommand {\beamer@framepages {188}{188}}
+\headcommand {\slideentry {11}{6}{3}{189/189}{Base}{0}}
+\headcommand {\beamer@framepages {189}{189}}
+\headcommand {\slideentry {11}{6}{4}{190/190}{Base}{0}}
+\headcommand {\beamer@framepages {190}{190}}
+\headcommand {\slideentry {11}{6}{5}{191/191}{Base}{0}}
+\headcommand {\beamer@framepages {191}{191}}
+\headcommand {\beamer@subsectionpages {187}{191}}
+\headcommand {\beamer@subsectionentry {0}{11}{7}{192}{Espaço linha e Espaço coluna}}
+\headcommand {\slideentry {11}{7}{1}{192/192}{Espaço linha e Espaço coluna}{0}}
+\headcommand {\beamer@framepages {192}{192}}
+\headcommand {\slideentry {11}{7}{2}{193/193}{Espaço linha e Espaço coluna}{0}}
+\headcommand {\beamer@framepages {193}{193}}
+\headcommand {\slideentry {11}{7}{3}{194/194}{Espaço linha e Espaço coluna}{0}}
+\headcommand {\beamer@framepages {194}{194}}
+\headcommand {\slideentry {11}{7}{4}{195/195}{Espaço linha e Espaço coluna}{0}}
+\headcommand {\beamer@framepages {195}{195}}
+\headcommand {\slideentry {11}{7}{5}{196/196}{Espaço linha e Espaço coluna}{0}}
+\headcommand {\beamer@framepages {196}{196}}
+\headcommand {\beamer@partpages {1}{196}}
+\headcommand {\beamer@subsectionpages {192}{196}}
+\headcommand {\beamer@sectionpages {172}{196}}
+\headcommand {\beamer@documentpages {196}}
+\headcommand {\gdef \inserttotalframenumber {182}}

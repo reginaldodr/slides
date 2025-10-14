@@ -1,0 +1,20 @@
+\frametitle{}
+\begin{pycode}
+import sympy as sp
+
+v1=sp.Matrix([1,2,-1,-2])
+v2=sp.Matrix([0,1,2,5])
+v3=sp.Matrix([1,0,-4,-1])
+v4=sp.Matrix([1,-1,2,7])
+
+A=sp.Matrix.hstack(v1,v2,v3,v4)
+R=A.echelon_form()
+\end{pycode}
+
+\begin{exer}
+Decida se são LI ou LD os seguintes vetores:
+\[
+\vec{v}_1=\pyl{v1},\ \vec{v}_2=\pyl{v2},\ \vec{v}_3=\pyl{v3},\ \vec{v}_4=\pyl{v4}
+\]
+\end{exer}
+
