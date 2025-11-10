@@ -1050,6 +1050,47 @@ sp.latex(v3)
 sp.latex(v4)
 =>PYTHONTEX#py#default#default#237#i####gaalv2.175.vrb#20#
 sp.latex(v5)
+=>PYTHONTEX#py#default#default#238#code####autovetores.tex#59#
+import sympy as sp
+A=sp.Matrix([[0,0,2,0],[1,0,1,0],[0,1,-2,0],[0,0,0,1]])
+=>PYTHONTEX#py#default#default#239#i####autovetores.tex#65#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#240#code####autovetores.tex#139#
+import sympy as sp
+
+A=sp.Matrix([[4,0,1],[2,3,2],[1,0,4]])
+=>PYTHONTEX#py#default#default#241#i####autovetores.tex#147#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#242#code####autovetores.tex#158#
+import sympy as sp
+
+A=sp.Matrix([[4,2,2],[2,4,2],[2,2,4]])
+B=sp.Matrix([[-1,7,-1],[0,1,0],[0,15,-2]])
+=>PYTHONTEX#py#default#default#243#i####autovetores.tex#166#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#244#i####autovetores.tex#170#
+sp.latex(B)
+=>PYTHONTEX#py#default#defaultverb#7#verbatim####autovetores.tex#178#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10],
+[0, -7, 6, -30],
+[0, 2, 0, 7],
+[0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+display(P)
+display(D)
+=>PYTHONTEX#py#default#default#245#code####autovetores.tex#191#
+import sympy as sp
+
+A=sp.Matrix([[-1, 2, -2, 10], [0, -7, 6, -30], [0, 2, 0, 7], [0, 2, -2, 9]])
+[P,D]=A.diagonalize()
+=>PYTHONTEX#py#default#default#246#i####autovetores.tex#197#
+sp.latex(A)
+=>PYTHONTEX#py#default#default#247#i####autovetores.tex#197#
+sp.latex(P)
+=>PYTHONTEX#py#default#default#248#i####autovetores.tex#198#
+sp.latex(D)
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-gaalv2

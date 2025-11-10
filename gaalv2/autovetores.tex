@@ -5,9 +5,9 @@
 \begin{frame}[label=autovalores]{Autovetores e Autovalores}
 
 \begin{defin}
-Seja $A$ uma matriz quadrada de ordem $n$. Dizemos que um vetor {\color{red}não nulo} $\vec{v}\in \R^n$ é um  {\color{blue}autovetor} de $A$ se $A\vec{v}$ for um múltiplo escalar de $\vec{v}$, isto é, se existe  $\lambda \in \R$ tal que 
-\[A\vec{v}=\lambda \vec{v}.\]
-Neste caso, dizemos que $\lambda$ é um {\color{blue}autovalor} de $A$.
+Seja $A$ uma matriz quadrada de ordem $n$. Dizemos que um vetor {\color{red}não nulo} {\color{blue}$\vec{v}\in \R^n$} é um  {\color{blue}autovetor} de $A$ se $A\vec{v}$ for um múltiplo escalar de $\vec{v}$, isto é, se existe  {\color{orange}$\lambda \in \R$} tal que 
+\[A{\color{blue}\vec{v}}={\color{orange}\lambda} {\color{blue}\vec{v}}.\]
+Neste caso, dizemos que {\color{orange}$\lambda \in \R$} é um {\color{orange}autovalor} de $A$.
 
 \end{defin}
 
@@ -23,9 +23,9 @@ $
 
 \begin{frame}[label=autovalores]{}
 \begin{teo}
-$\lambda\in \R$ é um autovalor de uma matriz $A$ se, e só se, 
-\[\det(A-\lambda I)=0.\]
-Está equação e dita {\color{blue}equação característica de A}. E o polinômio $p(\lambda)=\det(A-\lambda I)$ é denominado {\color{blue}polinômio característico}.
+{\color{orange}$\lambda \in \R$} é um autovalor de uma matriz $A$ se, e só se, 
+\[\det(A-{\color{orange}\lambda}I)=0.\]
+Está equação e dita {\color{blue}equação característica de A}. E o polinômio $p({\color{orange}\lambda})=\det(A-{\color{orange}\lambda} I)$ é denominado {\color{blue}polinômio característico}.
 \end{teo}
 
 \begin{exe}
@@ -41,8 +41,8 @@ Determine os autovetores e autovalores da matriz
 
 \subsection*{Autoespaço}
 \begin{frame}[label=autovalores]{Autoespaço}
-Os autovetores associados a um mesmo autovalor $\lambda$ são os vetores não nulos  que satisfazem
-\[(A-\lambda I)\vec{x}=\vec{0},\]
+Os autovetores associados a um mesmo autovalor {\color{orange}$\lambda$} são os vetores não nulos  que satisfazem
+\[(A-{\color{orange}\lambda}  I)\vec{X}=\vec{0},\]
 isto é, {\color{red}são todos os vetores não nulos} pertencentes ao {\color{red}núcleo de $A-\lambda I$}, chamado de {\color{blue}autoespaço de $A$ associado a $\lambda$} e denotado por $E_{\lambda}$. 
 
 

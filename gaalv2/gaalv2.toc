@@ -10,3 +10,6 @@
 \beamer@sectionintoc {9}{Retas e Planos}{149}{0}{9}
 \beamer@sectionintoc {10}{Produtos Vetoriais em $\mathbb {R}^3$}{160}{0}{10}
 \beamer@sectionintoc {11}{Subespaços, Base e Dimensão}{172}{0}{11}
+\beamer@sectionintoc {12}{Autovetores e Autovalores}{197}{0}{12}
+\beamer@sectionintoc {13}{Ortogonalidade}{208}{0}{13}
+\beamer@sectionintoc {14}{Diagonalilzação de Matrizes Simétricas}{215}{0}{14}
