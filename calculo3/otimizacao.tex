@@ -235,10 +235,33 @@ Determine os valores extremos da função $f(x,y)=x^2-2xy+2y$ no retângulo $D=\
 
 
 \subsection*{Multiplicadores de Lagrange}
+
+
+\begin{frame}[label=otimizacao]{Problemas com restrições}
+
+\begin{block}{ }
+Uma companhia possui três fábricas produzindo o mesmo produto. Sabendo-se que:
+\begin{itemize}
+\item A fábrica {\color{blue} \(A\)} produz {\color{blue} \(x\)} unidades a um custo de \(3x^2+200\);
+\item A fábrica {\color{red} \(B\)} produz {\color{red} \(y\)} unidades a um custo de \(y^2+400\);
+\item A fábrica {\color{orange} \(C\)} produz {\color{orange} \(z\)} unidades a um custo de \(2z^2+300\);
+\end{itemize}
+se um pedido de 1.100 unidades deve ser entregue, como a produção deve ser distribuída entre as três fábricas a fim de minimizar os custos?
+\end{block}
+
+\[
+\begin{cases}
+\min (3{\color{blue}x}^2+{\color{red}y}^2+2{\color{orange}z}^2+900)\\
+\text{restrição: } {\color{blue}x}+{\color{red}y}+{\color{orange}z}=1.100
+\end{cases}
+\]
+
+
+\end{frame}
+
+
 \begin{frame}[label=otimizacao]
 \frametitle{Multiplicadores de Lagrange  em duas Variáveis}
-
-
 \begin{teo}Sejam $f(x,y)$ e $g(x,y)$ funções de classe $C^1$ definidas em um aberto $U$ que contém a curva $C$ de equação $g(x,y)=k$. Se $f(x,y)$ restrita à curva $C$ assume um valor máximo ou mínimo em $(x_0,y_0)\in C$ e {\color{red}$\nabla g(x_0,y_0)\neq \vec{0}$}, então existe {\color{blue}$\lambda\in \R$ }tal que
 \[\nabla f(x_0,y_0)={\color{blue}\lambda} \nabla g(x_0,y_0)\]
 \end{teo} 
@@ -254,7 +277,7 @@ Determine os valores extremos da função $f(x,y)=x^2-2xy+2y$ no retângulo $D=\
 
 \begin{frame}[label=otimizacao]
 \begin{exe}
-Determine os valores extremos da função $f(x,y)=xy$ no círculo $x^2+y^2=1$.
+Determine as coordenadas dos pontos do círculo $x^2+y^2=1$  cujo produto entre eles é o maior possível.
 \end{exe}
 
 \begin{minipage}{0.55\textwidth}
@@ -314,8 +337,8 @@ Determine os pontos da esfera $x^2+y^2+z^2=4$ que estão mais próximos e mais d
 
 \begin{frame}[label=otimizacao]
 \begin{exe}
-Determine os valores extremos da função \(f(x,y)=x^2+2y^2\) no disco \(D=\{(x,y)\in \R^2; 
-x^2+y^2\leq 1 \}.\)
+Considere uma placa circular  \(D=\{(x,y)\in \R^2; 
+x^2+y^2\leq 1 \}\). Sabendo-se que a temperatura em graus na placa é dada por  \(T(x,y)=x^2+2y^2\), determine os pontos mais frio e mais quente.
 \end{exe}
 \begin{center}
 
@@ -326,24 +349,24 @@ x^2+y^2\leq 1 \}.\)
 
 
 
-\begin{frame}[label=otimizacao]
-\frametitle{Multiplicadores de Lagrange com Duas Restrições}
-
-\begin{teo}Sejam $f(x,y,z)$, $g_1(x,y,z)$ e $g_2(x,y,z)$  funções de classe $C^1$ definidas em um aberto $U$ que contém a curva $C$ de interseção das superfícies de equações $g_1(x,y,z)=k_1$ e $g_2(x,y,z)=k_2$. Se $f(x,y,z)$ restrita à curva  $C$ assume um valor máximo ou mínimo em $P_0=(x_0,y_0,z_0)\in S$ e $\nabla g_1(x_0,y_0,z_0)\times \nabla g_2(x_0,y_0,z_0)$ não é nulo, então existem $\lambda, \mu \in \R$ tais que
-$$\nabla f(x_0,y_0,z_0)=\lambda \nabla g_1(x_0,y_0,z_0)+\mu \nabla g_1(x_0,y_0,z_0)$$ \end{teo} 
-
-%\begin{exe} Encontre os pontos de máximo e mínimo de $f(x,y,z)=x+y+z$ sujeito às restrições $x^2+y^2=2$ e $x+z=1$.
+%\begin{frame}[label=otimizacao]
+%\frametitle{Multiplicadores de Lagrange com Duas Restrições}
+%
+%\begin{teo}Sejam $f(x,y,z)$, $g_1(x,y,z)$ e $g_2(x,y,z)$  funções de classe $C^1$ definidas em um aberto $U$ que contém a curva $C$ de interseção das superfícies de equações $g_1(x,y,z)=k_1$ e $g_2(x,y,z)=k_2$. Se $f(x,y,z)$ restrita à curva  $C$ assume um valor máximo ou mínimo em $P_0=(x_0,y_0,z_0)\in S$ e $\nabla g_1(x_0,y_0,z_0)\times \nabla g_2(x_0,y_0,z_0)$ não é nulo, então existem $\lambda, \mu \in \R$ tais que
+%$$\nabla f(x_0,y_0,z_0)=\lambda \nabla g_1(x_0,y_0,z_0)+\mu \nabla g_1(x_0,y_0,z_0)$$ \end{teo} 
+%
+%%\begin{exe} Encontre os pontos de máximo e mínimo de $f(x,y,z)=x+y+z$ sujeito às restrições $x^2+y^2=2$ e $x+z=1$.
+%%\end{exe}
+%
+%
+%\end{frame}
+%
+%
+%\begin{frame}[label=otimizacao]
+%\begin{exe}
+%Determine o valor máximo da função $f(x,y,z)=x+2y+3z$ na curva da interseção do plano $x-y+z=1$ com o cilindro $x^2+y^2=1$.
 %\end{exe}
-
-
-\end{frame}
-
-
-\begin{frame}[label=otimizacao]
-\begin{exe}
-Determine o valor máximo da função $f(x,y,z)=x+2y+3z$ na curva da interseção do plano $x-y+z=1$ com o cilindro $x^2+y^2=1$.
-\end{exe}
-\begin{center}
-\includegraphics[scale=0.6]{figuras/sec14_8-fig8.png}
-\end{center}
-\end{frame}
+%\begin{center}
+%\includegraphics[scale=0.6]{figuras/sec14_8-fig8.png}
+%\end{center}
+%\end{frame}

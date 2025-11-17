@@ -566,8 +566,22 @@
 \headcommand {\beamer@framepages {219}{219}}
 \headcommand {\slideentry {14}{3}{2}{220/220}{Teorema Espectral}{0}}
 \headcommand {\beamer@framepages {220}{220}}
-\headcommand {\beamer@partpages {1}{220}}
 \headcommand {\beamer@subsectionpages {219}{220}}
-\headcommand {\beamer@sectionpages {215}{220}}
-\headcommand {\beamer@documentpages {220}}
-\headcommand {\gdef \inserttotalframenumber {206}}
+\headcommand {\beamer@subsectionentry {0}{14}{4}{221}{Cônicas Rotacionadas}}
+\headcommand {\slideentry {14}{4}{1}{221/221}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {221}{221}}
+\headcommand {\slideentry {14}{4}{2}{222/222}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {222}{222}}
+\headcommand {\slideentry {14}{4}{3}{223/223}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {223}{223}}
+\headcommand {\slideentry {14}{4}{4}{224/224}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {224}{224}}
+\headcommand {\slideentry {14}{4}{5}{225/225}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {225}{225}}
+\headcommand {\slideentry {14}{4}{6}{226/226}{Cônicas Rotacionadas}{0}}
+\headcommand {\beamer@framepages {226}{226}}
+\headcommand {\beamer@partpages {1}{226}}
+\headcommand {\beamer@subsectionpages {221}{226}}
+\headcommand {\beamer@sectionpages {215}{226}}
+\headcommand {\beamer@documentpages {226}}
+\headcommand {\gdef \inserttotalframenumber {212}}
