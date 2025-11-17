@@ -592,20 +592,26 @@ L_4\to L_4-11L_3\endpytx@SVMCR
 \left[\begin{matrix}0 & 0 & 2 & 0\\1 & 0 & 1 & 0\\0 & 1 & -2 & 0\\0 & 0 & 0 & 1\end{matrix}\right]\endpytx@SVMCR
 
 \pytx@SVMCR{pytx@MCR@py@default@default@241}
-\left[\begin{matrix}4 & 0 & 1\\2 & 3 & 2\\1 & 0 & 4\end{matrix}\right]\endpytx@SVMCR
+\left[\begin{matrix}-2 & 0 & -1\\1 & 1 & 0\\1 & 0 & 1\end{matrix}\right]\endpytx@SVMCR
 
-\pytx@SVMCR{pytx@MCR@py@default@default@243}
-\left[\begin{matrix}4 & 2 & 2\\2 & 4 & 2\\2 & 2 & 4\end{matrix}\right]\endpytx@SVMCR
+\pytx@SVMCR{pytx@MCR@py@default@default@242}
+\left[\begin{matrix}0 & 0 & -2\\1 & 2 & 1\\1 & 0 & 3\end{matrix}\right]\endpytx@SVMCR
 
 \pytx@SVMCR{pytx@MCR@py@default@default@244}
-\left[\begin{matrix}-1 & 7 & -1\\0 & 1 & 0\\0 & 15 & -2\end{matrix}\right]\endpytx@SVMCR
+\left[\begin{matrix}4 & 0 & 1\\2 & 3 & 2\\1 & 0 & 4\end{matrix}\right]\endpytx@SVMCR
 
 \pytx@SVMCR{pytx@MCR@py@default@default@246}
-\left[\begin{matrix}-1 & 2 & -2 & 10\\0 & -7 & 6 & -30\\0 & 2 & 0 & 7\\0 & 2 & -2 & 9\end{matrix}\right]\endpytx@SVMCR
+\left[\begin{matrix}4 & 2 & 2\\2 & 4 & 2\\2 & 2 & 4\end{matrix}\right]\endpytx@SVMCR
 
 \pytx@SVMCR{pytx@MCR@py@default@default@247}
+\left[\begin{matrix}-1 & 7 & -1\\0 & 1 & 0\\0 & 15 & -2\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@249}
+\left[\begin{matrix}-1 & 2 & -2 & 10\\0 & -7 & 6 & -30\\0 & 2 & 0 & 7\\0 & 2 & -2 & 9\end{matrix}\right]\endpytx@SVMCR
+
+\pytx@SVMCR{pytx@MCR@py@default@default@250}
 \left[\begin{matrix}1 & 0 & 1 & 1\\0 & -4 & -3 & -3\\0 & 1 & 1 & \frac{1}{2}\\0 & 1 & 1 & 1\end{matrix}\right]\endpytx@SVMCR
 
-\pytx@SVMCR{pytx@MCR@py@default@default@248}
+\pytx@SVMCR{pytx@MCR@py@default@default@251}
 \left[\begin{matrix}-1 & 0 & 0 & 0\\0 & -1 & 0 & 0\\0 & 0 & 1 & 0\\0 & 0 & 0 & 2\end{matrix}\right]\endpytx@SVMCR
 

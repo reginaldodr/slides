@@ -97,11 +97,17 @@ Matrizes semelhantes têm muitas propriedades em comum, por exemplo,
 
 \end{frame}
 
-\begin{frame}[label=autovalores]{}
+\begin{frame}[label=autovalores,fragile=singleslide]{}
+\begin{pycode}
+import sympy as sp
+
+A=sp.Matrix([[0,0,-2], [1,2,1], [1,0,3]])
+[P,D]=A.diagonalize()
+\end{pycode}
+
 \begin{exe}
-Defina $P$ como a matriz cujas colunas são os autovetores da matriz $A=\begin{bmatrix}
-0 & 0 & -2\\ 1 & 2 & 1 \\ 1 &0& 3
-\end{bmatrix}$ do exemplo anterior e calcule a matriz  $D=P^{-1}AP$, semelhante a $A$.
+Defina $P=\pyl{P}$, a matriz cujas colunas são os autovetores da matriz 
+$A=\pyl{A} $ do exemplo anterior e calcule a matriz  $D=P^{-1}AP$, semelhante a $A$.
 \end{exe}
 
 \begin{teo}
@@ -117,7 +123,9 @@ Dizemos que uma matriz quadrada $A$ é {\color{blue}diagonalizável} se for seme
 \end{defin}
 
 \begin{teo}
-Uma matriz $A$ de ordem $n$ é diagonalizável se, e só se, possui $n$ autovetores linearmente independentes. Neste caso, se $D=P^{-1}AP$ a matriz diagonal $D$ é formada pelos autovalores e a matriz $P$ tem as colunas formadas pelos autovetores.
+Uma matriz $A$ de ordem $n$ é {\color{blue} diagonalizável} se, e só se, {\color{red}possui $n$ autovetores linearmente independentes}. 
+
+Neste caso,  se ${\color{blue}D}={\color{red}P}^{-1}A{\color{red}P}$, então a  matriz diagonal {\color{blue}$D$ é formada pelos autovalores} e a matriz {\color{red}$P$ tem as colunas formadas pelos autovetores}.
 \end{teo}
 
 \end{frame}
