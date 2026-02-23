@@ -1,0 +1,83 @@
+\subsection*{Operador Prolongamento}
+
+\begin{frame}{Operador Prolongamento}
+	\begin{defin}
+		Seja $\Omega$ um aberto do $\R^\dm$. Um \dt{operador prolongamento} $P$ para $W^{1,p}(\Omega)$ é um operador linear limitado
+		\[P:W^{1,p}(\Omega)\to W^{1,p}(\R^\dm),\]
+		tal que $Pu\vert_\Omega =u$ para toda $u\in W^{1,p}(\Omega)$.
+	\end{defin}
+
+	Seja $x\in \R^\dm$, vamos escrever $x=(x',x_\dm)$, onde $x'=(x_1,\ldots,x_{\dm-1})$ e 
+	\begin{align*}
+	& \R^\dm_+=\{x\in \R^\dm;\ x_\dm>0\},\\
+	& Q_r=\{(x',x^\dm);\ \|x'\|<r \text{ e } |x_\dm|<r\},\\
+	& Q_r^+=Q_r\cap \R^\dm_+,\\
+	& Q_r^0=\{x\in Q_r; x_\dm=0\},\\
+	& Q_r^{-}=\{x\in Q_r; x_\dm<0\}.
+\end{align*}
+
+\end{frame}
+
+
+\subsection*{Carta local}
+\begin{frame}{Carta local}
+\begin{defin}
+	Seja $\Omega\subset \R^\dm$ um aberto. Dizemos que {\color{red}\(\partial \Omega\) é de classe $C^k$} ($k\geq 1$ inteiro) se para cada $x\in {\color{red} \partial \Omega }$, existem {\color{blue} \(r>0\)},  uma vizinhança {\color{blue}$U$} de $x$ em $\R^\dm$ e uma aplicação {\color{blue}$\varphi:Q_r\longrightarrow U$}  tal que 
+	\begin{enumerate}
+		\item{\color{blue} $\varphi$} é uma bijeção.
+		\item ${\color{blue}\varphi}\in C^k(\overline{Q_r})$, ${\color{blue}\varphi^{-1}}\in C^k(\overline{U})$.
+		\item ${\color{blue}\varphi}(Q_r^+)=U\cap \Omega$, ${\color{blue}\varphi}(Q_r^0)=U\cap \partial \Omega$.
+	\end{enumerate}
+Dizemos que o par {\color{blue} \((U, \varphi)\)} é chamada uma {\color{blue}carta local} de {\color{red} \(\partial \Omega\)}.
+\end{defin}
+
+\begin{obs}
+Cabe ressaltar que, por {\color{blue} \(\varphi\)} ser um difeomorfismo, podemos trocar {\color{blue} \(Q_r\)} por qualquer aberto de \(\rd\).
+\end{obs}
+
+
+\end{frame}
+
+
+\begin{frame}
+	\begin{teo}
+		Seja $\Omega\subset \R^\dm$ um {\color{red} aberto com fronteira $\partial \Omega$ {de classe $C^1$} e limitada } ou \(\Omega={\color{red} \rd_{+} }\). Então, dado \( p\in [1,+\infty]\) existe um operador prolongamento $P:W^{1,p}(\Omega)\longrightarrow W^{1,p}(\R^\dm)$.
+		\medskip
+		
+		Se, além disso, {\color{red} \(\Omega\) for limitado}, então dado um {\color{red} aberto limitado  } \(\Omega' \supset\supset \Omega \), tem-se que
+		\[ \supp(Pu)\subset \Omega',\ \forall\, u\in W^{1,p}(\Omega). \]
+	\end{teo}
+
+\begin{obs}
+Um exemplo de aberto {\color{blue} ilimitado},  com fronteira de classe \(C^1\) limitada, é \(\rd\setminus B(0,1)\). 
+\end{obs}
+\end{frame}
+
+\begin{frame}
+	\begin{corol}
+Seja \(\Omega\subset \rd \) um aberto {\color{red} com fronteira de classe \(C^1\) limitada}. Então o subespaço de \(\cc({\rd})\) formado pelas restrições em \(\Omega\) é um subespaço denso de \( W^{1,p}(\Omega)\), com \(1\leq p<\infty\). Precisamente, se \(u\in W^{1,p}(\Omega)\), então existe \((u_n)_{n\in \N}\subset C^\infty_c(\R^\dm)\) tal que 
+\[u_n\big\vert_\Omega\longrightarrow u \text{ em } W^{1,p}(\Omega).\]
+Em particular, \(C^\infty(\overline{\Omega})\) é denso em \(W^{1,p}(\Omega)\), sempre que \(\Omega\subset \rd \) é um aberto  {\color{red} com fronteira limitada de classe \(C^1\)}.
+	\end{corol}
+	
+\end{frame}
+
+\begin{frame}{Prova do Teorema do Prolongamento: Método de reflexão}
+
+
+Dado $u:Q_+\longrightarrow \R$, denote $u^\ast:Q\longrightarrow$ \dt{a extensão  por reflexão} de $u$, isto é,
+\[u^\ast(x',x^\dm)=\begin{cases}
+	u(x',x^\dm), & x^\dm>0,\\ u(x',-x^\dm), & x^\dm<0.
+\end{cases}\]
+	
+	\begin{lema}
+		Seja $u\in W^{1,p}(Q_+)$ (ou $ W^{1,p}(\R^\dm_+)$), com $1\leq p\leq +\infty$. Então $u^\ast\in W^{1,p}(Q)$ (ou $ W^{1,p}(\R^\dm)$) e 
+		\[\n{u^\ast}_{p,Q}\leq 2\n{u}_{p,Q_+} \text{ e } \n{u^\ast}{1,p,Q}\leq 2\n{u}_{1,p,Q_+}.\]
+		Em particular, $P:u\in W^{1,p}(\R_+^\dm) \longmapsto u^\ast \in W^{1,p}(\R^\dm)$, define um operador prolongamento.
+	\end{lema}
+	
+	
+\end{frame}
+
+
+

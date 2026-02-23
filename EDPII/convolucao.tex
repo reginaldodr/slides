@@ -1,0 +1,131 @@
+\section{Convolução}
+
+
+\subsection*{Definição de Convolução}
+\begin{frame}{Convolução}
+	\begin{prop}
+		Dados $f,g\in L^1(\R^\dm)$, considere a função
+		\[h(x)=\int_{\R^\dm}f(x-y)g(y)\,dy.\]
+		Então, $h$ está bem definida e pertence a $L^1(\R^\dm)$. Além disso, 
+		\[\n{h}_{L^1(\R^\dm)}\leq \n{f}_{L^1(\R^\dm)}\n{g}_{L^1(\R^\dm)}.\]
+	\end{prop}
+	
+\end{frame}
+\begin{frame}
+	\begin{defin}\label{def-conv}
+		Dados $f,g\in L^1(\R^\dm)$ definimos a  \dt{convolução} de $f$ e $g$ por
+		\[(f\ast g)(x)=\int_{\R^\dm}f(x-y)g(y)\,dy.\]
+	\end{defin}
+	\begin{prop}
+		Dados $f,g,h\in L^1(\R^\dm)$, então
+		\begin{enumerate}
+			\item 	$f\ast g=g*f$
+			\item $f\ast(g\ast h)=((f\ast g)\ast h)$
+				\end{enumerate}
+	\end{prop}
+
+\end{frame}
+
+
+\subsection*{Desigualdade de Young}
+\begin{frame}
+	\begin{prop}
+		Se $f\in L^1(\R^\dm)$ e $g\in L^p(\R^\dm)$ $(1\leq p\leq +\infty)$, então $f\ast g(x)$ existe para quase todo $x$, $f\ast g\in L^p(\R^\dm)$ e  
+		\[\n{f\ast g}_{L^p(\R^\dm)}\leq \n{f}_{L^1(\R^\dm)}\n{g}_{L^p(\R^\dm)}.\]
+	\end{prop}
+	
+	\begin{teo}[Desigualdade de Young]\label{teo-young}
+		Sejam $1\leq p,q,r\leq +\infty$ tais que 
+		\[\frac{1}{p}+\frac{1}{q}=1+\frac{1}{r}\]
+		Se $f\in L^p(\R^\dm)$, $g\in L^q(\R^\dm)$, então $f\ast g\in L^r(\R^\dm)$ e 
+		\[\n{f\ast g}_{L^r(\R^\dm)}\leq \n{f}_{L^p(\R^\dm)}\n{g}_{L^q(\R^\dm)}.\]
+	\end{teo}
+\end{frame}
+
+\begin{frame}
+	\begin{exer}
+		\begin{enumerate}
+			\item 		Demonstre o Teorema \ref{teo-young}.
+			
+			\item Se $f$ e $g$ são funções para as quais a convolução está bem definida, então 
+			\[\supp(f\ast g)\subset \supp f+\supp g.\]
+		\end{enumerate}
+
+	\end{exer}
+	
+	\begin{prop}
+		Se $f\in C_c(\R^\dm)$ e $g\in \Lloc^1(\R^\dm)$ a integral da Definição \ref{def-conv} está bem definida para \dt{todo} $x\in \R^\dm$. Além disso, $f\ast g\in C(\R^\dm)$.
+	\end{prop}
+
+\subsection*{Exercício \theexer}
+\end{frame}
+
+
+
+
+\subsection*{Notação de Multi-índice}
+\begin{frame}{Notação de Multi-índice}
+	Considere $u:\Omega\subset \R^\dm\to \R$, $x=(x_1,\ldots,x_n)\in \R^\dm$.
+	\begin{itemize}
+		\item Uma n-upla $\alpha=(\alpha_1,\ldots,\alpha_\dm)$ de números inteiros não negativos é chamada de \dt{multi-índice} de ordem 
+		\[|\alpha|=\alpha_1+\cdots+\alpha_\dm\]
+		
+		\item Definimos o operador derivação $D^\alpha$ por
+		\[D^\alpha u(x)= \frac{\partial^{|\alpha|}u(x)}{\partial{x_1}^{\alpha_1} \cdots\partial{x_d}^{\alpha_d}}=\partial_1^{\alpha_1}\partial_2^{\alpha_2}\cdots\partial_\dm^{\alpha_\dm}u(x)\]
+			
+		\item Escrevemos  $\alpha!=\alpha_1!\alpha_2!\cdots\alpha_n!$. Diremos que $\beta\leq \alpha$, se $\beta_i\leq \alpha_i$, para $i=1,2,\ldots,n$. Com essa notação a fórmula de Leibniz é escrita como:
+		\[D^\alpha(uv)=\sum_{\beta\leq \alpha}\frac{\alpha!}{\beta!(\alpha-\beta)!}(D^\beta u)(D^{\alpha-\beta} v).\]
+	\end{itemize}
+\end{frame}
+
+
+\subsection*{Derivação da convolução}
+\begin{frame}{Derivação da convolução}
+		
+	\begin{prop}
+		Sejam  $f\in C_c^k(\R^\dm)$ $(k\geq 1)$ e $g\in \Lloc^1(\R^\dm)$. Então $f\ast g\in C^k(\R^\dm)$ e 
+		\[D^\alpha(f\ast g)=(D^\alpha f)\ast g,\ \forall \alpha\in \N \text{ com } |\alpha|\leq k.\]
+		Em particular, se $f\in C_c^\infty(\R^\dm)$ e $g\in \Lloc^1(\R^\dm)$, então $f\ast g\in C^\infty(\R^\dm)$.
+	\end{prop}
+\end{frame}
+
+\subsection*{Funções regularizantes}
+\begin{frame}{Regularização de funções \footnotemark}
+		\begin{defin}
+		Uma sequência de funções  $(\rho_n)_{n\in \N}$ em $\R^\dm$ são ditas \dt{funções regularizantes} quando satisfazem:
+		\[\rho_n\in C_c^\infty (\R^\dm),\ \supp \rho_n \subset \overline{B_{1/n}(0)}\, \rho_n \geq 0 \ \text{ e } \int_{\R^\dm}\rho_n\, dx=1.\]
+	\end{defin}
+	\begin{exe}\label{seq-regul}
+		Sejam $\eta:\R^\dm\longrightarrow \R$ definida como no Exemplo \ref{ex-exponencial} e \(C=\left(\int_{\rd} \eta(x)\,dx\right)^{-1}\), defina \(\rho(x)=C\eta(x)\). Para cada $\ep>0$, defina a seguinte família de funções:
+		\[\textcolor{red}{\rho_\ep(x)=\frac{1}{\ep^\dm}\rho\left(\frac{x}{\ep}\right)}.\]
+Tomando $\ep=1/n$, temos uma sequencia de funções regularizantes.
+	\end{exe}
+\footnotetext[1]{A Técnica de regularização por convolução foi originalmente introduzida por Leray e Friedrichs}
+\end{frame}
+
+
+\subsection*{Densidade de \texorpdfstring{$C_c^\infty(\Omega)$ em $L^p(\Omega)$}{C𞁞∞ (Ω) em L𞀾(Ω)}}
+\begin{frame}{Densidade de $C_c^\infty(\Omega)$ em $L^p(\Omega)$}
+	\begin{prop}
+		Seja $(\rho_n)$ uma sequência de funções regularizantes. Se $f\in C(\R^\dm)$, então $\rho_n\ast f\to f$ uniformemente em cada compacto do $\R^\dm$.
+		
+	\end{prop}
+
+\begin{prop}
+	Seja $(\rho_n)$ uma sequência de funções regularizantes. Se $f\in L^p(\R^\dm)$, com $1\leq p<\infty$, então $\rho_n\ast f \to f$ em $L^p(\R^\dm)$, quando $n\to +\infty$.
+\end{prop}
+
+\begin{prop}\label{densLp}
+	Seja $\Omega \subset \R^\dm$ um aberto. Então $C_c^\infty(\Omega)$ é denso em $L^p(\Omega)$, para todo $1\leq p<\infty$.
+\end{prop}
+
+\end{frame}
+
+\subsection*{Lema de Du Bois Raymond}
+\begin{frame}{Lema de Du Bois Raymond}
+\begin{prop}[Du Bois Raymond - ver {\cite[Corollay 4.24]{brezis}} ]
+	Seja $\Omega$ um aberto de $\R^\dm$. Se $u\in \Lloc^1(\Omega)$ tal que 
+	\[\int_\Omega u(x)\varphi(x)\, dx=0, \ \forall \varphi\in C_c^\infty(\Omega).\]
+	Então $u=0$ q.s. em $\Omega$.  
+\end{prop}
+\end{frame}

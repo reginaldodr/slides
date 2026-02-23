@@ -1,0 +1,56 @@
+\subsection*{Traço}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Teorema do Traço}
+
+
+\begin{teo}[Caso \(\Omega=\rd_+\)] 
+Existe um operador linear contínuo \(\gamma_0: W^{1,p}(\rd_+)\longrightarrow L^p(\R^{d-1})\), denominado {\color{blue} operador traço}, tal que 
+se \(u\in C^0(\overline{\rd_+})\), então \(\gamma_0(u)=u\big\vert_{\R^{d-1}}\).
+\end{teo}
+
+\begin{teo} 
+Seja $\Omega\subset \R^\dm$ um {\color{blue} aberto limitado} {\color{red} com fronteira {de classe $C^1$}}. Então existe um operador linear contínuo \(\gamma_0: W^{1,p}(\Omega)\longrightarrow L^p(\partial \Omega)\), denominado {\color{blue} operador traço}, satisfazendo:
+Se \(u\in C^0(\overline{\Omega})\), então \(\gamma_0(u)=u\big\vert_{\partial\Omega}\).
+\end{teo}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{teo}[Fórmula de Integração por Partes]
+Seja \(\Omega\subset \rd\) um {\color{blue} aberto limitado } {\color{red} com fronteira de classe \(C^1\)}. Então, 
+\[
+\int_\Omega u\,\partial_iv\, dx
+=-\int_\Omega \partial_i u\, v\, dx
++\int_{\partial \Omega} \gamma_0(u)\gamma_0(v)\nu^i\, dS(x), 
+\] 
+para toda \(u\in W^{1,p}(\Omega), v\in W^{1,p'}(\Omega)\), onde \(\nu^i\) é a \(i-\)ésima coordenada o vetor normal \(\nu\) apontando para fora de \(\Omega\). 
+\end{teo}
+
+
+\begin{teo} 
+Seja $\Omega\subset \R^\dm$ um {\color{red} aberto limitado {de classe $C^1$}} ou \(\Omega=\rd_+\). Então
+\[\ker( \gamma_0 )=W_0^{1,p}(\Omega).\]
+\end{teo}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Traço Geral Espaços de Hilbert}
+\begin{frame}{Teorema do Traço Geral caso \(p=2\)}
+\begin{teo}
+Seja \(\Omega\subset \rd\) um {\color{blue} aberto limitado } {\color{red} com fronteira de classe \(C^1\)}. Então existe um operador  linear e contínuo \(\gamma: H^k(\Omega)\longrightarrow (L^2(\Omega))^k\), denominado {\color{blue}operador traço}, onde \(\gamma=(\gamma_0,\gamma_1,\ldots,\gamma_{k-1})\), satisfazendo
+\begin{enumerate}
+\item Se \(u\in C^{k-1}(\overline{\Omega})\), então \(\gamma_0(u)=u\big\vert_{\partial \Omega}\) e  \(\gamma_i(u)=\partial_iu\big\vert_{\partial \Omega}\), \(i=1,\ldots,k-1\).
+
+\item  \(\ker(\gamma)=H_0^k(\Omega).\)
+\end{enumerate}
+\end{teo}
+
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

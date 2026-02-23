@@ -1,0 +1,149 @@
+
+\section{Distribuições}
+
+\subsection*{Funções testes}
+\begin{frame}{Funções Testes}
+	\begin{defin}
+		Definimos o \dt{espaço das funções testes}, denotado por $\D(\Omega)$, o conjunto $C_c^\infty(\Omega)$ dotado da seguinte noção de convergência: Dados uma sequência $(\varphi_m)$ em  $\D(\Omega)$ e $\varphi\in \D(\Omega)$, dizemos que 
+		\[\varphi_m\to \varphi \text{ em } \D(\Omega),\]
+		quando existe $K\subset \Omega$ compacto tal que 
+		\begin{enumerate}[$i$]
+			\item $\supp \varphi_m$, $\supp \varphi\subset K$, $\forall m\in \N$;
+			\item $D^\alpha \varphi_m\to D^\alpha \varphi$ uniformemente em $K$, $\forall \alpha\in \N^n$.
+		\end{enumerate}
+	\end{defin}
+
+
+	Na verdade, $\D(\Omega)$ é o espaço vetorial $C_c^\infty(\Omega)$ munido de uma topologia definida por uma família de seminormas. Esta topologia nos dá a noção de convergência  acima. Para mais detalhes, veja \cite[Appendix 2]{kesavan} ou \cite[Seção 1.3]{cavalcanti-dist}.
+
+\end{frame}
+
+
+
+\subsection*{Distribuições}
+\begin{frame}{Distribuições sobre $\Omega$}
+	\begin{defin}
+		Seja $\Omega$ um aberto de $\R^\dm$.	Uma \dt{distribuição sobre $\Omega$} é um funcional linear $T:\D(\Omega)\longrightarrow \R$ que é contínua no sentido da convergência sobre $\D(\Omega)$, isto é, 
+		\begin{center}
+			para toda $\varphi_m\to 0$ em $\D(\Omega)$, tem-se que 
+			$\inp{T}{\varphi_m}\to 0$.
+		\end{center}
+		
+		
+		O espaço das distribuições é o dual do espaço das funções testes $\D(\Omega)$ e é denotado por $\D'(\Omega)$.
+	\end{defin}
+
+	
+\end{frame}
+
+\begin{frame}
+		\begin{exe}
+		 	Se $u\in \Lloc^1(\Omega)$, então $T_u$ definida por 
+				\[\inp{T_u}{\varphi}=\int_\Omega u(x)\varphi(x)\,dx, \ \varphi \in \D(\Omega)\]
+				é uma distribuição sobre $\Omega$.
+	
+	\end{exe}
+	\begin{prop}
+	A aplicação $T: u\in \Lloc^1(\Omega)\longmapsto T_u \in \D'(\Omega)$ é linear, injetiva e contínua, isto é, $\Lloc^1(\Omega)\hookrightarrow \D'(\Omega)$. 	
+\end{prop}
+
+\end{frame}
+
+\subsection*{Distribuição delta de Dirac}
+\begin{frame}{Distribuição delta de Dirac}
+	\begin{example}
+		\begin{enumerate}
+			\item 		Dado $x_0\in \Omega $, a aplicação $\delta_{x_0}$ definida por 
+			\[\inp{\delta_{x_0}}{\varphi}=\varphi(x_0),\ \varphi\in \D(\Omega),\]
+			é uma distribuição sobre $\Omega$ denominada \dt{delta de Dirac}\footnote{$\delta_0$ é conhecida por ``função $\delta$ de Dirac" e foi introduzida por Paul Dirac em 1930. Seus cálculos simbólicos não faziam sentido matemático até a correta formulação pela Teoria das Distribuições desenvolvida por Laurent Schwartz.}.
+			
+			\item A distribuição $\delta_{x_0}$ não é definida por uma função localmente integrável.
+		\end{enumerate}
+		
+	\end{example}
+
+\end{frame}
+
+\begin{frame}
+	\begin{exer}
+		Mostre que são distribuições:
+\begin{enumerate}
+	\item Seja $\lambda $ um caminho retificável de classe $C^1([a,b])$ cuja imagem está contida em $\Omega$. Defina
+	\[\inp{\delta_\lambda}{\varphi}=\int_\lambda \varphi\, ds,\ \forall \varphi\in \D(\Omega).\]
+	
+	\item Seja $v(x)=1/x,$ $x\neq 0$. Defina
+	\[\inp{VP(1/x)}{\varphi}=\lim\limits_{\ep\to 0}\int_{|x|>\ep}\frac{\varphi}{x}\,dx, \ \forall \varphi\in \D(\R),\]
+	denominada distribuição Valor Principal de $1/x$.
+	
+	\item O funcional $\varphi \in D(\Omega) \longmapsto \varphi'(0)\in \R$, conhecido como doublet ou dipole distribuition.
+\end{enumerate}
+	\end{exer}
+\subsection*{Exercício \theexer}
+\end{frame}
+
+
+\subsection*{Convergência de Distribuições}
+
+\begin{frame}{Convergência de Distribuições}
+	Sendo  $\D'(\Omega)$ o  dual de um espaço vetorial topológico, podemos considerar sobre ele a topologia fraca*. Com essa topologia, temos a seguinte noção de convergência.
+	
+	\begin{defin}
+Dizemos que $T_n\to T$ em $\D'(\Omega)$ se
+\[\inp{T_n}{\varphi}\to \inp{T}{\varphi},\ \forall \varphi \in \D(\Omega).\]
+	\end{defin}
+	\begin{exe}
+A sequência de funções regularizantes $(\rho_n)$ definidas no Exemplo \ref{seq-regul} converge para a distribuição delta de Dirac $\delta_{0}$. Isto é, uma sequência de funções localmente integráveis pode convergir para um distribuição que não é definida por uma função localmente integrável.
+	\end{exe}
+\end{frame}
+
+\subsection*{Derivadas das Distribuições}
+\begin{frame}{Derivadas das Distribuições}
+\begin{defin}
+	Sejam $T\in \D'(\Omega)$ e $\alpha\in \N^\dm$. A \dt{derivada} de ordem $\alpha$ de $T$ é a distribuição $D^\alpha T$ definida por:
+	\[\inp{D^\alpha T}{\varphi}=(-1)^{|\alpha|}\inp{T}{D^\alpha \varphi},\ \forall \varphi \in \D(\Omega).\]
+\end{defin}
+
+\begin{exe}
+	\begin{enumerate}[a]
+		\item Se $u\in C^1(\Omega)$ então a derivada no sentido das distribuições coincide com a derivada no sentido clássico.
+		
+		\item Se $\Omega=(-1,1)$ então a função  
+		$u(x)=\chi_{(0,1)}$ é localmente integrável, com derivada clássica $u'=0$, exceto em $x=0$, mas $Du=\delta_0$ no sentido das distribuições.
+		
+	\end{enumerate}
+\end{exe}
+\end{frame}
+
+	
+\subsection*{Derivada Fraca}
+\begin{frame}
+	
+\begin{defin}
+	Dados  $u\in \Lloc^1(\Omega)$ e $\alpha\in \N^\dm$, dizemos que $D^\alpha u\in \D'(\Omega)$ é a \dt{derivada fraca} de $u$ quando $D^\alpha u\in \Lloc^1(\Omega)$, isto é, quando existe $v\in \Lloc^1(\Omega)$ tal que 
+	\[\inp{D^\alpha u}{\varphi}=\int_\Omega v\varphi\, dx, \forall \varphi\in \D(\Omega).\]
+\end{defin}
+
+\begin{prop}
+Se $f$ é absolutamente contínua em $[a,b]$, então $f$ é derivável q.s. em $[a,b]$ e as derivadas clássicas e distribucional coincidem.
+\end{prop}
+
+\begin{prop}
+	Se $T_n\to T$ em $\D'(\Omega)$, então $D^\alpha T_n\to D^\alpha T$ em $\D'(\Omega)$, para qualquer multi-índice $\alpha$. Em outras palavras, o operador $D^\alpha: \D'(\Omega) \longrightarrow \D'(\Omega)$ é linear e contínuo.
+\end{prop}
+\end{frame}
+
+\subsection*{Multiplicação de distribuições por funções $C^\infty$}
+\begin{frame}{Multiplicação de distribuições por funções $C^\infty$}
+\begin{defin}
+	Sejam $T\in \D'(\Omega)$ e $\psi\in C^\infty(\Omega) $. O \dt{produto $\psi T$} por:
+	\[\inp{\psi T}{\varphi}=\inp{T}{\psi \varphi},\ \forall \varphi\in \D(\Omega) \]
+	define uma distribuição sobre $\Omega$.
+\end{defin}
+
+\begin{exer}
+	Prove a fórmula de Leibniz para distribuições: 	Seja $\Omega\subset \R^\dm$ um aberto. Se $\psi\in C^\infty(\Omega)$ e $T\in \D'(\Omega)$, então
+	\[D^\alpha(\psi T)=\sum_{\beta\leq \alpha}\frac{\alpha!}{\beta!(\alpha-\beta)!}D^\beta\psi D^{\alpha-\beta}T,\ \forall \alpha\in \N^\dm.\]
+\end{exer}
+\subsection*{Exercício \theexer}
+\end{frame}
+

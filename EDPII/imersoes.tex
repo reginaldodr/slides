@@ -1,0 +1,372 @@
+\section{Imersões de Sobolev}
+
+\begin{frame}{Imersões de Sobolev}
+	
+\begin{defin}
+	Sejam \(E\) e \(F\) espaços vetoriais normados. Dizemos que \(E\) está  \dt{imerso continuamente} em \(F\), quando existe uma aplicação linear {\color{red}injetora} \(T:E\longrightarrow F\), que também é contínua, isto é, existe \(C>0\) tal que
+	\[\n{T(u)}_F\leq C \n{u}_E.\]
+\end{defin}	
+
+No caso particular das imersões de Sobolev, {\color{blue}\(T\) será sempre a inclusão} entre um mesmo espaço vetorial \(X\) com normas diferentes, isto é \(E=(X,\|\cdot \|_E)\) e \(F=(X,\|\cdot\|_F)\), a qual é sempre injetora, bastando verificar apenas que 
+\[\|u\|_F\leq C\|u\|_E.\]	
+Neste caso, esta imersão será denotada  por {\color{blue} \(E\hookrightarrow F\)}.
+
+\end{frame}
+
+\begin{frame}
+\begin{exampleblock}{Pergunta}
+%	Se uma função \(u\in {\color{blue}W^{1,p}(\Omega)}\), então \(u\) pertence automaticamente a algum outro espaço \({\color{red}X}\)? Em outras palavras, \( {\color{blue}W^{1,p}(\Omega)}\subset {\color{red}X}\)? 
+Existe algum espaço  \({\color{red}X}\) para o qual temos automaticamente que  \({\color{blue}W^{1,p}(\Omega)}\hookrightarrow {\color{red} X }\)?
+\end{exampleblock}	
+A resposta é sim! Mas o espaço \({\color{red}X}\) depende de quando:
+\begin{equation*}
+	\begin{split}
+1\leq {\color{blue}p}<\dm, \\ {\color{blue}p}=\dm, \\ \dm<{\color{blue}p}\leq \infty.
+	\end{split}
+\end{equation*}	
+\end{frame}
+
+\subsection*{Desigualdade de Gagliardo-Nirenberg-Sobolev}
+\begin{frame}{Caso \(\Omega=\rd\) e \(1\leq p<\dm\)}
+	Começemos pelo caso \(1\leq p<\dm\) e \(\Omega=\rd\). Neste caso, veremos que 
+	\[{\color{blue}W^{1,p}(\rd)}\hookrightarrow {\color{red} L^q(\rd)},\]
+para algum \({\color{red} q}\).
+
+\begin{block}{Argumento de Reescala}
+	A fim de encontrarmos um candidato à {\color{red} \(q\) }, tome \(u\in \cc(\rd)\) e defina
+	\[u_\lambda(x)=u(\lambda x).\]
+	Suponha que 
+	\[\n{u_\lambda}_{{\color{red} q },\rd}\leq C \n{\nabla u}_{p,\rd}.\]
+\end{block}
+\end{frame}
+
+\begin{frame}{Expoente conjugado de Sobolev}
+Definimos o {\color{red}expoente conjugado de Sobolev de} \({\color{blue} p }\in [1,\dm)\) por
+	\[{\color{red} p^\ast }:=\frac{\dm {\color{blue} p }}{\dm - {\color{blue} p }}.\]
+Note que 
+\[\frac{1}{{\color{red} p^\ast }}=\frac{1}{{\color{blue} p }}-\frac{1}{\dm}\ \  \text{ e }\ \  {\color{red}  p^\ast }>{\color{blue} p }.\]
+
+
+\end{frame}
+
+\begin{frame}{Desigualdade de Gabliardo-Nirenberg-Sobolev}
+\begin{teo}[{Gabliardo-Nirenberg-Sobolev}]\label{GNS}
+Se \(1\leq{\color{blue}  p }< \dm\), então \(W^{1,{\color{blue} p }}(\rd)\subset L^{{\color{red} p^\ast }}(\rd)\) e existe uma constante \(C=C_{{\color{blue} p },\dm}>0\) tal que 
+\begin{equation*}
+\n{u}_{{\color{red} p^\ast },\rd}\leq C\n{\nabla u}_{{\color{blue} p },\rd}
+\end{equation*}
+\end{teo}
+\begin{exampleblock}{Passos da Prova}
+\begin{enumerate}
+\item Provar para \(u\in C^1_c(\rd)\).
+\begin{itemize}
+\item Caso \(p=1\): TFC + Desigualdade de Hölder + integrações sucessivas.
+\item Caso \(p>1\): Aplicar caso anterior para \(v=|u|^\gamma\), com \(\gamma=\frac{p(\dm -1)}{\dm-p}\).
+\end{itemize}
+\item Usar a densidade de \(\cc(\rd)\) em \(W^{1,p}(\rd)\)
+\end{enumerate}
+\end{exampleblock}
+
+\end{frame}
+
+
+\begin{frame}
+
+\begin{corol}
+Se \(1\leq {\color{blue} p }<\dm \), então
+\[W^{1,{\color{blue} p }}(\rd)\hookrightarrow L^q(\rd), \ \forall q\in [{\color{blue} p },{\color{red} p^\ast }].\]
+\end{corol}
+
+
+\begin{exampleblock}{Desigualdade de Interpolação para normas \(L^p\) {\cite[Appendix B.2(h)]{evans}}}
+Sejam \(\Omega\subset \rd\) um aberto e \(1\leq p\leq q\leq \infty\). Se \(u\in L^p(\Omega)\cap L^q(\Omega)\), então \(u\in L^r(\Omega)\) para todo \(r\in [p,q]\) e 
+\[
+\n{u}_{r,\Omega}\leq \n{u}^\theta_{p,\Omega}\n{u}_{q,\Omega}^{1-\theta},
+\]
+onde
+\[
+\frac{1}{r}=\frac{\theta}{p}+\frac{(1-\theta)}{q}
+\]
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Caso \(\Omega=\R^\dm\) e \(p=\dm\)}
+\begin{corol}
+Se \({\color{blue} p }=\dm\), então
+\[
+W^{1,{\color{blue}p}}(\rd) \hookrightarrow L^{\color{red} q }(\rd),\ \forall {\color{red} q }\in [\dm,+\infty).
+\]
+\end{corol}
+
+\begin{exampleblock}{}
+Usaremos a seguinte desigualdade obtida na prova do Teorema \eqref{GNS}:
+
+ \(\forall{\color{blue}  \gamma }>1 \), temos que
+\[
+{\color{red} \n{u}_{{\frac{{\color{blue} \gamma}\dm}{\dm-1}}}}
+\leq {\color{blue} \gamma }
+{\color{red} \n{u}^{{\color{blue} \frac{1}{\gamma'}}}_{p'(\gamma-1)}}\n{\nabla u}_p^{{\color{blue} \frac{1}{\gamma}}},\ \forall u\in \cc(\rd).
+\]
+\end{exampleblock}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Desigualdade Morrey}
+\begin{frame}{Caso \(\Omega=\R^\dm\) e \(p>\dm\)}
+\begin{teo}[Desigualdade de Morrey]
+Se \({\color{blue} p }>\dm\), então existe \(C=C_{{\color{blue}p},\dm}>0\) tal que  para toda \( u\in W^{1,{\color{blue} p }}(\rd) \) vale
+\[
+|u(x)-u(y)|\leq C|x-y|^{{\color{red} \gamma }} \n{\nabla u}_{1,{\color{blue} p },\rd} \text{ q.t.p } x,y\in \rd.
+\]
+onde \({\color{red} \gamma }:=1-\dm/{\color{blue} p }\).
+Consequentemente, 
+\[
+\n{u}_{C^{0,{\color{red} \gamma }}(\rd)}\leq C \n{u}_{1,{\color{blue}p},\rd}\, \forall u\in W^{1,{\color{blue} p }}(\rd),
+\]
+o que significa que
+\[
+W^{1,{\color{blue}p}}(\rd) \hookrightarrow C^{0,{\color{red} \gamma }}(\rd).
+\]
+\end{teo}
+
+%\begin{exampleblock}{Integral sobre hipersuperfícies em \(\rd\)}
+%\[
+%\int_M f(x)\, dx = \int_U f(x(u)) |\det[\frac{\partial x}{\partial u_1}]|
+%\]
+%\end{exampleblock}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Imersões de Sobolev Geral}
+\begin{frame}{Caso \(\Omega=\R^\dm\): Imersão Geral}
+\begin{teo}[Imersão de Sobolev Geral] Para todo \(k\geq 1\) e \({\color{blue} p }\in [1,+\infty]\)
+\begin{align*}
+& W^{k,{\color{blue} p }}(\rd)\hookrightarrow L^{\color{red} q }(\rd), \text{ com } \frac{1}{{\color{red} q }}=\frac{1}{{\color{blue} p }}-\frac{k}{\dm},  &
+ \text{ se } k{\color{blue} p }<\dm,\\
+%--------------------------------------
+& W^{k,{\color{blue} p }}(\rd)\hookrightarrow L^{\color{red} q }(\rd),\ \forall {\color{red} q }\in [{\color{blue} p },+\infty),& \text{ se }  k{\color{blue} p }=\dm,\\
+& W^{k,{\color{blue} p }}(\rd)\hookrightarrow C^{{\color{red} m },{\color{red} \gamma }}(\rd),
+%\text{ com }
+%{\color{red}m}:=\bigg\lfloor k-\frac{\dm}{{\color{blue} p }}\bigg\rfloor 
+%\text{ e } {\color{red} \gamma }=  \operatorname{frac}\left(k-\frac{\dm}{{\color{blue} p}}\right) 
+& \text{ se }  k{\color{blue} p }>\dm,
+\end{align*}
+onde 
+\[
+\begin{cases}
+{\color{red}m}:= k-\frac{\dm}{{\color{blue} p}} 
+\text{ e } 0< {\color{red} \gamma }<1,
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{é inteiro},\\
+{\color{red}m}:=\bigg\lfloor k-\frac{\dm}{{\color{blue} p }}\bigg\rfloor 
+\text{ e } {\color{red} \gamma }=  \operatorname{frac}\left(k-\frac{\dm}{{\color{blue} p}}\right), 
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{ não é inteiro},
+\end{cases}
+\]
+onde \(\lfloor\cdot \rfloor\) é a parte inteira de um número e \(\operatorname{frac(\cdot)}\) é a sua parte fracionária, isto é, \(\operatorname{frac}(x)=x-\lfloor x\rfloor\). A constante de imersão depende apenas de \(k, {\color{blue} p }\) e \(\dm\).
+\end{teo}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+\begin{exer}
+Provar este resultado. Basta aplicar os resultados anteriores indutivamente. Ver \cite{evans}.
+\end{exer}
+\subsection*{Exercício \theexer}
+
+\begin{exe}
+\begin{enumerate}
+\item \(W^{1,\infty}(\rd)\hookrightarrow C^{0,1}(\rd)\). Por isso as funções de  \(W^{1,\infty}(\rd)\) são chamadas de Lipschtzianas.
+\item \(W^{1,p}(\R)\hookrightarrow C^{0,\frac{1}{2}}(\R)\), para todo \(p>1\). 
+
+\item  \(W^{1,1}(\R)\hookrightarrow L^q(\R) \), para todo \(q\geq 1\). 
+
+\item \(H^k(\rd)\hookrightarrow C^0(\rd)\) para \(2k>\dm\). 
+
+\item  Se \(u\in W^{k,p}(\rd)\) para todo \(k>0\), então \(u\in C^\infty(\rd)\).
+\end{enumerate}
+\end{exe}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Caso \texorpdfstring{\(\Omega\subset\rd\)}{Ω⊂ℝᵈ}}
+\begin{frame}{O caso \(\Omega\subset\rd\)}
+\begin{teo}
+Seja \(\Omega\) um aberto de \(\rd\), {\color{red} com fronteira limitada \(C^1\)} ou \(\Omega={\color{red} \rd_{+} }\). Para todo \(k\geq 1\) e \({\color{blue} p }\in [1,+\infty]\)
+\begin{align*}
+& W^{k,{\color{blue} p }}(\Omega)\hookrightarrow L^{\color{red} q }(\Omega), \text{ com } \frac{1}{{\color{red} q }}=\frac{1}{{\color{blue} p }}-\frac{k}{\dm},  &
+ \text{ se } k{\color{blue} p }<\dm,\\
+%--------------------------------------
+& W^{k,{\color{blue} p }}(\Omega)\hookrightarrow L^{\color{red} q }(\Omega),\ \forall {\color{red} q }\in [{\color{blue} p },+\infty),& \text{ se }  k{\color{blue} p }=\dm,\\
+& W^{k,{\color{blue} p }}(\Omega)\hookrightarrow C^{{\color{red} m },{\color{red} \gamma }}(\Omega),
+%\text{ com } {\color{red}m}:=\bigg\lfloor k-\frac{\dm}{{\color{blue} p }}\bigg\rfloor 
+% \text{ e } {\color{red} \gamma }=  \operatorname{frac}\left(k-\frac{\dm}{{\color{blue} p}}\right)   ,   
+& \text{ se }  k{\color{blue} p }>\dm,
+\end{align*}
+onde 
+\[
+\begin{cases}
+{\color{red}m}:= k-\frac{\dm}{{\color{blue} p}} 
+\text{ e } 0< {\color{red} \gamma }<1,
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{é inteiro},\\
+{\color{red}m}:=\bigg\lfloor k-\frac{\dm}{{\color{blue} p }}\bigg\rfloor 
+\text{ e } {\color{red} \gamma }=  \operatorname{frac}\left(k-\frac{\dm}{{\color{blue} p}}\right), 
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{ não é inteiro},
+\end{cases}
+\]
+A constante de imersão depende apenas de \(k, {\color{blue} p }, \dm\) e \(\Omega\).
+\end{teo}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Imersões de \(W_0^{1,p}(\Omega)\)}
+
+Para \(W_0^{1,{\color{blue} p }}(\Omega)\), valem os mesmos resultados de imersão, com uma condição mais geral para \(\Omega\).
+
+\begin{teo}
+Seja \(\Omega\) um aberto de \(\rd\). Para todo \(k\geq 1\) e \({\color{blue} p }\in [1,+\infty]\)
+\begin{align*}
+& W_0^{k,{\color{blue} p }}(\Omega)\hookrightarrow L^{\color{red} q }(\Omega), \text{ com } \frac{1}{{\color{red} q }}=\frac{1}{{\color{blue} p }}-\frac{k}{\dm},  &
+ \text{ se } k{\color{blue} p }<\dm,\\
+%--------------------------------------
+& W_0^{k,{\color{blue} p }}(\Omega)\hookrightarrow L^{\color{red} q }(\Omega),\ \forall {\color{red} q }\in [{\color{blue} p },+\infty),& \text{ se }  k{\color{blue} p }=\dm,\\
+& W_0^{k,{\color{blue} p }}(\Omega)\hookrightarrow C^{{\color{red} m },{\color{red} \gamma }}(\Omega),
+& \text{ se }  k{\color{blue} p }>\dm,
+\end{align*}
+onde 
+\[
+\begin{cases}
+{\color{red}m}:= k-\frac{\dm}{{\color{blue} p}} 
+\text{ e } 0< {\color{red} \gamma }<1,
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{é inteiro},\\
+{\color{red}m}:=\bigg\lfloor k-\frac{\dm}{{\color{blue} p }}\bigg\rfloor 
+\text{ e } {\color{red} \gamma }=  \operatorname{frac}\left(k-\frac{\dm}{{\color{blue} p}}\right), 
+& \text{ se } k-\frac{\dm}{{\color{blue} p }} \text{ não é inteiro},
+\end{cases}
+\]
+A constante de imersão depende apenas de \(k, {\color{blue} p }, \dm\) e \(\Omega\).
+\end{teo}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Desigualdade de Poincaré}
+\begin{frame}{Desigualdade de Poincaré}
+
+\begin{teo}[Desigualdade de Poincaré]
+Seja \(\Omega\) um aberto {\color{red} limitado } de \(\rd\). Então, existe \(C=C_{p,\Omega}\) tal que, para todo  \({\color{blue} p }\in [1,\dm)\), vale
+\begin{equation*}
+\n{u}_{{\color{blue} p },\Omega}\leq C\n{\nabla u}_{{\color{blue} p },\Omega},\ \forall u\in W_0^{1,{\color{blue} p }}(\Omega).
+\end{equation*}
+\end{teo}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+
+\begin{obs}
+\begin{enumerate}
+\item A diferença com a desigualdade de imersão anterior é que temos apenas o gradiente de \(u \) aparece no lado direito.
+\item Não vale para domínios ilimitados. Por exemplo, dado \(\zeta\in \D(\rd)\) tal que \(\zeta\equiv 1\) em \(B(0,1)\), \(0\leq \zeta \leq 1\) e \(\zeta\equiv 0\) em \(\rd\setminus B(0,1)\), tome
+\(\zeta_n(x):=\zeta\left(\frac{x}{n}\right).\)
+Então
+\[
+\n{\zeta_n}_{p,\rd}\to +\infty \text{ e } \n{\zeta_n}_{1,p,\rd}\to 0, \text{ quando } n\to +\infty.
+\]
+\end{enumerate}
+\end{obs}
+
+\begin{exer}
+Leia o Remark 2.3.3 de \cite{kesavan}.
+\end{exer}
+\subsection*{Exercício \theexer}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Imersões Compactas}
+\begin{frame}{Imersões Compactas}
+\begin{defin}
+Uma imersão contínua \(E\hookrightarrow F\) é dita ser {\color{blue}compacta}, quando
+todo conjunto limitado em \(E\) é {\color{blue}relativamente compacto (ou precompacto)} em \(F\). Em outras palavras, se \(\mathcal{B}\) é limitado em \(E\), então o fecho de \(\mathcal{B}\) em \(F\) é compacto.  Neste caso, usaremos a notação \(E\ic F\).
+\end{defin}
+
+\begin{prop}
+Uma imersão contínua \(E\hookrightarrow F\) é dita ser {\color{blue}compacta} se, e somente se,  cada sequência limitada \((u_n)\subset E\) possui uma subsequência convergente  em \(F\). 
+\end{prop}
+
+\begin{prop}
+Se \(E\hookrightarrow F \ic G\) ou  \(E\ic F \hookrightarrow G\) e \(G\) é completo, então \(E\ic G\).
+\end{prop}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Teorema de Ascoli-Arzelà}
+
+\begin{teo}[Ascoli-Arzelà]
+Seja \(K\) um espaço métrico compacto e \(C(K)\) o conjunto das funções contínuas \(f:K\to \R\) com a norma do \(\sup\). Se um subconjunto \(\mathcal{B}\) de   \(C(K)\)  satisfaz:
+\begin{enumerate}
+\item \(\mathcal{B}\) é limitado em \(C(K)\);
+\item \(\mathcal{B}\) é uniformemente equicontínuo, isto é, 
+\[\forall\, \ep>0, \exists\, \delta>0 \text{ tal que } d(x_1,x_2)<\delta \Rightarrow |f(x_1)-f(x_2)|<\ep,\ \forall f\in \mathcal{B};\]
+\end{enumerate}
+então \(\mathcal{B}\) é relativamente compacto em \(C(K)\).
+\end{teo}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Critério de Compacidade Forte em \(L^p\)}
+
+Denotamos a {\color{blue}translação de \(f\) por \(h\)} por \(\tau_hf(x)=f(x+h)\), \(x\in \rd\) e \(h\in \rd\).
+
+
+
+\begin{teo}[Fréchet-Kolmogorov]
+Seja \(\mathcal{F}\) um subconjunto de \(L^p(\rd)\), com \(1\leq p<\infty\). Se 
+\begin{enumerate}
+\item \(\mathcal{F}\) é limitado em \(L^p(\rd)\);
+\item \(\lim\limits_{|h|\to 0}\|\tau_hu-u\|_{p,\rd}=0\) uniformemente em \(\mathcal{F}\), isto é, 
+\[\forall\, \ep>0, \exists\, \delta>0 \text{ tal que } |h|<\delta \Rightarrow \|\tau_hu-u\|_{p,\rd}<\ep,\ \forall u\in \mathcal{F}.\]
+\end{enumerate}
+Então \(\mathcal{F}\big\vert_\Omega\) é relativamente compacto em \(L^p(\Omega)\), para qualquer \(\Omega\subset \rd\) com medida finita. 
+\end{teo}
+
+A prova deste resultado encontra-se em  \cite[Theorem 4.26]{brezis}.
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{Imersões Compactas}
+
+\begin{teo}[Rellich-Kondrachov]
+Seja \(\Omega \subset \rd\) um aberto limitado com fronteira de classe \(C^1\). Então as seguintes imersões são compactas:
+\begin{enumerate}
+\item \(W^{1,p}(\Omega)\ic L^q(\Omega) \), \(1\leq q <p^\ast\), se \(p<\dm\),
+\item \(W^{1,\dm}(\Omega)\ic L^q(\Omega) \), \(1\leq q <\infty\), se \(p=\dm\),
+\item \(W^{1,p}(\Omega)\ic C^{0,\gamma}(\overline{\Omega}) \), \(1\leq q <p^\ast\), se \(p>\dm\),
+\end{enumerate}
+\end{teo}
+
+\begin{lemaaux}
+Se \(u\in W^{1,p}(\rd)\), então 
+\[\|\tau_hu-u\|_{p,\rd}\leq |h|\,\|\nabla u\|_{p,\rd}, \forall\, h\in \rd. \]
+\end{lemaaux}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

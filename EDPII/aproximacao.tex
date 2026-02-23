@@ -1,0 +1,92 @@
+\subsection*{Aproximação por Funções Suaves}
+
+\begin{frame}{Aproximação por Funções Suaves}
+	
+Dados $\Omega\subset \R^\dm$ uma aberto e $\ep>0$, defina $\Omega_\ep=\{x\in \Omega;\ \operatorname{dist}(x,\partial \Omega)>\ep\}$. Dado $u\in L^p(\Omega)$ denotemos por $\tilde{u}$ a extensão a zero de $u$. Se $\rho\in C^\infty_c(\R^n)$, defina
+\[\rho\ast u(x)=\rho\ast \tilde{u}(x),\ \forall x\in \Omega.\]
+
+	
+	\begin{prop}
+		Sejam $\Omega \subset \R^\dm$ um aberto e $u\in W^{k,p}(\Omega)$, com $1\leq p<+\infty$, e seja $(\rho_n)$ uma sequência regularizante. Então,
+		\begin{enumerate}
+			\item 	$u_n=\rho_n\ast u \in C^\infty(\Omega)$ e $D^\alpha u_n=D^\alpha \rho_n\ast u$ em $\Omega$, para todo $\alpha\in \N$, $|\alpha|\leq k$.
+			
+			\item $u_n\to u$ em $L^p(\Omega)$.
+			
+			\item Dado $\ep>0$, $D^\alpha u_n =\rho_n\ast D^\alpha u$ em $\Omega_\ep$, para $n$ suficientemente grande,  $\forall \alpha\in \N$, $|\alpha|\leq k$.
+		\end{enumerate}
+	
+	\end{prop}
+	
+\end{frame}
+
+\begin{frame}{Aproximação Local por funções suaves}
+\begin{teo}[Friedrichs]
+	Sejam $\Omega \subset \R^\dm$ um aberto e $u\in W^{k,p}(\Omega)$ com $1\leq p<+\infty$. Então, existe uma sequência $(v_n)$ em $\D(\R^\dm)$ tal que:
+	\begin{equation*}
+		\begin{split}
+			&	v_n\to u \text{ em } L^p(\Omega);\\		
+			&	D^\alpha v_n \to  D^\alpha u, \text{ em } L^p(\Omega') \text{ para todo } \Omega'\subset\subset \Omega,\  \forall \alpha\in \N,\ |\alpha|\leq k. 
+		\end{split}
+	\end{equation*}
+\end{teo}
+
+
+\end{frame}
+
+\subsection*{Regra da Cadeia}
+\begin{frame}{Regra da Cadeia}
+	\begin{prop}[Regra da Cadeia]
+		Seja $G\in C^1(\R)$ tal que $G'\in L^{\infty}(\R)$. Se $u\in W^{1,p}(\Omega)$, então $G\circ u\in W^{1,p}(\Omega)$ e 
+		\[\partial_i (G\circ u)=(G'\circ u)\partial_i u,\ 1\leq i\leq N.\]
+	\end{prop}
+	
+
+
+\end{frame}
+
+
+%\begin{frame}
+%	
+%	\begin{teo}[Rademarcher]
+%		Seja $\Omega$ um aberto do $\R^\dm$.	Se $G:\Omega \to \R$ é Lipschitz contínua, então $G$ é diferenciável quase sempre em $\Omega$.
+%	\end{teo}
+%	
+%		\begin{teo}[Regra da Cadeia - {\cite[Th. 2.1.11]{Ziemer}} ]
+%		Sejam $G:\R\longrightarrow  \R$ uma função Lipschitziana e $1\leq p$. Se $u\in W^{1,p}(\Omega)$ e  $G\circ u\in L^p(\Omega)$, então $G\circ u\in W^{1,p}(\Omega)$ e
+%		\[\partial_i (G\circ u)=(G'\circ u)\partial_i u,\ 1\leq i\leq N.\]
+%	\end{teo}
+%\end{frame}
+
+
+
+\begin{frame}{Aproximação global por funções suaves}
+\begin{teo}[Meyers-Serrin{\footnotemark[1]}]
+	Sejam $\Omega\subset\R^\dm$ um aberto e \textcolor{red}{limitado} e $u\in W^{k,p}(\Omega)$, com $1\leq p<+\infty$. Então 
+	\[C^\infty(\Omega)\cap W^{k,p}(\Omega) \text{ é denso em }  W^{k,p}(\Omega),\]
+	isto é,  existe uma sequência de funções $(u_n)$ em $C^\infty(\Omega)\cap W^{k,p}(\Omega)$ tal que 
+	\[u_n\to u \text{ em } W^{k,p}(\Omega).\]
+\end{teo}
+
+\footnotetext{N. Meyers and J. Serrin, H=W, \textit{Proc. Nat. Acad. Sci. USA} \textbf{51} (1964), 1055 -- 1056. \href{https://doi.org/10.1073/pnas.51.6.1055}{doi:10.1073/pnas.51.6.1055}
+}
+\end{frame}
+
+\begin{frame}
+	\begin{obs}
+			Nenhum desses casos se estendem para $p=\infty$. Vejamos um exemplo simples. Considere $\Omega=(-1,1)$ e $u(x)=x\chi_{(0,1)}$. Então $u\in W^{1,+\infty}(\Omega)$ mas não pode ser aproximado por funções suaves.
+	\end{obs}
+
+\begin{prop}
+	Sejam $1\leq p<+\infty$ e $u\in W^{1,p}(\Omega)$. Se $u$ tem suporte compacto, então $u\in W^{1,p}_0(\Omega)$.
+\end{prop}
+
+%\begin{teo}[Stampachia{\footnotemark[1]} - Regra da Cadeia em $W_0^{1,p}(\Omega)$]
+%	Seja $G:\R\longrightarrow  \R$ uma função Lipschitziana tal que $G(0)=0$. Se $\Omega$ é um aberto \textcolor{red}{limitado} de $\R^\dm$ e $u\in W^{1,p}_0(\Omega)$, então $G\circ u\in W^{1,p}_0(\Omega)$.
+%\end{teo}
+%
+%\footnotetext{Stampacchia, Guido. ``Equations elliptiques du second ordre à coefficients discontinus." Séminaire Jean Leray 3 (1966): 1-77. \href{http://www.numdam.org/item/SJL_1963-1964___3_1_0/}{www.numdam.org/item/SJL$\_$1963-1964}}
+
+\end{frame}
+
+

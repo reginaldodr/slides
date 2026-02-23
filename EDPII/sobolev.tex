@@ -1,0 +1,91 @@
+\section{Espaços de Sobolev}
+
+\subsection*{Espaços de Sobolev}
+\begin{frame}{Espaços de Sobolev}
+\begin{defin}
+ Sejam $\Omega \subset \R^\dm$, $k\geq 0$ um inteiro e $1\leq p\leq +\infty$. O \dt{Espaço de Sobolev} $W^{k,p}(\Omega)$  é o espaço vetorial normado definido por 
+ \[W^{k,p}(\Omega):=\{u\in L^p(\Omega);\ D^\alpha u\in L^p(\Omega),\ \forall\, |\alpha|\leq k\},\]
+ com a norma dada por 
+ \[\n{u}_{k,p,\Omega}=\n{u}_{W^{k,p}(\Omega)}=\left(\sum_{|\alpha|\leq k} \n{D^\alpha u}^p_{L^p(\Omega)}\right)^{1/p}.\]
+
+\end{defin}
+
+
+
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Notações}
+		\begin{enumerate}
+			
+			\item Note que $W^{0,p}(\Omega)=L^p(\Omega)$ e  $\n{u}_{0,p,\Omega}=\n{u}_{L^p(\Omega)}$ que denotaremos simplesmente por $\n{u}_{p,\Omega}$.
+			
+			\item Quando não houver perigo de confusão omitiremos $\Omega$ na notação da norma.
+			
+			
+		\item   Se $p=2$, escrevemos $H^k(\Omega)=W^{k,2}(\Omega)$. 
+		\end{enumerate}
+	\end{block}
+
+	\begin{exer}
+	Mostre que $W^{k,p}(\Omega)$ é um espaço vetorial normado e que  $\n{u}_{k,p,\Omega}$ é equivalente à norma
+	\[\n{u}=\sum_{|\alpha|\leq k}\n{D^\alpha u}_{L^p(\Omega)}.\]
+\end{exer}
+\end{frame}
+
+\begin{frame}
+	\begin{exe}
+\begin{enumerate}[a]
+	\item Sejam $\Omega=(-1,1)$ e	$u(x)=x\chi_{(0,1)}$. Note que $u\in L^1(-1,1)$, $u'\in L^1(-1,1)$ no sentido clássico, mas $Du=\delta_0\not\in L^1(-1,1)$ (não possui derivada fraca), portanto $u\not\in W^{1,1}(-1,1)$.
+	
+	\item Sejam $\Omega=B(0,1)$, $\alpha>0$ e $u(x)=\|x\|^{-\alpha}$, $x\in \Omega$, $x\neq 0$. Mostre que $u\in W^{1,p}(\Omega)$ se, e somente se, $0<\alpha<\frac{N-p}{p}$.
+\end{enumerate}
+
+	\end{exe}
+
+\subsection*{Exercício \theexer}
+\end{frame}
+
+
+\begin{frame}
+	\begin{prop}
+	Para todo $1\leq p\leq +\infty$, $W^{k,p}(\Omega)$ é um espaço de Banach. Se $1<p<+\infty$ ele é reflexivo e se $1\leq p<+\infty$ é separável.
+\end{prop}
+
+\begin{lema}
+	Sejam $\Omega$ um aberto de $\R^\dm$ e $1\leq p\leq +\infty$. A aplicação 
+	\[u\in W^{1,p}(\Omega)\longmapsto (u,\partial_1 u,\ldots,\partial_\dm u)\in L^p(\Omega)^{\dm+1}\]
+	é uma \textcolor{red}{ isometria}, onde estamos munindo o espaço $L^p(\Omega)^{\dm+1}$ com a norma
+	\[\n{v}=\left(\sum_{i=1}^{\dm+1}\n{v_i}_{p,\Omega}^p\right)^{1/p}\]
+\end{lema}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{O espaço \texorpdfstring{\(W_0^{1,p}(\Omega)\)}{W₀¹ 𞀾(Ω)}}
+
+\begin{frame}{Espaços $W_0^{k,p}(\Omega)$}
+Como vimos na Proposição \ref{densLp}, $\D(\Omega)$ é denso em $L^p(\Omega)$, mas isto não é verdade para $W^{k,p}(\Omega)$. Por essa razão, define-se o espaço 
+\[W_0^{k,p}(\Omega):=\overline{\D(\Omega)}^{\|\cdot\|_{k,p}}.\]
+
+Quando $p=2$, escrevemos $H_0^k(\Omega)$ no lugar de $W^{k,2}_0(\Omega)$. 
+
+\begin{exer}
+Sejam \(1<{\color{blue} p }<+\infty\),  \(\Omega\) um aberto de \(\rd\) e \(u\in W_0^{1,{\color{blue} p }}(\Omega)\). Mostre que \(\tilde{u}\in W^{1,{\color{blue} p }}(\rd)\), onde  \(\tilde{u}\) é a extensão de \(u\) a zero fora de \(\Omega\). Além disso, 
+\[
+\partial_i \tilde{u}=\widetilde{\partial_i u},\ i=1,\ldots, \dm.
+\]
+\end{exer}
+\subsection*{Exercício \theexer}
+\end{frame}
+
+\begin{frame}
+
+\begin{prop}
+ Sejam $1\leq p<+\infty$ e $k\geq 0$ um inteiro. Então $W_0^{k,p}(\R^\dm)=W^{k,p}(\R^\dm)$.
+\end{prop}
+
+\begin{lemaaux}
+	Sejam $\rho\in C_c^\infty(\R^\dm)$ e $v\in W^{1,p}(\R^\dm)$, $1\leq p< +\infty$. Então 
+	\[\rho\ast v\in C^\infty(\R^\dm) \cap W^{1,p}(\R^\dm), \text{ e } \partial_i(\rho\ast v)=\rho\ast \partial_i v,\  \forall i=1,\ldots,N.\]
+\end{lemaaux}
+\end{frame}

@@ -1,0 +1,232 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[envcountsect,aspectratio=169]{beamer}
+%\documentclass[envcountsect,mathserif,aspectratio=43]{beamer}
+\usepackage{etex}
+
+
+%\documentclass[envcountsect,mathserif]{beamer}
+\usefonttheme[onlymath]{serif}
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsthm}
+\usepackage{amssymb,mathtools}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{syntonly}
+\usepackage{pgf,tikz}
+\usepackage{enumerate}
+%\usepackage{hyperref}
+\usetikzlibrary{arrows.meta, bending, decorations.markings}
+
+%\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pdfstringdefDisableCommands{\let\backslash\textbackslash}
+\hypersetup{psdextra}
+
+\usepackage[labelformat=empty]{caption}
+
+
+\usetikzlibrary{arrows}
+
+%\usepackage{tabularx}
+%\usepackage{booktabs}
+%\usepackage{colortbl}
+\usetikzlibrary{calc}
+
+
+%\syntaxonly
+%\includeonly{bibliografia,espacos-normados,operadores-lineares,hanh-banach,grafico-fechado, top-fracas}%
+%\usebackgroundtemplate{\includegraphics{calculus2.eps}}
+
+
+%\definecolor{estrutura}{RGB}{110, 139, 61}
+%\definecolor{darkolivegreen}{RGB}{85, 107, 47}
+%\definecolor{palegreen}{RGB}{152, 251, 152}
+%\definecolor{DarkSeaGreen}{RGB}{143, 188, 143}
+%\definecolor{lightyellow}{RGB}{255, 255, 224}
+
+
+
+%\usetheme{Frankfurt}
+%\usetheme{Boadilla}
+\usetheme{Madrid}
+%\usetheme{crane}
+%\usecolortheme{orchid} 
+
+%\setbeamertemplate{headline}{\vskip  -2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setcounter{section}{-1}
+
+\setbeamertemplate{theorems}[ams style]
+\setbeamertemplate{enumerate items}[circle]
+%\numberwithin{subsection}{section}
+%\numberwithin{theorem}{subsection}
+
+\newtheorem{nada}{Nada}[section]
+
+
+%\theoremstyle{definition}
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{defin}[teo]{Definição}
+\newtheorem{prop}[teo]{Proposição}
+
+\newtheorem{corol}[teo]{Corolário}
+\newtheorem{lema}[teo]{Lema}
+
+
+
+\newtheorem{outline}{\timesbold outline rem proof}
+
+\newtheorem{obs}[teo]{Observação}
+\newtheorem{afir}{Afirmação}
+
+\theoremstyle{example}
+\newtheorem{exe}[teo]{Exemplo}
+\newtheorem{lemaaux}[teo]{Lema}
+
+\makeatletter
+\def\th@something{%
+  \normalfont % body font
+  \def\inserttheoremblockenv{alertblock}  
+}
+
+
+\makeatletter
+\def\th@exercicio{%
+	\normalfont % body font
+	\def\inserttheoremblockenv{alertblock}  
+}
+\theoremstyle{exercicio}
+\newtheorem{exer}[nada]{\includegraphics[scale=0.035]{w-homework.png} Exercício}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%------------ sets ----------------------
+\newcommand{\dt}[1]{{\color{blue} #1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\dm}{N}
+\newcommand{\im}{\operatorname{Im}} 
+   
+\newcommand{\dps}{\displaystyle}
+\newcommand{\fm}{\textordfeminine}
+\newcommand{\mc}{\textordmasculine}
+\newcommand{\ep}{\varepsilon}
+
+\newcommand{\interior}{\operatorname{int}}
+\newcommand{\s}[1]{\dps\sum_{n=#1}^{+\infty}}
+\newcommand{\card}{\operatorname{card}}
+
+%-------------- norms and inner products ---------------
+\newcommand{\n}[1]{\|#1\|}
+\newcommand{\evn}{espaço vetorial normado}
+\newcommand{\nvs}{normed vector space }
+\newcommand{\Lloc}{L_{\operatorname{loc}}}
+\newcommand{\D}{\mathcal{D}}
+
+\DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{_{#1, #2}}
+
+%-----------   relations ------------------------
+\newcommand{\ic}{\stackrel{c}{\hookrightarrow}}
+
+
+%---------- Operators -------------------------
+%\newcommand{\esup}{\operatorname{ess\ sup}}
+\DeclareMathOperator{\esup}{ess\ sup}
+\DeclareMathOperator{\supp}{supp}
+
+%----------- spaces ---------------------
+\newcommand{\cc}{C^\infty_c}
+\newcommand{\rd}{\R^\dm}
+
+
+%------------ others --------------------
+\newcommand{\itemnum}[1]{%
+\setcounter{enumi}{#1}\usebeamertemplate{enumerate item}% 
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+%\numberwithin{section}{part}
+%\AtBeginPart{\beamer@tocsectionnumber=0\relax}
+%\makeatother
+
+
+
+\begin{document}
+
+\setbeamercovered{transparent}
+\title[EDP II]{Equações Diferenciais Parciais  II
+}
+\author[Prof. Reginaldo]{Prof. Reginaldo Demarque\\
+\medskip
+\includegraphics[scale=0.2]{capa.jpeg}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%------------   LOGO --------------------------------
+\pgfdeclareimage[height=0.5cm]{left-logo}{imeuff2.png}
+\pgfdeclareimage[height=0.6cm]{right-logo}{UFF_brasao.png}
+\logo{\pgfuseimage{right-logo}}
+
+\setbeamertemplate{sidebar left}
+{
+	\logo{\pgfuseimage{left-logo}}
+	\vfill%
+	\rlap{\hskip0.1cm\insertlogo}%
+	\vskip10pt%
+}
+%----------------- LOGO ------------------------------
+
+
+\institute[IMEUFF]{Universidade Federal Fluminense -- UFF\\
+Instituto de Matemática e Estatítica -- IMEUFF\\
+Pós-Graduação  em Matemática -- PGMAT
+}
+
+
+\date[ ]{ }
+
+
+\frame{\titlepage}
+
+
+
+\begin{frame}
+	\frametitle{Sumário}
+	%\begin{multicols}{1}
+		\tableofcontents
+	%\end{multicols}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{bibliografia}
+\include{preliminares}
+\include{convolucao}
+\include{distribuicoes}
+\include{sobolev}
+\include{aproximacao}
+\include{prolongamento}
+\include{traco}
+\include{imersoes}
+
+\end{document}
+
+
+
