@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 FEB 2026 06:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 FEB 2026 07:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1588,45 +1588,46 @@ Package caption Info: End \AtBeginDocument code.
  (./EDP2.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 175.
+(hyperref)                setting the option has no effect on input line 190.
 
-<capa.jpeg, id=30, 642.4pt x 367.3725pt>
-File: capa.jpeg Graphic file (type jpg)
-<use capa.jpeg>
-Package pdftex.def Info: capa.jpeg  used on input line 208.
-(pdftex.def)             Requested size: 128.47772pt x 73.47319pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 222
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 222
+.
 
-Overfull \vbox (1.94086pt too high) detected at line 208
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 222.
+
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
+2.
+
+
+Overfull \vbox (23.97044pt too high) detected at line 222
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imeuff2.png> <./UFF_bras
-ao.png> <./capa.jpeg>] (./EDP2.toc) [2
+ao.png>] (./EDP2.toc) [2
 
 ]
 \openout2 = `bibliografia.aux'.
 
- (./bibliografia.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+ (./bibliografia.tex [3
 
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.pdf>])
 \openout2 = `preliminares.aux'.
 
- (./preliminares.tex
-[4
+ (./preliminares.tex [4
 
 
 
@@ -1635,7 +1636,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
-] [7
+]
+[7
 
 ]
 
@@ -1659,7 +1661,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ] [11
 
 ]
-<w-homework.png, id=484, 513.92pt x 452.69125pt>
+<w-homework.png, id=483, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 154.
@@ -1910,11 +1912,11 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32280 strings out of 474222
- 653439 string characters out of 5748733
+ 32272 strings out of 474222
+ 653313 string characters out of 5748733
  1945975 words of memory out of 5000000
- 53649 multiletter control sequences out of 15000+600000
- 574104 words of font info for 97 fonts, out of 8000000 for 9000
+ 53641 multiletter control sequences out of 15000+600000
+ 573810 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,22n,123p,674b,2442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1941,10 +1943,10 @@ ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on EDP2.pdf (71 pages, 1113076 bytes).
+Output written on EDP2.pdf (71 pages, 1043348 bytes).
 PDF statistics:
- 3570 PDF objects out of 3580 (max. 8388607)
+ 3569 PDF objects out of 3580 (max. 8388607)
  2735 compressed objects within 28 object streams
  202 named destinations out of 1000 (max. 500000)
- 4021 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4016 words of extra memory for PDF output out of 10000 (max. 10000000)
 
