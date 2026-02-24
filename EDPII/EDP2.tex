@@ -146,6 +146,7 @@
 %\newcommand{\esup}{\operatorname{ess\ sup}}
 \DeclareMathOperator{\esup}{ess\ sup}
 \DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\diver}{div}
 
 %----------- spaces ---------------------
 \newcommand{\cc}{C^\infty_c}
@@ -173,20 +174,23 @@
 \author[Prof. Luiz e Reginaldo]{
 \vspace{-.5cm}
 \begin{equation*}
-{\normalsize {\color{blue} 
+{\normalsize {
 \begin{cases}
-u_t+Lu={f},& \text{ em } \Omega\times (0,T)\\
+u_t+{\color{red}L}u={f},& \text{ em } \Omega\times (0,T)\\
 u=0, & \text{ em } \partial \Omega \times (0,T)\\
-u=g, & \text{ em } \Omega
+u=g, & \text{ em } \Omega,
 \end{cases}}
 }
 \end{equation*}
 \begin{equation*}
-{\footnotesize {\color{blue} 
-Lu=-\sum_{i,j=1}^{N}a^{ij}(x,t)u_{x_ix_j}}
+{\footnotesize {\color{red} 
+Lu=-\diver(\mathbf{A}(x,t)\nabla u)+\mathbf{b}(x,t)\cdot \nabla u + c(x,t)u}
 }
+%{\footnotesize {\color{red} 
+%Lu=-\sum_{i,j=1}^{N}(a^{ij}(x,t)u_{x_i})_{x_j}+\sum_{i=1}^{N}b^i(x,t)u_{x_i}+c(x,t)u}
+%}
 \end{equation*}\\
-Prof. Luiz Viana e Prof. Reginaldo Demarque
+{\color{blue}Prof. Luiz Viana e Prof. Reginaldo Demarque}
 }
 
 
