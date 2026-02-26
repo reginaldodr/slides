@@ -1,0 +1,122 @@
+\section{Equações Lineares Elípticas de 2ª ordem}
+
+
+
+\begin{frame}{Equações Elípticas de Segunda Ordem}
+Desejamos estudar o problema de valor de fronteira
+\[
+\begin{cases}
+{\color{red}L}{\color{blue}u}=f, & \text{ em } \Omega;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+\end{cases}
+\]
+onde \(\Omega\in \rd\) é aberto e limitado e 
+\begin{itemize}
+\item {\color{blue}\(u:\overline{\Omega}\longrightarrow \R\)}
+é uma função desconhecida;
+\item \(f:\Omega \longrightarrow \R\) é uma função dada;
+\item {\color{red}\(L\)} é um operador diferencial parcial de 2ª ordem que possui uma das seguintes formas:
+\end{itemize}
+%{\color{red}
+%\[
+%Lu=-\sum_{i,j=1}^{\dm}\left(a^{ij}(x)u_{x_i}\right)_{x_j}+\sum_{i=1}^{\dm}b^i(x)u_{x_i}+c(x)u
+%\]
+%}
+%ou 
+%{\color{red}
+%\[
+%Lu=-\sum_{i,j=1}^{\dm}a^{ij}(x)u_{x_ix_j}+\sum_{i=1}^{\dm}b^i(x)u_{x_i}+c(x)u
+%\]
+%}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Operador Elíptico}
+\begin{itemize}
+\item Forma Divergente
+{\color{red}
+\[
+Lu=-\sum_{i,j=1}^{\dm}\left(a^{ij}(x)u_{x_i}\right)_{x_j}+\sum_{i=1}^{\dm}b^i(x)u_{x_i}+c(x)u
+\]
+}
+\item Forma não divergente
+{\color{red}
+\[
+Lu=-\sum_{i,j=1}^{\dm}a^{ij}(x)u_{x_ix_j}+\sum_{i=1}^{\dm}b^i(x)u_{x_i}+c(x)u
+\]
+}
+\end{itemize}
+onde \(a^{ij},b^i, c :\Omega \longrightarrow \R\) são funções dadas com \(i,j\in \ind\).
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Definição de Soluções Fracas}
+\begin{frame}{Soluções Fracas}
+\begin{defin}
+Dados \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), definiremos a forma bilinear {\color{blue}\(B:\ho\times \ho\longrightarrow \R\) associada ao operador L na forma divergente}, por 
+{\color{red}\[
+B(u,v)=\int_\Omega \sij a^{ij}u_{x_i}v_{x_j}+\si b^iu_{x_i}v+cuv\,dx.
+\]}
+\end{defin}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Soluções Fracas}
+\begin{defin}
+Sejam{\color{red} \(f\in H^{-1}(\Omega)\)} e {\color{red}\(B\)} a forma bilinear associada ao operador {\color{red} \(L\)} na forma divergente. 
+Dizemos que {\color{blue}\(u\in \ho\)} é uma {\color{blue}solução fraca} do problema 
+{\color{red}\[
+\begin{cases}
+{L}{\color{blue}u}=f, & \text{ em } \Omega;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+\end{cases}
+\]}
+se 
+{\color{red}
+\[B({\color{blue}u},{\color{black}v})=\innp{f,{\color{black}v}}_{H^{-1},H_0^1},\ \forall\, {\color{black} v}\in \ho.\]
+}
+\end{defin}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Teorema de Lax-Milgram}
+\begin{frame}{Teorema de Lax-Milgram}
+\begin{teo}[Lax-Milgram]
+Seja \(H\) um {\color{blue}espaço de Hilbert real}, e suponhamos que \(B:H\times H\longrightarrow \R\) seja uma {\color{blue}forma bilinear contínua}. Suponhamos também que exista {\color{blue}\(\beta>0\)} tal que
+\[
+B(u,v)\geq {\color{blue}\beta} \n{u}^2 \text{ para todo } u\in H. \quad {\color{red}\text{(coercividade)}}
+\]
+ Então, para cada \(\varphi\in H'\), existe um único {\color{red}\(u_0\in H\)} tal que 
+\[
+B({\color{red}u_0},v)=\innp{\varphi,v}_{H',H},\ \text{ para todo } v\in H.
+\]
+\end{teo}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Elipticidade}
+\begin{frame}{Elipticidade}
+\begin{defin}
+Dizemos que o operador diferencial {\color{red}\(L:\Omega\longrightarrow \R \)} é {\color{blue}uniformemente elíptico} se exister \(\theta>0\) tal que
+{\color{red}\[
+\sij a^{ij}(x)\xi_i\xi_j\geq \theta |\xi|^2,
+\]}
+para quase todo \(x\in \Omega\) e todo \(\xi=(\xi_1,\ldots,x_\dm)\in \rd\). 
+\end{defin}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{obs}
+\begin{enumerate}[a]
+\item Daqui em diante, assumiremos a {\color{red}condição de simetria}, isto é, 
+\[{\color{red}a^{ij}=a^{ji},\ \forall\, i,j\in \ind.}\]
+\item \(Lu=-\Delta u\) é um operador elíptico.
+\item Se {\color{red}\(L\) é uniformemente elíptico}, então, para cada \(x\in \Omega\), a matriz
+\[
+A(x)=[a^{ij}(x)]_{i,j=1}^\dm
+\]
+é {\color{red}positiva e definida}. 
+\end{enumerate}
+\end{obs}
+\end{frame}

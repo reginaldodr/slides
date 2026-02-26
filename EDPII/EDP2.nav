@@ -239,8 +239,49 @@
 \headcommand {\beamer@framepages {70}{70}}
 \headcommand {\slideentry {5}{8}{4}{71/71}{Imersões Compactas}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\beamer@partpages {1}{71}}
-\headcommand {\beamer@subsectionpages {68}{71}}
 \headcommand {\beamer@sectionpages {54}{71}}
-\headcommand {\beamer@documentpages {71}}
-\headcommand {\gdef \inserttotalframenumber {71}}
+\headcommand {\beamer@subsectionpages {68}{71}}
+\headcommand {\sectionentry {6}{Espaço Dual}{72}{Espaço Dual}{0}}
+\headcommand {\slideentry {6}{0}{1}{72/72}{}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\beamer@sectionpages {72}{72}}
+\headcommand {\beamer@subsectionpages {72}{72}}
+\headcommand {\sectionentry {7}{Equações Lineares Elípticas de 2ª ordem}{73}{Equações Lineares Elípticas de 2ª ordem}{0}}
+\headcommand {\slideentry {7}{0}{1}{73/73}{}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {7}{0}{2}{74/74}{}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\beamer@subsectionpages {73}{74}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{75}{Definição de Soluções Fracas}}
+\headcommand {\slideentry {7}{1}{1}{75/75}{Definição de Soluções Fracas}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {7}{1}{2}{76/76}{Definição de Soluções Fracas}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\beamer@subsectionpages {75}{76}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{77}{Teorema de Lax-Milgram}}
+\headcommand {\slideentry {7}{2}{1}{77/77}{Teorema de Lax-Milgram}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\beamer@subsectionpages {77}{77}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{78}{Elipticidade}}
+\headcommand {\slideentry {7}{3}{1}{78/78}{Elipticidade}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {7}{3}{2}{79/79}{Elipticidade}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\beamer@sectionpages {73}{79}}
+\headcommand {\beamer@subsectionpages {78}{79}}
+\headcommand {\sectionentry {8}{Equações Lineares Parabólicas de 2ª ordem}{80}{Equações Lineares Parabólicas de 2ª ordem}{0}}
+\headcommand {\beamer@subsectionpages {80}{79}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{80}{Funções em Espaços de Banach}}
+\headcommand {\slideentry {8}{1}{1}{80/80}{Funções em Espaços de Banach}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {8}{1}{2}{81/81}{Funções em Espaços de Banach}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\beamer@subsectionpages {80}{81}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{82}{Exercício 8.1}}
+\headcommand {\slideentry {8}{2}{0}{82/82}{Funções em Espaços de Banach}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\beamer@partpages {1}{82}}
+\headcommand {\beamer@subsectionpages {80}{82}}
+\headcommand {\beamer@sectionpages {80}{82}}
+\headcommand {\beamer@documentpages {82}}
+\headcommand {\gdef \inserttotalframenumber {82}}

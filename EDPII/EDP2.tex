@@ -119,6 +119,7 @@
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\dm}{N}
 \newcommand{\im}{\operatorname{Im}} 
+\newcommand{\ind}{\{1,\ldots,\dm\}}
    
 \newcommand{\dps}{\displaystyle}
 \newcommand{\fm}{\textordfeminine}
@@ -127,16 +128,20 @@
 
 \newcommand{\interior}{\operatorname{int}}
 \newcommand{\s}[1]{\dps\sum_{n=#1}^{+\infty}}
+\newcommand{\sij}{\sum_{i,j=1}^{\dm}}
+\newcommand{\si}{\sum_{i=1}^{\dm}}
 \newcommand{\card}{\operatorname{card}}
 
 %-------------- norms and inner products ---------------
-\newcommand{\n}[1]{\|#1\|}
+%\newcommand{\n}[1]{\|#1\|}
 \newcommand{\evn}{espaço vetorial normado}
 \newcommand{\nvs}{normed vector space }
 \newcommand{\Lloc}{L_{\operatorname{loc}}}
 \newcommand{\D}{\mathcal{D}}
 
-\DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{_{#1, #2}}
+\DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{#1, #2}
+\DeclarePairedDelimiter{\innp}{\langle}{\rangle}
+\DeclarePairedDelimiter{\n}{\|}{\|}
 
 %-----------   relations ------------------------
 \newcommand{\ic}{\stackrel{c}{\hookrightarrow}}
@@ -151,6 +156,7 @@
 %----------- spaces ---------------------
 \newcommand{\cc}{C^\infty_c}
 \newcommand{\rd}{\R^\dm}
+\newcommand{\ho}{H_0^1(\Omega)}
 
 
 %------------ others --------------------
@@ -244,6 +250,9 @@ Pós-Graduação  em Matemática -- PGMAT
 \include{prolongamento}
 \include{traco}
 \include{imersoes}
+\include{dual}
+\include{elipticas}
+\include{parabolicas}
 
 \end{document}
 

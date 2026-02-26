@@ -1,0 +1,48 @@
+\section{Equações Lineares Parabólicas de 2ª ordem}
+
+
+\subsection*{Funções em Espaços de Banach}
+\begin{frame}{Funções em Espaços de Banach}
+Seja \(T>0\) um número real e {\color{blue}\((X,\|\cdot\|)\)}	um espaço de Banach real. Para uma função {\color{blue}\(u:[0,T]\longrightarrow X\)} temos os seguintes conceitos, cujo enunciado preciso podem ser encontrados em \cite[\S E.5]{evans},
+\begin{itemize}
+\item {\color{blue}\(u\)} é dita ser {\color{blue}fortemente mensurável} quando é o limite de uma sequências de funções simples em \(X\).
+\item  {\color{blue}\(u\)} é dita ser {\color{blue} somável ou integrável} quando é fortemente mensurável e a função real \(t\longmapsto {\color{blue}\|u(t)\|}\) é integrável. Neste caso, a sua integral é um elemento de {\color{blue}\(X\)} e será denotado por:
+\[\int_0^T {\color{blue}u(t)}\,dt.\]
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{teo}
+Se \(u:[0,T]\longrightarrow X\) é integrável, então
+\[
+\left\|\int_0^T u(t)\,dt\right\|\leq \int_0^T \|u(t)\|\,dt
+\]
+e, para toda \(A\in X'\), 
+\[
+\left\langle A, \int_0^T u(t)\,dt\right\rangle_{X'X}=\int_0^T \left\langle A, u(t)\right\rangle_{X',X}\, dt
+\]
+\end{teo}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{defin}
+O espaço \(L^p(0,T;X)\) consiste das funções \(u:[0,T]\longrightarrow X\) integráveis tais que \(\n{u(\cdot)}\in L^p(0,T)\). Em \(L^p(0,T;X)\), definimos a norma:
+\[
+\n{u}_{L^p(0,T;X)}=\left(\int_0^T \n{u(t)}^p\right)^{1/p},\ 1\leq p<\infty, 
+\]
+e
+\[
+\n{u}_{L^\infty(0,T;X)}=\esup_{0\leq t\leq T}\n{u(t)}.
+\]
+\end{defin}
+
+\begin{exer}
+Mostre que \(L^p(0,T;X)\) é um espaço de Banach.
+\end{exer}
+
+\subsection*{Exercício \theexer}
+
+\end{frame}
