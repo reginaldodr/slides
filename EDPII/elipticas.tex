@@ -50,12 +50,34 @@ onde \(a^{ij},b^i, c :\Omega \longrightarrow \R\) são funções dadas com \(i,j
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Definição de Soluções Fracas}
-\begin{frame}{Soluções Fracas}
+
+\subsection*{Soluções Fracas}
+\begin{frame}{Motivação}
+Consideremos o operador {\color{red}\(L\)} na forma divergente, com \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), e \(f\in L^2(\Omega)\). 
+
+Dado {\color{blue}\(v\in \cc(\Omega)\)}, e usando integração por partes, podemos ver que:
+\begin{center}
+\begin{minipage}{0.7\textwidth}
+\begin{block}{}
+\[
+{\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}{\color{blue}v}+c\,u{\color{blue}v}\,dx=\int_\Omega f{\color{blue}v}\,dx.
+}
+\]
+\end{block}
+\end{minipage}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
 \begin{defin}
 Dados \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), definiremos a forma bilinear {\color{blue}\(B:\ho\times \ho\longrightarrow \R\) associada ao operador L na forma divergente}, por 
-{\color{red}\[
-B(u,v)=\int_\Omega \sij a^{ij}u_{x_i}v_{x_j}+\si b^iu_{x_i}v+cuv\,dx.
-\]}
+\[
+{\color{red}
+B(u,{\color{blue}v})=\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}v+cu{\color{blue}v}\,dx.
+}
+\]
 \end{defin}
 
 
@@ -63,7 +85,7 @@ B(u,v)=\int_\Omega \sij a^{ij}u_{x_i}v_{x_j}+\si b^iu_{x_i}v+cuv\,dx.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Soluções Fracas}
 \begin{defin}
-Sejam{\color{red} \(f\in H^{-1}(\Omega)\)} e {\color{red}\(B\)} a forma bilinear associada ao operador {\color{red} \(L\)} na forma divergente. 
+Sejam {\color{red} \(f\in H^{-1}(\Omega)\)} e {\color{red}\(B\)} a forma bilinear associada ao operador {\color{red} \(L\)} na forma divergente. 
 Dizemos que {\color{blue}\(u\in \ho\)} é uma {\color{blue}solução fraca} do problema 
 {\color{red}\[
 \begin{cases}

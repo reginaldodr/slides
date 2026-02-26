@@ -5,5 +5,5 @@
 \beamer@sectionintoc {4}{Espaços de Sobolev}{35}{0}{4}
 \beamer@sectionintoc {5}{Imersões de Sobolev}{54}{0}{5}
 \beamer@sectionintoc {6}{Espaço Dual}{72}{0}{6}
-\beamer@sectionintoc {7}{Equações Lineares Elípticas de 2ª ordem}{73}{0}{7}
-\beamer@sectionintoc {8}{Equações Lineares Parabólicas de 2ª ordem}{80}{0}{8}
+\beamer@sectionintoc {7}{Equações Lineares Elípticas de 2ª ordem}{74}{0}{7}
+\beamer@sectionintoc {8}{Equações Lineares Parabólicas de 2ª ordem}{82}{0}{8}

@@ -1,5 +1,30 @@
 \section{Espaço Dual}
 
 \begin{frame}{O Espaço \(H^{-1}(\Omega)\)}
-conteúdo...
+\begin{exampleblock}{Notação}
+Denotamos por \(\hd\) o dual topológico do espaço \(H_0^1(\Omega)\). Usaremos  \(\innp{\cdot,\cdot}_{H^{-1},H_0^1}\), ou simplesmente \(\innp{\cdot,\cdot}\), para denotar o par entre \(\hd\) e \(\ho\).
+\end{exampleblock}
+
+Apesar de \(\ho\) ser um espaço de Hilbert, não faremos a identificação com seu dual \(\hd\). Vamos considerar as seguintes imersões:
+\[
+\ho\hookrightarrow L^2(\Omega)\hookrightarrow \hd,
+\]
+sendo a última dada por:
+\[
+\innp{u,v}:=(u,v)_{2,\Omega}, \forall\, u\in L^2(\Omega) \text{ e } \forall\, v\in H_0^1(\Omega).
+\]
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{teo}[Caracterização de \(\hd\)]
+Se \(f\in \hd\), então existem \(f^0, f^1, \ldots, f^\dm\in L^2(\Omega)\), não unicamente determinados, tais que 
+\begin{equation}\label{carH}
+\innp{f,v}=\int_\Omega f^0v\,dx+\si \int_\Omega f^iv_{x_i}dx,\ \forall\, v\in \ho.
+\end{equation}
+Além disso, 
+\[\n{f}_{\hd}=\min\left\{\left(\si \n{f^i}_{2,\Omega}\right)^{1/2}; f \text{ satisfaz  \eqref{carH} para } f^i,\ i\in\ind.   \right\}
+\]
+\end{teo}
 \end{frame}
