@@ -31,35 +31,78 @@
 \end{frame}
 
 \subsection*{Teorema de Fubini-Tonelli}
-\begin{frame}{Teorema de Fubini-Tonelli}
-	Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida e seja $X\times Y$ munido com a medida produto.
+\begin{frame}{Teorema de Fubini-Tonelli em \(\R^N\)}
+	Sejam $X\subset \R^r$ e $Y\subset \R^s$ conjuntos mensuráveis com \(m_r(X)>0\) e \(m_s(Y)>0\). Então \(X\times Y\subset \R^r\times \R^s\) é mensurável e 
+	\[m_{r+s}(X\times Y)=m_r(X)m_s(Y).\]
+	
+	Além disso, se \(f:X\longrightarrow \bar{\R}\) e \(g:Y\longrightarrow\bar{\R}\) são funções mensuráveis, então a função
+	\[h(x,y)=f(x)g(y)\]
+	é mensurável.
 	 
+	
+
+
+
+\end{frame}
+
+\begin{frame}{Teorema de Fubini-Tonelli em \(\R^N\)}
+
 	
 	Dado $F:X\times Y\longrightarrow \bar{\R}$, definimos as funções
 	\[F_x(y)=F(x,y), \ y\in Y \text{ e } F^y(x)=F(x,y),\ x\in X\]
 		\begin{teo}[Tonelli]
-		Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida \dt{$\sigma$-finitos}.	Se $F:X\times Y\longrightarrow \bar{\R}$ é uma \dt{função mensurável e não negativa}, então as funções $f(x)=\int_{Y}F_x\,d\nu$ e $g(y)=\int_{X}F^y\,d\mu$ são mensuráveis e 
+		Sejam $X\subset \R^r$ e $Y\subset \R^s$ conjuntos mensuráveis.	Se $F:X\times Y\longrightarrow \bar{\R}$ é uma \dt{função mensurável} e {\color{red}não negativa}, então as funções $f(x)=\int_{Y}F_x\,dy$ e $g(y)=\int_{X}F^y\,dx$ são mensuráveis e 
 		\begin{equation*}
-			\int_{X\times Y}F(x,y) \, d(\mu\times \nu)=\int_{X}\left[\int_Y F(x,y)\,d\nu \right] \,d\mu=\int_{Y}\left[\int_X F(x,y)\,d\mu \right] \,d\nu		
+			\int_{X\times Y}F(x,y) \, dxdy=\int_{X}\left[\int_Y F(x,y)\,dy \right] \,dx=\int_{Y}\left[\int_X F(x,y)\,dx \right] \,dy		
 		\end{equation*}
 	\end{teo}
 
 \end{frame}
 
 \begin{frame}
-	
-	\begin{teo}[Fubini]
-		Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida \dt{$\sigma$-finitos}. Se $F\in L^1(X\times Y)$, então 
-		\begin{enumerate}
-			\item $F_x\in L^1(Y)$ q.t.p.  $x\in X$ e $F^y\in L^1(X)$ q.t.p  $y\in Y$.
-			\item $f(x)=\int_{Y}F_x\,d\nu\in L^1(X)$ e $g(y)=\int_{X}F^y\,d\mu\in L^1(Y)$.
+%	
+\begin{teo}[Fubini]
+Sejam $X\subset \R^r$ e $Y\subset \R^s$ conjuntos mensuráveis. Se $F\in L^1(X\times Y)$, então 
+\begin{enumerate}
+\item $F_x\in L^1(Y)$ q.t.p.  $x\in X$ e $F^y\in L^1(X)$ q.t.p  $y\in Y$.
+\item $f(x)=\int_{Y}F_x\,dy\in L^1(X)$ e $g(y)=\int_{X}F^y\,d\,x\in L^1(Y)$.
 			\end{enumerate}	
 		Além disso, 
-			\begin{equation*}
-			\int_{X\times Y}F(x,y) \, d(\mu\times \nu)=\int_{X}\left[\int_Y F(x,y)\,d\nu \right] \,d\mu=\int_{Y}\left[\int_X F(x,y)\,d\mu \right] \,d\nu		
+		\begin{equation*}
+			\int_{X\times Y}F(x,y) \, dxdy=\int_{X}\left[\int_Y F(x,y)\,dy \right] \,dx=\int_{Y}\left[\int_X F(x,y)\,dx \right] \,dy		
 		\end{equation*}
 \end{teo}
 \end{frame}
+
+%\begin{frame}{Teorema de Fubini-Tonelli}
+%	Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida e seja $X\times Y$ munido com a medida produto.
+%	 
+%	
+%	Dado $F:X\times Y\longrightarrow \bar{\R}$, definimos as funções
+%	\[F_x(y)=F(x,y), \ y\in Y \text{ e } F^y(x)=F(x,y),\ x\in X\]
+%		\begin{teo}[Tonelli]
+%		Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida \dt{$\sigma$-finitos}.	Se $F:X\times Y\longrightarrow \bar{\R}$ é uma \dt{função mensurável e não negativa}, então as funções $f(x)=\int_{Y}F_x\,d\nu$ e $g(y)=\int_{X}F^y\,d\mu$ são mensuráveis e 
+%		\begin{equation*}
+%			\int_{X\times Y}F(x,y) \, d(\mu\times \nu)=\int_{X}\left[\int_Y F(x,y)\,d\nu \right] \,d\mu=\int_{Y}\left[\int_X F(x,y)\,d\mu \right] \,d\nu		
+%		\end{equation*}
+%	\end{teo}
+%
+%\end{frame}
+%
+%\begin{frame}
+%	
+%	\begin{teo}[Fubini]
+%		Sejam $(X,\mathcal{M},\mu)$ e $(Y,\mathcal{N},\nu)$ espaços de medida \dt{$\sigma$-finitos}. Se $F\in L^1(X\times Y)$, então 
+%		\begin{enumerate}
+%			\item $F_x\in L^1(Y)$ q.t.p.  $x\in X$ e $F^y\in L^1(X)$ q.t.p  $y\in Y$.
+%			\item $f(x)=\int_{Y}F_x\,d\nu\in L^1(X)$ e $g(y)=\int_{X}F^y\,d\mu\in L^1(Y)$.
+%			\end{enumerate}	
+%		Além disso, 
+%			\begin{equation*}
+%			\int_{X\times Y}F(x,y) \, d(\mu\times \nu)=\int_{X}\left[\int_Y F(x,y)\,d\nu \right] \,d\mu=\int_{Y}\left[\int_X F(x,y)\,d\mu \right] \,d\nu		
+%		\end{equation*}
+%\end{teo}
+%\end{frame}
 
 
 
@@ -181,7 +224,7 @@ Mostre que $\eta\in C_c^\infty(\R^\dm)$ e  $\supp \eta=\overline{B_1(0)}$.
 Sejam \(\Omega\subset \rd\) um aberto, \(K\subset V \subset \Omega\), com \(K\) compacto e \(V\) aberto. Dizemos que \(\phi:\Omega \longrightarrow \R\) é  \dt{uma função corte subordinada a \(V\) e identicamente 1 em $K$.} quando 
 \[ \phi\in C_c(\Omega),\ \supp \phi \subset V,\ \phi=1 \text{ em } K \text{ e }
  0\leq \phi(x)\leq 1, \forall\, x\in \Omega.\]
-Neste caso, usaremos a notação:
+\textbf{Notação do Rudin:}
 \[K\prec \phi \prec V\]
 %\begin{enumerate}
 %\item \(K \prec \phi\)\ significa que \(K\subset \Omega\) é um compacto, \(0\leq \phi(x)\leq 1\) para todo \(x\in \Omega\), \(\phi=1\) em \(K\) e \(\phi\in C_c(\Omega)\).

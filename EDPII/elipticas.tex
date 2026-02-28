@@ -142,3 +142,47 @@ A(x)=[a^{ij}(x)]_{i,j=1}^\dm
 \end{enumerate}
 \end{obs}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Estimativas de Energia}
+\begin{frame}
+\begin{teo}[Estimativas de Energia]
+Existem constantes {\color{blue}\(\alpha,\beta>0\)} e {\color{red}\(\gamma \geq 0\)} tais que 
+\[|B(u,v)|\leq {\color{blue}\alpha} \n{u}_{\ho}\n{v}_{\ho}\]
+e
+\[
+{\color{blue}\beta}\n{u}_{\ho}^2\leq B(u,u)+{\color{red}\gamma} \n{u}_{L^2(\Omega)}^2,
+\]
+para todo \(u,v\in \ho.\)
+\end{teo}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{1º Teorema de Existência de Solução Fraca}
+\begin{frame}
+\begin{teo}
+Existe {\color{blue}\(\gamma \geq 0\)} com a seguinte propriedade: dados 
+\[ {\color{red}\mu}\in [{\color{blue}\gamma},\infty) \text{ e } {\color{red}f\in L^2(\Omega)},\]
+existe uma única solução fraca {\color{red}\(u\in \ho\)} para o problema 
+\[
+{\color{red}\begin{cases}
+Lu+\mu u=f, & \text{ em } \Omega;\\
+u=0, & \text{ sobre } \partial\Omega.
+\end{cases}}
+\]
+\end{teo}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Alternativas de Fredholm}
+\begin{frame}{Operadores Compactos}
+\begin{defin}
+Sejam \(X\) e \(Y\) dois espaços de Banach. Dizemos que \(K\in L(X;Y)\) é um {\color{blue}operador compacto} se \(\overline{K(B_X)}\) é um subconjunto compacto de \(Y\), onde 
+\[B_X=\{x\in X; \n{x}\leq 1\}.\]
+Em outras palavras, quando \(K\) é um operador compacto, para toda sequência \((x_n)_{n=1}^\infty\)
+limitada em \(X\), sabemos que \( (K(x_n))_{n=1}^\infty \) possui uma subsequência que converge em \(Y\).
+ \end{defin}
+ 
+\begin{prop}
+Se \(H\) é um espaço de Hilbert e \(K\in L(H)\) é um operador compacto, então \(K^\ast\) também é. 
+\end{prop}
+\end{frame}
