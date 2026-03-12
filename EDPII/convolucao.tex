@@ -5,7 +5,7 @@
 \begin{frame}{Convolução}
 	\begin{prop}
 		Dados $f,g\in L^1(\R^\dm)$, considere a função
-		\[h(x)=\int_{\R^\dm}f(x-y)g(y)\,dy.\]
+		\[h({\color{red}x})=\int_{\R^\dm}f({\color{red}x}-y)g(y)\,dy.\]
 		Então, $h$ está bem definida e pertence a $L^1(\R^\dm)$. Além disso, 
 		\[\n{h}_{L^1(\R^\dm)}\leq \n{f}_{L^1(\R^\dm)}\n{g}_{L^1(\R^\dm)}.\]
 	\end{prop}
@@ -14,13 +14,13 @@
 \begin{frame}
 	\begin{defin}\label{def-conv}
 		Dados $f,g\in L^1(\R^\dm)$ definimos a  \dt{convolução} de $f$ e $g$ por
-		\[(f\ast g)(x)=\int_{\R^\dm}f(x-y)g(y)\,dy.\]
+		\[(f\ast g)({\color{red}x})=\int_{\R^\dm}f({\color{red}x}-y)g(y)\,dy.\]
 	\end{defin}
 	\begin{prop}
 		Dados $f,g,h\in L^1(\R^\dm)$, então
 		\begin{enumerate}
 			\item 	$f\ast g=g*f$
-			\item $f\ast(g\ast h)=((f\ast g)\ast h)$
+			\item $(f\ast g)\ast h=f\ast(g\ast h)$
 				\end{enumerate}
 	\end{prop}
 
@@ -83,8 +83,8 @@
 \begin{frame}{Derivação da convolução}
 		
 	\begin{prop}
-		Sejam  $f\in C_c^k(\R^\dm)$ $(k\geq 1)$ e $g\in \Lloc^1(\R^\dm)$. Então $f\ast g\in C^k(\R^\dm)$ e 
-		\[D^\alpha(f\ast g)=(D^\alpha f)\ast g,\ \forall \alpha\in \N \text{ com } |\alpha|\leq k.\]
+		Sejam  {\color{red}$f\in C_c^k(\R^\dm)$} $(k\geq 1)$ e $g\in \Lloc^1(\R^\dm)$. Então {\color{red}$f\ast g\in C^k(\R^\dm)$} e 
+		\[{\color{red}D^\alpha}(f\ast g)=({\color{red}D^\alpha f})\ast g,\ \forall \alpha\in \N \text{ com } |\alpha|\leq k.\]
 		Em particular, se $f\in C_c^\infty(\R^\dm)$ e $g\in \Lloc^1(\R^\dm)$, então $f\ast g\in C^\infty(\R^\dm)$.
 	\end{prop}
 \end{frame}

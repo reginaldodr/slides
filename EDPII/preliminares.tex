@@ -62,7 +62,7 @@
 \begin{frame}
 %	
 \begin{teo}[Fubini]
-Sejam $X\subset \R^r$ e $Y\subset \R^s$ conjuntos mensuráveis. Se $F\in L^1(X\times Y)$, então 
+Sejam $X\subset \R^r$ e $Y\subset \R^s$ conjuntos mensuráveis. Se {\color{red}$F\in L^1(X\times Y)$}, então 
 \begin{enumerate}
 \item $F_x\in L^1(Y)$ q.t.p.  $x\in X$ e $F^y\in L^1(X)$ q.t.p  $y\in Y$.
 \item $f(x)=\int_{Y}F_x\,dy\in L^1(X)$ e $g(y)=\int_{X}F^y\,d\,x\in L^1(Y)$.
@@ -138,8 +138,8 @@ Lembrando que: $\esup |u(x)|=\inf\{C;\ |u(x)|\leq C \text{ q.s. em } \Omega\}$.
 
 \begin{frame}
 	\begin{block}{Desigualdade de H\"older}
-	Sejam $1\leq p,q\leq +\infty $, com $\frac{1}{p}+\frac{1}{q}=1$. Se $u\in L^p(\Omega)$ e $v\in L^q(\Omega)$, então
-	\[\int_\Omega |uv|\, dx\leq \n{u}_{L^p(\Omega)}\n{v}_{L^q(\Omega)}.\]
+	Sejam $1\leq p,q\leq +\infty $, com ${\color{blue}\frac{1}{p}}+{\color{red}\frac{1}{q}}=1$. Se {\color{blue}$u\in L^p(\Omega)$} e {\color{red}$v\in L^q(\Omega)$}, então
+	\[\int_\Omega |uv|\, dx\leq {\color{blue}\n{u}_{L^p(\Omega)}}{\color{red}\n{v}_{L^q(\Omega)}}.\]
 \end{block}
 
 \begin{teo}[Ver {\cite[Theorem 4.9]{brezis}}]
@@ -191,8 +191,11 @@ Note que estamos considerando o fecho em $\Omega$ não em $\R^\dm$, ou seja, o s
 \end{cases}\]
 Mostre que $\eta\in C_c^\infty(\R^\dm)$ e  $\supp \eta=\overline{B_1(0)}$.			
 		%\end{enumerate}
-		
-	\end{exer}
+\end{exer}
+\begin{figure}
+\includegraphics[scale=.8]{images/Bump.png}
+\caption{by JoshDif, Wikimedia Commons, licensed under CC BY-SA 4.0}
+\end{figure}
 \subsection*{Exercício \theexer}
 \end{frame}
 
@@ -259,7 +262,7 @@ Seja $K$ um compacto de $\R^\dm$. Então existem \(V\) e \(\phi\in C^\infty_c(\r
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Suporte em $L^p(\Omega)$}
 	\begin{defin}
-Seja $u\in L^p(\Omega)$. Definimos o \dt{suporte de $u$}, denotado por $\supp u$, como o conjunto obtido pela interseção de todos os subconjuntos fechados de $\Omega$ fora dos quais $u$ se anula quase sempre.
+Seja $u\in L^p(\Omega)$. Definimos o \dt{suporte de $u$}, denotado por {\color{blue}$\supp u$}, como o conjunto obtido pela interseção de todos os subconjuntos fechados de $\Omega$ fora dos quais {\color{blue}$u$} se anula quase sempre.
 	\end{defin}
 
 \begin{exer}
@@ -268,7 +271,7 @@ Se $u\in C^0(\Omega)\cap L^p(\Omega)$, então as duas noções de suporte coinci
 \end{exer}
 
 \begin{prop}[veja {\cite[Theorem 4.12]{brezis}}]
-	O espaço $C_c(\R^\dm)$ é denso em $L^p(\R^n)$, para todo $1\leq p<\infty$.
+	O espaço $C_c(\R^\dm)$ é denso em $L^p(\rd)$, para todo $1\leq p<\infty$.
 \end{prop}
 \end{frame}
 
