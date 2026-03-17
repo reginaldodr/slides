@@ -41,15 +41,26 @@
 				é uma distribuição sobre $\Omega$.
 	
 	\end{exe}
+\end{frame}
+
+\subsection*{Convergência de Distribuições}
+
+\begin{frame}{Convergência de Distribuições}
+	Sendo  $\D'(\Omega)$ o  dual de um espaço vetorial topológico, podemos considerar sobre ele a topologia fraca*. Com essa topologia, temos a seguinte noção de convergência.
+	
+	\begin{defin}
+Dizemos que $T_n\to T$ em $\D'(\Omega)$ se
+\[\inp{T_n}{\varphi}\to \inp{T}{\varphi},\ \forall \varphi \in \D(\Omega).\]
+	\end{defin}
+	
 	\begin{prop}
 	A aplicação $T: u\in \Lloc^1(\Omega)\longmapsto T_u \in \D'(\Omega)$ é linear, injetiva e contínua, isto é, $\Lloc^1(\Omega)\hookrightarrow \D'(\Omega)$. 	
 \end{prop}
-
 \end{frame}
 
 \subsection*{Distribuição delta de Dirac}
 \begin{frame}{Distribuição delta de Dirac}
-	\begin{example}
+	\begin{exe}
 		\begin{enumerate}
 			\item 		Dado $x_0\in \Omega $, a aplicação $\delta_{x_0}$ definida por 
 			\[\inp{\delta_{x_0}}{\varphi}=\varphi(x_0),\ \varphi\in \D(\Omega),\]
@@ -58,8 +69,14 @@
 			\item A distribuição $\delta_{x_0}$ não é definida por uma função localmente integrável.
 		\end{enumerate}
 		
-	\end{example}
+	\end{exe}
 
+\end{frame}
+
+\begin{frame}
+	\begin{exe}
+A sequência de funções regularizantes $(\rho_n)$ definidas no Exemplo \ref{seq-regul} converge para a distribuição delta de Dirac $\delta_{0}$. Isto é, uma sequência de funções localmente integráveis pode convergir para um distribuição que não é definida por uma função localmente integrável.
+	\end{exe}
 \end{frame}
 
 \begin{frame}
@@ -80,19 +97,7 @@
 \end{frame}
 
 
-\subsection*{Convergência de Distribuições}
 
-\begin{frame}{Convergência de Distribuições}
-	Sendo  $\D'(\Omega)$ o  dual de um espaço vetorial topológico, podemos considerar sobre ele a topologia fraca*. Com essa topologia, temos a seguinte noção de convergência.
-	
-	\begin{defin}
-Dizemos que $T_n\to T$ em $\D'(\Omega)$ se
-\[\inp{T_n}{\varphi}\to \inp{T}{\varphi},\ \forall \varphi \in \D(\Omega).\]
-	\end{defin}
-	\begin{exe}
-A sequência de funções regularizantes $(\rho_n)$ definidas no Exemplo \ref{seq-regul} converge para a distribuição delta de Dirac $\delta_{0}$. Isto é, uma sequência de funções localmente integráveis pode convergir para um distribuição que não é definida por uma função localmente integrável.
-	\end{exe}
-\end{frame}
 
 \subsection*{Derivadas das Distribuições}
 \begin{frame}{Derivadas das Distribuições}

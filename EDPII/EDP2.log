@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  12 MAR 2026 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  17 MAR 2026 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1743,42 +1743,44 @@ Package pdftex.def Info: w-homework.png  used on input line 61.
 
 ] [30
 
-]
-File: w-homework.png Graphic file (type png)
-<use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 80.
-(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [31
+] [31
 
 ] [32
 
-] [33
+]
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 97.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
+ [33
 
 ] [34
+
+] [35
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 133.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 133.
+(hyperref)                removing `superscript' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 133.
+(hyperref)                removing `math shift' on input line 138.
 
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 146.
+Package pdftex.def Info: w-homework.png  used on input line 151.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
-[35
+[36
 
 ])
 \openout2 = `sobolev.aux'.
 
- (./sobolev.tex [36
+ (./sobolev.tex [37
 
 
 
@@ -1788,47 +1790,45 @@ File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 34.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [37
-
-] [38
+ [38
 
 ] [39
+
+] [40
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 79.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [40
+ [41
 
-] [41
+] [42
 
 ])
 \openout2 = `aproximacao.aux'.
 
- (./aproximacao.tex [42
+ (./aproximacao.tex [43
 
 
 
 
 ]
-[43
-
-] [44
+[44
 
 ] [45
 
 ] [46
 
+] [47
+
 ])
 \openout2 = `prolongamento.aux'.
 
- (./prolongamento.tex [47
+ (./prolongamento.tex [48
 
 
 
-
-] [48
 
 ] [49
 
@@ -1836,28 +1836,28 @@ Package pdftex.def Info: w-homework.png  used on input line 79.
 
 ] [51
 
+] [52
+
 ])
 \openout2 = `traco.aux'.
 
 
-(./traco.tex [52
+(./traco.tex [53
 
 
 
-
-] [53
 
 ] [54
+
+] [55
 
 ])
 \openout2 = `imersoes.aux'.
 
- (./imersoes.tex [55
+ (./imersoes.tex [56
 
 
 
-
-] [56
 
 ] [57
 
@@ -1867,42 +1867,42 @@ Package pdftex.def Info: w-homework.png  used on input line 79.
 
 ] [60
 
-]
-[61
+] [61
 
-] [62
+]
+[62
+
+] [63
 
 ]
 Overfull \vbox (1.55264pt too high) detected at line 173
  []
 
-[63
+[64
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 196.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [64
+ [65
 
-] [65
+] [66
 
 ]
 Overfull \vbox (4.1451pt too high) detected at line 260
  []
 
-[66
+[67
 
-] [67
+] [68
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 296.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [68
-
-] [69
+ [69
 
 ] [70
 
@@ -1910,26 +1910,26 @@ Package pdftex.def Info: w-homework.png  used on input line 296.
 
 ] [72
 
+] [73
+
 ])
 \openout2 = `dual.aux'.
 
- (./dual.tex [73
+ (./dual.tex [74
 
 
 
 
-] [74
+] [75
 
 ])
 \openout2 = `elipticas.aux'.
 
  (./elipticas.tex
-[75
+[76
 
 
 
-
-] [76
 
 ] [77
 
@@ -1949,23 +1949,25 @@ Package pdftex.def Info: w-homework.png  used on input line 296.
 
 ] [85
 
+] [86
+
 ])
 \openout2 = `parabolicas.aux'.
 
  (./parabolicas.tex
-[86
+[87
 
 
 
 
-] [87
+] [88
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 48.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [88
+ [89
 
 ])
 \tf@nav=\write5
@@ -1991,10 +1993,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32661 strings out of 474222
- 662507 string characters out of 5748733
+ 32659 strings out of 474222
+ 662423 string characters out of 5748733
  1945975 words of memory out of 5000000
- 53950 multiletter control sequences out of 15000+600000
+ 53946 multiletter control sequences out of 15000+600000
  577227 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,22n,123p,674b,2442s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2023,10 +2025,10 @@ cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on EDP2.pdf (88 pages, 1729057 bytes).
+Output written on EDP2.pdf (89 pages, 1731489 bytes).
 PDF statistics:
- 4307 PDF objects out of 5155 (max. 8388607)
- 3330 compressed objects within 34 object streams
- 249 named destinations out of 1000 (max. 500000)
+ 4334 PDF objects out of 5155 (max. 8388607)
+ 3355 compressed objects within 34 object streams
+ 251 named destinations out of 1000 (max. 500000)
  4687 words of extra memory for PDF output out of 10000 (max. 10000000)
 
