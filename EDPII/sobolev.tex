@@ -3,10 +3,16 @@
 \subsection*{Espaços de Sobolev}
 \begin{frame}{Espaços de Sobolev}
 \begin{defin}
- Sejam $\Omega \subset \R^\dm$, $k\geq 0$ um inteiro e $1\leq p\leq +\infty$. O \dt{Espaço de Sobolev} $W^{k,p}(\Omega)$  é o espaço vetorial normado definido por 
- \[W^{k,p}(\Omega):=\{u\in L^p(\Omega);\ D^\alpha u\in L^p(\Omega),\ \forall\, |\alpha|\leq k\},\]
+ Sejam $\Omega \subset \R^\dm$, {\color{blue}$k\geq 0$} um inteiro e {\color{red}$1\leq p\leq +\infty$}. O \dt{Espaço de Sobolev} $W^{{\color{blue}k},{\color{red}p}}(\Omega)$  é o espaço vetorial normado definido por 
+ \[W^{{\color{blue}k},{\color{red}p}}(\Omega):=\{u\in L^{\color{red}p}(\Omega);\ D^{\color{blue}\alpha} u\in L^{\color{red}p}(\Omega),\ \forall\, {\color{blue}|\alpha|\leq k}\},\]
  com a norma dada por 
- \[\n{u}_{k,p,\Omega}=\n{u}_{W^{k,p}(\Omega)}=\left(\sum_{|\alpha|\leq k} \n{D^\alpha u}^p_{L^p(\Omega)}\right)^{1/p}.\]
+ \[
+ \n{u}_{{\color{blue}k},{\color{red}p},\Omega}=
+\begin{cases}
+\displaystyle\left(\sum_{{\color{blue}|\alpha|\leq k}} \n{D^{\color{blue}\alpha} u}^{\color{red}p}_{L^{\color{red}p}(\Omega)}\right)^{1/{\color{red}p}}, & \text{ se } {\color{red}p\in [1,+\infty)}\\[2em]
+\displaystyle\sum_{{\color{blue}|\alpha|\leq k}} \n{D^{\color{blue}\alpha} u}_{L^{\color{red}\infty}(\Omega)}, & \text{ se } {\color{red}p=\infty}
+\end{cases}
+\]
 
 \end{defin}
 
