@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  22 MAR 2026 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  24 MAR 2026 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1796,144 +1796,144 @@ Package pdftex.def Info: w-homework.png  used on input line 40.
 
 ] [40
 
+] [41
+
+] [42
+
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 85.
+Package pdftex.def Info: w-homework.png  used on input line 149.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [41
+ [43
 
-] [42
+] [44
 
 ])
 \openout2 = `aproximacao.aux'.
 
- (./aproximacao.tex [43
+
+(./aproximacao.tex [45
 
 
 
-
-]
-[44
-
-] [45
 
 ] [46
 
 ] [47
 
-])
-\openout2 = `prolongamento.aux'.
-
- (./prolongamento.tex [48
-
-
-
+] [48
 
 ] [49
 
-] [50
+])
+\openout2 = `prolongamento.aux'.
+
+ (./prolongamento.tex [50
+
+
+
 
 ] [51
 
-] [52
+]
+[52
+
+] [53
+
+] [54
 
 ])
 \openout2 = `traco.aux'.
 
-
-(./traco.tex [53
-
+ (./traco.tex [55
 
 
 
-] [54
 
-] [55
+] [56
+
+] [57
 
 ])
 \openout2 = `imersoes.aux'.
 
- (./imersoes.tex [56
+ (./imersoes.tex [58
 
 
 
-
-] [57
-
-] [58
 
 ] [59
 
 ] [60
 
-] [61
-
 ]
-[62
+[61
+
+] [62
 
 ] [63
+
+] [64
+
+] [65
 
 ]
 Overfull \vbox (1.55264pt too high) detected at line 173
  []
 
-[64
+[66
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 196.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [65
+ [67
 
-] [66
+] [68
 
 ]
 Overfull \vbox (4.1451pt too high) detected at line 260
  []
 
-[67
+[69
 
-] [68
+] [70
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 296.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [69
-
-] [70
-
-] [71
+ [71
 
 ] [72
 
 ] [73
 
-])
-\openout2 = `dual.aux'.
-
- (./dual.tex [74
-
-
-
+] [74
 
 ] [75
 
 ])
-\openout2 = `elipticas.aux'.
+\openout2 = `dual.aux'.
 
- (./elipticas.tex
-[76
+ (./dual.tex [76
 
 
 
 
 ] [77
 
-] [78
+])
+\openout2 = `elipticas.aux'.
+
+ (./elipticas.tex
+[78
+
+
+
 
 ] [79
 
@@ -1951,23 +1951,27 @@ Package pdftex.def Info: w-homework.png  used on input line 296.
 
 ] [86
 
+] [87
+
+] [88
+
 ])
 \openout2 = `parabolicas.aux'.
 
  (./parabolicas.tex
-[87
+[89
 
 
 
 
-] [88
+] [90
 
 ]
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 48.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [89
+ [91
 
 ])
 \tf@nav=\write5
@@ -1993,10 +1997,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32659 strings out of 474222
- 662429 string characters out of 5748733
+ 32680 strings out of 474222
+ 663047 string characters out of 5748733
  1945975 words of memory out of 5000000
- 53946 multiletter control sequences out of 15000+600000
+ 53963 multiletter control sequences out of 15000+600000
  577227 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,22n,123p,674b,2442s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2025,10 +2029,10 @@ cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on EDP2.pdf (89 pages, 1731248 bytes).
+Output written on EDP2.pdf (91 pages, 1741365 bytes).
 PDF statistics:
- 4334 PDF objects out of 5155 (max. 8388607)
- 3355 compressed objects within 34 object streams
- 251 named destinations out of 1000 (max. 500000)
- 4687 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4416 PDF objects out of 5155 (max. 8388607)
+ 3420 compressed objects within 35 object streams
+ 255 named destinations out of 1000 (max. 500000)
+ 4759 words of extra memory for PDF output out of 10000 (max. 10000000)
 

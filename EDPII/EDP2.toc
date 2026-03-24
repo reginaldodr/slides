@@ -3,7 +3,7 @@
 \beamer@sectionintoc {2}{Convolução}{18}{0}{2}
 \beamer@sectionintoc {3}{Distribuições}{27}{0}{3}
 \beamer@sectionintoc {4}{Espaços de Sobolev}{37}{0}{4}
-\beamer@sectionintoc {5}{Imersões de Sobolev}{56}{0}{5}
-\beamer@sectionintoc {6}{Espaço Dual}{74}{0}{6}
-\beamer@sectionintoc {7}{Equações Lineares Elípticas de 2ª ordem}{76}{0}{7}
-\beamer@sectionintoc {8}{Equações Lineares Parabólicas de 2ª ordem}{87}{0}{8}
+\beamer@sectionintoc {5}{Imersões de Sobolev}{58}{0}{5}
+\beamer@sectionintoc {6}{Espaço Dual}{76}{0}{6}
+\beamer@sectionintoc {7}{Equações Lineares Elípticas de 2ª ordem}{78}{0}{7}
+\beamer@sectionintoc {8}{Equações Lineares Parabólicas de 2ª ordem}{89}{0}{8}

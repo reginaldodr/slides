@@ -52,11 +52,75 @@
 \subsection*{Exercício \theexer}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%	\begin{prop}
+%	Para todo $1\leq p\leq +\infty$, $W^{k,p}(\Omega)$ é um espaço de Banach. Se $1<p<+\infty$ ele é reflexivo e se $1\leq p<+\infty$ é separável.
+%\end{prop}
+%
+%%\begin{lema}
+%%	Sejam $\Omega$ um aberto de $\R^\dm$ e $1\leq p\leq +\infty$. A aplicação 
+%%	\[u\in W^{1,p}(\Omega)\longmapsto (u,\partial_1 u,\ldots,\partial_\dm u)\in L^p(\Omega)^{\dm+1}\]
+%%	é uma \textcolor{red}{ isometria}, onde estamos munindo o espaço $L^p(\Omega)^{\dm+1}$ com a norma
+%%	\[\n{v}=\left(\sum_{i=1}^{\dm+1}\n{v_i}_{p,\Omega}^p\right)^{1/p}\]
+%%\end{lema}
+%\end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	\begin{prop}
-	Para todo $1\leq p\leq +\infty$, $W^{k,p}(\Omega)$ é um espaço de Banach. Se $1<p<+\infty$ ele é reflexivo e se $1\leq p<+\infty$ é separável.
+	Seja \(\Omega \subset \rd\) um conjunto aberto, e consideremos um inteiro {\color{blue}\(k \geq 0\)} e {\color{red}$p\in [1,+\infty]$}. Então $W^{{\color{blue}k},{\color{red}p}}(\Omega)$ é um {\color{blue}espaço de Banach}. Além disso, temos:
+	
+	\begin{enumerate}[a]
+	\item $W^{{\color{blue}k},{\color{red}p}}(\Omega)$ é {\color{red}reflexivo}, se {\color{red}\(p\neq 1\)} e {\color{red}\(p\neq +\infty\)};
+	\item $W^{{\color{blue}k},{\color{red}p}}(\Omega)$ é {\color{red}separável}, se  {\color{red}\(p\neq +\infty\)};	
+	\end{enumerate}
 \end{prop}
+
+\begin{block}{Definições a recordar}
+\begin{enumerate}
+\item Um espaço métrico \(M\) é dito {\color{red}separável} se existir um subconjunto de \(A\) de \(M\) que seja {\color{red}enumerável} e {\color{red}denso}.
+
+\item Um espaço normado \(X\) é dito {\color{red}reflexivo} se a imersão canônica
+\[
+{\color{red}J_X:x\in X\longmapsto J_X(x)\in X''}, \text{ em que } {\color{red}J_X(x)}\in {\color{blue}\varphi\in X'}\longmapsto \langle{\color{red} J_X(x)},{\color{blue}\varphi}\rangle := {\color{blue}\varphi}({\color{red}x})\in \R,
+\]
+for uma aplicação {\color{red}sobrejetora}. Vale lembrar que {\color{red}\(\n{J_X(x)}_{X''}=\n{x}_X\)}.
+\end{enumerate}
+\end{block}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}{Resultados Preliminares}
+\begin{enumerate}[a]
+\item Um subconjunto \(A\) de um espaço métrico separável \(M\), também é um espaço métrico separável com a métrica induzida de \(M\)
+
+\item Todo espaço normado reflexivo \(X\) é um espaço de Banach. Além disso, todo {\color{red}subespaço fechado} M de \(X\) também é reflexivo.
+
+\item Dado \(\Omega\subset \rd\) um conjunto aberto, então \(L^p(\Omega)\) é separável para todo \(p\in [1,+\infty{\color{red})}\), e reflexivo para todo \(p\in {\color{red}(}1,+\infty{\color{red})}\).
+\end{enumerate}
+
+\begin{block}{Lema}
+Sejam \(X\) e \(Y\) dois espaços de Banach, e suponhamos que exista um {\color{red}isomorfismo isométrico} \(T:X\longrightarrow Y\). Então são válidas as seguintes propriedades:
+\begin{enumerate}[a]
+\item Se \(Y\) for separável, então \(X\) também será;
+\item Se \(Y\) for reflexivo, então \(X\) também será.
+\end{enumerate}
+\end{block}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+%	\begin{prop}
+%	Para todo $1\leq p\leq +\infty$, $W^{k,p}(\Omega)$ é um espaço de Banach. Se $1<p<+\infty$ ele é reflexivo e se $1\leq p<+\infty$ é separável.
+%\end{prop}
 
 \begin{lema}
 	Sejam $\Omega$ um aberto de $\R^\dm$ e $1\leq p\leq +\infty$. A aplicação 
