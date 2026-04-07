@@ -4,7 +4,7 @@
 \beamer@sectionintoc {3}{Retas e Planos}{15}{0}{3}
 \beamer@sectionintoc {4}{Superfícies}{36}{0}{4}
 \beamer@sectionintoc {5}{Funções Vetoriais}{57}{0}{5}
-\beamer@sectionintoc {6}{Funcões de Várias Variáveis}{89}{0}{6}
-\beamer@sectionintoc {7}{Limite e Continuidade}{108}{0}{7}
-\beamer@sectionintoc {8}{Derivadas Parciais}{123}{0}{8}
-\beamer@sectionintoc {9}{Extremos de Funções de Várias Variáveis}{166}{0}{9}
+\beamer@sectionintoc {6}{Funcões de Várias Variáveis}{90}{0}{6}
+\beamer@sectionintoc {7}{Limite e Continuidade}{109}{0}{7}
+\beamer@sectionintoc {8}{Derivadas Parciais}{124}{0}{8}
+\beamer@sectionintoc {9}{Extremos de Funções de Várias Variáveis}{167}{0}{9}

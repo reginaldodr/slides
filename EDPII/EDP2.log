@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  26 MAR 2026 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  6 APR 2026 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1611,7 +1611,7 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
 3.
 
 
-Overfull \vbox (3.00577pt too high) detected at line 233
+Overfull \vbox (1.14276pt too high) detected at line 233
  []
 
 [1
@@ -1822,9 +1822,20 @@ Package pdftex.def Info: w-homework.png  used on input line 149.
 
 ] [47
 
-] [48
+]
+<images/meyers-serrin.png, id=2181, 618.05907pt x 359.84438pt>
+File: images/meyers-serrin.png Graphic file (type png)
+<use images/meyers-serrin.png>
+Package pdftex.def Info: images/meyers-serrin.png  used on input line 79.
+(pdftex.def)             Requested size: 154.51439pt x 89.96086pt.
 
-] [49
+Overfull \hbox (2.84134pt too wide) in paragraph at lines 79--79
+[][] 
+ []
+
+[48
+
+ <./images/meyers-serrin.png>] [49
 
 ])
 \openout2 = `prolongamento.aux'.
@@ -1836,10 +1847,10 @@ Package pdftex.def Info: w-homework.png  used on input line 149.
 
 ] [51
 
-]
-[52
+] [52
 
-] [53
+]
+[53
 
 ] [54
 
@@ -1867,10 +1878,10 @@ Package pdftex.def Info: w-homework.png  used on input line 149.
 
 ] [60
 
-]
-[61
+] [61
 
-] [62
+]
+[62
 
 ] [63
 
@@ -1997,10 +2008,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32680 strings out of 474222
- 663047 string characters out of 5748733
+ 32690 strings out of 474222
+ 663377 string characters out of 5748733
  1945975 words of memory out of 5000000
- 53963 multiletter control sequences out of 15000+600000
+ 53973 multiletter control sequences out of 15000+600000
  577227 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,22n,123p,674b,2442s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2029,10 +2040,10 @@ cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on EDP2.pdf (91 pages, 1741392 bytes).
+Output written on EDP2.pdf (91 pages, 1801074 bytes).
 PDF statistics:
- 4416 PDF objects out of 5155 (max. 8388607)
+ 4418 PDF objects out of 5155 (max. 8388607)
  3420 compressed objects within 35 object streams
  255 named destinations out of 1000 (max. 500000)
- 4759 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4764 words of extra memory for PDF output out of 10000 (max. 10000000)
 

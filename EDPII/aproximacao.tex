@@ -37,7 +37,7 @@ Dados $\Omega\subset \R^\dm$ um aberto e {\color{red}$\ep>0$}, defina {\color{re
 \subsection*{Regra da Cadeia}
 \begin{frame}{Regra da Cadeia}
 	\begin{prop}[Regra da Cadeia]
-		Seja $G\in C^1(\R)$ tal que $G'\in L^{\infty}(\R)$. Se $u\in W^{1,p}(\Omega)$, então $G\circ u\in W^{1,p}(\Omega)$ e 
+		Seja $G\in C^1(\R)$ tal que $G'\in L^{\infty}(\R)$ e \(G(0)=0\). Se $u\in W^{1,p}(\Omega)$, então $G\circ u\in W^{1,p}(\Omega)$ e 
 		\[\partial_i (G\circ u)=(G'\circ u)\partial_i u,\ 1\leq i\leq N.\]
 	\end{prop}
 	
@@ -61,12 +61,18 @@ Dados $\Omega\subset \R^\dm$ um aberto e {\color{red}$\ep>0$}, defina {\color{re
 
 
 \begin{frame}{Aproximação global por funções suaves}
+\begin{minipage}{0.6\textwidth}
 \begin{teo}[Meyers-Serrin{\footnotemark[1]}]
 	Sejam $\Omega\subset\R^\dm$ um aberto e \textcolor{red}{limitado} e $u\in W^{k,p}(\Omega)$, com $1\leq p<+\infty$. Então 
 	\[C^\infty(\Omega)\cap W^{k,p}(\Omega) \text{ é denso em }  W^{k,p}(\Omega),\]
 	isto é,  existe uma sequência de funções $(u_n)$ em $C^\infty(\Omega)\cap W^{k,p}(\Omega)$ tal que 
 	\[u_n\to u \text{ em } W^{k,p}(\Omega).\]
 \end{teo}
+\end{minipage}\quad 
+\begin{minipage}{0.35\textwidth}
+\includegraphics[scale=0.25]{images/meyers-serrin.png}
+\end{minipage}
+
 
 \footnotetext{N. Meyers and J. Serrin, H=W, \textit{Proc. Nat. Acad. Sci. USA} \textbf{51} (1964), 1055 -- 1056. \href{https://doi.org/10.1073/pnas.51.6.1055}{doi:10.1073/pnas.51.6.1055}
 }
