@@ -17,6 +17,33 @@ Se \(u\in C^0(\overline{\Omega})\), então \(\gamma_0(u)=u\big\vert_{\partial\Om
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Mudança de Variáveis ver {\cite[Proposição 2.21]{cavalcanti-dist}} }
+
+%\begin{exampleblock}{}
+Sejam {\color{blue}\(\Omega\)} um conjunto aberto de \(\rd\) e  \(u\in W^{1,p}({\color{blue}\Omega})\). Considere a mudança de variáveis 
+\[
+{\color{blue}x}=\varphi({\color{red}y}) \Leftrightarrow \varphi({\color{red}y})=({\color{blue}x_1}({\color{red}y}),\ldots,{\color{blue}x_\dm}({\color{red}y})),
+\]
+
+onde   \(\varphi: {\color{red}\Omega'}\longrightarrow {\color{blue}\Omega}\) um {\color{blue}difeomorfismo de classe \(C^1\)} tal que a matriz jacobina
+\[
+D\varphi=\frac{\partial({\color{blue}x_1,\ldots,x_\dm})}{\partial({\color{red}y_1,\ldots,y_\dm})}\in  \left[L^\infty(\Omega)\right]^{\dm\times \dm}
+\]
+Então,  \(v=u\circ\varphi\in W^{1,p}({\color{red}\Omega'})\),
+\[
+\frac{\partial v}{\partial {\color{red}y_i}}({\color{red}y})=\sum_{k=1}^{N}\frac{\partial u}{\partial {\color{blue}x_k}}({\color{blue}x}) \frac{\partial {\color{blue}x_k}}{\partial {\color{red}y_i}}({\color{red}y}) \Leftrightarrow \nabla v({\color{red}y})=\nabla u({\color{blue}x})\cdot D\varphi({\color{red}y})
+\]
+Além disso,  existe \(C=C(\varphi)>0\) tal que
+\[
+\n{v}_{1,p,{\color{red}\Omega'}}\leq C\n{u}_{1,p,{\color{blue}\Omega}}
+\]
+
+%\end{exampleblock}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{frame}
 \begin{teo}[Fórmula de Integração por Partes]
 Seja \(\Omega\subset \rd\) um {\color{blue} aberto limitado } {\color{red} com fronteira de classe \(C^1\)}. Então, 

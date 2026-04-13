@@ -32,7 +32,7 @@ Dizemos que o par {\color{blue} \((U, \varphi)\)} é chamada uma {\color{blue}ca
 \end{defin}
 
 \begin{obs}
-Cabe ressaltar que, por {\color{blue} \(\varphi\)} ser um difeomorfismo, podemos trocar {\color{blue} \(Q_r\)} por qualquer aberto de \(\rd\).
+Cabe ressaltar que, por {\color{blue} \(\varphi\)} ser um difeomorfismo, sempre podemos trocar {\color{blue} \(Q_r\)} por \(Q_1\).
 \end{obs}
 
 
@@ -54,8 +54,21 @@ Um exemplo de aberto {\color{blue} ilimitado},  com fronteira de classe \(C^1\) 
 \end{frame}
 
 \begin{frame}
+\begin{block}{Notação}
+Vamos denotar por \(\cc(\overline{\Omega})\) o conjunto de todas as restrições a \(\overline{\Omega}\) das funções em \(\cc(\rd)\), isto é, 
+\[
+\cc(\overline{\Omega})=\left\{ \varphi\big\vert_{\overline{\Omega}};\ \varphi\in \cc(\rd)  \right\}.
+\] 
+\end{block}
+
+
 	\begin{corol}
-Seja \(\Omega\subset \rd \) um aberto {\color{red} com fronteira de classe \(C^1\) limitada}. Então o subespaço de \(\cc({\rd})\) formado pelas restrições em \(\Omega\) é um subespaço denso de \( W^{1,p}(\Omega)\), com \(1\leq p<\infty\). Precisamente, se \(u\in W^{1,p}(\Omega)\), então existe \((u_n)_{n\in \N}\subset C^\infty_c(\R^\dm)\) tal que 
+Seja \(\Omega\subset \rd \) um aberto {\color{red} com fronteira de classe \(C^1\) limitada}. Então
+\[
+\overline{\cc(\overline{\Omega})}^{\|\cdot\|_{1,p,\Omega}}=W^{1,p}(\Omega),
+\]
+% \(\cc(\overline{\Omega})\)é denso de \( W^{1,p}(\Omega)\)
+com \(1\leq p<\infty\). Precisamente, se \(u\in W^{1,p}(\Omega)\), então existe \((u_n)_{n\in \N}\subset C^\infty_c(\R^\dm)\) tal que 
 \[u_n\big\vert_\Omega\longrightarrow u \text{ em } W^{1,p}(\Omega).\]
 Em particular, \(C^\infty(\overline{\Omega})\) é denso em \(W^{1,p}(\Omega)\), sempre que \(\Omega\subset \rd \) é um aberto  {\color{red} com fronteira limitada de classe \(C^1\)}.
 	\end{corol}
