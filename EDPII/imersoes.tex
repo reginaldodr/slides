@@ -264,11 +264,19 @@ A constante de imersão depende apenas de \(k, {\color{blue} p }, \dm\) e \(\Ome
 \begin{frame}{Desigualdade de Poincaré}
 
 \begin{teo}[Desigualdade de Poincaré]
-Seja \(\Omega\) um aberto {\color{red} limitado } de \(\rd\). Então, existe \(C=C_{p,\Omega}\) tal que, para todo  \({\color{blue} p }\in [1,\dm)\), vale
+Seja \(\Omega\) um aberto {\color{red} limitado } de \(\rd\). Então, existe \(C_{{\color{blue}p},\dm}>0\) tal que, para todo  \({\color{blue} p }\in [1,\dm)\), vale
 \begin{equation*}
-\n{u}_{{\color{blue} p },\Omega}\leq C\n{\nabla u}_{{\color{blue} p },\Omega},\ \forall u\in W_0^{1,{\color{blue} p }}(\Omega).
+\n{u}_{{\color{blue} p },\Omega}\leq C_{{\color{blue}p},\dm} |\Omega|^{\frac{1}{\dm}} \n{\nabla u}_{{\color{blue} p },\Omega},\ \forall u\in W_0^{1,{\color{blue} p }}(\Omega).
 \end{equation*}
 \end{teo}
+
+\begin{exer}[{\cite[Proposition 6.12]{folland}}]
+Se \(\Omega\subset \rd\) um aberto {\color{red}limitado}, então \(L^q(\Omega)\hookrightarrow L^p(\Omega)\) para todo \(q>p\geq 1\). Além disso, 
+\[
+\n{v}_{p,\Omega}\leq |\Omega|^{\frac{1}{p}-\frac{1}{q}}\n{v}_{q,\Omega},\ \forall v\in L^q(\Omega).
+\]
+\end{exer}
+\subsection*{Exercício \theexer}
 
 \end{frame}
 
@@ -279,7 +287,7 @@ Seja \(\Omega\) um aberto {\color{red} limitado } de \(\rd\). Então, existe \(C
 
 \begin{obs}
 \begin{enumerate}
-\item A diferença com a desigualdade de imersão anterior é que temos apenas o gradiente de \(u \) aparece no lado direito.
+\item A diferença com a desigualdade de imersão anterior é que temos apenas o gradiente de \(u \) aparecendo no lado direito.
 \item Não vale para domínios ilimitados. Por exemplo, dado \(\zeta\in \D(\rd)\) tal que \(\zeta\equiv 1\) em \(B(0,1)\), \(0\leq \zeta \leq 1\) e \(\zeta\equiv 0\) em \(\rd\setminus B(0,1)\), tome
 \(\zeta_n(x):=\zeta\left(\frac{x}{n}\right).\)
 Então
@@ -307,9 +315,10 @@ todo conjunto limitado em \(E\) é {\color{blue}relativamente compacto (ou preco
 Uma imersão contínua \(E\hookrightarrow F\) é dita ser {\color{blue}compacta} se, e somente se,  cada sequência limitada \((u_n)\subset E\) possui uma subsequência convergente  em \(F\). 
 \end{prop}
 
-\begin{prop}
+\begin{exer}
 Se \(E\hookrightarrow F \ic G\) ou  \(E\ic F \hookrightarrow G\) e \(G\) é completo, então \(E\ic G\).
-\end{prop}
+\end{exer}
+\subsection*{Exercício \theexer}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -317,13 +326,13 @@ Se \(E\hookrightarrow F \ic G\) ou  \(E\ic F \hookrightarrow G\) e \(G\) é comp
 \begin{frame}{Teorema de Ascoli-Arzelà}
 
 \begin{teo}[Ascoli-Arzelà]
-Seja \(K\) um espaço métrico compacto e \(C(K)\) o conjunto das funções contínuas \(f:K\to \R\) com a norma do \(\sup\). Se um subconjunto \(\mathcal{B}\) de   \(C(K)\)  satisfaz:
+Seja \(K\) um {\color{blue}espaço métrico compacto} e \(C(K)\) o conjunto das funções contínuas \(f:K\to \R\) com a norma do \(\sup\). Se um subconjunto \(\mathcal{B}\) de   \(C(K)\)  satisfaz:
 \begin{enumerate}
-\item \(\mathcal{B}\) é limitado em \(C(K)\);
-\item \(\mathcal{B}\) é uniformemente equicontínuo, isto é, 
+\item \(\mathcal{B}\) é {\color{blue}limitado} em \(C(K)\);
+\item \(\mathcal{B}\) é {\color{blue}uniformemente equicontínuo}, isto é, 
 \[\forall\, \ep>0, \exists\, \delta>0 \text{ tal que } d(x_1,x_2)<\delta \Rightarrow |f(x_1)-f(x_2)|<\ep,\ \forall f\in \mathcal{B};\]
 \end{enumerate}
-então \(\mathcal{B}\) é relativamente compacto em \(C(K)\).
+então \(\mathcal{B}\) é {\color{red}relativamente compacto} em \(C(K)\).
 \end{teo}
 \end{frame}
 
@@ -336,13 +345,13 @@ Denotamos a {\color{blue}translação de \(f\) por \(h\)} por \(\tau_hf(x)=f(x+h
 
 
 \begin{teo}[Fréchet-Kolmogorov]
-Seja \(\mathcal{F}\) um subconjunto de \(L^p(\rd)\), com \(1\leq p<\infty\). Se 
+Seja {\color{blue}\(\mathcal{F}\)} um subconjunto de \(L^p(\rd)\), com \(1\leq p<\infty\). Se 
 \begin{enumerate}
-\item \(\mathcal{F}\) é limitado em \(L^p(\rd)\);
-\item \(\lim\limits_{|h|\to 0}\|\tau_hu-u\|_{p,\rd}=0\) uniformemente em \(\mathcal{F}\), isto é, 
-\[\forall\, \ep>0, \exists\, \delta>0 \text{ tal que } |h|<\delta \Rightarrow \|\tau_hu-u\|_{p,\rd}<\ep,\ \forall u\in \mathcal{F}.\]
+\item  {\color{blue}\(\mathcal{F}\)} é {\color{blue}limitado} em \(L^p(\rd)\);
+\item \(\lim\limits_{|h|\to 0}\|\tau_hu-u\|_{p,\rd}=0\) {\color{blue}uniformemente} em {\color{blue}\(\mathcal{F}\)}, isto é, 
+\[\forall\, \ep>0, \exists\, \delta>0 \text{ tal que } |h|<\delta \Rightarrow \|\tau_hu-u\|_{p,\rd}<\ep,\ \forall u\in {\color{blue}\mathcal{F}}.\]
 \end{enumerate}
-Então \(\mathcal{F}\big\vert_\Omega\) é relativamente compacto em \(L^p(\Omega)\), para qualquer \(\Omega\subset \rd\) com medida finita. 
+Então \({\color{blue}\mathcal{F}}\big\vert_\Omega\) é {\color{red}relativamente compacto} em \(L^p(\Omega)\), para qualquer \(\Omega\subset \rd\) com {\color{red}medida finita}. 
 \end{teo}
 
 A prova deste resultado encontra-se em  \cite[Theorem 4.26]{brezis}.
@@ -354,11 +363,11 @@ A prova deste resultado encontra-se em  \cite[Theorem 4.26]{brezis}.
 \begin{frame}{Imersões Compactas}
 
 \begin{teo}[Rellich-Kondrachov]
-Seja \(\Omega \subset \rd\) um aberto limitado com fronteira de classe \(C^1\). Então as seguintes imersões são compactas:
+Seja \(\Omega \subset \rd\) um aberto {\color{blue}limitado} com {\color{red}fronteira de classe \(C^1\)}. Então as seguintes imersões são compactas:
 \begin{enumerate}
-\item \(W^{1,p}(\Omega)\ic L^q(\Omega) \), \(1\leq q <p^\ast\), se \(p<\dm\),
-\item \(W^{1,\dm}(\Omega)\ic L^q(\Omega) \), \(1\leq q <\infty\), se \(p=\dm\),
-\item \(W^{1,p}(\Omega)\ic C^{0,\gamma}(\overline{\Omega}) \), \(1\leq q <p^\ast\), se \(p>\dm\),
+\item \(W^{1,{\color{blue}p}}(\Omega)\ic L^{\color{red}q}(\Omega) \), \(1\leq {\color{red}q} <{\color{red}p^\ast}\), se \({\color{blue}p}<\dm\),
+\item \(W^{1,{\color{blue}\dm}}(\Omega)\ic L^{\color{red}q}(\Omega) \), \(1\leq {\color{red}q} <\infty\), se \({\color{blue}p}=\dm\),
+\item \(W^{1,{\color{blue}p}}(\Omega)\ic C^{0,{\color{red}\gamma}}(\overline{\Omega}) \), \(1\leq {\color{red}q} <{\color{red}p^\ast}\), se \({\color{blue}p}>\dm\),
 \end{enumerate}
 \end{teo}
 
