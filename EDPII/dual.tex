@@ -4,7 +4,6 @@
 \begin{exampleblock}{Notação}
 Denotamos por \(\hd\) o dual topológico do espaço \(H_0^1(\Omega)\). Usaremos  \(\innp{\cdot,\cdot}_{H^{-1},H_0^1}\), ou simplesmente \(\innp{\cdot,\cdot}\), para denotar o par entre \(\hd\) e \(\ho\).
 \end{exampleblock}
-
 Apesar de \(\ho\) ser um espaço de Hilbert, não faremos a identificação com seu dual \(\hd\). Vamos considerar as seguintes imersões:
 \[
 \ho\hookrightarrow L^2(\Omega)\hookrightarrow \hd,
@@ -13,8 +12,26 @@ sendo a última dada por:
 \[
 \innp{u,v}:=(u,v)_{2,\Omega}, \forall\, u\in L^2(\Omega) \text{ e } \forall\, v\in H_0^1(\Omega).
 \]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\({\partial_i}\in \mathcal{L}( L^2(\Omega),\hd)\)}
+Se {\color{blue}\(u\in L^2(\Omega)\)}, temos que \({\color{red}D_i u\in \D'(\Omega)}\), \(\forall i\in \{1,\ldots,\dm\}\).
+\bigskip
 
+Contudo, da densidade de \(H_0^1(\Omega)\) em \(\hd\), podemos definir {\color{red}\(\partial_i u\in \hd\)} da seguinte forma:
 
+\begin{center}
+\begin{minipage}{0.73\textwidth}
+\begin{block}{}
+\(\innp{{\color{red}\partial_i u},v}_{\hd,\ho}:=-({\color{blue}u},\partial_i v)_{2,\Omega}, \, \forall v\in \ho,\, \forall i\in \{1,\ldots,\dm\}. \)
+\end{block}
+\end{minipage}
+\end{center}
+Donde,
+\[
+\n{{\color{red}\partial_iu}}_{\hd}\leq \n{{\color{blue}u}}_{2,\Omega}.
+\]
+Neste caso, temos que \({\color{red}\partial_i}\in \mathcal{L}( L^2(\Omega),\hd)\).
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
