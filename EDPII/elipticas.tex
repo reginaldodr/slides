@@ -52,16 +52,16 @@ onde \(a^{ij},b^i, c :\Omega \longrightarrow \R\) são funções dadas com \(i,j
 \subsection*{Definição de Soluções Fracas}
 
 \subsection*{Soluções Fracas}
-\begin{frame}{Motivação}
-Consideremos o operador {\color{red}\(L\)} na forma divergente, com \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), e \(f\in L^2(\Omega)\). 
-
-Dado {\color{blue}\(v\in \cc(\Omega)\)}, e usando integração por partes, podemos ver que:
+\begin{frame}{Operador Elíptico}
+Consideremos o operador {\color{red}\(L\)} elíptico na forma divergente, com \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\). Então, 
 \begin{center}
-\begin{minipage}{0.7\textwidth}
+\begin{minipage}{0.9\textwidth}
 \begin{block}{}
+\({\color{red}L:\ho\longrightarrow \hd}\) e vale
 \[
-{\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}{\color{blue}v}+c\,u{\color{blue}v}\,dx=\int_\Omega f{\color{blue}v}\,dx.
-}
+\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}=
+{\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}{\color{blue}v}+c\,u{\color{blue}v}\,dx
+},\ \forall {\color{blue}v\in \ho}.
 \]
 \end{block}
 \end{minipage}
@@ -70,35 +70,79 @@ Dado {\color{blue}\(v\in \cc(\Omega)\)}, e usando integração por partes, podem
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+\begin{frame}{Solução Fraca}
 \begin{defin}
-Dados \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), definiremos a forma bilinear {\color{blue}\(B:\ho\times \ho\longrightarrow \R\) associada ao operador L na forma divergente}, por 
-\[
+Sejam {\color{red} \(f\in H^{-1}(\Omega)\)} e o operador {\color{red} \(L\)} na forma divergente. Dizemos que {\color{blue}\(u\in \ho\)} é uma {\color{blue}solução fraca} do problema 
 {\color{red}
-B(u,{\color{blue}v})=\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}v+cu{\color{blue}v}\,dx.
-}
-\]
-\end{defin}
-
-
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Soluções Fracas}
-\begin{defin}
-Sejam {\color{red} \(f\in H^{-1}(\Omega)\)} e {\color{red}\(B\)} a forma bilinear associada ao operador {\color{red} \(L\)} na forma divergente. 
-Dizemos que {\color{blue}\(u\in \ho\)} é uma {\color{blue}solução fraca} do problema 
-{\color{red}\[
+\begin{equation}\label{pb-eliptico}  
 \begin{cases}
 {L}{\color{blue}u}=f, & \text{ em } \Omega;\\
 {\color{blue}u}=0, & \text{ sobre } \partial \Omega,
 \end{cases}
-\]}
+\end{equation}
+}
 se 
+\[
+{\color{red}L}{\color{blue}u}={\color{red}f} \text{ em } {\color{red}\hd},
+\]
+isto é, 
+\[
+\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}
+=\innp{{\color{red}f},{\color{black}{\color{blue}v}}}_{\hd,\ho}, \ \forall {\color{blue}v\in \ho}.
+\]
+Em particular, 
+\[{\color{red}L{\color{blue}u}={\color{red}f}},\ \text{ em } \D'(\Omega). \]
+\end{defin}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{A forma Bilinear}
+\begin{defin}
+Dados \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\), definiremos a forma bilinear {\color{blue}\(B:\ho\times \ho\longrightarrow \R\) associada ao operador {\color{red}L} na forma divergente}, por 
+\begin{align*}
+B(u,{\color{blue}v})& =\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}\\
+& ={\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}
++\si b^iu_{x_i}{\color{blue}v}+cu{\color{blue}v}\,dx}.
+\end{align*}
+\end{defin}
+Portanto, dado {\color{red} \(f\in H^{-1}(\Omega)\)} para provar a existência de uma solução fraca {\color{blue}\(u\in \ho\)}, devemos provar que 
 {\color{red}
 \[B({\color{blue}u},{\color{black}v})=\innp{f,{\color{black}v}}_{H^{-1},H_0^1},\ \forall\, {\color{black} v}\in \ho.\]
 }
-\end{defin}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Soluções Fracas}
+%\begin{defin}
+%Sejam {\color{red} \(f\in H^{-1}(\Omega)\)} e {\color{red}\(B\)} a forma bilinear associada ao operador {\color{red} \(L\)} na forma divergente. 
+%Dizemos que {\color{blue}\(u\in \ho\)} é uma {\color{blue}solução fraca} do problema 
+%{\color{red}
+%\begin{equation}\label{pb-eliptico}  
+%\begin{cases}
+%{L}{\color{blue}u}=f, & \text{ em } \Omega;\\
+%{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+%\end{cases}
+%\end{equation}
+%}
+%se 
+%{\color{red}
+%\[B({\color{blue}u},{\color{black}v})=\innp{f,{\color{black}v}}_{H^{-1},H_0^1},\ \forall\, {\color{black} v}\in \ho.\]
+%}
+%Em particular, 
+%\[{\color{red}L{\color{blue}u}={\color{red}f}},\ \text{ em } \D'(\Omega). \]
+%\end{defin}
+%
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%Em particular, se {\color{red} \(f\in L^2(\Omega)\)} e {\color{blue}\(u\in \ho\)} é uma 
+%{\color{blue}solução fraca} do \hyperref[pb-eliptico]{{\color{red}problema elíptico}}, então
+%\[{\color{red}L{\color{blue}u}={\color{red}f}},\ \text{ em } \D'(\Omega). \]
+%Mais ainda, se {\color{red} \(f\in L^2(\Omega) \)}, então \({\color{red}L}{\color{blue}u}\in L^2(\Omega)\) e, como {\color{blue}\(u\in \ho\)}, tem-se que
+%\[
+%\sum_{i,j=1}^{\dm}a^{ij}(x)u_{x_ix_j}=f-\sum_{i=1}^{\dm}b^i(x)u_{x_i}+c(x)u\in L^2(\Omega)
+%\] 
+%
+%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Teorema de Lax-Milgram}
 \begin{frame}{Teorema de Lax-Milgram}
@@ -118,10 +162,10 @@ B({\color{red}u_0},v)=\innp{\varphi,v}_{H',H},\ \text{ para todo } v\in H.
 \begin{frame}{Elipticidade}
 \begin{defin}
 Dizemos que o operador diferencial {\color{red}\(L:\Omega\longrightarrow \R \)} é {\color{blue}uniformemente elíptico} se exister \(\theta>0\) tal que
-{\color{red}\[
-\sij a^{ij}(x)\xi_i\xi_j\geq \theta |\xi|^2,
-\]}
-para quase todo \(x\in \Omega\) e todo \(\xi=(\xi_1,\ldots,x_\dm)\in \rd\). 
+\[
+\sij {\color{red}a^{ij}(x)}{\color{blue}\xi_i\xi_j}\geq \theta |{\color{blue}\xi}|^2,
+\]
+para quase todo \(x\in \Omega\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\in \rd\). 
 \end{defin}
 
 \end{frame}
@@ -153,7 +197,10 @@ e
 \[
 {\color{blue}\beta}\n{u}_{\ho}^2\leq B(u,u)+{\color{red}\gamma} \n{u}_{L^2(\Omega)}^2,
 \]
-para todo \(u,v\in \ho.\)
+para todo \(u,v\in \ho\). Consequentemente,
+\[
+{\color{red}L}\in \mathcal{L}(\ho,\hd).
+\]
 \end{teo}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -170,10 +217,84 @@ u=0, & \text{ sobre } \partial\Omega.
 \end{cases}}
 \]
 \end{teo}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Alternativas de Fredholm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Operador Adjunto}
+Considere o operador diferencial \({\color{red}L}\) na forma divergente, com 
+\(b^i\in C^1(\overline{\Omega})\), para cada \(i\in \{1,\ldots,\dm\}\).
+Definimos \(L^\ast : \ho\longrightarrow \hd\) tal que
+\[
+\innp{{\color{blue}L^\ast} v,u}_{\hd,\ho}=\innp{{\color{red}L}u,v}_{\hd,\ho}.
+\]
+Dessa forma, temos que
+\[
+{\color{blue}L^\ast}v
+=-\sum_{i,j=1}^{\dm}\left(a^{ij}(x)v_{x_j}\right)_{x_i}+\sum_{i=1}^{\dm}b^i(x)v_{x_i}+\left(c(x)-\sum_{i=1}^{\dm}b^i_{x_i}\right)v
+\]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{ }
+\begin{defin}
+Sejam \(X\) um espaço de normado e \(E\subset X\) um subespaço. Definimos
+\[
+E^\perp:=\left\{\varphi\in X';\innp{\varphi,x}_{X',X}=0,\ \forall x\in E\right\}.
+\]
+Se \(F\subset X'\), então
+\[
+(F)^\perp:=\left\{x\in X;\innp{\varphi,x}_{X',X}=0,\ \forall \varphi\in E\right\}
+\]
+\end{defin}
+\begin{prop}[{\cite[Theorem 2.19]{brezis}}]
+Sejam \(X\) e \(Y\) espaços de Banach e \(L\in \mathcal{L}(X,Y)\). Se \(\im(L)\) é fechado, então
+\[
+\im(L)=\ker(L^\ast)^\perp \text{ e } \ker(L)=\im (L^\ast)^\perp.
+\]
+\end{prop}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+\begin{teo}[2º Teorema de Existência]
+\begin{enumerate}[a]
+\item Para cada {\color{red}\(f\in \hd\)} o problema
+\begin{equation}\tag{\(P\)}\label{P}  
+\begin{cases}
+{\color{red}L}{\color{blue}u}={\color{red}f}, & \text{ em } \Omega;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+\end{cases}
+\end{equation}
+tem uma {\color{red}única solução fraca} \({\color{blue}u\in \ho}\) se, e somente se, o seguinte problema tem somente a solução trivial
+\begin{equation}\tag{\(P_0\)}\label{P0}  
+\begin{cases}
+{\color{red}L}{\color{blue}u}=0, & \text{ em } \Omega;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+\end{cases}
+\end{equation}
+\item Dado {\color{red}\(f\in \hd\)}, o problema \eqref{P} tem solução fraca se, e somente se,
+\[\left({\color{red}f},v\right)_{2,\Omega},\ \forall v\in \ker(L^\ast).\]
+\end{enumerate}
+\end{teo}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+\begin{block}{}
+\begin{enumerate}[c]
+\item  O espaço \(N\) das soluções fracas de \eqref{P0} tem dimensão finita. Além disso, se \(N^\ast\) é o espaço das soluções fracas  de 
+\begin{equation}\tag{\(P^\ast\)}\label{P*}  
+\begin{cases}
+{\color{blue}L^\ast}{\color{blue}v}=0, & \text{ em } \Omega;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega,
+\end{cases}
+\end{equation}
+então \(\dim N=\dim N^\ast.\)
+\end{enumerate}
+\end{block}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Operadores Compactos}
 \begin{defin}
 Sejam \(X\) e \(Y\) dois espaços de Banach. Dizemos que \(K\in L(X;Y)\) é um {\color{blue}operador compacto} se \(\overline{K(B_X)}\) é um subconjunto compacto de \(Y\), onde 
@@ -181,8 +302,31 @@ Sejam \(X\) e \(Y\) dois espaços de Banach. Dizemos que \(K\in L(X;Y)\) é um {
 Em outras palavras, quando \(K\) é um operador compacto, para toda sequência \((x_n)_{n=1}^\infty\)
 limitada em \(X\), sabemos que \( (K(x_n))_{n=1}^\infty \) possui uma subsequência que converge em \(Y\).
  \end{defin}
- 
+\end{frame} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Operadores Compactos}
+\begin{prop}[Schauder veja {\cite[Theorem 6.4]{brezis}}]
+Seja \(H\) é um espaço de Hilbert. Então \(K\in L(H)\) é um operador compacto se, e somente se, \(K^\ast\) também é. 
+\end{prop}
+
 \begin{prop}
-Se \(H\) é um espaço de Hilbert e \(K\in L(H)\) é um operador compacto, então \(K^\ast\) também é. 
+Sejam \(X,Y\) e  \(Z\) espaços normados, \(T\in \mathcal{L}(X,Y)\) e \(S\in \mathcal{L}(Y,Z)\). Se 
+\(T\) ou \(S\) é compacto, então \(S\circ T\) é compacto.
 \end{prop}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Alternativas de Fredholm}
+\begin{block}{Alternativas de Fredholm {\cite[pag. 680]{evans}}}
+Seja \(H\) um espaço de Hilbert, e consideremos um operador compacto \(K\in 
+\mathcal{L}(H)\). Então
+\begin{enumerate}[a]
+\item \(\ker(I-K)\) tem dimensão finita;
+\item \(\im(I-K)\) é fechado;
+\item \(\im(I-K)=\ker(I-K^\ast)^\perp\);
+\item \(\ker(I-K)=\{0\}\) se, e somente se, \(\im(I-K)=H\);
+\item \(\dim \ker(I-K)=\dim \ker(I-K^\ast)\).
+\end{enumerate}
+\end{block}
+\end{frame}
+
