@@ -2,47 +2,262 @@
 
 
 \subsection*{Funções em Espaços de Banach}
-\begin{frame}{Funções em Espaços de Banach}
-Seja \(T>0\) um número real e {\color{blue}\((X,\|\cdot\|)\)}	um espaço de Banach real. Para uma função {\color{blue}\(u:[0,T]\longrightarrow X\)} temos os seguintes conceitos, cujo enunciado preciso podem ser encontrados em \cite[\S E.5]{evans},
+\begin{frame}{Equações Parabólicas}
+Desejamos estudar o problema misto
+\[
+\begin{cases}
+{\color{blue}u}{_{\color{red}t}}+{\color{red}L}{\color{blue}u}=f, & \text{ em } \Omega_T;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega\times [0,T],\\
+{\color{blue}u}=u_0, & \text{ em } \Omega,
+\end{cases}
+\]
+onde \(\Omega\in \rd\) é aberto e limitado, \(\Omega_T=\Omega\times (0,T]\) e 
 \begin{itemize}
-\item {\color{blue}\(u\)} é dita ser {\color{blue}fortemente mensurável} quando é o limite de uma sequências de funções simples em \(X\).
-\item  {\color{blue}\(u\)} é dita ser {\color{blue} somável ou integrável} quando é fortemente mensurável e a função real \(t\longmapsto {\color{blue}\|u(t)\|}\) é integrável. Neste caso, a sua integral é um elemento de {\color{blue}\(X\)} e será denotado por:
-\[\int_0^T {\color{blue}u(t)}\,dt.\]
+\item {\color{blue}\(u:\overline{\Omega}_T\longrightarrow \R\)}
+é uma função desconhecida;
+\item \(f:\Omega_T \longrightarrow \R\) e \(u_0:\Omega \longrightarrow \R\) são funções dadas;
+\item {\color{red}\(L\)} é um operador diferencial parcial de 2ª ordem que possui uma das seguintes formas:
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Operador Parabólico}
+\begin{itemize}
+\item Forma Divergente
+{\color{red}
+\[
+Lu=-\sum_{i,j=1}^{\dm}\left(a^{ij}(x,t)u_{x_i}\right)_{x_j}
++\sum_{i=1}^{\dm}b^i(x,t)u_{x_i}+c(x,t)u
+\]
+}
+\item Forma não divergente
+{\color{red}
+\[
+Lu=-\sum_{i,j=1}^{\dm}a^{ij}(x,t)u_{x_ix_j}+\sum_{i=1}^{\dm}b^i(x,t)u_{x_i}+c(x,t)u
+\]
+}
+\end{itemize}
+onde \(a^{ij},b^i, c :\Omega_T \longrightarrow \R\) são funções dadas com \(i,j\in \ind\).
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+%\begin{defin}
+%Dizemos que o operador diferencial
+%{\color{red}\(\frac{\partial}{\partial t}L:\Omega_T\longrightarrow \R \)} é {\color{blue}uniformemente elíptico} se exister \(\theta>0\) tal que
+%\[
+%\sij {\color{red}a^{ij}(x,t)}{\color{blue}\xi_i\xi_j}\geq \theta |{\color{blue}\xi}|^2,
+%\]
+%para quase todo \(x\in \Omega_T\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\in \rd\). 
+%\end{defin}
+
+\begin{block}{Hipóteses}
+\begin{enumerate}[a]
+\item  O operador diferencial
+{\color{red}\(\frac{\partial}{\partial t}+L:\Omega_T\longrightarrow \R \)} é {\color{blue}uniformemente parabólico}, isto é, existe \(\theta>0\) tal que
+\[
+\sij {\color{red}a^{ij}(x,t)}{\color{blue}\xi_i\xi_j}\geq \theta |{\color{blue}\xi}|^2,
+\]
+para quase todo \(x\in \Omega_T\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\in \rd\). 
+\item \(a^{ij},\, b^i, \, c\in L^\infty(\Omega_T)\), \(i,j\in \ind\).
+\item \(f\in L^2(\Omega_T)\), \(u_0\in L^2(\Omega)\)
+\item {Condição de simetria}:
+\(a^{ij}=a^{ji},\ \forall\, i,j\in \ind.\)
+\end{enumerate}
+\end{block}
+Sob essas condições, temos que {\color{red}\(L: L^2(0,T;\ho)\longrightarrow 
+L^2(0,T;\hd)\)} é linear e contínuo, onde
+\[
+\n{{\color{red}L}u}_{\LT{\hd}}\leq {\color{red}M_L} \n{u}_{\LT{\ho}},
+\]
+\quad com \({\color{red}M_L}\) como definido em \eqref{ML} não dependendo de \(t\) nem de \(u\).
+%\({\color{red}M_L}=
+%\max\limits_{1\leq i,j
+%\leq N}
+%\left\{\n{a^{ij}}_{\infty,\Omega_T},
+%\n{b^i}_{\infty,\Omega_T}, 
+%\n{c}_{\infty,\Omega_T}\right\}.\)
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Solução fraca do problema parabólico}
+\begin{frame}
+\begin{defin}[Solução Fraca]
+Sejam {\color{cyan} \(f\in \LT{\hd}\)}, {\color{cyan}\(u_0\in L^2(\Omega)\)} e  
+operador {\color{red} \(L\)} na forma divergente. Dizemos que 
+{\color{blue}\(u:[0,T]\longrightarrow \Lloc^1(\Omega)\)} é uma {\color{blue}solução fraca} do 
+problema parabólico 
+%\begin{center}
+%\begin{minipage}{0.7\textwidth}
+\begin{equation}\label{pb-parb} \tag{{\color{red}\(Pb\)}}\lnum 
+\begin{cases}
+{\color{blue}u}^{{\color{red}\prime}}+{\color{red}L}{\color{blue}u}
+={\color{cyan}f}, & \text{ em } \Omega_T;\\
+{\color{blue}u}=0, & \text{ sobre } \partial \Omega\times [0,T],\\
+{\color{blue}u}={\color{cyan}u_0}, & \text{ em } \Omega,
+\end{cases}
+\end{equation}
+%\end{minipage}
+%\end{center}
+quando
+\begin{enumerate}[a]
+\item \({\color{blue}u\in \HT{\ho}}\hookrightarrow C^0([0,T];L^2(\Omega))\);
+\item 
+\({\color{blue}u}^{{\color{red}\prime}}+{\color{red}L}{\color{blue}u}
+={\color{cyan}f} \text{ em } {\color{red}\hd} \text{ e  para quase todo } t\in [0,T];
+\)
+\item \(u(0)={\color{cyan}u_0}\) em \(L^2(\Omega)\). 
+\end{enumerate}
+\end{defin}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{itemize}
+%\item Uma vez que \(\ho\hookrightarrow L^2(\Omega)\hookrightarrow \hd\), o item  {\itemalpha{1}} implica que \(u\in C^0([0,T];L^2(\Omega))\), portanto o item {\itemalpha{3}} faz sentido.
+
+\item \({\color{blue}u}^{{\color{red}\prime}}+{\color{red}L}{\color{blue}u}
+={\color{cyan}f} \text{ em } {\color{red}\hd} \text{ e  para quase todo } t\in [0,T]
+\) significa que:
+\[
+\innp{u^\prime,{\color{blue}v}}_{\hd,\ho}+
+{\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}
++\si b^iu_{x_i}{\color{blue}v}+cu{\color{blue}v}\,dx}=\innp{{\color{cyan}f},{\color{black}v}}_{H^{-1},H_0^1},\ 
+\forall\, {\color{black} v}\in \ho.
+\]
+Além disso, sabemos que
+\[
+\innp{u^\prime,{\color{blue}v}}_{\hd,\ho}
+=\frac{d}{dt}(u,{\color{blue}v})_{2,\Omega},\ 
+\forall\, {\color{black} v}\in \ho. 
+\]
 \end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{A forma bilinear}
+Para cada \(t\in [0,T]\), definimos novamente a \dt{forma bilinear} 
+\(B:\ho\times \ho \longrightarrow \R\) por
+\begin{align*}
+B(u,{\color{blue}v};t)& =\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}\\
+& ={\color{red}\int_\Omega \sij a^{ij}(\cdot,t)u_{x_i}{\color{blue}v_{x_j}}
++\si b^i(\cdot,t)u_{x_i}{\color{blue}v}+c(\cdot,t)u{\color{blue}v}\,dx}.
+\end{align*}
+Como antes, vemos que
+\[
+\left|B(u,v;t)\right|\leq {\color{red}M_L}\n{u}_{\ho}\n{v}_{\ho},\ \forall u,v\in \ho.
+\]
 
-\begin{frame}
-\begin{teo}
-Se \(u:[0,T]\longrightarrow X\) é integrável, então
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Método de Galerkin}
+\begin{frame}{Método de Galerkin}
+Seja {\color{blue}\((w_k)_{k=1}^\infty\) a base hilbertiana 
+ortonormal} de 
+\(L^2(\Omega)\) formada pelas soluções fracas do seguinte
+ {\color{blue}problema  de autovalores} do seguinte problema elíptico
 \[
-\left\|\int_0^T u(t)\,dt\right\|\leq \int_0^T \|u(t)\|\,dt
+\begin{cases}
+-\Delta w=\lambda w, & \text{ em } \Omega\\
+w=0, & \text{ sobre } \partial\Omega.
+\end{cases}
 \]
-e, para toda \(A\in X'\), 
+Além disso, temos que
+\begin{itemize}
+\item  \((w_k)_{k=1}^\infty \) é 
+ortogonal  em \(\ho\).
+\item  \(\n{w_k}_{1,2,\Omega}=\sqrt{1+\lambda_k}\),\ \(\forall k\in \N\).
+\item Dados \(f\in \LT{L^2(\Omega)}\) e \(u_0\in L^2(\Omega)\) temos que
+\[f(t,\cdot)=\sum_{k=1}^\infty f^k(t) w_k
+\text{ e } u_0=\sum_{k=1}^\infty u_0^k w_k,
+\]
+onde \(f^k(t)=(f(t),w_k)_{2,\Omega}\) e \(u_0^k=(u_0,w_k)_{2,\Omega}\).
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Aproximações de Galerkin}
+Para cada \(m\in \N\), seja 
+\(V_m=\vspan\{w_1,\ldots,w_m\}\). Buscamos {\color{blue}\(u_m:[0,T]\longrightarrow V_m\)},
 \[
-\left\langle A, \int_0^T u(t)\,dt\right\rangle_{X'X}=\int_0^T \left\langle A, u(t)\right\rangle_{X',X}\, dt
+u_m(t,\cdot)=\sum_{\ell=1}^{m} {\color{blue}d_m^\ell(t})w_\ell,
 \]
-\end{teo}
+satisfazendo
+\[
+\begin{cases}
+(u_m'(t),v)_{2,\Omega}+B(u_m,v;t)=(f(t),v)_{2,\Omega},\ \forall v\in \ho.\\
+u_m(0)=u_{0m}=\sum_{\ell=1}^{m} u_0^\ell w_\ell.
+\end{cases}
+\]
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{frame}
-\begin{defin}
-O espaço \(L^p(0,T;X)\) consiste das funções \(u:[0,T]\longrightarrow X\) integráveis tais que \(\n{u(\cdot)}\in L^p(0,T)\). Em \(L^p(0,T;X)\), definimos a norma:
+Fazendo \(v=w_k\), temos definido o seguinte PVI
 \[
-\n{u}_{L^p(0,T;X)}=\left(\int_0^T \n{u(t)}^p\right)^{1/p},\ 1\leq p<\infty, 
+\begin{cases}
+X'(t)+E(t)X(t)=F(t), & \text{ para quase todo }t\in (0,T)\\
+X(0)=X_0,
+\end{cases}
 \]
-e
-\[
-\n{u}_{L^\infty(0,T;X)}=\esup_{0\leq t\leq T}\n{u(t)}.
-\]
-\end{defin}
-
-\begin{exer}
-Mostre que \(L^p(0,T;X)\) é um espaço de Banach.
-\end{exer}
-
-\subsection*{Exercício \theexer}
-
+onde
+\begin{align*}
+& X(t)
+=\begin{bmatrix}
+d_m^1(t) \\ \vdots \\ d_m^m(t)
+\end{bmatrix}, \
+E(t)=\begin{bmatrix}
+b(w_1,w_1;t) & \cdots & b(w_1,w_m;t)  \\
+ \vdots & & \vdots \\ 
+b(w_m,w_1;t) & & b(w_m,w_m;t)
+\end{bmatrix},\\[1em]
+& F(t)=
+\begin{bmatrix}
+(f(t),w_1)_{2,\Omega} \\ \vdots \\ (f(t),w_m)_{2,\Omega}
+\end{bmatrix} \text{ e }
+X_0=
+\begin{bmatrix}
+(u_0,w_k)_{2,\Omega} \\ \vdots \\ (u_0,w_m)_{2,\Omega}
+\end{bmatrix}
+\end{align*}
+\quad {\color{blue}Este PVI tem solução única garantida pelo seguinte resultado.}
+%\[
+%{d_m^k}^{\prime}(t)+\sum_{\ell=1}^{m}e^{k\ell}(t)d_m^\ell(t)
+%=f^k(t),\, \forall k\in \{1,\ldots, m\} \text{ e q.t.p em } 
+%[0,T].
+%\]
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+%No Capitulo 3,  Seção 3 de ``Coddington, Earl A.; Levinson, Norman (1955), Theory of 
+%Ordinary Differential Equations, New York: McGraw-Hill, 1955.'', temos o seguinte resultado
+\begin{teo}
+Considere o {\color{blue}sistema linear não homogêneo}
+\begin{equation}
+\begin{cases}\label{EDO}
+X'(t)=A(t)X(t)+b(t), & \text{ q.t.p em } I,\\
+X(t_0)=X_0, & t_0\in I,
+\end{cases}
+\end{equation}
+onde \(I\) é um intervalo da reta,  \(A=\left(a_{ij}(t)\right)_{n\times n}\) e 
+\(B=\left(b_{i}(t)\right)_{n\times 1}\) são matrizes com entradas sendo funções definidas 
+em \(I\) satisfazendo:
+\begin{enumerate}
+\item \(a_{ij}, b_i:I\longrightarrow \R\) são funções mensuráveis,
+\item Existe  \(k\in L^1(I)\) tal que \(|a_{ij}(t)|\leq k(t)\) e \(|b_i(t)|\leq k(t)\), 
+q.t.p em \(I\).
+\end{enumerate}
+Então {\color{blue}existe uma única solução absolutamente contínua em \(I\)} do sistema 
+\eqref{EDO}\footnote{Coddington, Earl A.; Levinson, Norman (1955), 
+Theory of Ordinary Differential Equations, New York: McGraw-Hill, 1955. (Seção 3 do 
+Capítulo 3)}. 
+\end{teo}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Estimativas de Energia}
+\begin{teo}
+Existe \(C>0\), dependendo apenas de \(\Omega, T\) e dos coeficientes de 
+\({\color{red}L}\), tal que 
+\begin{multline*}
+\n{{\color{blue}u_m}}_{C^0([0,T];L^2(\Omega))}+\n{{\color{blue}u_m}}_{\LT{\ho}}
++\n{{\color{blue}u_m^\prime}}_{\LT{\hd}}\\
+\leq C\left(\n{{\color{cyan}f}}_{L^2(\Omega_T)}+\n{{\color{cyan}u_0}}_{L^2(\Omega)}\right).
+\end{multline*}
+\end{teo}
+\end{frame}
+

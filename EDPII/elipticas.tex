@@ -53,19 +53,33 @@ onde \(a^{ij},b^i, c :\Omega \longrightarrow \R\) são funções dadas com \(i,j
 
 \subsection*{Soluções Fracas}
 \begin{frame}{Operador Elíptico}
-Consideremos o operador {\color{red}\(L\)} elíptico na forma divergente, com \(a^{ij},b^i, c\in L^\infty(\Omega)\), para quaisquer \(i,j\in \ind\). Então, 
-\begin{center}
-\begin{minipage}{0.9\textwidth}
-\begin{block}{}
-\({\color{red}L:\ho\longrightarrow \hd}\) e vale
+Consideremos o operador {\color{red}\(L\)} elíptico na forma divergente,{\color{red} com \(a^{ij},b^i, c\in L^\infty(\Omega)\)}, para quaisquer \(i,j\in \ind\). Então, 
+%\begin{center}
+%\begin{minipage}{0.9\textwidth}
+%\begin{block}{}
+\({\color{red}L:\ho\longrightarrow \hd}\) onde
 \[
 \innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}=
 {\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}+\si b^iu_{x_i}{\color{blue}v}+c\,u{\color{blue}v}\,dx
 },\ \forall {\color{blue}v\in \ho}.
 \]
-\end{block}
-\end{minipage}
-\end{center}
+Além disso, 
+\[
+\left|\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}
+\right|\leq {\color{red}M_L}\n{u}_{\ho}\n{v}_{\ho},
+\]
+com 
+\begin{equation}\label{ML}
+{\color{red}M_L}=\max\left\{ \sij \n{a^{ij}}_{\infty,\Omega},\si \n{b^{i}}_{\infty,\Omega}, \n{c}_{\infty,\Omega}\right\}
+\end{equation}
+ Consequentemente, \({\color{red}L}\in \mathcal{L}(\ho,\hd)\) e
+\[
+\n{{\color{red}L}u}_{\hd}\leq {\color{red}M_L} \n{u}_{\ho}.
+\]
+
+%\end{block}
+%\end{minipage}
+%\end{center}
 
 \end{frame}
 
@@ -171,7 +185,6 @@ para quase todo \(x\in \Omega\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{frame}
 \begin{obs}
 \begin{enumerate}[a]
@@ -191,16 +204,13 @@ A(x)=[a^{ij}(x)]_{i,j=1}^\dm
 \subsection*{Estimativas de Energia}
 \begin{frame}
 \begin{teo}[Estimativas de Energia]
-Existem constantes {\color{blue}\(\alpha,\beta>0\)} e {\color{red}\(\gamma \geq 0\)} tais que 
-\[|B(u,v)|\leq {\color{blue}\alpha} \n{u}_{\ho}\n{v}_{\ho}\]
+Existem constantes {\color{blue}\(M_L,\beta>0\)} e {\color{red}\(\gamma \geq 0\)} tais que 
+\[|B(u,v)|\leq {\color{blue}M_L} \n{u}_{\ho}\n{v}_{\ho}\]
 e
 \[
 {\color{blue}\beta}\n{u}_{\ho}^2\leq B(u,u)+{\color{red}\gamma} \n{u}_{L^2(\Omega)}^2,
 \]
-para todo \(u,v\in \ho\). Consequentemente,
-\[
-{\color{red}L}\in \mathcal{L}(\ho,\hd).
-\]
+para todo \(u,v\in \ho\).
 \end{teo}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -261,36 +271,38 @@ Sejam \(X\) e \(Y\) espaços de Banach e \(L\in \mathcal{L}(X,Y)\). Se \(\im(L)\
 \begin{teo}[2º Teorema de Existência]
 \begin{enumerate}[a]
 \item Para cada {\color{red}\(f\in \hd\)} o problema
-\begin{equation}\tag{\(P\)}\label{P}  
+\begin{equation}\tag{{\color{red}\(P_f\)}}\label{P}  \lnum
 \begin{cases}
 {\color{red}L}{\color{blue}u}={\color{red}f}, & \text{ em } \Omega;\\
 {\color{blue}u}=0, & \text{ sobre } \partial \Omega,
 \end{cases}
 \end{equation}
 tem uma {\color{red}única solução fraca} \({\color{blue}u\in \ho}\) se, e somente se, o seguinte problema tem somente a solução trivial
-\begin{equation}\tag{\(P_0\)}\label{P0}  
+\begin{equation}\tag{{\color{red}\(P_0\)}}\label{P0}  \lnum
 \begin{cases}
 {\color{red}L}{\color{blue}u}=0, & \text{ em } \Omega;\\
 {\color{blue}u}=0, & \text{ sobre } \partial \Omega,
 \end{cases}
 \end{equation}
-\item Dado {\color{red}\(f\in \hd\)}, o problema \eqref{P} tem solução fraca se, e somente se,
-\[\left({\color{red}f},v\right)_{2,\Omega},\ \forall v\in \ker(L^\ast).\]
 \end{enumerate}
 \end{teo}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{}
 \begin{block}{}
-\begin{enumerate}[c]
-\item  O espaço \(N\) das soluções fracas de \eqref{P0} tem dimensão finita. Além disso, se \(N^\ast\) é o espaço das soluções fracas  de 
-\begin{equation}\tag{\(P^\ast\)}\label{P*}  
+ 
+\begin{enumerate}[a]
+\setcounter{enumi}{1}
+\item Dado {\color{red}\(f\in \hd\)}, o problema \eqref{P} tem solução fraca se, e somente se,
+\[\innp{{\color{red}f},v}_{\hd,\ho}=0,\]
+para todo \(v\in\ho\) solução de 
+\begin{equation}\tag{{\color{blue}\(P^\ast_0\)}}\label{P*} \lnum 
 \begin{cases}
 {\color{blue}L^\ast}{\color{blue}v}=0, & \text{ em } \Omega;\\
 {\color{blue}u}=0, & \text{ sobre } \partial \Omega,
 \end{cases}
 \end{equation}
-então \(\dim N=\dim N^\ast.\)
+\item Sejam {\color{red}\(N\)} e {\color{blue}\(N^\ast\)} os espaços das soluções fracas de \eqref{P0} e \eqref{P*}, respectivamente. Então,  \(\dim {\color{blue}N^\ast}=\dim{\color{red} N}<+\infty.\)
 \end{enumerate}
 \end{block}
 \end{frame}

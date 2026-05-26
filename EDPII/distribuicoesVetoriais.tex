@@ -1,0 +1,237 @@
+\section{Distribuições Vetoriais}
+
+
+\subsection*{Funções em Espaços de Banach}
+\begin{frame}{Funções em Espaços de Banach}
+Faremos uma pequena exposição das funções e das distribuições vetoriais, os detalhes são encontrados em   
+{\color{blue}\cite{Bhat}}.
+\bigskip
+
+Seja \(T>0\) um número real e {\color{red}\((V,\|\cdot\|)\)}	um espaço de Banach real. 
+Uma função {\color{blue}\(u:[0,T]\longrightarrow {\color{red}V}\)} será 
+chamada de  {\color{blue}função com valores vetoriais}.
+\medskip
+
+\begin{itemize}
+\item \(C^0([0,T];{\color{red}V})\) é o espaço linear das funções vetoriais que são 
+contínuas, isto 
+é, \(u\in C^0\left((0,T);{\color{red}V}\right)\) significa que 
+\[\nr{u(\cdot)}:t\in [0,T]\longmapsto \R\ \text{ é contínua}. \]
+%\item \(C^0([0,T];{\color{red}V})\) é o espaço linear das funções vetoriais que são contínuas em \([0,T]\).
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\begin{itemize}
+%\item Uma função vetorial \(u:(0,T)\longrightarrow {\color{red}V}\), definida em q.t.p em \((0,T)\) é dita \dt{mensurável} se, e somente se, existe \( (u_n)\subset C^0(0,T;{\color{red}V})\) tal que 
+%\[
+%u_n(t)\longrightarrow u(t) \text{ fortemente em } {\color{red}V}, \ \text{ q.t.p em } (0,T).
+%\]
+%Consequentemente, \(u\) é mensurável \(\Longrightarrow\) \(\nr{u}\) é mensurável e 
+%\begin{center}
+%\(\displaystyle\int_0^T\nr{u(t)}^p\,dt\) está bem definida para toda \(u\) mensurável e
+% \(1\leq p<\infty\).
+%\end{center}
+%\end{itemize}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+%Seja \(T>0\) um número real e {\color{red}\((X,\|\cdot\|)\)}	um espaço de Banach real. Para uma função {\color{blue}\(u:(0,T)\longrightarrow {\color{red}X}\)} temos 
+Seja uma função {\color{blue}\(u:(0,T)\longrightarrow {\color{red}V}\)}. Os seguintes conceitos, são encontrados em \cite[\S E.5]{evans}.
+\begin{itemize}
+\item {\color{blue}\(u\)} é dita ser {\color{blue}fortemente mensurável} quando é o limite 
+q.t.p em \([0,T]\)
+de uma sequências de funções simples em {\color{red}\(V\)}, isto é, funções 
+\(s:[0,T]\longrightarrow {\color{red}V} \) da forma
+\[
+s(t)=\sum_{i=1}^{m}u_i\chi_{E_i}(t),
+\]
+onde \(u_i\in {\color{red}V}\) e \(E_i\) são subconjuntos mensuráveis de \([0,T]\).
+
+\item Dizemos que {\color{blue}\(u\)} é  {\color{blue} somável ou integrável} quando é 
+fortemente mensurável e a função real \(t\longmapsto \nr{{\color{blue}u(\cdot)}}\) é 
+integrável. Neste caso, a sua integral é definida como o limite das integrais 
+de uma sequência de funções simples e, portanto é um elemento de {\color{red}\(V\)} e será 
+denotado 
+por:
+\[\int_0^T {\color{blue}u(t)}\,dt.\]
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+
+\begin{itemize}
+\item  {\color{blue}\(u\)} é dita ser {\color{blue}fracamente mensurável} se para cada {\color{red}\(A\in V'\)} a aplicação \(t\longmapsto \innp{{\color{red}A},u(t)}_{{\color{red}V',V}}\) é Lebesgue mensurável.
+
+\item {\color{blue}\(u\)} é fortemente mensurável se, e somente se, e fracamente mensurável e assume valores quase sempre separáveis (veja a definição em {\color{blue}\cite{evans}}).
+
+\item Se {\color{blue}\(u\)}  é integrável, então
+\[
+\nr*{\int_0^T {\color{blue}u(t)}\,dt}\leq \int_0^T \nr{{\color{blue}u(t)}}\,dt
+\]
+e, para toda {\color{red}\(A\in V'\)}, 
+\[
+\left\langle {\color{red}A}, \int_0^T {\color{blue}u(t)}\,dt\right\rangle_{{\color{red}V',V}}=\int_0^T \left\langle {\color{red}A}, {\color{blue}u(t)}\right\rangle_{{\color{red}V',V}}\, dt
+\]
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{defin}
+O espaço \(L^p(0,T;{\color{red}V})\) consiste das funções {\color{blue} \(u:(0,T)\longrightarrow {\color{red}V}\)} mensuráveis tais que \(\nr{{\color{blue}u(\cdot)}}\in L^p(0,T)\). Em \(L^p(0,T;{\color{red}V})\), definimos a norma:
+\[
+\nr{{\color{blue}u}}_{L^p(0,T;X)}=\left(\int_0^T \nr{{\color{blue}u(t)}}^p\right)^{1/p},\ 1\leq p<\infty, 
+\]
+e
+\[
+\nr{{\color{blue}u}}_{L^\infty(0,T;X)}
+=\esup_{0\leq t\leq T}\nr{{\color{blue}u(t)}}.
+\]
+\end{defin}
+
+%\begin{exer}
+%Mostre que \(L^p(0,T;V)\) é um espaço de Banach.
+%\end{exer}
+
+\begin{itemize}
+\item Se \({\color{red}V}\) é separável, então 
+\((L^p(0,T;{\color{red}V}))'=L^{p'}(0,T;{\color{red}V'})\), para todo \(1\leq p<+\infty\) e
+$\frac{1}{p'}+\frac{1}{p}=1$, onde 
+\[
+\innp{u,v}_{L^{p'}(0,T;{\color{red}V'}),L^p(0,T;{\color{red}V})}
+=\int_0^T \innp{u(t),v(t)}_{{\color{red}V'},{\color{red}V}}\, dt
+\]
+
+\end{itemize}
+
+%\subsection*{Exercício \theexer}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{frame}
+%\begin{itemize}
+%\item Se \({\color{red}V}\) é separável, então, para todo \(1\leq p<+\infty\), 
+%\((L^p(0,T;{\color{red}V}))'=L^{p'}(0,T;{\color{red}V'})\) com 
+%$\frac{1}{p'}+\frac{1}{p}=1$ com 
+%\[
+%\innp{u,v}_{L^{p'}(0,T;{\color{red}V'}),L^p(0,T;{\color{red}V})}
+%=\int_0^T \innp{u(t),v(t)}_{{\color{red}V'},{\color{red}V}}\, dt
+%\]
+%
+%\item Se \({\color{blue}u}\in L^1(0,T;{\color{red}V})\), então podemos definir a integral vetorial
+%\[
+%\int_0^T {\color{blue}u(t)}\,dt \in {\color{red}V}. 
+%\]
+%Além disso,
+%\[
+%\nr*{\int_0^T {\color{blue}u(t)}\,dt}\leq \int_0^T \nr{{\color{blue}u(t)}}\,dt
+%\]
+%e, para toda {\color{red}\(A\in V'\)}, 
+%\[
+%\left\langle {\color{red}A}, \int_0^T {\color{blue}u(t)}\,dt\right\rangle_{{\color{red}V'V}}=\int_0^T \left\langle {\color{red}A}, {\color{blue}u(t)}\right\rangle_{{\color{red}V',V}}\, dt
+%\]
+%\end{itemize}
+%
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Distribuições em Espaços de Banach}
+
+\begin{frame}{Distribuições vetoriais em Espaços de Banach}
+\begin{defin}
+Sejam \(T>0\) e {\color{red}\(V\)} um espaço de Banach. Uma \dt{distribuição vetorial em \((0,T)\) com valores em} {\color{red}\(V\)} é um {\color{blue}funcional linear} 
+${\color{blue}S}: \phi\in \D(0,T)\longmapsto {{\color{blue}S}\cdot\phi}\in
+{\color{red}V}$ que é {\color{blue}contínua} no sentido da convergência sobre $\D(0,T)$, isto é, 
+\begin{center}
+	para toda $\phi_m\to 0$ em $\D(0,T)$, tem-se que 
+	${{\color{blue}S}\cdot\phi_m}\to 0$ em \({\color{red}V}\).
+\end{center}
+
+
+O espaço das distribuições vetoriais em \({\color{red}V}\)  é denotado por 
+$\D'(0,T;{\color{red}V})$. Notações alternativas a \({\color{blue}S}\cdot \phi\) 
+são \(\innp{{\color{blue}S},\phi}\) e \({\color{blue}S}(\phi)\).
+\end{defin}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+
+\begin{itemize}
+\item Dizemos que \(u\in \Lloc^1(0,T;{\color{red}V})\) quando para todo compacto \(K=[a,b]\subset\subset (0,T)\), tem-se que
+\[
+\int_K \nr{u(t)}\,dt<+\infty.
+\]
+
+\item $\Lloc^1(0,T;{\color{red}V})\subset \D'(0,T;{\color{red}V})$ significa que se \(u\in \Lloc^1(0,T;{\color{red}V})\) identificamos \(u\equiv S_u\in \D'(0,T;{\color{red}V})\), onde 
+\[{S_u\cdot\phi}=\int_0^T u(t)\phi(t)\,dt, \ \phi \in \D(0,T)\]
+
+\item  Se \({\color{red}V}\) é separável e $u\in \Lloc^1(0,T;{\color{red}V})$, então
+\[
+S_u=0 \text{ em } \D'(0,T;{\color{red}V})\Rightarrow u=0,\ \text{ q.t.p em} (0,T). 
+\]
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Derivadas das Distribuições Vetoriais}
+\begin{frame}{Derivadas das Distribuições Vetoriais}
+\begin{defin}
+	Sejam $S\in \D'(0,T;{\color{red}V})$ e $m\in \N$. A \dt{derivada} de ordem $m$ de $S$ é a distribuição $D^m S$ definida por:
+	\[{D_t^m S\cdot\phi}=(-1)^{m}{S\cdot\frac{d^m}{dt^m}\phi},\ \text{ em } {\color{red}V},\  \forall \phi \in \D(0,T).\]
+Também usaremos a notação: \(S'=D_tS, S''=D_t^2S\) e etc.
+\end{defin}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Espaços de Sobolev Vetoriais}
+Sejam \(V\) e \(H\)  espaços de Hilbert separáveis tais que a inclusão
+ \(V\hookrightarrow H\) é contínua e densa. Então, identificando \(H\equiv H'\) temos que
+ \[
+ V\hookrightarrow H\equiv H'\hookrightarrow V'.
+ \]
+\begin{defin}
+ Definimos o {\color{blue}espaço de Sobolev vetorial}
+ \[
+ W^{1}(0,T;V)=\left\{
+ u\in L^2(0,T;V),\ u'\in L^{2}(0,T;V') 
+  \right\},
+ \]
+com norma dada por
+\begin{align*}
+\n{u}_{H^{1}(0,T;V)}^2& =\n{u}_{L^2(0,T;V)}^2+\n{u^\prime}_{L^2(0,T;V')}^2
+\end{align*}
+%com a norma 
+%\[
+%\n{u}_{H^{1}(0,T;V)}=\left(\n{u}^2_{L^2(0,T;V)}+\n*{u'}^2_{L^{2}(0,T;V')}  \right)^{\frac{1}{2}.}
+%\]
+\end{defin}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{prop}[ver em {\cite[Cap. 9]{Bhat}} e {\cite[Sec. 5.9.2]{evans}}]
+\begin{enumerate}
+\item Se \(u\in H^1(0,T;V)\) e \(v\in V\), então
+\[
+\innp{u'(\cdot),v}_{V',V}=\frac{d}{dt}\left(u(\cdot),v\right)_H \text{ em } \D'(0,T).
+\]
+
+\item \(C^\infty([0,T];V)\) {\color{blue}é denso} em \(H^1(0,T;V)\), onde 
+\[C^\infty([0,T];V)=
+\left\{\phi\big\vert_{[0,T]};\, \phi\in C^\infty(\R;V))
+\text{ com suporte compacto em } \R. \right\}
+\]
+
+\item {\color{blue}\(H^1(0,T;V)\hookrightarrow C^0([0,T];H)\)} e, se  \(u\in H^1(0,T;V)\), então vale
+\begin{align*}
+& u(t)=u(s)+\int_s^tu'(\tau)\,d\tau, \text{ para todo } 0\leq s\leq t\leq T,\\
+& \frac{d}{dt}\n{u(t)}^2_{H}=2\innp{u'(t),u(t)}_{V',V}, \text{ q.t.p em } [0,T].  
+\end{align*}
+
+\end{enumerate}
+\end{prop}
+
+\end{frame}
+
+

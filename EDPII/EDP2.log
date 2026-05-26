@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  19 MAY 2026 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  26 MAY 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1480,27 +1480,27 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (./EDP2.aux (./bibliografia.aux) (./preliminares.aux) (./convolucao.aux)
 (./distribuicoes.aux) (./sobolev.aux) (./aproximacao.aux) (./prolongamento.aux)
 (./traco.aux) (./imersoes.aux) (./dual.aux) (./elipticas.aux)
-(./parabolicas.aux))
+(./distribuicoesVetoriais.aux) (./parabolicas.aux))
 \openout1 = `EDP2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1558,7 +1558,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 176.
+Package hyperref Info: Link coloring OFF on input line 194.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1589,29 +1589,29 @@ Package caption Info: End \AtBeginDocument code.
  (./EDP2.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 201.
+(hyperref)                setting the option has no effect on input line 219.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 233
+LaTeX Font Info:    Trying to load font information for U+msa on input line 251
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 233
+LaTeX Font Info:    Trying to load font information for U+msb on input line 251
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 233.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 251.
 
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 23
-3.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 25
+1.
 
 
-Overfull \vbox (1.14276pt too high) detected at line 233
+Overfull \vbox (1.14276pt too high) detected at line 251
  []
 
 [1
@@ -1671,12 +1671,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ] [13
 
 ]
-<w-homework.png, id=561, 513.92pt x 452.69125pt>
+<w-homework.png, id=564, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 212.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
-<images/Bump.png, id=576, 231.264pt x 116.5956pt>
+<images/Bump.png, id=579, 231.264pt x 116.5956pt>
 File: images/Bump.png Graphic file (type png)
 <use images/Bump.png>
 Package pdftex.def Info: images/Bump.png  used on input line 212.
@@ -1825,7 +1825,7 @@ Package pdftex.def Info: w-homework.png  used on input line 149.
 ] [48
 
 ]
-<images/meyers-serrin.png, id=2222, 618.05907pt x 359.84438pt>
+<images/meyers-serrin.png, id=2225, 618.05907pt x 359.84438pt>
 File: images/meyers-serrin.png Graphic file (type png)
 <use images/meyers-serrin.png>
 Package pdftex.def Info: images/meyers-serrin.png  used on input line 79.
@@ -1987,12 +1987,7 @@ Package pdftex.def Info: w-homework.png  used on input line 322.
 
 ] [93
 
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is: c on input line 296.
-
-[94
+] [94
 
 ] [95
 
@@ -2001,21 +1996,67 @@ LaTeX Warning: The counter will not be printed.
 ] [97
 
 ])
-\openout2 = `parabolicas.aux'.
+\openout2 = `distribuicoesVetoriais.aux'.
 
- (./parabolicas.tex [98
+ (./distribuicoesVetoriais.tex [98
 
 
 
 
 ] [99
 
+] [100
+
 ]
-File: w-homework.png Graphic file (type png)
-<use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 48.
-(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
- [100
+[101
+
+] [102
+
+] [103
+
+] [104
+
+] [105
+
+] [106
+
+])
+\openout2 = `parabolicas.aux'.
+
+ (./parabolicas.tex [107
+
+
+
+
+] [108
+
+] [109
+
+]
+[110
+
+]
+Overfull \hbox (5.91771pt too wide) detected at line 131
+\OMS/cmsy/m/n/10.95 h\OML/cmm/m/it/10.95 u[]; [][]\OMS/cmsy/m/n/10.95 i[] \OT1/
+cmr/m/n/10.95 + [][] = \OMS/cmsy/m/n/10.95 h[][]\OML/cmm/m/it/10.95 ; [][]\OMS/
+cmsy/m/n/10.95 i[]\OML/cmm/m/it/10.95 ;  \OMS/cmsy/m/n/10.95 8 [][] 2 \OML/cmm/
+m/it/10.95 H[]\OT1/cmr/m/n/10.95 (
+)\OML/cmm/m/it/10.95 :
+ []
+
+[111
+
+] [112
+
+] [113
+
+] [114
+
+] [115
+
+] [116
+
+] [117
 
 ])
 \tf@nav=\write5
@@ -2027,10 +2068,10 @@ Package pdftex.def Info: w-homework.png  used on input line 48.
 \tf@snm=\write7
 \openout7 = `EDP2.snm'.
 
- (./EDP2.aux
-(./bibliografia.aux) (./preliminares.aux) (./convolucao.aux)
-(./distribuicoes.aux) (./sobolev.aux) (./aproximacao.aux) (./prolongamento.aux)
-(./traco.aux) (./imersoes.aux) (./dual.aux) (./elipticas.aux)
+ (./EDP2.aux (./bibliografia.aux)
+(./preliminares.aux) (./convolucao.aux) (./distribuicoes.aux) (./sobolev.aux)
+(./aproximacao.aux) (./prolongamento.aux) (./traco.aux) (./imersoes.aux)
+(./dual.aux) (./elipticas.aux) (./distribuicoesVetoriais.aux)
 (./parabolicas.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -2042,10 +2083,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32815 strings out of 474222
- 666723 string characters out of 5748733
+ 32983 strings out of 474222
+ 670220 string characters out of 5748733
  1945975 words of memory out of 5000000
- 54071 multiletter control sequences out of 15000+600000
+ 54189 multiletter control sequences out of 15000+600000
  577570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,22n,123p,674b,2442s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2075,10 +2116,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1200.pfb>
-Output written on EDP2.pdf (100 pages, 1852179 bytes).
+Output written on EDP2.pdf (117 pages, 1917263 bytes).
 PDF statistics:
- 4818 PDF objects out of 5155 (max. 8388607)
- 3737 compressed objects within 38 object streams
- 281 named destinations out of 1000 (max. 500000)
- 5148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5389 PDF objects out of 6186 (max. 8388607)
+ 4238 compressed objects within 43 object streams
+ 324 named destinations out of 1000 (max. 500000)
+ 5374 words of extra memory for PDF output out of 10000 (max. 10000000)
 
