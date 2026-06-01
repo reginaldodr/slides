@@ -1,8 +1,8 @@
 \section{Equações Lineares Parabólicas de 2ª ordem}
 
 
-\subsection*{Funções em Espaços de Banach}
-\begin{frame}{Equações Parabólicas}
+\subsection*{O problema Parabólico}
+\begin{frame}{Equações Parabólicas lineares de 2ª ordem}
 Desejamos estudar o problema misto
 \[
 \begin{cases}
@@ -15,7 +15,7 @@ onde \(\Omega\in \rd\) é aberto e limitado, \(\Omega_T=\Omega\times (0,T]\) e
 \begin{itemize}
 \item {\color{blue}\(u:\overline{\Omega}_T\longrightarrow \R\)}
 é uma função desconhecida;
-\item \(f:\Omega_T \longrightarrow \R\) e \(u_0:\Omega \longrightarrow \R\) são funções dadas;
+\item {\color{cyan}\(f:\Omega_T \longrightarrow \R\) e \(u_0:\Omega \longrightarrow \R\)} são funções dadas;
 \item {\color{red}\(L\)} é um operador diferencial parcial de 2ª ordem que possui uma das seguintes formas:
 \end{itemize}
 \end{frame}
@@ -23,20 +23,23 @@ onde \(\Omega\in \rd\) é aberto e limitado, \(\Omega_T=\Omega\times (0,T]\) e
 \begin{frame}{Operador Parabólico}
 \begin{itemize}
 \item Forma Divergente
-{\color{red}
 \[
-Lu=-\sum_{i,j=1}^{\dm}\left(a^{ij}(x,t)u_{x_i}\right)_{x_j}
-+\sum_{i=1}^{\dm}b^i(x,t)u_{x_i}+c(x,t)u
+{\color{red}L}{\color{blue}u}=
+{\color{red}-\sum_{i,j=1}^{\dm}
+\partial_j\left(a^{ij}(x,t)\partial_i {\color{blue}u}\right)
++\sum_{i=1}^{\dm}{\color{red}b^i(x,t)}\partial_i{\color{blue}u}
++c(x,t){\color{blue}u}}
 \]
-}
+
 \item Forma não divergente
 {\color{red}
 \[
-Lu=-\sum_{i,j=1}^{\dm}a^{ij}(x,t)u_{x_ix_j}+\sum_{i=1}^{\dm}b^i(x,t)u_{x_i}+c(x,t)u
+L{\color{blue}u}=-\sum_{i,j=1}^{\dm}a^{ij}(x,t)\partial^2_{ij}{\color{blue}u}
++\sum_{i=1}^{\dm}b^i(x,t)\partial_i{\color{blue}u}+c(x,t){\color{blue}u}
 \]
 }
 \end{itemize}
-onde \(a^{ij},b^i, c :\Omega_T \longrightarrow \R\) são funções dadas com \(i,j\in \ind\).
+onde \({\color{red}a^{ij},b^i, c} :\Omega_T \longrightarrow \R\) são funções dadas com \(i,j\in \ind\).
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{}
@@ -49,7 +52,7 @@ onde \(a^{ij},b^i, c :\Omega_T \longrightarrow \R\) são funções dadas com \(i
 %para quase todo \(x\in \Omega_T\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\in \rd\). 
 %\end{defin}
 
-\begin{block}{Hipóteses}
+\begin{hipoteses}\label{hp}
 \begin{enumerate}[a]
 \item  O operador diferencial
 {\color{red}\(\frac{\partial}{\partial t}+L:\Omega_T\longrightarrow \R \)} é {\color{blue}uniformemente parabólico}, isto é, existe \(\theta>0\) tal que
@@ -57,12 +60,12 @@ onde \(a^{ij},b^i, c :\Omega_T \longrightarrow \R\) são funções dadas com \(i
 \sij {\color{red}a^{ij}(x,t)}{\color{blue}\xi_i\xi_j}\geq \theta |{\color{blue}\xi}|^2,
 \]
 para quase todo \(x\in \Omega_T\) e todo \({\color{blue}\xi=(\xi_1,\ldots,x_\dm)}\in \rd\). 
-\item \(a^{ij},\, b^i, \, c\in L^\infty(\Omega_T)\), \(i,j\in \ind\).
-\item \(f\in L^2(\Omega_T)\), \(u_0\in L^2(\Omega)\)
+\item \({\color{red}a^{ij},\, b^i, \, c}\in L^\infty(\Omega_T)\), \(i,j\in \ind\).
+%\item {\color{cyan}\(f\in L^2(\Omega_T)\), \(u_0\in L^2(\Omega)\)}
 \item {Condição de simetria}:
-\(a^{ij}=a^{ji},\ \forall\, i,j\in \ind.\)
+\({\color{red}a^{ij}=a^{ji}},\ \forall\, i,j\in \ind.\)
 \end{enumerate}
-\end{block}
+\end{hipoteses}
 Sob essas condições, temos que {\color{red}\(L: L^2(0,T;\ho)\longrightarrow 
 L^2(0,T;\hd)\)} é linear e contínuo, onde
 \[
@@ -84,8 +87,9 @@ Sejam {\color{cyan} \(f\in \LT{\hd}\)}, {\color{cyan}\(u_0\in L^2(\Omega)\)} e
 operador {\color{red} \(L\)} na forma divergente. Dizemos que 
 {\color{blue}\(u:[0,T]\longrightarrow \Lloc^1(\Omega)\)} é uma {\color{blue}solução fraca} do 
 problema parabólico 
-%\begin{center}
-%\begin{minipage}{0.7\textwidth}
+\begin{center}
+\vspace{-1.5em}
+\begin{minipage}{0.7\textwidth}
 \begin{equation}\label{pb-parb} \tag{{\color{red}\(Pb\)}}\lnum 
 \begin{cases}
 {\color{blue}u}^{{\color{red}\prime}}+{\color{red}L}{\color{blue}u}
@@ -94,8 +98,8 @@ problema parabólico
 {\color{blue}u}={\color{cyan}u_0}, & \text{ em } \Omega,
 \end{cases}
 \end{equation}
-%\end{minipage}
-%\end{center}
+\end{minipage}
+\end{center}
 quando
 \begin{enumerate}[a]
 \item \({\color{blue}u\in \HT{\ho}}\hookrightarrow C^0([0,T];L^2(\Omega))\);
@@ -115,28 +119,57 @@ quando
 \item \({\color{blue}u}^{{\color{red}\prime}}+{\color{red}L}{\color{blue}u}
 ={\color{cyan}f} \text{ em } {\color{red}\hd} \text{ e  para quase todo } t\in [0,T]
 \) significa que:
-\[
-\innp{u^\prime,{\color{blue}v}}_{\hd,\ho}+
-{\color{red}\int_\Omega \sij a^{ij}u_{x_i}{\color{blue}v_{x_j}}
-+\si b^iu_{x_i}{\color{blue}v}+cu{\color{blue}v}\,dx}=\innp{{\color{cyan}f},{\color{black}v}}_{H^{-1},H_0^1},\ 
-\forall\, {\color{black} v}\in \ho.
-\]
+\begin{multline*}
+\innp{{\color{blue}u^{\color{red}\prime}(t)},{\color{black}v}}_{\hd,\ho}\\
++{\color{red}\int_\Omega \sij a^{ij}(x,t)\partial_i{\color{blue}u(t)}{\color{black}\partial_jv(x)}
++\si b^i(x,t)\partial_i{\color{blue}u(t)}{\color{black}v(x)}
++c{\color{blue}u(t)}{\color{black}v(x)}\,dx}\\
+=\innp{{\color{cyan}f(t)},{\color{black}v}}_{\hd,\ho},\ 
+\forall\, {\color{black} v}\in \ho,\ \text{ q.t.p em  } [0,T].
+\end{multline*}
 Além disso, sabemos que
 \[
-\innp{u^\prime,{\color{blue}v}}_{\hd,\ho}
-=\frac{d}{dt}(u,{\color{blue}v})_{2,\Omega},\ 
-\forall\, {\color{black} v}\in \ho. 
+\innp{{\color{blue}u^{\color{red}\prime}(t)},{v}}_{\hd,\ho}
+={\color{red}\frac{d}{dt}}({\color{blue}u(t)},{v})_{2,\Omega},\ 
+\forall\, {\color{black} v}\in \ho \ \text{ e q.t.p em } [0,T].
 \]
 \end{itemize}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+Em particular, multiplicando por \(\phi\in C^1([0,T])\) e integrando sobre \([0,T]\) 
+obtemos a identidade:
+\begin{multline*}
+-\iint_{\Omega_T}{\color{blue}u(x,t)}{\color{blue}v(x)}\varphi^{\color{red}\prime}(t)\,dxdt
++\int_\Omega u(T,x) v(x)\phi(T)\,dx -\int_\Omega u(0,x) v(x)\phi(0)\,dx 
+\\
++\iint_{\Omega_T}\left({\color{red}\sij a^{ij}(x,t)\partial_i{\color{blue}u(x,t)}{\color{black}\partial_jv(x)}
++\si b^i(x,t)\partial_i{\color{blue}u(x,t)}{\color{black}v(x)}
++c{\color{blue}u(x,t)}{\color{black}v(x)}}\right)  \phi(t)\,dxdt\\
+=\int_{0}^T\innp{{\color{cyan}f(t)},{\color{black}v}}_{_{\hd,\ho}}\varphi(t)\,dt,\ 
+\forall\, {\color{black} v}\in \ho, \ \forall\, \phi\in C^1([0,T]).
+\end{multline*}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Existência e Unicidade de Soluções Fracas}
+\begin{frame}{Existência e Unicidade de Solução Fraca}
+\begin{teo}
+Sejam \(\Omega\) um aberto de \(\rd\) e \(T>0\). Suponha que {\color{red}\(L\)} é um 
+operador diferencial na forma divergente satisfazendo as Hipóteses  
+{\color{blue}\eqref{hp}}. 
+Se {\color{cyan}\(f\in L^2(\Omega_T)\) e \(u_0\in L^2(\Omega)\)}, então o problema 
+\eqref{pb-parb} possui uma única solução fraca.
+\end{teo}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{A forma bilinear}
 Para cada \(t\in [0,T]\), definimos novamente a \dt{forma bilinear} 
 \(B:\ho\times \ho \longrightarrow \R\) por
 \begin{align*}
 B(u,{\color{blue}v};t)& =\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}\\
-& ={\color{red}\int_\Omega \sij a^{ij}(\cdot,t)u_{x_i}{\color{blue}v_{x_j}}
-+\si b^i(\cdot,t)u_{x_i}{\color{blue}v}+c(\cdot,t)u{\color{blue}v}\,dx}.
+& ={\color{red}\int_\Omega \sij \partial_ia^{ij}(\cdot,t)u(t)\partial_j{\color{blue}v}
++\si b^i(\cdot,t)\partial_iu{\color{blue}v}+c(\cdot,t)u{\color{blue}v}\,dx}.
 \end{align*}
 Como antes, vemos que
 \[
@@ -147,43 +180,54 @@ Como antes, vemos que
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Método de Galerkin}
 \begin{frame}{Método de Galerkin}
-Seja {\color{blue}\((w_k)_{k=1}^\infty\) a base hilbertiana 
-ortonormal} de 
+Seja {\color{blue}\((w_k)_{k=1}^\infty\) a base hilbertiana (ortonormal)} de 
 \(L^2(\Omega)\) formada pelas soluções fracas do seguinte
  {\color{blue}problema  de autovalores} do seguinte problema elíptico
-\[
+ \vspace{-1em}
+\begin{center}
+\begin{minipage}{0.5\textwidth}
+\begin{equation}\tag{\({\color{red}P_\lambda}\)}\lnum
 \begin{cases}
 -\Delta {\color{blue}w}={\color{red}\lambda} {\color{blue}w}, & \text{ em } \Omega\\
 {\color{blue}w}=0, & \text{ sobre } \partial\Omega.
 \end{cases}
-\]
-Além disso, temos que
+\end{equation}
+\end{minipage}
+\end{center}
+Além disso, 
 \begin{itemize}
-\item  \(({\color{blue}w_k})_{k=1}^\infty \) é 
-ortogonal  em \(\ho\).
+\item  \(({\color{blue}w_k})_{k=1}^\infty \) é uma base
+ortogonal  em \(\ho\), isto é, \\[0.5em]
+\begin{enumerate}
+\item \(({\color{blue}w_k})_{k=1}^\infty \) são ortogonais em \(\ho\);\\[0.5em]
+\item Se \(V=\vspan\{w_k; k\in \N\}\) é denso em 
+\(\ho\).
+\end{enumerate}
 \item  \(\n{{\color{blue}w_k}}_{1,2,\Omega}=\sqrt{1+{\color{red}\lambda_k}}\),\ \(\forall k\in \N\).
-\item Dados \({\color{cyan}f\in \LT{L^2(\Omega)}}\) e \({\color{cyan}u_0\in L^2(\Omega)}\) temos que
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Aproximações de Galerkin}
+Dados \({\color{cyan}f\in \LT{L^2(\Omega)}}\) e \({\color{cyan}u_0\in L^2(\Omega)}\) 
+temos que
 \[{\color{cyan}f(t,\cdot)}=\sum_{k=1}^\infty {\color{cyan}f^k(t)} w_k
 \text{ e } {\color{cyan}u_0}=\sum_{k=1}^\infty {\color{cyan}u_0^k} w_k,
 \]
 onde \({\color{cyan}f^k(t)}=({\color{cyan}f(t)},w_k)_{2,\Omega}\) e 
 \({\color{cyan}u_0^k}=({\color{cyan}u_0},w_k)_{2,\Omega}\).
-\end{itemize}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Aproximações de Galerkin}
-Para cada \(m\in \N\), seja 
-\(V_m=\vspan\{w_1,\ldots,w_m\}\). Buscamos {\color{blue}\(u_m:[0,T]\longrightarrow V_m\)},
+\medskip 
+
+Seja {\color{blue}\(V_m=\left\{w_1,w_2,\ldots,w_k\right\}\)}. Buscamos {\color{blue}\(u_m:[0,T]\longrightarrow V_m\)},
 \[
-u_m(t,\cdot)=\sum_{\ell=1}^{m} {\color{blue}d_m^\ell(t})w_\ell,
+{\color{blue}u_m(t,\cdot)}=\sum_{\ell=1}^{m} {\color{blue}d_m^\ell(t})w_\ell,
 \]
 satisfazendo
-\[
+\begin{equation*}
 \begin{cases}
-(u_m'(t),v)_{2,\Omega}+B(u_m,v;t)=(f(t),v)_{2,\Omega},\ \forall v\in \ho.\\
-u_m(0)=u_{0m}=\sum_{\ell=1}^{m} u_0^\ell w_\ell.
+({\color{blue}u_m'(t)},v)_{2,\Omega}+{\color{red}B(u_m,v;t)}=({\color{cyan}f(t)},v)_{2,\Omega},\ \forall v\in \ho.\\
+{\color{cyan}u_m(0)}={\color{cyan}u_{0m}}=\sum_{\ell=1}^{m} {\color{cyan}u_0^\ell} w_\ell.
 \end{cases}
-\]
+\end{equation*}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -191,29 +235,29 @@ u_m(0)=u_{0m}=\sum_{\ell=1}^{m} u_0^\ell w_\ell.
 Fazendo \(v=w_k\), temos definido o seguinte PVI
 \[
 \begin{cases}
-X'(t)+E(t)X(t)=F(t), & \text{ para quase todo }t\in (0,T)\\
-X(0)=X_0,
+{\color{blue}X'(t)}+{\color{red}E(t)}{\color{blue}X(t)}={\color{cyan}F(t)}, & \text{ para quase todo }t\in (0,T)\\
+{\color{cyan}X(0)=X_0,}
 \end{cases}
 \]
 onde
 \begin{align*}
-& X(t)
-=\begin{bmatrix}
+& {\color{blue}X(t)}
+={\color{blue}\begin{bmatrix}
 d_m^1(t) \\ \vdots \\ d_m^m(t)
-\end{bmatrix}, \
-E(t)=\begin{bmatrix}
+\end{bmatrix},} \
+{\color{red}E(t)=\begin{bmatrix}
 b(w_1,w_1;t) & \cdots & b(w_1,w_m;t)  \\
  \vdots & & \vdots \\ 
 b(w_m,w_1;t) & & b(w_m,w_m;t)
-\end{bmatrix},\\[1em]
-& F(t)=
+\end{bmatrix}},\\[1em]
+&{\color{cyan} F(t)=
 \begin{bmatrix}
 (f(t),w_1)_{2,\Omega} \\ \vdots \\ (f(t),w_m)_{2,\Omega}
 \end{bmatrix} \text{ e }
 X_0=
 \begin{bmatrix}
 (u_0,w_k)_{2,\Omega} \\ \vdots \\ (u_0,w_m)_{2,\Omega}
-\end{bmatrix}
+\end{bmatrix}}
 \end{align*}
 \quad {\color{blue}Este PVI tem solução única garantida pelo seguinte resultado.}
 %\[
@@ -231,16 +275,16 @@ X_0=
 Considere o {\color{blue}sistema linear não homogêneo}
 \begin{equation}
 \begin{cases}\label{EDO}
-X'(t)=A(t)X(t)+b(t), & \text{ q.t.p em } I,\\
-X(t_0)=X_0, & t_0\in I,
+X'(t)={\color{red}A(t)}X(t)+{\color{red}B(t)}, & \text{ q.t.p em } I,\\
+{\color{cyan}X(t_0)=X_0}, & t_0\in I,
 \end{cases}
 \end{equation}
-onde \(I\) é um intervalo da reta,  \(A=\left(a_{ij}(t)\right)_{n\times n}\) e 
-\(B=\left(b_{i}(t)\right)_{n\times 1}\) são matrizes com entradas sendo funções definidas 
+onde \(I\) é um intervalo da reta, {\color{red} \(A=\left(a_{ij}(t)\right)_{n\times n}\) e 
+\(B=\left(b_{i}(t)\right)_{n\times 1}\)} são matrizes com entradas sendo funções definidas 
 em \(I\) satisfazendo:
 \begin{enumerate}
-\item \(a_{ij}, b_i:I\longrightarrow \R\) são funções mensuráveis,
-\item Existe  \(k\in L^1(I)\) tal que \(|a_{ij}(t)|\leq k(t)\) e \(|b_i(t)|\leq k(t)\), 
+\item{\color{red} \(a_{ij}, b_i:I\longrightarrow \R\) }são funções mensuráveis,
+\item Existe  {\color{blue}\(k\in L^1(I)\)} tal que \(|{\color{red}a_{ij}(t)}|\leq {\color{blue}k(t})\) e \(|{\color{red}b_i(t)}|\leq {\color{blue}k(t)}\), 
 q.t.p em \(I\).
 \end{enumerate}
 Então {\color{blue}existe uma única solução absolutamente contínua em \(I\)} do sistema 
@@ -260,5 +304,56 @@ Existe \(C>0\), dependendo apenas de \(\Omega, T\) e dos coeficientes de
 \leq C\left(\n{{\color{cyan}f}}_{L^2(\Omega_T)}+\n{{\color{cyan}u_0}}_{L^2(\Omega)}\right).
 \end{multline*}
 \end{teo}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Passagem do Limite}
+Da desigualdade de energia: existe uma subsequência \((u_{m_k})_{k\in\N}\) tal que
+\begin{equation*}
+\begin{cases}
+u_{m_k} \rightharpoonup u \text{ em } \LT{\ho}\\
+u_{m_k}' \stackrel{\ast}{\rightharpoonup} u' \text{ em } \LT{\hd}.\\
+\end{cases}
+\end{equation*}
+Donde, para cada {\color{blue}\(v\in \LT{\ho}\)}, temos que
+\[
+\int_0^T \innp{u_{m_k}',{\color{blue}v(t)}}_{\hd,\ho}dt \longrightarrow
+\int_0^T \innp{u',{\color{blue}v(t)}}_{\hd,\ho}dt, \text{ quando } k\to +\infty.
+\]
+\[
+\int_0^T B(u_{m_k}(t),{\color{blue}v(t)};t)dt \longrightarrow
+\int_0^T B(u(t),{\color{blue}v(t)};t)dt, \text{ quando } k\to +\infty.
+\]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+Em particular, para cada {\color{blue}\(v\in V=\vspan\{w_k;\, k\in \N\} \)} e {\color{blue}\(\varphi\in \D(0,T)\)}, 
+temos que
+\begin{equation*}
+\int_0^T \innp{u_{m_k}'(t),{\color{blue}v}}_{\hds,\hos}{\color{blue}\varphi(t)} 
++ B(u_{m_k}(t),{\color{blue}v};t){\color{blue}\varphi(t)}\, dt
+=\int_0^T \left(f(t),{\color{blue}v}\right)_{2,\Omega}{\color{blue}\varphi(t)}\,dt
+\end{equation*}
+Das convergências fracas,
+\begin{equation*}
+\int_0^T \innp{u'(t),{\color{blue}v}}_{\hds,\hos}{\color{blue}\varphi(t)} 
++ B(u(t),{\color{blue}v};t){\color{blue}\varphi(t)}\, dt
+=\int_0^T \left(f(t),{\color{blue}v}\right)_{2,\Omega}{\color{blue}\varphi(t)}\,dt
+\end{equation*}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+Da densidade de {\color{blue}\(V\) em \(\ho\)} obtemos que
+\begin{equation*}
+\int_0^T \innp{u'(t),{\color{blue}v}}_{\hds,\hos}{\color{red}{\color{blue}\varphi(t)}} 
++ B(u(t),{\color{blue}v};t){\color{blue}\varphi(t)}\, dt
+=\int_0^T \left(f(t),{\color{blue}v}\right)_{2,\Omega}{\color{blue}\varphi(t)}\,dt
+\end{equation*}
+para toda \({\color{blue}v\in \ho}\) e \({\color{blue}\varphi\in \D(0,T)}\).
+Logo, pelo {\color{red}Lema de Du Bois Raymond}, 
+\begin{equation*}
+\innp{u'(t),{\color{blue}v}}_{\hds,\hos}
++ B(u(t),{\color{blue}v};t)
+=\left(f(t),{\color{blue}v}\right)_{2,\Omega}\, \forall {\color{blue}v\in \ho}, \text{ q.t.p em } [0,T].
+\end{equation*}
 \end{frame}
 

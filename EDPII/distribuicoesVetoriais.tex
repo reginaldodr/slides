@@ -4,7 +4,7 @@
 \subsection*{Funções em Espaços de Banach}
 \begin{frame}{Funções em Espaços de Banach}
 Faremos uma pequena exposição das funções e das distribuições vetoriais, os detalhes são encontrados em   
-{\color{blue}\cite{Bhat}}.
+{\color{blue}\cite{Bhat}} e {\color{blue}\cite[\S E.5]{evans}}.
 \bigskip
 
 Seja \(T>0\) um número real e {\color{red}\((V,\|\cdot\|)\)}	um espaço de Banach real. 
@@ -13,12 +13,36 @@ chamada de  {\color{blue}função com valores vetoriais}.
 \medskip
 
 \begin{itemize}
+\item \(u: t\in [0,T] \longmapsto\left(u_1(t),u_2(t),\cdot,u_\dm(t)\right)\in {\color{red}\rd}\) é uma função vetorial clássica da análise real.
+
+\item Seja \({\color{red}V=L^2(\Omega)}\), onde \(\Omega\) é um aberto de \(\rd\). 
+ E seja \(u=u(x,t)\in \R\), onde  \((x,t)\in \Omega \times (0,T)\). Se para quase todo 
+ \(t\in [0,T]\) temos que \(u(\cdot,t)\in {\color{red}L^2(\Omega)}\), então podemos 
+ definir a função com valores vetoriais
+ \[u:t\in [0,T]\longmapsto u(t)=u(\cdot,t)\in {\color{red}L^2(\Omega)}\]
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{itemize}
 \item \(C^0([0,T];{\color{red}V})\) é o espaço linear das funções vetoriais que são 
 contínuas, isto 
-é, \(u\in C^0\left((0,T);{\color{red}V}\right)\) significa que 
+é,  
 \[\nr{u(\cdot)}:t\in [0,T]\longmapsto \R\ \text{ é contínua}. \]
-%\item \(C^0([0,T];{\color{red}V})\) é o espaço linear das funções vetoriais que são contínuas em \([0,T]\).
+%\item \(C^0([0,T];{\color{red}V})\) é o espaço linear das funções vetoriais que são 
+%contínuas em \([0,T]\).
+
+\item {\color{blue}\(u\)} é dita ser {\color{blue}fortemente mensurável} quando é o limite 
+q.t.p em \([0,T]\)
+de uma sequências de funções simples em {\color{red}\(V\)}, isto é, funções 
+\(s:[0,T]\longrightarrow {\color{red}V} \) da forma
+\[
+s(t)=\sum_{i=1}^{m}u_i\chi_{E_i}(t),
+\]
+onde \(u_i\in {\color{red}V}\) e \(E_i\) são subconjuntos mensuráveis de \([0,T]\).
 \end{itemize}
+
+
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}
@@ -35,49 +59,56 @@ contínuas, isto
 %\end{itemize}
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+\begin{frame}{Integral de Bochner}
 %Seja \(T>0\) um número real e {\color{red}\((X,\|\cdot\|)\)}	um espaço de Banach real. Para uma função {\color{blue}\(u:(0,T)\longrightarrow {\color{red}X}\)} temos 
-Seja uma função {\color{blue}\(u:(0,T)\longrightarrow {\color{red}V}\)}. Os seguintes conceitos, são encontrados em \cite[\S E.5]{evans}.
 \begin{itemize}
-\item {\color{blue}\(u\)} é dita ser {\color{blue}fortemente mensurável} quando é o limite 
-q.t.p em \([0,T]\)
-de uma sequências de funções simples em {\color{red}\(V\)}, isto é, funções 
-\(s:[0,T]\longrightarrow {\color{red}V} \) da forma
-\[
-s(t)=\sum_{i=1}^{m}u_i\chi_{E_i}(t),
-\]
-onde \(u_i\in {\color{red}V}\) e \(E_i\) são subconjuntos mensuráveis de \([0,T]\).
-
 \item Dizemos que {\color{blue}\(u\)} é  {\color{blue} somável ou integrável} quando é 
-fortemente mensurável e a função real \(t\longmapsto \nr{{\color{blue}u(\cdot)}}\) é 
-integrável. Neste caso, a sua integral é definida como o limite das integrais 
-de uma sequência de funções simples e, portanto é um elemento de {\color{red}\(V\)} e será 
-denotado 
-por:
-\[\int_0^T {\color{blue}u(t)}\,dt.\]
+{\color{blue}fortemente mensurável}   existe uma sequência de funções simples \((s_n)_{n\in \N}\)  tal que 
+\[
+\int_0^T \nr{s_n(t)-{\color{blue}u(t)}}\,dt \longrightarrow 0, \text{ quando } n\to +\infty
+\]
+ Neste caso, a sua integral é um elemento de {\color{red}\(V\)} definida por
+\[\int_0^T {\color{blue}u(t)}\,dt:=\lim\limits_{n\to+\infty} \int_0^T s_n(t)\,dt.\]
+
+\item  {\color{blue}\(u\)} é dita ser {\color{blue}fracamente mensurável} se para cada {\color{red}\(A\in V'\)} a aplicação \(t\longmapsto \innp{{\color{red}A},u(t)}_{{\color{red}V',V}}\) é Lebesgue mensurável.
+
+
+\item {\color{blue}\(u\)} é fortemente mensurável se, e somente se, e fracamente 
+mensurável e assume valores quase sempre separáveis (veja a definição em 
+{\color{blue}\cite{evans}}).
+
 \end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 
 \begin{itemize}
-\item  {\color{blue}\(u\)} é dita ser {\color{blue}fracamente mensurável} se para cada {\color{red}\(A\in V'\)} a aplicação \(t\longmapsto \innp{{\color{red}A},u(t)}_{{\color{red}V',V}}\) é Lebesgue mensurável.
 
-\item {\color{blue}\(u\)} é fortemente mensurável se, e somente se, e fracamente mensurável e assume valores quase sempre separáveis (veja a definição em {\color{blue}\cite{evans}}).
 
-\item Se {\color{blue}\(u\)}  é integrável, então
+\item Uma função fortemente mensurável {\color{blue}\(u\)}  é integrável se, e somente se, 
+a função real \(t\longmapsto  \nr{{\color{blue}u(\cdot)}}\) é 
+integrável. Além disso,
 \[
 \nr*{\int_0^T {\color{blue}u(t)}\,dt}\leq \int_0^T \nr{{\color{blue}u(t)}}\,dt
 \]
 e, para toda {\color{red}\(A\in V'\)}, 
 \[
-\left\langle {\color{red}A}, \int_0^T {\color{blue}u(t)}\,dt\right\rangle_{{\color{red}V',V}}=\int_0^T \left\langle {\color{red}A}, {\color{blue}u(t)}\right\rangle_{{\color{red}V',V}}\, dt
+\left\langle {\color{red}A}, \int_0^T 
+{\color{blue}u(t)}\,dt\right\rangle_{{\color{red}V',V}}=\int_0^T \left\langle 
+{\color{red}A}, {\color{blue}u(t)}\right\rangle_{{\color{red}V',V}}\, dt
 \]
 \end{itemize}
+\begin{exe}
+Seja \({\color{blue}u}\in C^0([0,T];{\color{red}\ho})\), então \({\color{blue}u}\) é integrável. Além disso, se \(v\in L^2(\Omega)\hookrightarrow \hd\), então
+\[
+\left(\int_0^T{\color{blue}u(t)}\,dt, v\right)_{2,\Omega}
+=\int_0^T\left({\color{blue}u(t)}, v\right)_{2,\Omega}\,dt.
+\]
+\end{exe}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+\begin{frame}{Espaços \(L^p(0,T;{\color{red}V})\)}
 \begin{defin}
 O espaço \(L^p(0,T;{\color{red}V})\) consiste das funções {\color{blue} \(u:(0,T)\longrightarrow {\color{red}V}\)} mensuráveis tais que \(\nr{{\color{blue}u(\cdot)}}\in L^p(0,T)\). Em \(L^p(0,T;{\color{red}V})\), definimos a norma:
 \[
@@ -94,13 +125,41 @@ e
 %Mostre que \(L^p(0,T;V)\) é um espaço de Banach.
 %\end{exer}
 
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Propriedades}
+
 \begin{itemize}
+\item Se \({\color{blue}u}\in L^p(0,T;{\color{red}V})\), então 
+\[
+({\color{blue}u(t)},v)_{\color{red}V}\in L^2(0,T),\  \forall v\in {\color{red}V} \text{ e } \innp{\varphi,{\color{blue}u(t)}}_{{\color{red}V',V}}\in L^2(0,T), \ \forall \varphi \in {\color{red}V'.}
+\]
+
+\item \(L^p(\Omega_T)\equiv L^p(0,T;L^p(\Omega))\);
+\medskip
+
+
+\item \({\color{blue}\partial_i }\in
+ \mathcal{L}\left(L^2(0,T;{\color{red}\Ld});L^2(0,T;{\color{red}\hd}) \right)\), 
+\(\forall i\in \ind\), onde 
+\[
+\innp{{\color{blue}\partial_i} u(t),{v}}_{{\color{red}\hd,}\ho}
+=-\left(u(t),{\color{blue}\partial_i}{v}\right)_{{\color{red}\Ld}},\
+\forall v\in \ho,\  \text{ q.t.p em} [0,T].
+\]
+%\[
+%\n{{\color{blue}\partial_i} u}_{\LT{\hd}}\leq C \n{u}_{\LT{\Ld}},\ \forall u\in \LT{\Ld},\
+%\forall i\in \ind.
+%\]
+
+
 \item Se \({\color{red}V}\) é separável, então 
 \((L^p(0,T;{\color{red}V}))'=L^{p'}(0,T;{\color{red}V'})\), para todo \(1\leq p<+\infty\) e
 $\frac{1}{p'}+\frac{1}{p}=1$, onde 
 \[
 \innp{u,v}_{L^{p'}(0,T;{\color{red}V'}),L^p(0,T;{\color{red}V})}
-=\int_0^T \innp{u(t),v(t)}_{{\color{red}V'},{\color{red}V}}\, dt
+=\int_0^T \innp{u(t),v(t)}_{{\color{red}V'},{\color{red}V}}\, dt.
 \]
 
 \end{itemize}
@@ -154,8 +213,8 @@ $\D'(0,T;{\color{red}V})$. Notações alternativas a \({\color{blue}S}\cdot \phi
 são \(\innp{{\color{blue}S},\phi}\) e \({\color{blue}S}(\phi)\).
 \end{defin}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Propriedades}
 
 \begin{itemize}
 \item Dizemos que \(u\in \Lloc^1(0,T;{\color{red}V})\) quando para todo compacto \(K=[a,b]\subset\subset (0,T)\), tem-se que
@@ -168,10 +227,29 @@ são \(\innp{{\color{blue}S},\phi}\) e \({\color{blue}S}(\phi)\).
 
 \item  Se \({\color{red}V}\) é separável e $u\in \Lloc^1(0,T;{\color{red}V})$, então
 \[
-S_u=0 \text{ em } \D'(0,T;{\color{red}V})\Rightarrow u=0,\ \text{ q.t.p em} (0,T). 
+S_u=0 \text{ em } \D'(0,T;{\color{red}V})\Rightarrow u(t)=0 \text{ em } {\color{red}V},\ \text{ q.t.p em} (0,T). 
 \]
 \end{itemize}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{frame}
+
+%\begin{itemize}
+%\item Dizemos que \(u\in \Lloc^1(0,T;{\color{red}V})\) quando para todo compacto \(K=[a,b]\subset\subset (0,T)\), tem-se que
+%\[
+%\int_K \nr{u(t)}\,dt<+\infty.
+%\]
+%
+%\item $\Lloc^1(0,T;{\color{red}V})\subset \D'(0,T;{\color{red}V})$ significa que se \(u\in \Lloc^1(0,T;{\color{red}V})\) identificamos \(u\equiv S_u\in \D'(0,T;{\color{red}V})\), onde 
+%\[{S_u\cdot\phi}=\int_0^T u(t)\phi(t)\,dt, \ \phi \in \D(0,T)\]
+%
+%\item  Se \({\color{red}V}\) é separável e $u\in \Lloc^1(0,T;{\color{red}V})$, então
+%\[
+%S_u=0 \text{ em } \D'(0,T;{\color{red}V})\Rightarrow u=0,\ \text{ q.t.p em} (0,T). 
+%\]
+%\end{itemize}
+%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Derivadas das Distribuições Vetoriais}
 \begin{frame}{Derivadas das Distribuições Vetoriais}
@@ -185,15 +263,28 @@ Também usaremos a notação: \(S'=D_tS, S''=D_t^2S\) e etc.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Espaços de Sobolev Vetoriais}
-Sejam \(V\) e \(H\)  espaços de Hilbert separáveis tais que a inclusão
- \(V\hookrightarrow H\) é contínua e densa. Então, identificando \(H\equiv H'\) temos que
+Sejam {\color{red}\(V\)} e {\color{blue}\(H\)}  espaços de Hilbert separáveis tais que a inclusão
+ \({\color{red}V}\hookrightarrow {\color{blue}H}\) é contínua e densa. Então, identificando \(H\equiv H'\) temos que
  \[
- V\hookrightarrow H\equiv H'\hookrightarrow V'.
+ {\color{red}V}\hookrightarrow {\color{blue}H\equiv H'}\hookrightarrow {\color{red}V'}.
  \]
+
+No caso das EDPs que trabalharemos, estamos pensando em 
+\[
+{\color{red}\ho}\hookrightarrow {\color{blue}\Ld \equiv (\Ld)^\prime}\hookrightarrow {\color{red}\hd}.
+\]
+Isto é, dado {\color{red}\(u\in \ho\)}, quando dizemos que {\color{red}\(u\in \hd\)}, estamos identificando 
+\[
+{\color{red}u\equiv (u,\cdot)_{2,\Omega}.}
+\]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Espaços de Sobolev Vetoriais}
+
 \begin{defin}
- Definimos o {\color{blue}espaço de Sobolev vetorial}
+ Definimos o {\color{blue}espaço de Hilbert vetorial}
  \[
- W^{1}(0,T;V)=\left\{
+ H^{1}(0,T;V)=\left\{
  u\in L^2(0,T;V),\ u'\in L^{2}(0,T;V') 
   \right\},
  \]
@@ -207,6 +298,13 @@ com norma dada por
 %\]
 \end{defin}
 
+No caso em que {\color{red}\(V=\ho\)} e {\color{blue}\(H=\Ld\)}, temos que 
+ \[
+ H^{1}(0,T;{\color{red}\ho})
+ =\left\{
+ u\in L^2(0,T;{\color{red}\ho}),\ u'\in L^{2}(0,T;{\color{red}\hd}) 
+  \right\},
+ \]
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
