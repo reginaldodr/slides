@@ -159,6 +159,15 @@ operador diferencial na forma divergente satisfazendo as Hipóteses
 {\color{blue}\eqref{hp}}. 
 Se {\color{cyan}\(f\in L^2(\Omega_T)\) e \(u_0\in L^2(\Omega)\)}, então o problema 
 \eqref{pb-parb} possui uma única solução fraca.
+
+ Além disso, existe \(C>0\), dependendo apenas 
+de \(\Omega, T\) e dos coeficientes de 
+\({\color{red}L}\), tal que 
+\begin{multline}\label{des.energia}
+\n{{\color{blue}u}}_{C^0([0,T];L^2(\Omega))}+\n{{\color{blue}u}}_{\LT{\ho}}
++\n{{\color{blue}u^\prime}}_{\LT{\hd}}\\
+\leq C\left(\n{{\color{cyan}f}}_{L^2(\Omega_T)}+\n{{\color{cyan}u_0}}_{L^2(\Omega)}\right). 
+\end{multline}
 \end{teo}
 \end{frame}
 
@@ -168,13 +177,18 @@ Para cada \(t\in [0,T]\), definimos novamente a \dt{forma bilinear}
 \(B:\ho\times \ho \longrightarrow \R\) por
 \begin{align*}
 B(u,{\color{blue}v};t)& =\innp{{\color{red}Lu},{\color{blue}v}}_{\hd,\ho}\\
-& ={\color{red}\int_\Omega \sij \partial_ia^{ij}(\cdot,t)u(t)\partial_j{\color{blue}v}
+& ={\color{red}\int_\Omega \sij a^{ij}(\cdot,t)\partial_iu(t)\partial_j{\color{blue}v}
 +\si b^i(\cdot,t)\partial_iu{\color{blue}v}+c(\cdot,t)u{\color{blue}v}\,dx}.
 \end{align*}
-Como antes, vemos que
+Como antes, vemos que existem constantes {\color{blue}\(M_L,\beta>0\)} e {\color{red}\(\gamma \geq 0\)} tais que 
 \[
-\left|B(u,v;t)\right|\leq {\color{red}M_L}\n{u}_{\ho}\n{v}_{\ho},\ \forall u,v\in \ho.
+\left|B(u,v;t)\right|\leq {\color{red}M_L}\n{u}_{\ho}\n{v}_{\ho}
 \]
+e
+\[
+{\color{blue}\beta}\n{u}_{\ho}^2\leq B(u,u;t)+{\color{red}\gamma} \n{u}_{L^2(\Omega)}^2,
+\]
+\quad para todo \(u,v\in \ho\).
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,14 +231,14 @@ onde \({\color{cyan}f^k(t)}=({\color{cyan}f(t)},w_k)_{2,\Omega}\) e
 \({\color{cyan}u_0^k}=({\color{cyan}u_0},w_k)_{2,\Omega}\).
 \medskip 
 
-Seja {\color{blue}\(V_m=\left\{w_1,w_2,\ldots,w_k\right\}\)}. Buscamos {\color{blue}\(u_m:[0,T]\longrightarrow V_m\)},
+Para cada \({\color{blue}m\in \N}\), seja {\color{blue}\(V_m=\left\{w_1,w_2,\ldots,w_m\right\}\)}. Buscamos {\color{blue}\(u_m:[0,T]\longrightarrow V_m\)},
 \[
 {\color{blue}u_m(t,\cdot)}=\sum_{\ell=1}^{m} {\color{blue}d_m^\ell(t})w_\ell,
 \]
 satisfazendo
 \begin{equation*}
 \begin{cases}
-({\color{blue}u_m'(t)},v)_{2,\Omega}+{\color{red}B(u_m,v;t)}=({\color{cyan}f(t)},v)_{2,\Omega},\ \forall v\in \ho.\\
+({\color{blue}u_m'(t)},v)_{2,\Omega}+{\color{red}B(u_m,v;t)}=({\color{cyan}f_m(t)},v)_{2,\Omega},\ \forall v\in \ho.\\
 {\color{cyan}u_m(0)}={\color{cyan}u_{0m}}=\sum_{\ell=1}^{m} {\color{cyan}u_0^\ell} w_\ell.
 \end{cases}
 \end{equation*}
@@ -246,10 +260,10 @@ onde
 d_m^1(t) \\ \vdots \\ d_m^m(t)
 \end{bmatrix},} \
 {\color{red}E(t)=\begin{bmatrix}
-b(w_1,w_1;t) & \cdots & b(w_1,w_m;t)  \\
- \vdots & & \vdots \\ 
-b(w_m,w_1;t) & & b(w_m,w_m;t)
-\end{bmatrix}},\\[1em]
+B(w_1,w_1;t) & B(w_1,w_2;t) & \cdots & B(w_1,w_m;t)  \\
+ \vdots & \vdots &  & \vdots \\ 
+B(w_m,w_1;t) & B(w_m,w_2;t) & \cdots  & B(w_m,w_m;t)
+\end{bmatrix}^T},\\[1em]
 &{\color{cyan} F(t)=
 \begin{bmatrix}
 (f(t),w_1)_{2,\Omega} \\ \vdots \\ (f(t),w_m)_{2,\Omega}

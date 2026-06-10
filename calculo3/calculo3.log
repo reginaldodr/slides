@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  6 APR 2026 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.18)  8 JUN 2026 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2769,7 +2769,7 @@ File: sela-macaco.png Graphic file (type png)
 Package pdftex.def Info: sela-macaco.png  used on input line 183.
 (pdftex.def)             Requested size: 115.4292pt x 90.13515pt.
 
-Overfull \vbox (11.75462pt too high) detected at line 183
+Overfull \vbox (13.88379pt too high) detected at line 183
  []
 
 <UFF_brasao.png, id=232, 607.26875pt x 683.55376pt>
@@ -6500,21 +6500,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \end{frame}
+l.128 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \end{frame}
+l.128 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 126.
+Package pdftex.def Info: w-homework.png  used on input line 128.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 126.
+Package pdftex.def Info: UFF_brasao.png  used on input line 128.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [174
 
@@ -6523,21 +6523,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \end{frame}
+l.156 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \end{frame}
+l.156 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 154.
+Package pdftex.def Info: exemplo.png  used on input line 156.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 154.
+Package pdftex.def Info: UFF_brasao.png  used on input line 156.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [175
 
@@ -6546,27 +6546,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{frame}
+l.185 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{frame}
+l.185 \end{frame}
                  
 <figuras/fechados.png, id=7098, 255.95625pt x 271.0125pt>
 File: figuras/fechados.png Graphic file (type png)
 <use figuras/fechados.png>
-Package pdftex.def Info: figuras/fechados.png  used on input line 183.
+Package pdftex.def Info: figuras/fechados.png  used on input line 185.
 (pdftex.def)             Requested size: 102.38068pt x 108.40306pt.
 
-Overfull \hbox (33.92267pt too wide) in paragraph at lines 183--183
+Overfull \hbox (33.92267pt too wide) in paragraph at lines 185--185
 [][] 
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 183.
+Package pdftex.def Info: UFF_brasao.png  used on input line 185.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [176
 
@@ -6575,17 +6575,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 \end{frame}
+l.202 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 \end{frame}
+l.202 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 200.
+Package pdftex.def Info: UFF_brasao.png  used on input line 202.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [177
 
@@ -6594,31 +6594,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 \end{frame}
+l.215 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 \end{frame}
+l.215 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 213.
+Package pdftex.def Info: exemplo.png  used on input line 215.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 <figuras/sec-15_7-fig13.png, id=7192, 254.45062pt x 224.33812pt>
 File: figuras/sec-15_7-fig13.png Graphic file (type png)
 <use figuras/sec-15_7-fig13.png>
-Package pdftex.def Info: figuras/sec-15_7-fig13.png  used on input line 213.
+Package pdftex.def Info: figuras/sec-15_7-fig13.png  used on input line 215.
 (pdftex.def)             Requested size: 127.22499pt x 112.16878pt.
 <figuras/max1.png, id=7193, 247.67531pt x 170.13562pt>
 File: figuras/max1.png Graphic file (type png)
 <use figuras/max1.png>
-Package pdftex.def Info: figuras/max1.png  used on input line 213.
+Package pdftex.def Info: figuras/max1.png  used on input line 215.
 (pdftex.def)             Requested size: 123.83734pt x 85.0676pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 213.
+Package pdftex.def Info: UFF_brasao.png  used on input line 215.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [178
 
@@ -6627,17 +6627,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 \end{frame}
+l.262 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 \end{frame}
+l.262 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 260.
+Package pdftex.def Info: UFF_brasao.png  used on input line 262.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [179
 
@@ -6646,23 +6646,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.275 \end{frame}
+l.277 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.275 \end{frame}
+l.277 \end{frame}
                  
 <figuras/otimizacao/lagrange1.png, id=7275, 681.29532pt x 551.05875pt>
 File: figuras/otimizacao/lagrange1.png Graphic file (type png)
 <use figuras/otimizacao/lagrange1.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange1.png  used on input line 2
-75.
+77.
 (pdftex.def)             Requested size: 136.25664pt x 110.2098pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 275.
+Package pdftex.def Info: UFF_brasao.png  used on input line 277.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [180
 
@@ -6671,22 +6671,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{frame}
+l.291 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{frame}
+l.291 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 289.
+Package pdftex.def Info: exemplo.png  used on input line 291.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 <figuras/exemplo-lagrange1.png, id=7316, 299.9205pt x 281.49165pt>
 File: figuras/exemplo-lagrange1.png Graphic file (type png)
 <use figuras/exemplo-lagrange1.png>
-Package pdftex.def Info: figuras/exemplo-lagrange1.png  used on input line 289.
+Package pdftex.def Info: figuras/exemplo-lagrange1.png  used on input line 291.
 
 (pdftex.def)             Requested size: 179.95367pt x 168.89629pt.
 <figuras/exemplo-lagrange-curvas-nivel.png, id=7317, 319.25273pt x 298.29442pt>
@@ -6694,16 +6694,16 @@ Package pdftex.def Info: figuras/exemplo-lagrange1.png  used on input line 289.
 File: figuras/exemplo-lagrange-curvas-nivel.png Graphic file (type png)
 <use figuras/exemplo-lagrange-curvas-nivel.png>
 Package pdftex.def Info: figuras/exemplo-lagrange-curvas-nivel.png  used on inp
-ut line 289.
+ut line 291.
 (pdftex.def)             Requested size: 143.6624pt x 134.23123pt.
 
-Overfull \hbox (6.74637pt too wide) in paragraph at lines 289--289
+Overfull \hbox (6.74637pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 289.
+Package pdftex.def Info: UFF_brasao.png  used on input line 291.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [181
 
@@ -6713,21 +6713,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.295 \end{frame}
+l.297 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.295 \end{frame}
+l.297 \end{frame}
                  
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 295.
+Package pdftex.def Info: w-homework.png  used on input line 297.
 (pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 295.
+Package pdftex.def Info: UFF_brasao.png  used on input line 297.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [182
 
@@ -6736,17 +6736,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.317 \end{frame}
+l.319 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.317 \end{frame}
+l.319 \end{frame}
                  
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 317.
+Package pdftex.def Info: UFF_brasao.png  used on input line 319.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [183
 
@@ -6755,27 +6755,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.336 \end{frame}
+l.338 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.336 \end{frame}
+l.338 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 336.
+Package pdftex.def Info: exemplo.png  used on input line 338.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 <figuras/otimizacao/lagrange3d.png, id=7442, 540.51938pt x 569.12625pt>
 File: figuras/otimizacao/lagrange3d.png Graphic file (type png)
 <use figuras/otimizacao/lagrange3d.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange3d.png  used on input line 
-336.
+338.
 (pdftex.def)             Requested size: 162.15706pt x 170.73918pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 336.
+Package pdftex.def Info: UFF_brasao.png  used on input line 338.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [184
 
@@ -6784,27 +6784,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{otimizacao<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \end{frame}
+l.350 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{otimizacao}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.348 \end{frame}
+l.350 \end{frame}
                  
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 348.
+Package pdftex.def Info: exemplo.png  used on input line 350.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 <figuras/otimizacao/lagrange2.png, id=7484, 760.34062pt x 392.21532pt>
 File: figuras/otimizacao/lagrange2.png Graphic file (type png)
 <use figuras/otimizacao/lagrange2.png>
 Package pdftex.def Info: figuras/otimizacao/lagrange2.png  used on input line 3
-48.
+50.
 (pdftex.def)             Requested size: 304.13086pt x 156.88335pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 348.
+Package pdftex.def Info: UFF_brasao.png  used on input line 350.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
  [185
 
@@ -6858,7 +6858,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfss1095.pfb>
-Output written on calculo3.pdf (185 pages, 17105452 bytes).
+Output written on calculo3.pdf (185 pages, 17106127 bytes).
 PDF statistics:
  7694 PDF objects out of 8907 (max. 8388607)
  6120 compressed objects within 62 object streams
